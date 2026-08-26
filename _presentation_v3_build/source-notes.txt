@@ -1,0 +1,21 @@
+Source deck
+  Aviation_Controls_Engineer_Simulink_DO178C_Training_v2.pptx
+  SHA-256 before editing: 707958A20331114CF12C94172F86D5BAAE0E0AA4818626D97082EE91224F48EA
+
+User-supplied conceptual reference
+  C:\Users\Tyler\.codex\codex-remote-attachments\01a03f07-eae4-7ae0-8797-336b84ea06c7\870952A8-D297-4B3E-BB64-59A47F5BA50E\1-Pasted-Image-1.jpg
+  Use: conceptual orientation only. The inserted slide must be an original native-shape diagram and must not paste or reproduce the image.
+
+Official teaching sources for notes
+  FAA AC 20-115D
+  https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046
+
+  FAA Order 8110.49A
+  https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf
+
+  NASA Systems Engineering Handbook
+  https://www.nasa.gov/reference/systems-engineering-handbook/
+
+Source inspection record
+  All 32 source slides were rendered at 1280 x 720 and inspected individually. All 32 source slides contain speaker notes. Existing authentic Simulink, Stateflow, result, and evidence images are preserved. Their embedded interface labels are raster content and remain small on several slides, as they are in the source deck.
+

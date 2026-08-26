@@ -1,0 +1,20 @@
+Communication job
+  Turn the existing aerospace controls and DO-178C training deck into a practical first-session guide without weakening its assurance message. A first-time user should know which model to open, how update/run/build differ, where to find the relevant Simulink toolstrip controls, how to review units and signal metadata, why the Simulation Data Inspector is useful, and how an illustrative requirement traces to executed evidence.
+
+Source design system
+  33 slides; 16:9; 1280 x 720 rendered canvas; one master and one slide layout named “Title Slide.” All visible chrome and content are slide-local.
+  Typography: Aptos throughout, with Calibri and Calibri Light theme fallbacks.
+  Standard header: eyebrow at x=72/y=34, one-line title at x=72/y=62, rule at y=126.
+  Standard footer: onboarding label at x=72/y=678; two-digit page marker at x=1156/y=676.
+  Light slides: #F4F8FB background, #0B1F33 title, #20B7C5 accent, #C9D8E3 rule.
+  Dark slides: #071521 background, white title, #70DCE5 accent, #143A55 rule.
+  Supporting accents: #2D6CDF blue, #20B7C5 teal, #E9A23B amber, #2CA56F green, #D75A64 red, #0B2438 navy.
+
+Reuse contract
+  Output slides 1–33 map one-to-one to source v3 slides 1–33. No insertion, deletion, or renumbering is permitted.
+  Slides 3, 5–8, 10, 18–19, 27, 28, and 33 are edited for the first-user narrative. Slides 1–2, 4, 9, 11–17, 20–26, and 29–32 remain visually preserve-only except for targeted speaker-note corrections.
+  Authentic existing model and result images are preserved where relevant. New Simulink and Simulation Data Inspector images must be authentic local R2023b captures, not fabricated UI.
+
+Readability constraints
+  Keep headers, rules, footer, and page markers at inherited geometry. Keep new slide-native body text at 16 pt or larger whenever practical. Keep all added content within x=72–1208/y=145–654. Do not stretch screenshots; crop proportionally. Use explicit labels to distinguish the runnable simulation top level, the integration top level, referenced components, and the unit harness.
+

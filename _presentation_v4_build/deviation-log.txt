@@ -1,0 +1,28 @@
+Intentional deviations from v3
+
+1. Reframe slide 3 as a preview of the hands-on first-session sequence.
+   Reason: the deck’s original agenda was conceptually strong but did not tell a newcomer what they would actually do in Simulink.
+
+2. Repurpose slides 5–7 to teach initialize/open/update/run/build, real toolstrip orientation, and display overlays.
+   Reason: those actions were previously distributed across notes and later conceptual slides.
+
+3. Recompose slide 8 around model-entry-point hierarchy while retaining the authentic closed-loop model image.
+   Reason: “top level” has different meanings for simulation, integration, development, and verification.
+
+4. Replace slide 10’s static results image with an authentic Simulation Data Inspector view of retained project data.
+   Reason: explicitly teach logging, markers, cursors, run comparison, and evidence retention.
+
+5. Replace slides 18–19 with numbered illustrative requirements and one visible bidirectional trace chain.
+   Reason: the prior pseudo requirements were unnumbered and the project-specific mapping was only in notes/files.
+
+6. Clarify slide 27 as the integration top level and label slide 28’s .mldatx reference as generic capability, not a supplied project artifact.
+   Reason: avoid sending a newcomer searching for files that do not exist in this package.
+
+7. Reword slide 33 as a hands-on first-user checklist and remove any suggestion that this package performed HIL.
+   Reason: align the close with the actual evidence and the requested onboarding outcomes.
+
+8. Update targeted speaker notes with official MathWorks, FAA, and NASA sources and remove duplicated V2 artifact-update blocks where encountered.
+   Reason: preserve the teaching narrative while correcting terminology and reducing note noise.
+
+No master, layout, theme, slide count, page numbering, authentic legacy screenshot, or v3 source file is intentionally changed.
+

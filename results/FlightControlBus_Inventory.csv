@@ -1,0 +1,6 @@
+Signal,DataType,Dimensions,Units,Description
+q_rate,double,1,deg/s,"Measured pitch rate."
+pitch_angle,double,1,deg,"Measured pitch attitude."
+mach,double,1,1,"Illustrative Mach number."
+air_data_valid,boolean,1,1,"Air-data validity flag."
+mode,uint8,1,1,"Mode code: 0 OFF, 1 ARMED, 2 ENGAGED, 3 DEGRADED."

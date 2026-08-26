@@ -1,0 +1,25 @@
+# Windows and Office transient files
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.bak
+
+# Local MATLAB preferences and editor backups
+.matlab_prefs/
+*.asv
+*.m~
+*.autosave
+
+# Generated MATLAB/Simulink caches and code-generation output
+*.slxc
+slprj/
+sccprj/
+codegen/
+*_grt_rtw/
+*_ert_rtw/
+*_rtw/
+*_sfprj/
+
+# Local JavaScript dependencies used by presentation authoring
+node_modules/

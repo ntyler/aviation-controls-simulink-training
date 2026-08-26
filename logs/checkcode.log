@@ -1,0 +1,26 @@
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+	Student License -- for use by students to meet course requirements
+	and perform academic research at degree granting institutions only.
+
+[Warning: Executing startup failed in matlabrc.
+This indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:
+MATLAB:open:openFailure
+The MATLAB Editor is not supported without Java.] 
+CHECKCODE callback_workflow_example.m 1
+CHECKCODE cleanup_training_environment.m 0
+CHECKCODE create_training_models.m 3
+CHECKCODE export_training_visuals.m 8
+CHECKCODE initialize_training_data.m 1
+CHECKCODE regenerate_all.m 5
+CHECKCODE run_pitch_rate_limiter_tests.m 3
+CHECKCODE run_training_simulations.m 4
+CHECKCODE training_callback_cleanup.m 0
+CHECKCODE training_callback_postload.m 0
+CHECKCODE training_callback_preload.m 0
+CHECKCODE training_callback_setup.m 0
+CHECKCODE validate_training_project.m 4
+TOTAL_ISSUES=29

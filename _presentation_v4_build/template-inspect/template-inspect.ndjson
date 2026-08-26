@@ -1,0 +1,145 @@
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"NEW AVIATION CONTROLS ENGINEER ONBOARDING","textShapes":10}
+{"kind":"textbox","id":"sh/4r6dg7et","slide":1,"textChars":41,"textLines":1}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"textChars":44,"textLines":2}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"textChars":100,"textLines":1}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"textChars":5,"textLines":1}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"textChars":6,"textLines":1}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"textChars":8,"textLines":1}
+{"kind":"shape","id":"sh/e1oz61c3","slide":1,"name":"Straight Arrow Connector 20","bbox":[266,552,64,0]}
+{"kind":"shape","id":"sh/14fyhgbe","slide":1,"name":"Straight Arrow Connector 21","bbox":[520,552,64,0]}
+{"kind":"shape","id":"sh/036h8but","slide":1,"name":"Straight Arrow Connector 22","bbox":[774,552,64,0]}
+{"kind":"textbox","id":"sh/hofulsf2","slide":1,"textChars":44,"textLines":1}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/vmdcj2xw","slide":1,"textChars":2,"textLines":1}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"ORIENTATION","textShapes":11}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"textChars":43,"textLines":1}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"name":"line-11","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"textChars":16,"textLines":2}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"textChars":12,"textLines":1}
+{"kind":"shape","id":"sh/d8zit87m","slide":2,"name":"Straight Arrow Connector 26","bbox":[310,236,190,89]}
+{"kind":"shape","id":"sh/q5ozitov","slide":2,"name":"Straight Arrow Connector 27","bbox":[310,325,190,131]}
+{"kind":"shape","id":"sh/r6x0rypg","slide":2,"name":"Straight Arrow Connector 28","bbox":[780,236,190,89]}
+{"kind":"shape","id":"sh/w3a1wn65","slide":2,"name":"Straight Arrow Connector 29","bbox":[780,325,190,131]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"textChars":88,"textLines":1}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"textChars":18,"textLines":1}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"ORIENTATION","textShapes":11}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"textChars":44,"textLines":1}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"line-21","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"textChars":331,"textLines":4}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"textChars":13,"textLines":1}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"textChars":17,"textLines":1}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"textChars":85,"textLines":1}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"01 • INTRODUCTION TO SIMULINK","textShapes":9}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"textChars":42,"textLines":1}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"line-31","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"textChars":6,"textLines":1}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"textChars":8,"textLines":1}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"name":"line-36","bbox":[640,168,0,340]}
+{"kind":"textbox","id":"sh/ih8ju9sn","slide":4,"textChars":177,"textLines":3}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"textChars":178,"textLines":3}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"textChars":97,"textLines":1}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"01 • INTRODUCTION TO SIMULINK","textShapes":23}
+{"kind":"textbox","id":"sh/atcjidg7","slide":5,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"textChars":41,"textLines":1}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"line-40","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"textChars":24,"textLines":1}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"name":"line-46","bbox":[72,266,1136,0]}
+{"kind":"textbox","id":"sh/w32dkbuh","slide":5,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"textChars":14,"textLines":1}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"textChars":59,"textLines":1}
+{"kind":"shape","id":"sh/v2twb6dw","slide":5,"name":"line-50","bbox":[72,348,1136,0]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"textChars":11,"textLines":1}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"textChars":73,"textLines":1}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"name":"line-54","bbox":[72,430,1136,0]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/tcfel0vu","slide":5,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"textChars":69,"textLines":1}
+{"kind":"shape","id":"sh/gfi5grih","slide":5,"name":"line-58","bbox":[72,512,1136,0]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"textChars":7,"textLines":1}
+{"kind":"textbox","id":"sh/ud0ne10b","slide":5,"textChars":20,"textLines":1}
+{"kind":"textbox","id":"sh/pkr6tgjy","slide":5,"textChars":84,"textLines":1}
+{"kind":"shape","id":"sh/4ji5kbid","slide":5,"name":"line-62","bbox":[72,594,1136,0]}
+{"kind":"textbox","id":"sh/3i94r61s","slide":5,"textChars":5,"textLines":1}
+{"kind":"textbox","id":"sh/2h0ni107","slide":5,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/5o7mhcju","slide":5,"textChars":69,"textLines":1}
+{"kind":"textbox","id":"sh/kny587i9","slide":5,"textChars":63,"textLines":1}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"01 • INTRODUCTION TO SIMULINK","textShapes":5}
+{"kind":"textbox","id":"sh/gju58ji9","slide":6,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"textChars":44,"textLines":1}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"line-67","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"textChars":92,"textLines":1}
+{"kind":"image","id":"im/2h47i1sb","slide":6,"name":"Picture 8","bbox":[266.58,149.33,746.84,450.67]}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"01 • INTRODUCTION TO SIMULINK","textShapes":15}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"textChars":44,"textLines":1}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"line-89","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"textChars":37,"textLines":1}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"textChars":42,"textLines":1}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"textChars":49,"textLines":1}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"textChars":9,"textLines":1}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"textChars":47,"textLines":1}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"textChars":9,"textLines":1}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"textChars":23,"textLines":2}
+{"kind":"shape","id":"sh/8n65kzil","slide":7,"name":"Straight Arrow Connector 31","bbox":[790,291,95,0]}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"textChars":26,"textLines":4}
+{"kind":"textbox","id":"sh/p8fih03e","slide":7,"textChars":44,"textLines":2}
+{"kind":"shape","id":"sh/jix47uho","slide":7,"name":"Connector: Elbow 34","bbox":[923,340,57,132]}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"textChars":64,"textLines":1}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"01 • INTRODUCTION TO SIMULINK","textShapes":5}
+{"kind":"textbox","id":"sh/svydgb65","slide":8,"textChars":29,"textLines":1}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"textChars":46,"textLines":1}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"line-103","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"textChars":87,"textLines":1}
+{"kind":"image","id":"im/krqtkn2x","slide":8,"name":"Picture 8","bbox":[234.94,149.33,810.12,450.67]}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"02 • CONTROLS ENGINEERING IN SIMULINK","textShapes":5}
+{"kind":"textbox","id":"sh/bqxg7q50","slide":9,"textChars":37,"textLines":1}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"textChars":42,"textLines":1}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"name":"line-116","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"textChars":89,"textLines":1}
+{"kind":"image","id":"im/f21s7eh0","slide":9,"name":"Picture 8","bbox":[235.37,149.33,809.26,450.67]}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"02 • CONTROLS ENGINEERING IN SIMULINK","textShapes":5}
+{"kind":"textbox","id":"sh/exsrmhsf","slide":10,"textChars":37,"textLines":1}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"textChars":46,"textLines":1}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"name":"line-144","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"textChars":106,"textLines":1}
+{"kind":"image","id":"im/g7axozap","slide":10,"name":"Picture 8","bbox":[287.11,149.33,705.79,450.67]}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"02 • CONTROLS ENGINEERING IN SIMULINK","textShapes":5}
+{"kind":"textbox","id":"sh/m58fih43","slide":11,"textChars":37,"textLines":1}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"textChars":40,"textLines":1}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"name":"line-163","bbox":[72,126,1136,0]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"textChars":40,"textLines":1}
+{"kind":"textbox","id":"sh/250zy18b","slide":11,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"textChars":87,"textLines":1}
+{"kind":"notice","message":"Truncated: omitted 400 lines. Increase maxChars or narrow target."}

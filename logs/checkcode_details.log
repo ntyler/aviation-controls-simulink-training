@@ -1,0 +1,41 @@
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+	Student License -- for use by students to meet course requirements
+	and perform academic research at degree granting institutions only.
+
+[Warning: Executing startup failed in matlabrc.
+This indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:
+MATLAB:open:openFailure
+The MATLAB Editor is not supported without Java.] 
+callback_workflow_example.m:36:76 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+create_training_models.m:59:73 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+create_training_models.m:632:29 NBRAK2 Use of brackets [] is unnecessary.
+create_training_models.m:1198:54 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:203:60 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:223:55 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:276:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:326:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:394:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:452:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:519:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+export_training_visuals.m:585:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+initialize_training_data.m:34:79 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+regenerate_all.m:11:65 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+regenerate_all.m:13:66 DATST 'datestr' is not recommended. With appropriate code changes, use 'datetime' instead.
+regenerate_all.m:13:74 TNOW1 'now' is not recommended. With appropriate code changes, use 'datetime("now")' instead.
+regenerate_all.m:31:68 DATST 'datestr' is not recommended. With appropriate code changes, use 'datetime' instead.
+regenerate_all.m:31:76 TNOW1 'now' is not recommended. With appropriate code changes, use 'datetime("now")' instead.
+run_pitch_rate_limiter_tests.m:288:55 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_pitch_rate_limiter_tests.m:311:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_pitch_rate_limiter_tests.m:367:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_training_simulations.m:133:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_training_simulations.m:243:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_training_simulations.m:588:55 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+run_training_simulations.m:628:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+validate_training_project.m:43:53 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+validate_training_project.m:92:44 MSNU A Code Analyzer message was once suppressed here, but the message is no longer generated.
+validate_training_project.m:94:34 DATST 'datestr' is not recommended. With appropriate code changes, use 'datetime' instead.
+validate_training_project.m:94:42 TNOW1 'now' is not recommended. With appropriate code changes, use 'datetime("now")' instead.

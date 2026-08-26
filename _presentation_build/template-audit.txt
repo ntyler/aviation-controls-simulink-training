@@ -1,0 +1,20 @@
+Communication job: By the end, newly assigned aviation controls engineers should be able to navigate a requirement-to-evidence training workflow because the deck ties each teaching point to an executable Simulink artifact.
+
+Source deck: 1-Aviation_Controls_Engineer_Simulink_DO178C_Training.pptx
+Source SHA-256: 2D5726EEE82A21779F3B5F9D035949A307B0E4102A840A97B7BFFA170F097FA2
+Structure: 32 slides, 16:9 (960 x 540 pt), one design, one master, one custom layout.
+Typography: Aptos throughout, with one Consolas code sample. Titles are predominantly 35.2 pt; footers are 9 pt. Existing font family, sizes, weight, and slide chrome are preserved.
+Visual system: alternating navy (#071826 range) and very light blue-gray backgrounds; cyan, blue, amber, green, and red accents; thin divider under the title; onboarding footer at lower left; two-digit slide marker at lower right.
+Source media: no raster media. The source uses native PowerPoint shapes for all mock diagrams.
+Speaker notes: substantive notes are present on all 32 slides, generally 1–2 minutes each, with suggested visuals, teaching points, and sources. They are preserved. Artifact-specific execution details are appended only to the slides whose visuals change.
+
+Insertion contract:
+- Preserve slides 1-5, 7, 12-17, 21, 23, 27-30, and 32 visually and preserve their existing notes.
+- On slides 6, 8-11, 18-20, 22, 24-26, and 31, retain section label, title, divider, footer, slide number, background, and master/layout linkage.
+- Replace only the body-region mockup shapes (approximately 54-906 pt horizontally, 106-492 pt vertically) with authentic local model/result images and a short caption.
+- Slide 24 title is intentionally revised because Simulink Test is unavailable; no .mldatx artifact will be manufactured.
+- Slide 31 body is intentionally revised to show the verified desktop training chain and explicitly state that no HIL hardware was used.
+
+Inspection record: every source slide was rendered by Microsoft PowerPoint at 1920 x 1080 and inspected individually before model creation. The full speaker notes for every slide were also inspected through the native notes placeholders.
+
+Fallback record: the session did not expose the required load_workspace_dependencies tool, so the artifact-tool inspection/edit path could not be used. Native PowerPoint COM automation is used as the supported fallback, with the source copy, master/layout, and slide-local formatting preserved.

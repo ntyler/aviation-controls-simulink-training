@@ -1,0 +1,31 @@
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+	Student License -- for use by students to meet course requirements
+	and perform academic research at degree granting institutions only.
+
+[Warning: Executing startup failed in matlabrc.
+This indicates a potentially serious problem in your MATLAB setup, which should be resolved as soon as possible.  Error detected was:
+MATLAB:open:openFailure
+The MATLAB Editor is not supported without Java.] 
+Aviation controls training regeneration started: 2026-08-26 13:59:41
+Training data dictionary ready: C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\data\FCS_Data.sldd
+Created and updated 8 training models in:
+  C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models
+Training data dictionary ready: C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\data\FCS_Data.sldd
+Training data dictionary ready: C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\data\FCS_Data.sldd
+Running training simulations at 0.02 s (50 Hz).
+REGENERATION_STATUS=FAIL
+Error using figure
+This functionality is not supported under the -nojvm startup option.
+
+Error in run_training_simulations>localRunAircraftCase (line 134)
+fig = figure('Visible', 'off', 'Color', 'white', ...
+
+Error in run_training_simulations (line 35)
+aircraft = localRunAircraftCase(aircraftModel, sampleTime, resultsDir);
+
+Error in regenerate_all (line 15)
+simulation = run_training_simulations(projectRoot);

@@ -1,0 +1,29 @@
+Inventory date: 2026-08-26
+Host operating system: Microsoft Windows
+
+MATLAB executable: C:\Program Files\MATLAB\R2023b\bin\matlab.exe
+MATLAB version: 23.2.0.2599560 (R2023b) Update 8
+
+Installed and licensed:
+- MATLAB: yes
+- Simulink: yes
+- Stateflow: yes
+- Simulink Data Dictionary support: yes (included with Simulink)
+- Simulink Report Generator: yes
+
+Unavailable / unlicensed:
+- Simulink Test: no
+- Simulink Requirements: no
+- Embedded Coder: no
+
+Consequences for this training project:
+- AutopilotModeLogic uses a real Stateflow chart.
+- FCS_Data.sldd and FlightControlBus are created with supported Simulink APIs.
+- PitchRateLimiter testing uses a standalone executable Simulink harness plus a MATLAB assessment suite.
+- No .mldatx file is created because Simulink Test is unavailable.
+- Requirement associations are documented in project files and reports; no Simulink Requirements links are claimed.
+- No generated embedded code is claimed because Embedded Coder is unavailable.
+- No HIL hardware was used; all executions are desktop simulations.
+
+Headless execution note:
+The product/license inventory completed with -nodesktop -nosplash -nojvm and an isolated writable MATLAB_PREFDIR. The complete clean regeneration, simulations, model updates, tests, and figure/PNG exports subsequently completed with JVM-enabled -batch execution and the project-local .matlab_prefs directory. A restricted sandbox launch can encounter a Chromium/CEF access error; a normal Windows MATLAB session is the recommended regeneration environment.

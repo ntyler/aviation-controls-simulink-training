@@ -1,0 +1,21 @@
+Intentional deviations from the 32-slide v2 source
+
+1. Insert output slide 15 after source slide 14.
+   Reason: add the requested original software-lifecycle V-model within the certification-overview instructional flow.
+
+2. Increment the visible page marker on output slides 16–33.
+   Reason: keep final numbering continuous after insertion.
+
+3. Append targeted V3 teaching clarifications to output slides 12–17, 28, and 30–33.
+   Reason: accurately distinguish DO-178C/DO-331 terminology, software level from system DAL context, designated independence objectives, lifecycle cadence from assurance objectives, execution environments, authentic HIL criteria, and evidence inputs from certification approval.
+
+4. Tighten visible teaching language on output slides 14 and 17.
+   Reason: describe pipeline/test results as evidence inputs and keep the lifecycle flow environment-neutral so the deck cannot be read as claiming this training project performed HIL.
+
+5. Recreate the slide 14 section eyebrow and footer as native text boxes at their inherited geometry and formatting.
+   Reason: the exact-clone duplicate retained these shapes structurally but the presentation renderer suppressed them after the slide 14 text edit. The replacements restore pixel-visible deck chrome without changing content or layout.
+
+6. Recreate the inserted slide 15 page marker as a native text box at the inherited bottom-right geometry.
+   Reason: the duplicated source marker retained the correct metadata position but rendered beside the footer. The unique replacement restores visible numbering without altering the design.
+
+No source slide is omitted. No master, layout, theme, authentic screenshot, model image, result image, or existing body composition is intentionally changed.

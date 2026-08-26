@@ -1,0 +1,18 @@
+Aviation Controls Simulink Training validation
+Generated: 2026-08-26 14:56:25
+MATLAB: 23.2.0.2599560 (R2023b) Update 8
+Models updated: 8/8
+- PitchRateLimiter: PASS
+- AircraftFeedbackControlLoop: PASS
+- AutopilotModeLogic: PASS
+- SensorProcessingRef: PASS
+- PitchControllerRef: PASS
+- ActuatorCommandRef: PASS
+- ReferencedFlightControlArchitecture: PASS
+- PitchRateLimiter_Harness: PASS
+PitchRateLimiter assessments: 19/19 PASS
+Dictionary entries resolved: 6/6
+Required exported artifacts: 14/14 present
+HIL executed: NO
+Jenkins executed: NO
+Overall: PASS

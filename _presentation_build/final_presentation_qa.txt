@@ -1,0 +1,11 @@
+FINAL PRESENTATION QA
+Deck: C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\Aviation_Controls_Engineer_Simulink_DO178C_Training_v2.pptx
+Slides: 32
+Slide size: 960 x 540 points (16:9)
+Rendered slides: 32
+Slides with notes: 32/32
+Updated slides with artifact image, alt text, and caption: 13/13
+Slides reporting any off-canvas shape: 0
+Slide 24 title: MATLAB tests preserve intent without .mldatx
+Speaker-note summary tokens and evidence paths: PASS
+PowerPoint open and PNG export: PASS

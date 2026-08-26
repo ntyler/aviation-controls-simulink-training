@@ -1,0 +1,21 @@
+Communication job
+  Show aviation controls engineers how every definition and implementation artifact is paired with planned verification, traceability, and a controlled baseline, without implying that a process model alone confers compliance.
+
+Source design system
+  32 slides; 16:9; 1280 x 720 rendered canvas; one master; one slide layout named “Title Slide.” All visible chrome and content are slide-local.
+  Typography: Aptos throughout, with theme fallbacks Calibri and Calibri Light.
+  Standard header: eyebrow at x=72/y=34, 15 pt bold; one-line title at x=72/y=62, 47 pt bold; horizontal rule at y=126.
+  Standard footer: “AVIATION CONTROLS ENGINEERING ONBOARDING” at x=72/y=678, 12 pt bold; two-digit slide marker at x=1156/y=676, 14 pt bold, right aligned.
+  Light slides: #F4F8FB background, #0B1F33 title, #20B7C5 accent, #C9D8E3 rule.
+  Dark slides: #071521 background, white title, #70DCE5 accent, #143A55 rule.
+  Supporting accents: #2D6CDF blue, #20B7C5 teal, #E9A23B amber, #2CA56F green, #D75A64 red, #0B2438 navy.
+
+Insertion contract
+  Output slides 1–14 reuse source slides 1–14 unchanged.
+  Output slide 15 duplicates source slide 14 so the certification-overview section, master/layout linkage, header, rule, footer, theme, and geometry remain inherited. Only the title, slide marker, and bounded body zone are edited. The new body is an original native-shape V-model with five review gates, five lifecycle pairings, four explanatory callouts, a controlled-baseline vertex, and the exact requested takeaway.
+  Output slides 16–33 reuse source slides 15–32. Only their slide markers are incremented by one; their authentic screenshots, models, test results, captions, and body visuals remain unchanged.
+  Corrected lifecycle and certification teaching points are appended to relevant speaker notes without removing the existing teaching narrative.
+
+Readability constraints
+  Keep the title on one line. Keep all V-model body labels at presentation-readable size, keep the takeaway above the footer, and keep all added content within x=72–1208/y=145–654. Do not stretch or replace authentic raster imagery.
+

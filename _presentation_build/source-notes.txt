@@ -1,0 +1,24 @@
+Local source deck:
+- C:\Users\Tyler\.codex\codex-remote-attachments\01a03f07-eae4-7ae0-8797-336b84ea06c7\CA2B9C7F-E6CE-4862-9215-4FB730C02BF6\1-Aviation_Controls_Engineer_Simulink_DO178C_Training.pptx
+- SHA-256 2D5726EEE82A21779F3B5F9D035949A307B0E4102A840A97B7BFFA170F097FA2
+
+Official technical sources for speaker notes:
+- FAA AC 20-115D: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046
+- FAA AC 20-115D PDF: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-115D.pdf
+- FAA Order 8110.49A: https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf
+- Simulink data dictionaries: https://www.mathworks.com/help/simulink/ug/what-is-a-data-dictionary.html
+- Data dictionary API: https://www.mathworks.com/help/simulink/slref/simulink.data.dictionary.html
+- Simulink bus objects: https://www.mathworks.com/help/simulink/slref/simulink.bus.html
+- Model references: https://www.mathworks.com/help/simulink/model-reference.html
+- Stateflow charts: https://www.mathworks.com/help/stateflow/state-transition-charts.html
+- Stateflow transitions: https://www.mathworks.com/help/stateflow/ug/create-transitions-between-states.html
+- Simulink Test harnesses: https://www.mathworks.com/help/sltest/gs/create-a-test-harness.html
+- Test iterations: https://www.mathworks.com/help/sltest/ug/test-iterations.html
+- Test properties/callbacks: https://www.mathworks.com/help/sltest/ug/specify-test-properties-in-the-test-manager.html
+- Test execution order: https://www.mathworks.com/help/sltest/ug/test-execution-order.html
+- Simulink callbacks: https://www.mathworks.com/help/simulink/callback-functions.html
+- Signal logging data: https://www.mathworks.com/help/simulink/ug/data-format-for-logged-simulation-data.html
+- Requirements links to tests: https://www.mathworks.com/help/slrequirements/ug/link-requirement-test-items.html
+- Test result reporting: https://www.mathworks.com/help/sltest/ref/sltest.testmanager.report.html
+
+All Simulink images, plots, reports, and result summaries inserted into the deck will be generated locally from the delivered training project. They are illustrative training artifacts, not production aircraft data.

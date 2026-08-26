@@ -1,0 +1,13 @@
+AVIATION CONTROLS SIMULINK TRAINING - SIMULATION SUMMARY
+Illustrative training models; not production aircraft data.
+
+Generated: 26-Aug-2026 14:55:39
+MATLAB release: 2023b
+Discrete sample time: 0.02 s (50 Hz)
+
+Aircraft loop: PASS - simulation completed and required signals logged
+  Samples: 1001
+  Peak absolute tracking error: 8.08662 deg
+Autopilot logic: PASS - mode-sequence simulation completed
+  Visited modes: OFF, ARMED, ENGAGED, DEGRADED
+Referenced architecture: 5 model(s) updated; 0 failure(s).

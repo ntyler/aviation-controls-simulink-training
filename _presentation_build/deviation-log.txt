@@ -1,0 +1,9 @@
+Slides 6, 8, 9, 10, 11, 18, 19, 20, 22, 24, 25, 26, and 31: replace body-region native mockups with authentic screenshots/results exported from the local MATLAB/Simulink project. Reason: the course should teach from working artifacts, not approximations.
+
+Slide 24: change title from ".mldatx organizes test intent and evidence" to "MATLAB tests preserve intent without .mldatx". Reason: Simulink Test is not installed/licensed, and creating an .mldatx would be inauthentic.
+
+Slide 31: replace the conceptual HIL/reviewed-PASS chain with a desktop-only verified evidence summary and an explicit no-HIL caption. Reason: no real HIL hardware is in scope.
+
+Updated slides: preserve the original speaker notes and append artifact-specific model, execution, limitation, and source details. The supplied notes already support approximately 45–60 minutes of instruction.
+
+No masters, layouts, theme colors, footer chrome, or page markers are intentionally changed.

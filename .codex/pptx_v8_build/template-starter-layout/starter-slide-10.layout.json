@@ -1,0 +1,1458 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wufxc0",
+    "id": "wufxc0",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#071521",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72p0vmts",
+      "id": "12",
+      "name": "section-185",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "02 • HARNESS DEMO",
+      "textPreview": "02 • HARNESS DEMO",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02 • HARNESS DEMO"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02 • HARNESS DEMO",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02 • HARNESS DEMO",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udgrmlon",
+      "id": "2",
+      "name": "title-185",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+      "textPreview": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 35.51,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+              "fontSize": 35.51,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vep8vq5s",
+      "id": "3",
+      "name": "line-186",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#143A55",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43i9sv6p",
+      "id": "4",
+      "name": "text-187",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54rq10na",
+      "id": "5",
+      "name": "text-188",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "31",
+      "textPreview": "31",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "31"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "31",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#70DCE5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "31",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#70DCE5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61gzmhcn",
+      "id": "13",
+      "name": "s31-banner",
+      "bbox": [
+        72,
+        150,
+        1136,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "ACTIVE MODEL MATTERS  •  UPDATE THE HARNESS; BUILD THE INTEGRATION TOP LEVEL FOR THIS EVIDENCE",
+      "textPreview": "ACTIVE MODEL MATTERS  •  UPDATE THE HARNESS; BUILD THE INTEGRATION TOP LEVEL FOR THIS EVIDENCE",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ACTIVE MODEL MATTERS  •  UPDATE THE HARNESS; BUILD THE INTEGRATION TOP LEVEL FOR THIS EVIDENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ACTIVE MODEL MATTERS  •  UPDATE THE HARNESS; BUILD THE INTEGRATION TOP LEVEL FOR THIS EVIDENCE",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ACTIVE MODEL MATTERS  •  UPDATE THE HARNESS; BUILD THE INTEGRATION TOP LEVEL FOR THIS EVIDENCE",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#0C2133",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsri1wba",
+      "id": "14",
+      "name": "s31-card-0",
+      "bbox": [
+        72,
+        212,
+        548,
+        335
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0C2133",
+      "lineColor": "#20B7C5",
+      "lineWidth": 2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7i1srup",
+      "id": "15",
+      "name": "s31-key-0",
+      "bbox": [
+        96,
+        226,
+        500,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Ctrl+D",
+      "textPreview": "Ctrl+D",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ctrl+D"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ctrl+D",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ctrl+D",
+              "fontSize": 32,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v690zmt4",
+      "id": "16",
+      "name": "s31-title-0",
+      "bbox": [
+        96,
+        278,
+        500,
+        28
+      ],
+      "geometry": "rect",
+      "text": "UPDATE MODEL / DIAGRAM",
+      "textPreview": "UPDATE MODEL / DIAGRAM",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UPDATE MODEL / DIAGRAM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UPDATE MODEL / DIAGRAM",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "UPDATE MODEL / DIAGRAM",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u50jq1cj",
+      "id": "17",
+      "name": "s31-body-0",
+      "bbox": [
+        108,
+        324,
+        476,
+        142
+      ],
+      "geometry": "rect",
+      "text": "IN THE HARNESS\n• evaluate parameters\n• propagate types / dimensions / timing\n• resolve PitchRateLimiter reference\n• catch update-time errors\n• do not advance simulation time",
+      "textPreview": "IN THE HARNESS | • evaluate parameters | • propagate types / dimensions / timing | • resolve PitchRateLimiter reference | • catch update-...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IN THE HARNESS"
+          },
+          {
+            "index": 2,
+            "text": "• evaluate parameters"
+          },
+          {
+            "index": 3,
+            "text": "• propagate types / dimensions / timing"
+          },
+          {
+            "index": 4,
+            "text": "• resolve PitchRateLimiter reference"
+          },
+          {
+            "index": 5,
+            "text": "• catch update-time errors"
+          },
+          {
+            "index": 6,
+            "text": "• do not advance simulation time"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IN THE HARNESS",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "IN THE HARNESS",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• evaluate parameters",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• evaluate parameters",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• propagate types / dimensions / timing",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• propagate types / dimensions / timing",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• resolve PitchRateLimiter reference",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• resolve PitchRateLimiter reference",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• catch update-time errors",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• catch update-time errors",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "• do not advance simulation time",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• do not advance simulation time",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wbi5gb6",
+      "id": "18",
+      "name": "s31-result-0",
+      "bbox": [
+        102,
+        475,
+        488,
+        55
+      ],
+      "geometry": "roundRect",
+      "text": "RETAINED RESULT\n8 / 8 delivered models updated / compiled",
+      "textPreview": "RETAINED RESULT | 8 / 8 delivered models updated / compiled",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RETAINED RESULT"
+          },
+          {
+            "index": 2,
+            "text": "8 / 8 delivered models updated / compiled"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RETAINED RESULT",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RETAINED RESULT",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "8 / 8 delivered models updated / compiled",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8 / 8 delivered models updated / compiled",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E2F4EA",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4v21wbal",
+      "id": "19",
+      "name": "s31-card-1",
+      "bbox": [
+        660,
+        212,
+        548,
+        335
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0C2133",
+      "lineColor": "#E9A23B",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obatojm9",
+      "id": "20",
+      "name": "s31-key-1",
+      "bbox": [
+        684,
+        226,
+        500,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Ctrl+B",
+      "textPreview": "Ctrl+B",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ctrl+B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ctrl+B",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Aptos",
+            "color": "#E9A23B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ctrl+B",
+              "fontSize": 32,
+              "typeface": "Aptos",
+              "color": "#E9A23B",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9c3uhone",
+      "id": "21",
+      "name": "s31-title-1",
+      "bbox": [
+        684,
+        278,
+        500,
+        28
+      ],
+      "geometry": "rect",
+      "text": "BUILD ACTIVE MODEL",
+      "textPreview": "BUILD ACTIVE MODEL",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BUILD ACTIVE MODEL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BUILD ACTIVE MODEL",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BUILD ACTIVE MODEL",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpsbm943",
+      "id": "22",
+      "name": "s31-body-1",
+      "bbox": [
+        696,
+        324,
+        476,
+        142
+      ],
+      "geometry": "rect",
+      "text": "INTERACTIVE ACTION: Ctrl+B\n• active model: ReferencedFlightControlArchitecture\n• target: grt.tlc\n• generate C + report\n• compile/link top + four references\n• create standalone Windows executable",
+      "textPreview": "INTERACTIVE ACTION: Ctrl+B | • active model: ReferencedFlightControlArchitecture | • target: grt.tlc | • generate C + report | • compile/...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INTERACTIVE ACTION: Ctrl+B"
+          },
+          {
+            "index": 2,
+            "text": "• active model: ReferencedFlightControlArchitecture"
+          },
+          {
+            "index": 3,
+            "text": "• target: grt.tlc"
+          },
+          {
+            "index": 4,
+            "text": "• generate C + report"
+          },
+          {
+            "index": 5,
+            "text": "• compile/link top + four references"
+          },
+          {
+            "index": 6,
+            "text": "• create standalone Windows executable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INTERACTIVE ACTION: Ctrl+B",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INTERACTIVE ACTION: Ctrl+B",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• active model: ReferencedFlightControlArchitecture",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• active model: ReferencedFlightControlArchitecture",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• target: grt.tlc",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• target: grt.tlc",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• generate C + report",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• generate C + report",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "• compile/link top + four references",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• compile/link top + four references",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "• create standalone Windows executable",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#DDECF3",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• create standalone Windows executable",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#DDECF3",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nq1cfe5o",
+      "id": "23",
+      "name": "s31-result-1",
+      "bbox": [
+        690,
+        475,
+        488,
+        55
+      ],
+      "geometry": "roundRect",
+      "text": "RETAINED SCRIPTED slbuild\nPASS • 5 / 5 models • 1:56.965",
+      "textPreview": "RETAINED SCRIPTED slbuild | PASS • 5 / 5 models • 1:56.965",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RETAINED SCRIPTED slbuild"
+          },
+          {
+            "index": 2,
+            "text": "PASS • 5 / 5 models • 1:56.965"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RETAINED SCRIPTED slbuild",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RETAINED SCRIPTED slbuild",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "PASS • 5 / 5 models • 1:56.965",
+          "resolvedTextStyle": {
+            "fontSize": 13.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PASS • 5 / 5 models • 1:56.965",
+              "fontSize": 13.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0D7",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfutsjm5",
+      "id": "24",
+      "name": "s31-bottom",
+      "bbox": [
+        72,
+        570,
+        1136,
+        70
+      ],
+      "geometry": "roundRect",
+      "text": "PROVENANCE  •  Ctrl+B is the interactive analogue; retained evidence used scripted slbuild with the same active GRT configuration.\nBOUNDARY  •  executable built, not run  •  no Embedded Coder / SIL / PIL / approval claim",
+      "textPreview": "PROVENANCE  •  Ctrl+B is the interactive analogue; retained evidence used scripted slbuild with the same active GRT configuration. | BOUN...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROVENANCE  •  Ctrl+B is the interactive analogue; retained evidence used scripted slbuild with the same active GRT configuration."
+          },
+          {
+            "index": 2,
+            "text": "BOUNDARY  •  executable built, not run  •  no Embedded Coder / SIL / PIL / approval claim"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROVENANCE  •  Ctrl+B is the interactive analogue; retained evidence used scripted slbuild with the same active GRT configuration.",
+          "resolvedTextStyle": {
+            "fontSize": 14.11,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROVENANCE  •  Ctrl+B is the interactive analogue; retained evidence used scripted slbuild with the same active GRT configuration.",
+              "fontSize": 14.11,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "BOUNDARY  •  executable built, not run  •  no Embedded Coder / SIL / PIL / approval claim",
+          "resolvedTextStyle": {
+            "fontSize": 14.11,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BOUNDARY  •  executable built, not run  •  no Embedded Coder / SIL / PIL / approval claim",
+              "fontSize": 14.11,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#0B2438",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.4
+    }
+  ],
+  "composeRuns": []
+}

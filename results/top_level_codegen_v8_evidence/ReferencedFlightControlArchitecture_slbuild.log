@@ -1,0 +1,300 @@
+RUN_ROOT=D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence
+MODEL=ReferencedFlightControlArchitecture
+MATLAB=23.2.0.2599560 (R2023b) Update 8
+SYSTEM_TARGET=grt.tlc
+CODEGEN_FOLDER=D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen
+### Starting serial model reference code generation build.
+### Checking status of model reference code generation target for model 'ActuatorCommandRef' used in 'ReferencedFlightControlArchitecture'.
+### Model reference code generation target (ActuatorCommandRef.c) for model ActuatorCommandRef is out of date because ActuatorCommandRef.c does not exist.
+### Updating model reference code generation target for: ActuatorCommandRef
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef
+### Invoking Target Language Compiler on ActuatorCommandRef.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2023b\rtw\c\grt\grt.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+### Caching model source code
+.................................
+### Writing header file ActuatorCommandRef_types.h
+### Writing header file ActuatorCommandRef.h
+### Writing header file rtwtypes.h
+### Writing header file multiword_types.h
+.
+### Writing source file ActuatorCommandRef.c
+### Writing header file ActuatorCommandRef_private.h
+### TLC code generation complete (took 3.619s).
+### Saving binary information cache.
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef\ActuatorCommandRef.mk' ...
+### Building 'ActuatorCommandRef_rtwlib': nmake  -f ActuatorCommandRef.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef>if "all" == "" (nmake  -f ActuatorCommandRef.mk all )  else (nmake  -f ActuatorCommandRef.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=ActuatorCommandRef -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @ActuatorCommandRef_comp.rsp -Fo"ActuatorCommandRef.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef\ActuatorCommandRef.c" 
+ActuatorCommandRef.c 
+### Creating static library ".\ActuatorCommandRef_rtwlib.lib" ... 
+	lib /nologo -out:.\ActuatorCommandRef_rtwlib.lib @ActuatorCommandRef.rsp 
+### Created: .\ActuatorCommandRef_rtwlib.lib 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\ActuatorCommandRef>exit /B 0  
+### Successfully updated the model reference code generation target for: ActuatorCommandRef
+### Checking status of model reference code generation target for model 'PitchControllerRef' used in 'ReferencedFlightControlArchitecture'.
+### Model reference code generation target (PitchControllerRef.c) for model PitchControllerRef is out of date because PitchControllerRef.c does not exist.
+### Updating model reference code generation target for: PitchControllerRef
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef
+### Invoking Target Language Compiler on PitchControllerRef.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2023b\rtw\c\grt\grt.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+### Caching model source code
+........................................
+### Writing header file PitchControllerRef_types.h
+### Writing header file PitchControllerRef.h
+.
+### Writing source file PitchControllerRef.c
+### Writing header file PitchControllerRef_private.h
+### TLC code generation complete (took 1.852s).
+### Saving binary information cache.
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef\PitchControllerRef.mk' ...
+### Building 'PitchControllerRef_rtwlib': nmake  -f PitchControllerRef.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef>if "all" == "" (nmake  -f PitchControllerRef.mk all )  else (nmake  -f PitchControllerRef.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=PitchControllerRef -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @PitchControllerRef_comp.rsp -Fo"PitchControllerRef.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef\PitchControllerRef.c" 
+PitchControllerRef.c 
+### Creating static library ".\PitchControllerRef_rtwlib.lib" ... 
+	lib /nologo -out:.\PitchControllerRef_rtwlib.lib @PitchControllerRef.rsp 
+### Created: .\PitchControllerRef_rtwlib.lib 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchControllerRef>exit /B 0  
+### Successfully updated the model reference code generation target for: PitchControllerRef
+### Checking status of model reference code generation target for model 'PitchRateLimiter' used in 'ReferencedFlightControlArchitecture'.
+### Model reference code generation target (PitchRateLimiter.c) for model PitchRateLimiter is out of date because PitchRateLimiter.c does not exist.
+### Updating model reference code generation target for: PitchRateLimiter
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter
+### Invoking Target Language Compiler on PitchRateLimiter.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2023b\rtw\c\grt\grt.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+### Caching model source code
+....................................
+### Writing header file PitchRateLimiter_types.h
+### Writing header file PitchRateLimiter.h
+.
+### Writing source file PitchRateLimiter.c
+### Writing header file PitchRateLimiter_private.h
+### TLC code generation complete (took 1.742s).
+### Saving binary information cache.
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter\PitchRateLimiter.mk' ...
+### Building 'PitchRateLimiter_rtwlib': nmake  -f PitchRateLimiter.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter>if "all" == "" (nmake  -f PitchRateLimiter.mk all )  else (nmake  -f PitchRateLimiter.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=PitchRateLimiter -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @PitchRateLimiter_comp.rsp -Fo"PitchRateLimiter.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter\PitchRateLimiter.c" 
+PitchRateLimiter.c 
+### Creating static library ".\PitchRateLimiter_rtwlib.lib" ... 
+	lib /nologo -out:.\PitchRateLimiter_rtwlib.lib @PitchRateLimiter.rsp 
+### Created: .\PitchRateLimiter_rtwlib.lib 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\PitchRateLimiter>exit /B 0  
+### Successfully updated the model reference code generation target for: PitchRateLimiter
+### Checking status of model reference code generation target for model 'SensorProcessingRef' used in 'ReferencedFlightControlArchitecture'.
+### Model reference code generation target (SensorProcessingRef.c) for model SensorProcessingRef is out of date because SensorProcessingRef.c does not exist.
+### Updating model reference code generation target for: SensorProcessingRef
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef
+### Invoking Target Language Compiler on SensorProcessingRef.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2023b\rtw\c\grt\grt.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+.
+### Caching model source code
+............................................
+### Writing header file SensorProcessingRef_types.h
+### Writing header file SensorProcessingRef.h
+### Writing source file SensorProcessingRef.c
+### Writing header file SensorProcessingRef_private.h
+.
+### TLC code generation complete (took 1.663s).
+### Saving binary information cache.
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef\SensorProcessingRef.mk' ...
+### Building 'SensorProcessingRef_rtwlib': nmake  -f SensorProcessingRef.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef>if "all" == "" (nmake  -f SensorProcessingRef.mk all )  else (nmake  -f SensorProcessingRef.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=SensorProcessingRef -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @SensorProcessingRef_comp.rsp -Fo"SensorProcessingRef.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef\SensorProcessingRef.c" 
+SensorProcessingRef.c 
+### Creating static library ".\SensorProcessingRef_rtwlib.lib" ... 
+	lib /nologo -out:.\SensorProcessingRef_rtwlib.lib @SensorProcessingRef.rsp 
+### Created: .\SensorProcessingRef_rtwlib.lib 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\SensorProcessingRef>exit /B 0  
+### Successfully updated the model reference code generation target for: SensorProcessingRef
+### Simulink cache artifacts for 'ActuatorCommandRef' were created in 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\cache\ActuatorCommandRef.slxc'.
+### Simulink cache artifacts for 'PitchControllerRef' were created in 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\cache\PitchControllerRef.slxc'.
+### Simulink cache artifacts for 'PitchRateLimiter' were created in 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\cache\PitchRateLimiter.slxc'.
+### Simulink cache artifacts for 'SensorProcessingRef' were created in 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\cache\SensorProcessingRef.slxc'.
+### Starting build procedure for: ReferencedFlightControlArchitecture
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw
+[Warning: Root level output MAT-file logging in 'Dataset' format is not supported in this simulation or code generation mode for model 'ReferencedFlightControlArchitecture'. No
+data will be logged.
+Suggested Actions:
+    • Set 'Format' to 'Array', 'Structure', or 'Structure with time' to log root level output data - Open
+    • Clear 'Output' to disable logging root level output data - Open
+] 
+### Invoking Target Language Compiler on ReferencedFlightControlArchitecture.rtw
+### Using System Target File: C:\Program Files\MATLAB\R2023b\rtw\c\grt\grt.tlc
+### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+..
+### Caching model source code
+.................................................
+### Writing header file ReferencedFlightControlArchitecture_types.h
+### Writing header file ReferencedFlightControlArchitecture.h
+### Writing header file builtin_typeid_types.h
+.
+### Writing header file multiword_types.h
+### Writing source file ReferencedFlightControlArchitecture.c
+### Writing header file ReferencedFlightControlArchitecture_private.h
+### Writing header file rtmodel.h
+### Writing source file ReferencedFlightControlArchitecture_data.c
+### Writing header file rt_nonfinite.h
+.
+### Writing source file rt_nonfinite.c
+### Writing header file rtGetInf.h
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+### TLC code generation complete (took 2.267s).
+### Creating HTML report file index.html
+### Saving binary information cache.
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils\rtwshared.mk' ...
+### Building 'rtwshared': nmake  -f rtwshared.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils>if "all" == "" (nmake  -f rtwshared.mk all )  else (nmake  -f rtwshared.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DINTEGER_CODE=0  -DNRT -DUSE_RTMODEL @rtwshared_comp.rsp -Fo"rtGetInf.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils\rtGetInf.c" 
+rtGetInf.c 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DINTEGER_CODE=0  -DNRT -DUSE_RTMODEL @rtwshared_comp.rsp -Fo"rtGetNaN.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils\rtGetNaN.c" 
+rtGetNaN.c 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DINTEGER_CODE=0  -DNRT -DUSE_RTMODEL @rtwshared_comp.rsp -Fo"rt_nonfinite.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils\rt_nonfinite.c" 
+rt_nonfinite.c 
+### Creating static library ".\rtwshared.lib" ... 
+	lib /nologo -out:.\rtwshared.lib @rtwshared.rsp 
+### Created: .\rtwshared.lib 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils>exit /B 0  
+### Using toolchain: Microsoft Visual C++ 2017 v15.0 | nmake (64-bit Windows)
+### Creating 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw\ReferencedFlightControlArchitecture.mk' ...
+### Building 'ReferencedFlightControlArchitecture': nmake  -f ReferencedFlightControlArchitecture.mk all
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw>set skipSetupArg=skip_setup_msvc  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw>if "skip_setup_msvc" NEQ "skip_setup_msvc" (call "setup_msvc.bat" )  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw>cd .  
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw>if "all" == "" (nmake  -f ReferencedFlightControlArchitecture.mk all )  else (nmake  -f ReferencedFlightControlArchitecture.mk all )  
+ 
+Microsoft (R) Program Maintenance Utility Version 14.16.27054.0 
+Copyright (C) Microsoft Corporation.  All rights reserved. 
+ 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=ReferencedFlightControlArchitecture -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @ReferencedFlightControlArchitecture_comp.rsp -Fo"rt_logging.obj" "C:\PROGRA~1\MATLAB\R2023b\rtw\c\src\rt_logging.c" 
+rt_logging.c 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=ReferencedFlightControlArchitecture -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @ReferencedFlightControlArchitecture_comp.rsp -Fo"ReferencedFlightControlArchitecture.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw\ReferencedFlightControlArchitecture.c" 
+ReferencedFlightControlArchitecture.c 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=ReferencedFlightControlArchitecture -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @ReferencedFlightControlArchitecture_comp.rsp -Fo"ReferencedFlightControlArchitecture_data.obj" "D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw\ReferencedFlightControlArchitecture_data.c" 
+ReferencedFlightControlArchitecture_data.c 
+	cl  -c -nologo -GS -W4 -DWIN32 -D_MT -MT -D_CRT_SECURE_NO_WARNINGS  /Od /Oy- -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=1 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=ReferencedFlightControlArchitecture -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL @ReferencedFlightControlArchitecture_comp.rsp -Fo"rt_main.obj" "C:\PROGRA~1\MATLAB\R2023b\rtw\c\src\common\rt_main.c" 
+rt_main.c 
+### Creating standalone executable "..\ReferencedFlightControlArchitecture.exe" ... 
+	link /RELEASE  /INCREMENTAL:NO /NOLOGO kernel32.lib ws2_32.lib mswsock.lib advapi32.lib -out:..\ReferencedFlightControlArchitecture.exe @ReferencedFlightControlArchitecture.rsp @ReferencedFlightControlArchitecture_ref.rsp D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\slprj\grt\_sharedutils\rtwshared.lib   
+### Created: ..\ReferencedFlightControlArchitecture.exe 
+### Successfully generated all binary outputs. 
+ 
+D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw>exit /B 0  
+### Successful completion of build procedure for: ReferencedFlightControlArchitecture
+### Simulink cache artifacts for 'ReferencedFlightControlArchitecture' were created in 'D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\cache\ReferencedFlightControlArchitecture.slxc'.
+
+Build Summary
+
+Code generation targets built:
+
+Model                Action                        Rebuild Reason                         
+==========================================================================================
+ActuatorCommandRef   Code generated and compiled.  ActuatorCommandRef.c does not exist.   
+PitchControllerRef   Code generated and compiled.  PitchControllerRef.c does not exist.   
+PitchRateLimiter     Code generated and compiled.  PitchRateLimiter.c does not exist.     
+SensorProcessingRef  Code generated and compiled.  SensorProcessingRef.c does not exist.  
+
+Top model targets built:
+
+Model                                Action                        Rebuild Reason                   
+====================================================================================================
+ReferencedFlightControlArchitecture  Code generated and compiled.  ForceTopModelBuild was enabled.  
+
+5 of 5 models built (0 models already up to date)
+Build duration: 0h 1m 27.572s
+BUILD_STATUS=PASS

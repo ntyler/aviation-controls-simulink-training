@@ -1,0 +1,1288 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/4u4mtu",
+    "id": "4u4mtu",
+    "slide": 14,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F8FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light",
+      "Consolas"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tcfilov",
+      "id": "19",
+      "name": "section-88",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "06 • VERIFICATION WORKFLOW",
+      "textPreview": "06 • VERIFICATION WORKFLOW",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06 • VERIFICATION WORKFLOW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06 • VERIFICATION WORKFLOW",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06 • VERIFICATION WORKFLOW",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3ixsnal",
+      "id": "2",
+      "name": "title-88",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Open FCS_Data.sldd, then inspect FlightControlBus",
+      "textPreview": "Open FCS_Data.sldd, then inspect FlightControlBus",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Open FCS_Data.sldd, then inspect FlightControlBus"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Open FCS_Data.sldd, then inspect FlightControlBus",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Open FCS_Data.sldd, then inspect FlightControlBus",
+              "fontSize": 40,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4re1sr6",
+      "id": "3",
+      "name": "line-89",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/adgfmdsj",
+      "id": "4",
+      "name": "text-90",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bepwvy9o",
+      "id": "5",
+      "name": "text-91",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "47",
+      "textPreview": "47",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "47"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "47",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "47",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2pwjap83",
+      "id": "20",
+      "name": "s47-frame",
+      "bbox": [
+        64,
+        146,
+        770,
+        470
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/l8nad4nq",
+      "id": "33",
+      "bbox": [
+        72,
+        178.36,
+        754,
+        405.27
+      ],
+      "contentType": "image/jpeg",
+      "asset": {
+        "assetId": "/ppt/media/image7.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 229904
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image7.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 229904
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ry1czq9",
+      "id": "22",
+      "name": "s47-steps",
+      "bbox": [
+        858,
+        146,
+        350,
+        470
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.6
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ps7ilkru",
+      "id": "23",
+      "name": "s47-steps-title",
+      "bbox": [
+        878,
+        162,
+        310,
+        26
+      ],
+      "geometry": "rect",
+      "text": "HOW TO ACCESS IT",
+      "textPreview": "HOW TO ACCESS IT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "HOW TO ACCESS IT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "HOW TO ACCESS IT",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "HOW TO ACCESS IT",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ulwz6587",
+      "id": "24",
+      "name": "s47-step-title-0",
+      "bbox": [
+        878,
+        203,
+        310,
+        22
+      ],
+      "geometry": "rect",
+      "text": "1  INITIALIZE",
+      "textPreview": "1  INITIALIZE",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1  INITIALIZE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1  INITIALIZE",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1  INITIALIZE",
+              "fontSize": 13.4,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm50fa9s",
+      "id": "25",
+      "name": "s47-step-body-0",
+      "bbox": [
+        878,
+        228,
+        310,
+        61
+      ],
+      "geometry": "rect",
+      "text": "add scripts, models, data\nrun initialize_training_data(projectRoot)",
+      "textPreview": "add scripts, models, data | run initialize_training_data(projectRoot)",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "add scripts, models, data"
+          },
+          {
+            "index": 2,
+            "text": "run initialize_training_data(projectRoot)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "add scripts, models, data",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "add scripts, models, data",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "run initialize_training_data(projectRoot)",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "run initialize_training_data(projectRoot)",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gne18fqd",
+      "id": "26",
+      "name": "s47-step-title-1",
+      "bbox": [
+        878,
+        295,
+        310,
+        22
+      ],
+      "geometry": "rect",
+      "text": "2  GUI",
+      "textPreview": "2  GUI",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2  GUI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2  GUI",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2  GUI",
+              "fontSize": 13.4,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/honihkri",
+      "id": "27",
+      "name": "s47-step-body-1",
+      "bbox": [
+        878,
+        320,
+        310,
+        61
+      ],
+      "geometry": "rect",
+      "text": "open data/FCS_Data.sldd\nModel Explorer → Design Data\nselect FlightControlBus",
+      "textPreview": "open data/FCS_Data.sldd | Model Explorer → Design Data | select FlightControlBus",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "open data/FCS_Data.sldd"
+          },
+          {
+            "index": 2,
+            "text": "Model Explorer → Design Data"
+          },
+          {
+            "index": 3,
+            "text": "select FlightControlBus"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "open data/FCS_Data.sldd",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "open data/FCS_Data.sldd",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Model Explorer → Design Data",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Model Explorer → Design Data",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "select FlightControlBus",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "select FlightControlBus",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehgji98b",
+      "id": "28",
+      "name": "s47-step-title-2",
+      "bbox": [
+        878,
+        387,
+        310,
+        22
+      ],
+      "geometry": "rect",
+      "text": "3  MATLAB API",
+      "textPreview": "3  MATLAB API",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3  MATLAB API"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3  MATLAB API",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Aptos",
+            "color": "#2D6CDF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3  MATLAB API",
+              "fontSize": 13.4,
+              "typeface": "Aptos",
+              "color": "#2D6CDF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zi90re9w",
+      "id": "29",
+      "name": "s47-step-body-2",
+      "bbox": [
+        878,
+        412,
+        310,
+        61
+      ],
+      "geometry": "rect",
+      "text": "dd = Simulink.data.dictionary.open( ...\n  'data/FCS_Data.sldd');\nsec = getSection(dd,'Design Data');",
+      "textPreview": "dd = Simulink.data.dictionary.open( ... |   'data/FCS_Data.sldd'); | sec = getSection(dd,'Design Data');",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "dd = Simulink.data.dictionary.open( ..."
+          },
+          {
+            "index": 2,
+            "text": "  'data/FCS_Data.sldd');"
+          },
+          {
+            "index": 3,
+            "text": "sec = getSection(dd,'Design Data');"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "dd = Simulink.data.dictionary.open( ...",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "dd = Simulink.data.dictionary.open( ...",
+              "fontSize": 11.51,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "  'data/FCS_Data.sldd');",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "  'data/FCS_Data.sldd');",
+              "fontSize": 11.51,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "sec = getSection(dd,'Design Data');",
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "sec = getSection(dd,'Design Data');",
+              "fontSize": 11.51,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9ovuxsfa",
+      "id": "30",
+      "name": "s47-step-title-3",
+      "bbox": [
+        878,
+        479,
+        310,
+        22
+      ],
+      "geometry": "rect",
+      "text": "4  REVIEW",
+      "textPreview": "4  REVIEW",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4  REVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4  REVIEW",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4  REVIEW",
+              "fontSize": 13.4,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nmd4nep",
+      "id": "31",
+      "name": "s47-step-body-3",
+      "bbox": [
+        878,
+        504,
+        310,
+        61
+      ],
+      "geometry": "rect",
+      "text": "results/FCS_DataDictionary_Inventory.csv\nresults/FlightControlBus_Inventory.csv",
+      "textPreview": "results/FCS_DataDictionary_Inventory.csv | results/FlightControlBus_Inventory.csv",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 1,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "results/FCS_DataDictionary_Inventory.csv"
+          },
+          {
+            "index": 2,
+            "text": "results/FlightControlBus_Inventory.csv"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "results/FCS_DataDictionary_Inventory.csv",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "results/FCS_DataDictionary_Inventory.csv",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "results/FlightControlBus_Inventory.csv",
+          "resolvedTextStyle": {
+            "fontSize": 11.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "results/FlightControlBus_Inventory.csv",
+              "fontSize": 11.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mtcv2x4",
+      "id": "32",
+      "name": "s47-caveat",
+      "bbox": [
+        72,
+        623,
+        1136,
+        27
+      ],
+      "geometry": "roundRect",
+      "text": "INSPECTION VIEW  •  initialization writes/restores managed classroom entries; experiment only in an authorized copy",
+      "textPreview": "INSPECTION VIEW  •  initialization writes/restores managed classroom entries; experiment only in an authorized copy",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INSPECTION VIEW  •  initialization writes/restores managed classroom entries; experiment only in an authorized copy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INSPECTION VIEW  •  initialization writes/restores managed classroom entries; experiment only in an authorized copy",
+          "resolvedTextStyle": {
+            "fontSize": 12.4,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INSPECTION VIEW  •  initialization writes/restores managed classroom entries; experiment only in an authorized copy",
+              "fontSize": 12.4,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0D7",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.1
+    }
+  ],
+  "composeRuns": []
+}

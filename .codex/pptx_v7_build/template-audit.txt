@@ -1,0 +1,27 @@
+SOURCE DECK
+- D:\GitHub\aviation-controls-simulink-training\Aviation_Controls_Engineer_Simulink_DO178C_Training_v6.pptx
+- 48 slides, 16:9, speaker notes visible on all slides.
+- Primary typefaces: Aptos with inherited Calibri compatibility runs.
+- Visual system: aerospace navy/white frames, teal section labels, blue/green/amber evidence states, fixed footer, two-digit slide-local numbering.
+
+LAYOUT ARCHETYPES REUSED
+- Source slide 46: light two-column evidence-boundary frame; reused for the early absolute summary.
+- Source slide 48: dark closing/checklist frame; reused for the early completion checklist.
+- Source slide 36: dark controlled-flow frame; reused for harness stimulus provenance.
+- Source slide 9: light image-and-cards frame; reused for authentic top-level build evidence.
+- Source slide 29: light image-led SDI frame; reused for causal plot reading.
+- Source slide 38: dark image-and-metrics frame; reused for the 19-case graph explanation.
+- Source slide 7: light image-and-guidance frame; reused for authentic Model Explorer dictionary/bus access.
+
+PRESERVATION DECISION
+- Every v6 slide is retained once in narrative order.
+- Seven source frames are duplicated to add requested teaching material, producing 55 slides total.
+- Eighteen mapped slides replace their inherited content regions. Other inherited content remains unchanged except page numbers and targeted text rewrites on slides 10, 13, and 54.
+- An explicit frame-starter pass deletes only the mapped replacement elements before new content is added; this keeps template-fidelity QA from treating legitimate replacements as masking overlays.
+- Section labels, titles, footer text, and page numbers remain slide-local inherited chrome.
+
+AUTHENTIC NEW EVIDENCE
+- Controlled top-level GRT build: results\top_level_codegen_v7_evidence\.
+- Fresh package validation: results\validation_summary.txt, generated 2026-08-27 10:05:00.
+- Model Explorer capture: .codex\pptx_v7_build\FCS_Data_ModelExplorer_FlightControlBus.png.
+- Existing authentic SDI, harness, and limiter result captures are reused without distortion.

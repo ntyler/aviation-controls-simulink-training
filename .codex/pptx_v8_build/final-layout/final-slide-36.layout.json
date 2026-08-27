@@ -1,0 +1,1432 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/m9s3ehgf",
+    "id": "m9s3ehgf",
+    "slide": 36,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F8FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydgn2xkf",
+      "id": "12",
+      "name": "section-30",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "06 • ASSURANCE & TRACEABILITY",
+      "textPreview": "06 • ASSURANCE & TRACEABILITY",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06 • ASSURANCE & TRACEABILITY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06 • ASSURANCE & TRACEABILITY",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06 • ASSURANCE & TRACEABILITY",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5s3atkbq",
+      "id": "2",
+      "name": "title-30",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Bug Finder and Code Prover remain future code-analysis gates",
+      "textPreview": "Bug Finder and Code Prover remain future code-analysis gates",
+      "resolvedFontSize": 36.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36.51,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bug Finder and Code Prover remain future code-analysis gates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bug Finder and Code Prover remain future code-analysis gates",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 36.51,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bug Finder and Code Prover remain future code-analysis gates",
+              "fontSize": 36.51,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4rut0fa5",
+      "id": "3",
+      "name": "line-31",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rulsvutw",
+      "id": "4",
+      "name": "text-32",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "Aptos",
+        "color": "#7D91A0",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcb2psb",
+      "id": "5",
+      "name": "text-33",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "36",
+      "textPreview": "36",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "36"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "36",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "36",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zepovil0",
+      "id": "13",
+      "name": "s11-banner",
+      "bbox": [
+        72,
+        150,
+        1136,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "FUTURE PLACEHOLDERS  •  NOT EXECUTED  •  NO POLYSPACE PRODUCT OR REPORT IN THIS PACKAGE",
+      "textPreview": "FUTURE PLACEHOLDERS  •  NOT EXECUTED  •  NO POLYSPACE PRODUCT OR REPORT IN THIS PACKAGE",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FUTURE PLACEHOLDERS  •  NOT EXECUTED  •  NO POLYSPACE PRODUCT OR REPORT IN THIS PACKAGE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FUTURE PLACEHOLDERS  •  NOT EXECUTED  •  NO POLYSPACE PRODUCT OR REPORT IN THIS PACKAGE",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FUTURE PLACEHOLDERS  •  NOT EXECUTED  •  NO POLYSPACE PRODUCT OR REPORT IN THIS PACKAGE",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FBE7E9",
+      "lineColor": "#D75A64",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83i5872h",
+      "id": "14",
+      "name": "s11-panel-0",
+      "bbox": [
+        72,
+        210,
+        548,
+        330
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E2ECFF",
+      "lineColor": "#2D6CDF",
+      "lineWidth": 1.8
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94r61c32",
+      "id": "15",
+      "name": "s11-title-0",
+      "bbox": [
+        96,
+        228,
+        500,
+        32
+      ],
+      "geometry": "rect",
+      "text": "POLYSPACE BUG FINDER",
+      "textPreview": "POLYSPACE BUG FINDER",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POLYSPACE BUG FINDER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POLYSPACE BUG FINDER",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#2D6CDF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "POLYSPACE BUG FINDER",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#2D6CDF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m10n6xkr",
+      "id": "16",
+      "name": "s11-sub-0",
+      "bbox": [
+        102,
+        269,
+        488,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Fast static scan for reported defects and rule deviations",
+      "textPreview": "Fast static scan for reported defects and rule deviations",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fast static scan for reported defects and rule deviations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fast static scan for reported defects and rule deviations",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fast static scan for reported defects and rule deviations",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/729oz2lw",
+      "id": "17",
+      "name": "s11-body-0",
+      "bbox": [
+        104,
+        326,
+        484,
+        142
+      ],
+      "geometry": "rect",
+      "text": "• probable coding defects and security issues\n• MISRA / CERT / CWE and project-rule findings\n• code metrics and early developer triage\n• review, fix, justify, and retain dispositions\n\nBoundary: finding-oriented; it does not prove that all defects are absent.",
+      "textPreview": "• probable coding defects and security issues | • MISRA / CERT / CWE and project-rule findings | • code metrics and early developer triag...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• probable coding defects and security issues"
+          },
+          {
+            "index": 2,
+            "text": "• MISRA / CERT / CWE and project-rule findings"
+          },
+          {
+            "index": 3,
+            "text": "• code metrics and early developer triage"
+          },
+          {
+            "index": 4,
+            "text": "• review, fix, justify, and retain dispositions"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "Boundary: finding-oriented; it does not prove that all defects are"
+          },
+          {
+            "index": 7,
+            "text": "absent."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• probable coding defects and security issues",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• probable coding defects and security issues",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• MISRA / CERT / CWE and project-rule findings",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• MISRA / CERT / CWE and project-rule findings",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• code metrics and early developer triage",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• code metrics and early developer triage",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• review, fix, justify, and retain dispositions",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• review, fix, justify, and retain dispositions",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Boundary: finding-oriented; it does not prove that all defects are absent.",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Boundary: finding-oriented; it does not prove that all defects are absent.",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w72pc72t",
+      "id": "18",
+      "name": "s11-placeholder-0",
+      "bbox": [
+        104,
+        480,
+        484,
+        40
+      ],
+      "geometry": "roundRect",
+      "text": "FUTURE INSERT  •  BUG FINDER RESULT / REPORT",
+      "textPreview": "FUTURE INSERT  •  BUG FINDER RESULT / REPORT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FUTURE INSERT  •  BUG FINDER RESULT / REPORT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FUTURE INSERT  •  BUG FINDER RESULT / REPORT",
+          "resolvedTextStyle": {
+            "fontSize": 13.2,
+            "typeface": "Aptos",
+            "color": "#2D6CDF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FUTURE INSERT  •  BUG FINDER RESULT / REPORT",
+              "fontSize": 13.2,
+              "typeface": "Aptos",
+              "color": "#2D6CDF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2D6CDF",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8b65cje",
+      "id": "19",
+      "name": "s11-panel-1",
+      "bbox": [
+        660,
+        210,
+        548,
+        330
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E2F4EA",
+      "lineColor": "#2CA56F",
+      "lineWidth": 1.8
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o76pcbi",
+      "id": "20",
+      "name": "s11-title-1",
+      "bbox": [
+        684,
+        228,
+        500,
+        32
+      ],
+      "geometry": "rect",
+      "text": "POLYSPACE CODE PROVER",
+      "textPreview": "POLYSPACE CODE PROVER",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "POLYSPACE CODE PROVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "POLYSPACE CODE PROVER",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#2CA56F",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "POLYSPACE CODE PROVER",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#2CA56F",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ny5w7ux",
+      "id": "21",
+      "name": "s11-sub-1",
+      "bbox": [
+        690,
+        269,
+        488,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Deeper formal analysis for selected run-time error checks",
+      "textPreview": "Deeper formal analysis for selected run-time error checks",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deeper formal analysis for selected run-time error checks"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deeper formal analysis for selected run-time error checks",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deeper formal analysis for selected run-time error checks",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3mpon2tc",
+      "id": "22",
+      "name": "s11-body-1",
+      "bbox": [
+        692,
+        326,
+        484,
+        142
+      ],
+      "geometry": "rect",
+      "text": "• analyzes control and data flow without executing code\n• attempts proof over the analyzed code and paths\n• green = proven for that check and scope\n• orange = possible / unproven; red = definite\n\nBoundary: conclusions depend on controlled code, configuration, and assumptions.",
+      "textPreview": "• analyzes control and data flow without executing code | • attempts proof over the analyzed code and paths | • green = proven for that c...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• analyzes control and data flow without executing code"
+          },
+          {
+            "index": 2,
+            "text": "• attempts proof over the analyzed code and paths"
+          },
+          {
+            "index": 3,
+            "text": "• green = proven for that check and scope"
+          },
+          {
+            "index": 4,
+            "text": "• orange = possible / unproven; red = definite"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "Boundary: conclusions depend on controlled code, configuration,"
+          },
+          {
+            "index": 7,
+            "text": "and assumptions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• analyzes control and data flow without executing code",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• analyzes control and data flow without executing code",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• attempts proof over the analyzed code and paths",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• attempts proof over the analyzed code and paths",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• green = proven for that check and scope",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• green = proven for that check and scope",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "• orange = possible / unproven; red = definite",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• orange = possible / unproven; red = definite",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Boundary: conclusions depend on controlled code, configuration, and assumptions.",
+          "resolvedTextStyle": {
+            "fontSize": 15.11,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Boundary: conclusions depend on controlled code, configuration, and assumptions.",
+              "fontSize": 15.11,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i1wnuxcr",
+      "id": "23",
+      "name": "s11-placeholder-1",
+      "bbox": [
+        692,
+        480,
+        484,
+        40
+      ],
+      "geometry": "roundRect",
+      "text": "FUTURE INSERT  •  CODE PROVER RESULT / REPORT",
+      "textPreview": "FUTURE INSERT  •  CODE PROVER RESULT / REPORT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FUTURE INSERT  •  CODE PROVER RESULT / REPORT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FUTURE INSERT  •  CODE PROVER RESULT / REPORT",
+          "resolvedTextStyle": {
+            "fontSize": 13.2,
+            "typeface": "Aptos",
+            "color": "#2CA56F",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FUTURE INSERT  •  CODE PROVER RESULT / REPORT",
+              "fontSize": 13.2,
+              "typeface": "Aptos",
+              "color": "#2CA56F",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2CA56F",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ds76tcbe",
+      "id": "24",
+      "name": "s11-gate",
+      "bbox": [
+        72,
+        558,
+        1136,
+        84
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B2438",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.4
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sry50rut",
+      "id": "25",
+      "name": "s11-gate-title",
+      "bbox": [
+        94,
+        568,
+        1092,
+        24
+      ],
+      "geometry": "rect",
+      "text": "GATE PREREQUISITES",
+      "textPreview": "GATE PREREQUISITES",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GATE PREREQUISITES"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GATE PREREQUISITES",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Aptos",
+            "color": "#70DCE5",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GATE PREREQUISITES",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#70DCE5",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqpormt8",
+      "id": "26",
+      "name": "s11-gate-body",
+      "bbox": [
+        94,
+        598,
+        1092,
+        34
+      ],
+      "geometry": "rect",
+      "text": "controlled C/C++ baseline • target/compiler/options • assumptions/stubs • licensed tool/configuration • reviewed findings/report • traceability",
+      "textPreview": "controlled C/C++ baseline • target/compiler/options • assumptions/stubs • licensed tool/configuration • reviewed findings/report • tracea...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "controlled C/C++ baseline • target/compiler/options • assumptions/stubs • licensed tool/configuration • reviewed findings/report • traceability"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "controlled C/C++ baseline • target/compiler/options • assumptions/stubs • licensed tool/configuration • reviewed findings/report • traceability",
+          "resolvedTextStyle": {
+            "fontSize": 14.4,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "controlled C/C++ baseline • target/compiler/options • assumptions/stubs • licensed tool/configuration • reviewed findings/report • traceability",
+              "fontSize": 14.4,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

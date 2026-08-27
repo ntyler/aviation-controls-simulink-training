@@ -1,0 +1,36 @@
+V8 TEMPLATE AUDIT
+
+Source
+- PowerPoint: Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx
+- Authoritative inspection: Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx.inspect.ndjson
+- Inspected slide count: 55
+- Output slide count: 55
+- Canvas: 1280 x 720 px (16:9)
+- Theme: light blue-gray background, navy/teal/orange accents, Aptos/Calibri family
+
+Reusable frame
+- Standard content slides use a top section label, one-line title, divider at y=127, bottom onboarding footer, and two-digit page number.
+- The title slide uses a separate composition and keeps its original title, chain graphic, footer, and page placement. Only its subtitle and page number are authorized for rewrite.
+- Cards, screenshots, code panels, diagrams, and image records vary by slide and are treated as body content rather than global chrome.
+
+V8 mapping policy
+- Every one of the 55 output slides maps to an inspected v7 source slide.
+- 28 output slides authorize full body replacement while retaining section/title/divider/footer/page geometry.
+- 26 output slides preserve their mapped body and authorize only section/title/page rewrites.
+- Slide 1 preserves its title-slide composition and authorizes a targeted subtitle rewrite.
+- Output slide 36 explicitly rewrites both Polyspace future-result placeholder labels while preserving the rest of the source body.
+- Stable element and image IDs come only from the complete full-v7 inspection (1208 IDs). The workspace's compact inspection exposes 146 IDs, contains a truncation notice=true, and has 7 IDs from a different inspection pass; it is not used to authorize edits.
+
+Narrative structure
+- Core learner route: slides 1-48.
+- Reference appendix: slides 49-55.
+- Visible routes: instructor onboarding, self-guided component build, assurance/closure, and appendix reference.
+
+Validation
+- Continuous output numbering: PASS (1-55).
+- Source slide bounds: PASS (all 1-55).
+- Stable target IDs exist in the authoritative full-v7 inspection: PASS.
+- Image records on replacement slides use authoritative im/* IDs: PASS.
+- Both source-slide-13 Polyspace placeholder labels are explicitly handled: PASS.
+- No element is authorized by two actions on the same output slide: PASS.
+- Bundled validate_template_plan.mjs using the full-v7 inspection: PASS (0 issues).

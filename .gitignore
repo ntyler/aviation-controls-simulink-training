@@ -23,3 +23,6 @@ codegen/
 
 # Local JavaScript dependencies used by presentation authoring
 node_modules/
+
+# Learner-owned, non-baseline practice models and evidence
+learner_workspace/

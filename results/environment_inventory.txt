@@ -10,6 +10,7 @@ Installed and licensed:
 - Stateflow: yes
 - Simulink Data Dictionary support: yes (included with Simulink)
 - Simulink Report Generator: yes
+- Simulink Coder: yes (GRT desktop training target only)
 
 Unavailable / unlicensed:
 - Simulink Test: no
@@ -20,7 +21,7 @@ Consequences for this training project:
 - AutopilotModeLogic uses a real Stateflow chart.
 - FCS_Data.sldd and FlightControlBus are created with supported Simulink APIs.
 - PitchRateLimiter testing uses a standalone executable Simulink harness plus a MATLAB assessment suite.
-- No .mldatx file is created because Simulink Test is unavailable.
+- No Simulink Test/Test Manager test-suite .mldatx file is created. Two .mldatx artifacts are retained only as SDI files: data/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_View.mldatx and results/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_Session.mldatx.
 - Requirement associations are documented in project files and reports; no Simulink Requirements links are claimed.
 - No generated embedded code is claimed because Embedded Coder is unavailable.
 - No HIL hardware was used; all executions are desktop simulations.

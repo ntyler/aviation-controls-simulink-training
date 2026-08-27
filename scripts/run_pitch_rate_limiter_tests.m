@@ -1,4 +1,4 @@
-function summary = run_pitch_rate_limiter_tests(projectRoot)
+function summary = run_pitch_rate_limiter_tests(projectRoot, varargin)
 %RUN_PITCH_RATE_LIMITER_TESTS Execute the MATLAB-based limiter test suite.
 %
 % Simulink Test is not required by this suite.  The standalone
@@ -6,6 +6,14 @@ function summary = run_pitch_rate_limiter_tests(projectRoot)
 % timeseries data, and its real simulation outputs are assessed here.
 % Evidence is saved as CSV, MAT, HTML, and PNG files.  This function does
 % not create or imply the existence of an .mldatx Test Manager file.
+%
+% Name-value options support the isolated learner-practice workflow without
+% changing the controlled baseline defaults:
+%   HarnessName       Model name (default PitchRateLimiter_Harness)
+%   HarnessFile       Full path to the harness SLX
+%   OutputRoot        Root that receives results/ and reports/
+%   EvidenceStem      File-name prefix for retained evidence
+%   InitializeBaseline  Refresh managed FCS_Data.sldd entries first
 
 if nargin < 1 || strlength(string(projectRoot)) == 0
     projectRoot = fileparts(fileparts(mfilename('fullpath')));
@@ -13,19 +21,60 @@ end
 projectRoot = char(projectRoot);
 modelsDir = fullfile(projectRoot, 'models');
 dataDir = fullfile(projectRoot, 'data');
-resultsDir = fullfile(projectRoot, 'results');
-reportsDir = fullfile(projectRoot, 'reports');
+
+parser = inputParser;
+parser.FunctionName = mfilename;
+addParameter(parser, 'HarnessName', 'PitchRateLimiter_Harness', ...
+    @(value) ischar(value) || (isstring(value) && isscalar(value)));
+addParameter(parser, 'HarnessFile', '', ...
+    @(value) ischar(value) || (isstring(value) && isscalar(value)));
+addParameter(parser, 'OutputRoot', projectRoot, ...
+    @(value) ischar(value) || (isstring(value) && isscalar(value)));
+addParameter(parser, 'EvidenceStem', 'PitchRateLimiter', ...
+    @(value) ischar(value) || (isstring(value) && isscalar(value)));
+addParameter(parser, 'InitializeBaseline', true, ...
+    @(value) islogical(value) && isscalar(value));
+parse(parser, varargin{:});
+
+harness = char(string(parser.Results.HarnessName));
+outputRoot = char(string(parser.Results.OutputRoot));
+evidenceStem = char(string(parser.Results.EvidenceStem));
+if isempty(outputRoot)
+    outputRoot = projectRoot;
+end
+if any(contains(evidenceStem, {'/', '\\', ':'})) || isempty(evidenceStem)
+    error('Training:InvalidEvidenceStem', ...
+        'EvidenceStem must be a nonempty file-name stem, not a path.');
+end
+resultsDir = fullfile(outputRoot, 'results');
+reportsDir = fullfile(outputRoot, 'reports');
 
 localEnsureFolder(resultsDir);
 localEnsureFolder(reportsDir);
-addpath(modelsDir, dataDir, fileparts(mfilename('fullpath')));
+scriptsDir = fileparts(mfilename('fullpath'));
 
-if exist('initialize_training_data', 'file') == 2
-    initialize_training_data();
+harnessFile = char(string(parser.Results.HarnessFile));
+if isempty(harnessFile)
+    harnessFile = fullfile(modelsDir, [harness '.slx']);
+end
+harnessDir = fileparts(harnessFile);
+localAssertHarnessIdentity(harness, harnessFile, false);
+pathCandidates = {harnessDir, modelsDir, dataDir, scriptsDir};
+pathsAddedHere = strings(0,1);
+for pathIndex = 1:numel(pathCandidates)
+    candidate = pathCandidates{pathIndex};
+    if ~localPathContains(candidate)
+        addpath(candidate);
+        pathsAddedHere(end+1,1) = string(candidate); %#ok<AGROW>
+    end
+end
+pathGuard = onCleanup(@() localRemoveTemporaryPaths(pathsAddedHere)); %#ok<NASGU>
+localAssertHarnessIdentity(harness, harnessFile, false);
+
+if parser.Results.InitializeBaseline && exist('initialize_training_data', 'file') == 2
+    initialize_training_data(projectRoot);
 end
 
-harness = 'PitchRateLimiter_Harness';
-harnessFile = fullfile(modelsDir, [harness '.slx']);
 if ~isfile(harnessFile)
     error('Training:MissingHarness', ...
         'Required standalone harness not found: %s', harnessFile);
@@ -34,10 +83,13 @@ end
 sampleTime = localTrainingValue(projectRoot, 'Sample_time', 0.02);
 limit = localTrainingValue(projectRoot, 'q_limit_normal', 12.0);
 tolerance = 1.0e-9;
-timingTolerance = max(1.0e-12, sampleTime * 1.0e-9);
+requiredSampleTime = 0.02;
+timingTolerance = max(1.0e-12, requiredSampleTime * 1.0e-9);
+sampleTimeConfigurationPass = ...
+    abs(sampleTime - requiredSampleTime) <= timingTolerance;
 
 [testDefinition, qCommand, normalMode, inputValid] = ...
-    localTestDefinition(sampleTime, limit);
+    localTestDefinition(requiredSampleTime, limit);
 testTime = testDefinition.Time_s;
 
 qCommandInput = timeseries(qCommand, testTime);
@@ -48,7 +100,8 @@ normalModeInput.Name = 'normal_mode_test';
 inputValidInput = timeseries(logical(inputValid), testTime);
 inputValidInput.Name = 'input_valid_test';
 
-load_system(harness);
+load_system(harnessFile);
+localAssertHarnessIdentity(harness, harnessFile, true);
 set_param(harness, 'SimulationCommand', 'update');
 
 simIn = Simulink.SimulationInput(harness);
@@ -58,7 +111,7 @@ simIn = simIn.setVariable('input_valid_test', inputValidInput, 'Workspace', harn
 simIn = simIn.setModelParameter( ...
     'StopTime', sprintf('%.15g', testTime(end)), ...
     'SolverType', 'Fixed-step', ...
-    'FixedStep', sprintf('%.15g', sampleTime), ...
+    'FixedStep', sprintf('%.15g', requiredSampleTime), ...
     'SaveTime', 'on', ...
     'TimeSaveName', 'tout', ...
     'ReturnWorkspaceOutputs', 'on');
@@ -86,8 +139,10 @@ numericError = qActual - expectedOutput;
 numericPass = abs(numericError) <= tolerance;
 activePass = activeActual == expectedActive;
 timestampPass = qTimestampPass & activeTimestampPass;
-[timingPass, observedStep] = localAssessTiming( ...
-    qOutputSignal.Time, limiterActiveSignal.Time, sampleTime, timingTolerance);
+[spacingPass, observedStep] = localAssessTiming( ...
+    qOutputSignal.Time, limiterActiveSignal.Time, ...
+    requiredSampleTime, timingTolerance);
+timingPass = sampleTimeConfigurationPass && spacingPass;
 passed = numericPass & activePass & timestampPass & timingPass;
 
 testResults = testDefinition;
@@ -103,28 +158,39 @@ testResults.ActualLimiterActive = activeActual;
 testResults.NumericPass = numericPass;
 testResults.LimiterActivePass = activePass;
 testResults.TimestampPass = timestampPass;
+testResults.RequiredSampleTime_s = repmat(requiredSampleTime, size(qCommand));
+testResults.DictionarySampleTime_s = repmat(sampleTime, size(qCommand));
+testResults.SampleTimeConfigurationPass = ...
+    repmat(sampleTimeConfigurationPass, size(qCommand));
 testResults.Timing50HzPass = repmat(timingPass, size(qCommand));
 testResults.Passed = passed;
 
-csvFile = fullfile(resultsDir, 'PitchRateLimiter_TestResults.csv');
-matFile = fullfile(resultsDir, 'PitchRateLimiter_TestResults.mat');
-htmlFile = fullfile(reportsDir, 'PitchRateLimiter_TestReport.html');
-pngFile = fullfile(reportsDir, 'PitchRateLimiter_TestReport.png');
+csvFile = fullfile(resultsDir, [evidenceStem '_TestResults.csv']);
+matFile = fullfile(resultsDir, [evidenceStem '_TestResults.mat']);
+htmlFile = fullfile(reportsDir, [evidenceStem '_TestReport.html']);
+pngFile = fullfile(reportsDir, [evidenceStem '_TestReport.png']);
 writetable(testResults, csvFile);
 
 summary = struct();
 summary.GeneratedOn = simulationEnded;
 summary.SimulationStarted = simulationStarted;
 summary.Harness = string(harness);
+summary.HarnessFile = string(harnessFile);
+summary.OutputRoot = string(outputRoot);
+summary.EvidenceStem = string(evidenceStem);
 summary.EvidenceType = ...
     "Executable MATLAB assessment of standalone Simulink harness";
 summary.SimulinkTestUsed = false;
 summary.TestManagerFileCreated = false;
-summary.SampleTime_s = sampleTime;
-summary.ExecutionRate_Hz = 1/sampleTime;
+summary.SampleTime_s = requiredSampleTime;
+summary.RequiredSampleTime_s = requiredSampleTime;
+summary.DictionarySampleTime_s = sampleTime;
+summary.SampleTimeConfigurationPass = sampleTimeConfigurationPass;
+summary.ExecutionRate_Hz = 1/requiredSampleTime;
 summary.ObservedOutputStep_s = observedStep;
 summary.NumericTolerance_deg_s = tolerance;
 summary.TimingTolerance_s = timingTolerance;
+summary.OutputSpacingPass = spacingPass;
 summary.Total = height(testResults);
 summary.Passed = nnz(passed);
 summary.Failed = nnz(~passed);
@@ -208,7 +274,8 @@ iteration = (1:numel(q)).';
 requirement = repmat("PRL-001 magnitude limiting; PRL-003 status", size(q));
 requirement(~normalMode | ~inputValid) = ...
     "PRL-002 deterministic fallback; PRL-003 status";
-requirement(1) = "PRL-005 deterministic initialization";
+    requirement(10) = requirement(10) + ...
+        "; PRL-005 same-frame magnitude response";
 requirement(13:17) = ...
     "PRL-002 mode/validity transitions; PRL-003 status";
 requirement = requirement + "; PRL-004 50 Hz execution";
@@ -324,12 +391,18 @@ fprintf(file, ['<!doctype html><html><head><meta charset="utf-8">' ...
 fprintf(file, '<h1>Pitch Rate Limiter — Executable Test Report</h1>');
 fprintf(file, ['<p class="notice"><strong>Illustrative training evidence.</strong> ' ...
     'Desktop simulation only; not production aircraft data and not certification approval. ' ...
-    'Simulink Test was not used, and no .mldatx file was created.</p>']);
-fprintf(file, '<p>Generated: %s<br>Harness: %s<br>Rate: %.3g Hz (%.6g s)<br>', ...
+    'Simulink Test was not used, and no Test Manager .mldatx file was created. ' ...
+    'The package retains two SDI .mldatx artifacts.</p>']);
+fprintf(file, ['<p>Generated: %s<br>Harness: %s<br>Required rate: %.3g Hz ' ...
+    '(%.6g s)<br>Dictionary Sample_time: %.15g s — configuration %s<br>'], ...
     localHtml(summary.GeneratedOn), localHtml(summary.Harness), ...
-    summary.ExecutionRate_Hz, summary.SampleTime_s);
-fprintf(file, 'Numeric tolerance: %.3g deg/s<br>Observed output step: %.15g s</p>', ...
-    summary.NumericTolerance_deg_s, summary.ObservedOutputStep_s);
+    summary.ExecutionRate_Hz, summary.RequiredSampleTime_s, ...
+    summary.DictionarySampleTime_s, ...
+    localPassFail(summary.SampleTimeConfigurationPass));
+fprintf(file, ['Numeric tolerance: %.3g deg/s<br>Timing tolerance: %.3g s<br>' ...
+    'Observed output step: %.15g s</p>'], ...
+    summary.NumericTolerance_deg_s, summary.TimingTolerance_s, ...
+    summary.ObservedOutputStep_s);
 statusClass = 'pass';
 if summary.Failed > 0
     statusClass = 'fail';
@@ -437,4 +510,51 @@ function localEnsureFolder(folder)
 if exist(folder, 'dir') ~= 7
     mkdir(folder);
 end
+end
+
+function result = localPathContains(folder)
+parts = string(strsplit(path, pathsep));
+result = any(strcmpi(parts, string(folder)));
+end
+
+function localRemoveTemporaryPaths(pathsAddedHere)
+for index = numel(pathsAddedHere):-1:1
+    folder = char(pathsAddedHere(index));
+    if localPathContains(folder)
+        rmpath(folder);
+    end
+end
+end
+
+function localAssertHarnessIdentity(harness, harnessFile, requireLoaded)
+expected = localCanonicalPath(harnessFile);
+matches = string(which(harness, '-all'));
+matches = matches(strlength(matches) > 0);
+for index = 1:numel(matches)
+    actual = localCanonicalPath(char(matches(index)));
+    assert(strcmpi(actual, expected), ...
+        'Training:HarnessShadowed', ...
+        ['Harness name %s resolves to another file.\nExpected: %s\n' ...
+         'Resolved: %s'], harness, expected, actual);
+end
+if bdIsLoaded(harness)
+    loadedFile = get_param(harness, 'FileName');
+    assert(~isempty(loadedFile), 'Training:UnresolvedHarnessFile', ...
+        'Loaded harness %s does not report a source file.', harness);
+    actualLoaded = localCanonicalPath(loadedFile);
+    assert(strcmpi(actualLoaded, expected), ...
+        'Training:LoadedHarnessShadowed', ...
+        ['Loaded harness %s is not the requested file.\nExpected: %s\n' ...
+         'Loaded: %s'], harness, expected, actualLoaded);
+elseif requireLoaded
+    error('Training:HarnessDidNotLoad', ...
+        'Requested harness did not load: %s', harnessFile);
+end
+end
+
+function result = localCanonicalPath(pathValue)
+[resolved, attributes] = fileattrib(pathValue);
+assert(resolved, 'Training:UnresolvedPath', ...
+    'Could not resolve file path: %s', pathValue);
+result = strrep(attributes.Name, '/', filesep);
 end

@@ -1,0 +1,1608 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7qto7e10",
+    "id": "7qto7e10",
+    "slide": 24,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F8FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light",
+      "Consolas"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap03el4r",
+      "id": "34",
+      "name": "section-143",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "03 • HARNESS & BUILD",
+      "textPreview": "03 • HARNESS & BUILD",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03 • HARNESS & BUILD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03 • HARNESS & BUILD",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03 • HARNESS & BUILD",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1sfqxsv6",
+      "id": "2",
+      "name": "title-143",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "The scripted top-level build retains outputs—and a provenance boundary",
+      "textPreview": "The scripted top-level build retains outputs—and a provenance boundary",
+      "resolvedFontSize": 36.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36.51,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The scripted top-level build retains outputs—and a provenance"
+          },
+          {
+            "index": 2,
+            "text": "boundary"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The scripted top-level build retains outputs—and a provenance boundary",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 36.51,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The scripted top-level build retains outputs—and a provenance boundary",
+              "fontSize": 36.51,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0r6p4nul",
+      "id": "3",
+      "name": "line-144",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nux8zidc",
+      "id": "4",
+      "name": "text-145",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "Aptos",
+        "color": "#7D91A0",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2to76dcr",
+      "id": "5",
+      "name": "text-146",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "24",
+      "textPreview": "24",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "24"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "24",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "24",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vq94nq5w",
+      "id": "35",
+      "name": "s24-tree-panel",
+      "bbox": [
+        72,
+        154,
+        480,
+        398
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2D6CDF",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrilgvmh",
+      "id": "36",
+      "name": "s24-tree-title",
+      "bbox": [
+        92,
+        164,
+        440,
+        46
+      ],
+      "geometry": "rect",
+      "text": "SCRIPTED slbuild OUTPUT | build_top_level_grt_evidence(projectRoot,'RunLabel','v8_evidence')",
+      "textPreview": "SCRIPTED slbuild OUTPUT | build_top_level_grt_evidence(projectRoot,'RunLabel','v8_evidence')",
+      "resolvedFontSize": 11.6,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11.6,
+        "typeface": "Consolas",
+        "color": "#2D6CDF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SCRIPTED slbuild OUTPUT |"
+          },
+          {
+            "index": 2,
+            "text": "build_top_level_grt_evidence(projectRoot,'RunLabel','v8_evidence')"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SCRIPTED slbuild OUTPUT | build_top_level_grt_evidence(projectRoot,'RunLabel','v8_evidence')",
+          "resolvedTextStyle": {
+            "fontSize": 11.6,
+            "typeface": "Consolas",
+            "color": "#2D6CDF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SCRIPTED slbuild OUTPUT | build_top_level_grt_evidence(projectRoot,'RunLabel','v8_evidence')",
+              "fontSize": 11.6,
+              "typeface": "Consolas",
+              "color": "#2D6CDF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsrmp0n2",
+      "id": "37",
+      "name": "s24-tree",
+      "bbox": [
+        92,
+        216,
+        438,
+        314
+      ],
+      "geometry": "rect",
+      "text": "results/top_level_codegen_v8_evidence/\n├─ Build_Evidence_Manifest.txt\n├─ ReferencedFlightControlArchitecture_slbuild.log\n├─ codegen/\n│  ├─ ReferencedFlightControlArchitecture.exe\n│  ├─ ReferencedFlightControlArchitecture_grt_rtw/\n│  │  ├─ ReferencedFlightControlArchitecture.c\n│  │  └─ html/index.html\n│  └─ slprj/grt/\n│     ├─ SensorProcessingRef/\n│     ├─ PitchRateLimiter/\n│     ├─ PitchControllerRef/\n│     └─ ActuatorCommandRef/\n└─ cache/ReferencedFlightControlArchitecture.slxc",
+      "textPreview": "results/top_level_codegen_v8_evidence/ | ├─ Build_Evidence_Manifest.txt | ├─ ReferencedFlightControlArchitecture_slbuild.log | ├─ codegen...",
+      "resolvedFontSize": 12.09,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12.09,
+        "typeface": "Consolas",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4,
+          "right": 4,
+          "bottom": 4,
+          "left": 4
+        }
+      },
+      "textLayout": {
+        "lineCount": 14,
+        "lines": [
+          {
+            "index": 1,
+            "text": "results/top_level_codegen_v8_evidence/"
+          },
+          {
+            "index": 2,
+            "text": "├─ Build_Evidence_Manifest.txt"
+          },
+          {
+            "index": 3,
+            "text": "├─ ReferencedFlightControlArchitecture_slbuild.log"
+          },
+          {
+            "index": 4,
+            "text": "├─ codegen/"
+          },
+          {
+            "index": 5,
+            "text": "│  ├─ ReferencedFlightControlArchitecture.exe"
+          },
+          {
+            "index": 6,
+            "text": "│  ├─ ReferencedFlightControlArchitecture_grt_rtw/"
+          },
+          {
+            "index": 7,
+            "text": "│  │  ├─ ReferencedFlightControlArchitecture.c"
+          },
+          {
+            "index": 8,
+            "text": "│  │  └─ html/index.html"
+          },
+          {
+            "index": 9,
+            "text": "│  └─ slprj/grt/"
+          },
+          {
+            "index": 10,
+            "text": "│     ├─ SensorProcessingRef/"
+          },
+          {
+            "index": 11,
+            "text": "│     ├─ PitchRateLimiter/"
+          },
+          {
+            "index": 12,
+            "text": "│     ├─ PitchControllerRef/"
+          },
+          {
+            "index": 13,
+            "text": "│     └─ ActuatorCommandRef/"
+          },
+          {
+            "index": 14,
+            "text": "└─ cache/ReferencedFlightControlArchitecture.slxc"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "results/top_level_codegen_v8_evidence/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "results/top_level_codegen_v8_evidence/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "├─ Build_Evidence_Manifest.txt",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ Build_Evidence_Manifest.txt",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "├─ ReferencedFlightControlArchitecture_slbuild.log",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ ReferencedFlightControlArchitecture_slbuild.log",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "├─ codegen/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "├─ codegen/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "│  ├─ ReferencedFlightControlArchitecture.exe",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ ReferencedFlightControlArchitecture.exe",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "│  ├─ ReferencedFlightControlArchitecture_grt_rtw/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  ├─ ReferencedFlightControlArchitecture_grt_rtw/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "│  │  ├─ ReferencedFlightControlArchitecture.c",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  │  ├─ ReferencedFlightControlArchitecture.c",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "│  │  └─ html/index.html",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  │  └─ html/index.html",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "│  └─ slprj/grt/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│  └─ slprj/grt/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "│     ├─ SensorProcessingRef/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ SensorProcessingRef/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "│     ├─ PitchRateLimiter/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ PitchRateLimiter/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "│     ├─ PitchControllerRef/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     ├─ PitchControllerRef/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "│     └─ ActuatorCommandRef/",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "│     └─ ActuatorCommandRef/",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "└─ cache/ReferencedFlightControlArchitecture.slxc",
+          "resolvedTextStyle": {
+            "fontSize": 12.09,
+            "typeface": "Consolas",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "└─ cache/ReferencedFlightControlArchitecture.slxc",
+              "fontSize": 12.09,
+              "typeface": "Consolas",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/it03i54n",
+      "id": "38",
+      "name": "s24-code-panel",
+      "bbox": [
+        580,
+        154,
+        628,
+        398
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#091A29",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je94ra58",
+      "id": "39",
+      "name": "s24-code-title",
+      "bbox": [
+        602,
+        168,
+        584,
+        28
+      ],
+      "geometry": "rect",
+      "text": "VERBATIM GENERATED C  •  LINES 8–19 + 25–28",
+      "textPreview": "VERBATIM GENERATED C  •  LINES 8–19 + 25–28",
+      "resolvedFontSize": 15.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VERBATIM GENERATED C  •  LINES 8–19 + 25–28"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VERBATIM GENERATED C  •  LINES 8–19 + 25–28",
+          "resolvedTextStyle": {
+            "fontSize": 15.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VERBATIM GENERATED C  •  LINES 8–19 + 25–28",
+              "fontSize": 15.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra54bqxc",
+      "id": "40",
+      "name": "s24-code",
+      "bbox": [
+        602,
+        206,
+        582,
+        326
+      ],
+      "geometry": "rect",
+      "text": " * Code generation for model \"ReferencedFlightControlArchitecture\".\n *\n * Model version              : 1.9\n * Simulink Coder version : 23.2 (R2023b) 01-Aug-2023\n * C source code generated on : Thu Aug 27 11:40:47 2026\n *\n * Target selection: grt.tlc\n * Note: GRT includes extra infrastructure and instrumentation for prototyping\n * Embedded hardware selection: Intel->x86-64 (Windows64)\n * Code generation objectives: Unspecified\n * Validation result: Not run\n */\n\n⋮  lines 20–24 omitted\n#include \"ActuatorCommandRef.h\"\n#include \"PitchControllerRef.h\"\n#include \"PitchRateLimiter.h\"\n#include \"SensorProcessingRef.h\"",
+      "textPreview": "* Code generation for model \"ReferencedFlightControlArchitecture\". |  * |  * Model version              : 1.9 |  * Simulink Coder version...",
+      "resolvedFontSize": 10.91,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 10.91,
+        "typeface": "Consolas",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4,
+          "right": 4,
+          "bottom": 4,
+          "left": 4
+        }
+      },
+      "textLayout": {
+        "lineCount": 18,
+        "lines": [
+          {
+            "index": 1,
+            "text": " * Code generation for model \"ReferencedFlightControlArchitecture\"."
+          },
+          {
+            "index": 2,
+            "text": " *"
+          },
+          {
+            "index": 3,
+            "text": " * Model version              : 1.9"
+          },
+          {
+            "index": 4,
+            "text": " * Simulink Coder version : 23.2 (R2023b) 01-Aug-2023"
+          },
+          {
+            "index": 5,
+            "text": " * C source code generated on : Thu Aug 27 11:40:47 2026"
+          },
+          {
+            "index": 6,
+            "text": " *"
+          },
+          {
+            "index": 7,
+            "text": " * Target selection: grt.tlc"
+          },
+          {
+            "index": 8,
+            "text": " * Note: GRT includes extra infrastructure and instrumentation for prototyping"
+          },
+          {
+            "index": 9,
+            "text": " * Embedded hardware selection: Intel->x86-64 (Windows64)"
+          },
+          {
+            "index": 10,
+            "text": " * Code generation objectives: Unspecified"
+          },
+          {
+            "index": 11,
+            "text": " * Validation result: Not run"
+          },
+          {
+            "index": 12,
+            "text": " */"
+          },
+          {
+            "index": 13,
+            "text": ""
+          },
+          {
+            "index": 14,
+            "text": "⋮  lines 20–24 omitted"
+          },
+          {
+            "index": 15,
+            "text": "#include \"ActuatorCommandRef.h\""
+          },
+          {
+            "index": 16,
+            "text": "#include \"PitchControllerRef.h\""
+          },
+          {
+            "index": 17,
+            "text": "#include \"PitchRateLimiter.h\""
+          },
+          {
+            "index": 18,
+            "text": "#include \"SensorProcessingRef.h\""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": " * Code generation for model \"ReferencedFlightControlArchitecture\".",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Code generation for model \"ReferencedFlightControlArchitecture\".",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": " *",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " *",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": " * Model version              : 1.9",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Model version              : 1.9",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": " * Simulink Coder version : 23.2 (R2023b) 01-Aug-2023",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Simulink Coder version : 23.2 (R2023b) 01-Aug-2023",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": " * C source code generated on : Thu Aug 27 11:40:47 2026",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * C source code generated on : Thu Aug 27 11:40:47 2026",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": " *",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " *",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": " * Target selection: grt.tlc",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Target selection: grt.tlc",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": " * Note: GRT includes extra infrastructure and instrumentation for prototyping",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Note: GRT includes extra infrastructure and instrumentation for prototyping",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": " * Embedded hardware selection: Intel->x86-64 (Windows64)",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Embedded hardware selection: Intel->x86-64 (Windows64)",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": " * Code generation objectives: Unspecified",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Code generation objectives: Unspecified",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": " * Validation result: Not run",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " * Validation result: Not run",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": " */",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": " */",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 14,
+          "text": "⋮  lines 20–24 omitted",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "⋮  lines 20–24 omitted",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 15,
+          "text": "#include \"ActuatorCommandRef.h\"",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "#include \"ActuatorCommandRef.h\"",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 16,
+          "text": "#include \"PitchControllerRef.h\"",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "#include \"PitchControllerRef.h\"",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 17,
+          "text": "#include \"PitchRateLimiter.h\"",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "#include \"PitchRateLimiter.h\"",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 18,
+          "text": "#include \"SensorProcessingRef.h\"",
+          "resolvedTextStyle": {
+            "fontSize": 10.91,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "#include \"SensorProcessingRef.h\"",
+              "fontSize": 10.91,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q9w325wr",
+      "id": "41",
+      "name": "s24-pass",
+      "bbox": [
+        72,
+        570,
+        1136,
+        42
+      ],
+      "geometry": "roundRect",
+      "text": "BUILD_STATUS=PASS  •  5/5 models built  •  0 already up to date  •  1:27.572  •  executable 196,608 bytes",
+      "textPreview": "BUILD_STATUS=PASS  •  5/5 models built  •  0 already up to date  •  1:27.572  •  executable 196,608 bytes",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#071521",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BUILD_STATUS=PASS  •  5/5 models built  •  0 already up to date  •  1:27.572  •  executable 196,608 bytes"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BUILD_STATUS=PASS  •  5/5 models built  •  0 already up to date  •  1:27.572  •  executable 196,608 bytes",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BUILD_STATUS=PASS  •  5/5 models built  •  0 already up to date  •  1:27.572  •  executable 196,608 bytes",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E2F4EA",
+      "lineColor": "#2CA56F",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dc7md0fi",
+      "id": "42",
+      "name": "s24-caveat",
+      "bbox": [
+        72,
+        619,
+        1136,
+        35
+      ],
+      "geometry": "roundRect",
+      "text": "Git dirty=1; exact dirty-source snapshot was not retained. Ctrl+B may use other active settings/paths. Executable built—not run; no validation, SIL, or PIL.",
+      "textPreview": "Git dirty=1; exact dirty-source snapshot was not retained. Ctrl+B may use other active settings/paths. Executable built—not run; no valid...",
+      "resolvedFontSize": 12.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.51,
+        "typeface": "Aptos",
+        "color": "#071521",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Git dirty=1; exact dirty-source snapshot was not retained. Ctrl+B may use other active settings/paths. Executable built—not run; no validation, SIL, or PIL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Git dirty=1; exact dirty-source snapshot was not retained. Ctrl+B may use other active settings/paths. Executable built—not run; no validation, SIL, or PIL.",
+          "resolvedTextStyle": {
+            "fontSize": 12.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Git dirty=1; exact dirty-source snapshot was not retained. Ctrl+B may use other active settings/paths. Executable built—not run; no validation, SIL, or PIL.",
+              "fontSize": 12.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0D7",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

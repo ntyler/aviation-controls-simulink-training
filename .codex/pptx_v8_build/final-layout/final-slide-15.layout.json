@@ -1,0 +1,1332 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vaxsvy10",
+    "id": "vaxsvy10",
+    "slide": 15,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F8FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7ah4nm5",
+      "id": "25",
+      "name": "section-292",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "02 • CONTROLLED CREATION LAB",
+      "textPreview": "02 • CONTROLLED CREATION LAB",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02 • CONTROLLED CREATION LAB"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02 • CONTROLLED CREATION LAB",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02 • CONTROLLED CREATION LAB",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547mhg3m",
+      "id": "2",
+      "name": "title-292",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Step 2 — define the component boundary exactly",
+      "textPreview": "Step 2 — define the component boundary exactly",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 40,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Step 2 — define the component boundary exactly"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Step 2 — define the component boundary exactly",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Step 2 — define the component boundary exactly",
+              "fontSize": 40,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3y5ov21",
+      "id": "3",
+      "name": "line-293",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76p4jqls",
+      "id": "4",
+      "name": "text-294",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "Aptos",
+        "color": "#7D91A0",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65gnqlk7",
+      "id": "5",
+      "name": "text-295",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "15",
+      "textPreview": "15",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gve5crul",
+      "id": "26",
+      "bbox": [
+        72,
+        190,
+        760,
+        386
+      ],
+      "alt": "PitchRateLimiter model root showing input and output ports",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "06157e78-fd18-4a85-ac52-d6304d75af08",
+        "contentType": "image/png",
+        "byteLength": 183505
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25sf2d4z",
+      "id": "27",
+      "name": "s15-step",
+      "bbox": [
+        72,
+        150,
+        118,
+        30
+      ],
+      "geometry": "roundRect",
+      "text": "STEP 2 OF 6",
+      "textPreview": "STEP 2 OF 6",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#071521",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "STEP 2 OF 6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "STEP 2 OF 6",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "STEP 2 OF 6",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dc3y1s3m",
+      "id": "28",
+      "name": "s15-contract",
+      "bbox": [
+        858,
+        160,
+        330,
+        416
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2D6CDF",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbuh8nmh",
+      "id": "29",
+      "name": "s15-contract-title",
+      "bbox": [
+        878,
+        178,
+        290,
+        34
+      ],
+      "geometry": "rect",
+      "text": "PORT CONTRACT",
+      "textPreview": "PORT CONTRACT",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#2D6CDF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PORT CONTRACT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PORT CONTRACT",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#2D6CDF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PORT CONTRACT",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#2D6CDF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uh4v2pkj",
+      "id": "30",
+      "name": "s15-port-0",
+      "bbox": [
+        882,
+        226,
+        278,
+        24
+      ],
+      "geometry": "rect",
+      "text": "q_cmd_in",
+      "textPreview": "q_cmd_in",
+      "resolvedFontSize": 15.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.2,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "q_cmd_in"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "q_cmd_in",
+          "resolvedTextStyle": {
+            "fontSize": 15.2,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "q_cmd_in",
+              "fontSize": 15.2,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vixcvu14",
+      "id": "31",
+      "name": "s15-port-meta-0",
+      "bbox": [
+        882,
+        249,
+        278,
+        28
+      ],
+      "geometry": "rect",
+      "text": "double • deg/s  •  command",
+      "textPreview": "double • deg/s  •  command",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#5D7487",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "double • deg/s  •  command"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "double • deg/s  •  command",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#5D7487",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "double • deg/s  •  command",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#5D7487",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wj6d4z2p",
+      "id": "32",
+      "name": "s15-port-1",
+      "bbox": [
+        882,
+        290,
+        278,
+        24
+      ],
+      "geometry": "rect",
+      "text": "normal_mode",
+      "textPreview": "normal_mode",
+      "resolvedFontSize": 15.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.2,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "normal_mode"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "normal_mode",
+          "resolvedTextStyle": {
+            "fontSize": 15.2,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "normal_mode",
+              "fontSize": 15.2,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hkfexkja",
+      "id": "33",
+      "name": "s15-port-meta-1",
+      "bbox": [
+        882,
+        313,
+        278,
+        28
+      ],
+      "geometry": "rect",
+      "text": "boolean • 1  •  enable",
+      "textPreview": "boolean • 1  •  enable",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#5D7487",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "boolean • 1  •  enable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "boolean • 1  •  enable",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#5D7487",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "boolean • 1  •  enable",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#5D7487",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilov6pkv",
+      "id": "34",
+      "name": "s15-port-2",
+      "bbox": [
+        882,
+        354,
+        278,
+        24
+      ],
+      "geometry": "rect",
+      "text": "input_valid",
+      "textPreview": "input_valid",
+      "resolvedFontSize": 15.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.2,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "input_valid"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "input_valid",
+          "resolvedTextStyle": {
+            "fontSize": 15.2,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "input_valid",
+              "fontSize": 15.2,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmxwzu1g",
+      "id": "35",
+      "name": "s15-port-meta-2",
+      "bbox": [
+        882,
+        377,
+        278,
+        28
+      ],
+      "geometry": "rect",
+      "text": "boolean • 1  •  validity",
+      "textPreview": "boolean • 1  •  validity",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#5D7487",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "boolean • 1  •  validity"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "boolean • 1  •  validity",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#5D7487",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "boolean • 1  •  validity",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#5D7487",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4n6d8z21",
+      "id": "36",
+      "name": "s15-port-3",
+      "bbox": [
+        882,
+        418,
+        278,
+        24
+      ],
+      "geometry": "rect",
+      "text": "q_cmd_out",
+      "textPreview": "q_cmd_out",
+      "resolvedFontSize": 15.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.2,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "q_cmd_out"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "q_cmd_out",
+          "resolvedTextStyle": {
+            "fontSize": 15.2,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "q_cmd_out",
+              "fontSize": 15.2,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ofe14j6",
+      "id": "37",
+      "name": "s15-port-meta-3",
+      "bbox": [
+        882,
+        441,
+        278,
+        28
+      ],
+      "geometry": "rect",
+      "text": "double • deg/s  •  limited output",
+      "textPreview": "double • deg/s  •  limited output",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#5D7487",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "double • deg/s  •  limited output"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "double • deg/s  •  limited output",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#5D7487",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "double • deg/s  •  limited output",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#5D7487",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6p8va9kr",
+      "id": "38",
+      "name": "s15-port-4",
+      "bbox": [
+        882,
+        482,
+        278,
+        24
+      ],
+      "geometry": "rect",
+      "text": "limiter_active",
+      "textPreview": "limiter_active",
+      "resolvedFontSize": 15.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15.2,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "limiter_active"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "limiter_active",
+          "resolvedTextStyle": {
+            "fontSize": 15.2,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "limiter_active",
+              "fontSize": 15.2,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqhw3e1c",
+      "id": "39",
+      "name": "s15-port-meta-4",
+      "bbox": [
+        882,
+        505,
+        278,
+        28
+      ],
+      "geometry": "rect",
+      "text": "boolean • 1  •  status",
+      "textPreview": "boolean • 1  •  status",
+      "resolvedFontSize": 12.8,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12.8,
+        "typeface": "Aptos",
+        "color": "#5D7487",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "boolean • 1  •  status"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "boolean • 1  •  status",
+          "resolvedTextStyle": {
+            "fontSize": 12.8,
+            "typeface": "Aptos",
+            "color": "#5D7487",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "boolean • 1  •  status",
+              "fontSize": 12.8,
+              "typeface": "Aptos",
+              "color": "#5D7487",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dcnetg",
+      "id": "40",
+      "name": "s15-rule",
+      "bbox": [
+        72,
+        596,
+        1136,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "CHECK BEFORE LOGIC  •  names, direction, types, dimensions, units, and status semantics are part of the interface—not decoration",
+      "textPreview": "CHECK BEFORE LOGIC  •  names, direction, types, dimensions, units, and status semantics are part of the interface—not decoration",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CHECK BEFORE LOGIC  •  names, direction, types, dimensions, units, and status semantics are part of the interface—not decoration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CHECK BEFORE LOGIC  •  names, direction, types, dimensions, units, and status semantics are part of the interface—not decoration",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CHECK BEFORE LOGIC  •  names, direction, types, dimensions, units, and status semantics are part of the interface—not decoration",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#DFF6F8",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.3
+    }
+  ],
+  "composeRuns": []
+}

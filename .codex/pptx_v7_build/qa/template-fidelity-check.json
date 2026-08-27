@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-27T14:49:35.650Z",
+  "workspace": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build",
+  "finalPptx": "D:\\GitHub\\aviation-controls-simulink-training\\Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx",
+  "starterPptx": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build\\template-starter-frame.pptx",
+  "mapPath": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build\\template-frame-map.json",
+  "starterLayoutDir": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build\\template-starter-frame-layout",
+  "finalLayoutDir": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build\\final-layout",
+  "editDir": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v7_build",
+  "issueCount": 0,
+  "issues": []
+}

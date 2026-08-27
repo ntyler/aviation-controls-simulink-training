@@ -1,0 +1,2039 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "Simulink in the Aerospace Controls Lifecycle",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/vmdcj2xw"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/k3yl0zql"
+          ],
+          "reason": "Update the title-slide subtitle for the self-guided v8 learner mission while preserving the existing title composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "Absolute summary: executable training evidence with bounded claims",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/a10jqpsj"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mlgvq147",
+            "sh/9072xkry"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/nmpcj6ls",
+            "sh/onydsbmd",
+            "sh/9o7ulg3y",
+            "sh/a9gvulkj",
+            "sh/ba9cn6l4",
+            "sh/wbidwb29",
+            "sh/xcrupg3u",
+            "sh/id0vylkf",
+            "sh/je9crql0",
+            "sh/ru5cbqd4",
+            "sh/69wbilcj",
+            "sh/tw7ud0va",
+            "sh/svedkvup",
+            "sh/fypcfqdg",
+            "sh/exgvmlcv",
+            "sh/107uh0v6",
+            "sh/gzydovul",
+            "sh/v2lc36dw",
+            "sh/a1cba1wb",
+            "sh/0vq1o36x",
+            "sh/1wzix87i",
+            "sh/et8zmto7",
+            "sh/zuh0vypc",
+            "sh/c76hk361"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "Overall completion checklist: baseline, learner actions, and open gates",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/i9w3u58v"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/w7ulsvqp",
+            "sh/cza94vmx"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 5,
+      "narrativeRole": "Three learning routes + reference appendix",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/yhkbe1o7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/v2twb6dw",
+            "sh/dgbulwnm"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/k7mxovud",
+            "sh/58vehgvy",
+            "sh/i54fmlc7",
+            "sh/j6dwfqds",
+            "sh/sb6xsvu9",
+            "sh/tcfel0vu",
+            "sh/hgrmpwj2",
+            "sh/gfi5grih",
+            "sh/fe94nm1w",
+            "sh/ud0ne10b",
+            "sh/pkr6tgjy",
+            "sh/4ji5kbid",
+            "sh/3i94r61s",
+            "sh/2h0ni107",
+            "sh/5o7mhcju",
+            "sh/kny587i9",
+            "sh/atcjidg7",
+            "sh/vu5kbihc",
+            "sh/wve1knyx",
+            "sh/xwn2dszi",
+            "sh/ihw3mxg3",
+            "sh/ji5kf2ho",
+            "sh/kjelony9",
+            "sh/5kn2hszu",
+            "sh/e1sjatgz",
+            "sh/zmlk3yhk",
+            "sh/fid07u98",
+            "sh/ehkzepsn",
+            "sh/1kvi94re",
+            "sh/gjmhgzqt",
+            "sh/3md0bu94",
+            "sh/2l4zip8j"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 4,
+      "narrativeRole": "The executable model is the engineering hub",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ql8jytsj"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/v6tsv2xo",
+            "sh/1cj2d8b6"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 5,
+      "narrativeRole": "Your mission: build, exercise, and explain one reviewable control component",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/yhkbe1o7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/v2twb6dw",
+            "sh/dgbulwnm"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/k7mxovud",
+            "sh/58vehgvy",
+            "sh/i54fmlc7",
+            "sh/j6dwfqds",
+            "sh/sb6xsvu9",
+            "sh/tcfel0vu",
+            "sh/hgrmpwj2",
+            "sh/gfi5grih",
+            "sh/fe94nm1w",
+            "sh/ud0ne10b",
+            "sh/pkr6tgjy",
+            "sh/4ji5kbid",
+            "sh/3i94r61s",
+            "sh/2h0ni107",
+            "sh/5o7mhcju",
+            "sh/kny587i9",
+            "sh/atcjidg7",
+            "sh/vu5kbihc",
+            "sh/wve1knyx",
+            "sh/xwn2dszi",
+            "sh/ihw3mxg3",
+            "sh/ji5kf2ho",
+            "sh/kjelony9",
+            "sh/5kn2hszu",
+            "sh/e1sjatgz",
+            "sh/zmlk3yhk",
+            "sh/fid07u98",
+            "sh/ehkzepsn",
+            "sh/1kvi94re",
+            "sh/gjmhgzqt",
+            "sh/3md0bu94",
+            "sh/2l4zip8j"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "Preflight: start from a known project state",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zedcfa9g"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p0zmlk7u",
+            "sh/cb2tkvap"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ozq5szq9",
+            "sh/nyh4jupo",
+            "sh/2x8nqp83",
+            "sh/x4j6p47q",
+            "sh/c3a5wzq5",
+            "sh/b2h4nupk",
+            "sh/a18nup8z",
+            "sh/lsj6t47m",
+            "sh/kra50jqh",
+            "sh/wneps3ap",
+            "sh/honq18ru",
+            "sh/ulc7qdsj",
+            "sh/vm58zi94",
+            "sh/8jupo3ad",
+            "sh/9k3qx8ry",
+            "sh/mxc7mts7",
+            "sh/7yl8vy9s",
+            "sh/sfy907ah",
+            "sh/tg7q9sr2",
+            "sh/na9sz6tk",
+            "sh/290bq1cz",
+            "sh/pcra1wba",
+            "sh/obitsrup",
+            "sh/betc36tg",
+            "sh/adkbu1cv",
+            "sh/xgbu5gbm",
+            "sh/cf2twbu1",
+            "sh/ripsrmtc",
+            "sh/6hgbihcr",
+            "sh/uponm90b",
+            "sh/vah4fehw",
+            "sh/gbq5ojih",
+            "sh/hczmhoz2",
+            "sh/6loni90f",
+            "sh/7mx4buh0",
+            "sh/8n65kzil",
+            "sh/tofmd4z6",
+            "sh/yh4nep0j",
+            "sh/jix47uho",
+            "sh/1c3qdsj6",
+            "sh/0bupkn21",
+            "sh/fal8bi1g",
+            "sh/e9c7ixkv",
+            "sh/d8jq9sja",
+            "sh/s7apgn2p",
+            "sh/r6187i14",
+            "sh/q5s7edkj"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 7,
+      "narrativeRole": "Initialize once; generate evidence through controlled entry points",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zedcfa9g"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p0zmlk7u",
+            "sh/cb2tkvap"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ozq5szq9",
+            "sh/nyh4jupo",
+            "sh/2x8nqp83",
+            "sh/x4j6p47q",
+            "sh/c3a5wzq5",
+            "sh/b2h4nupk",
+            "sh/a18nup8z",
+            "sh/lsj6t47m",
+            "sh/kra50jqh",
+            "sh/wneps3ap",
+            "sh/honq18ru",
+            "sh/ulc7qdsj",
+            "sh/vm58zi94",
+            "sh/8jupo3ad",
+            "sh/9k3qx8ry",
+            "sh/mxc7mts7",
+            "sh/7yl8vy9s",
+            "sh/sfy907ah",
+            "sh/tg7q9sr2",
+            "sh/na9sz6tk",
+            "sh/290bq1cz",
+            "sh/pcra1wba",
+            "sh/obitsrup",
+            "sh/betc36tg",
+            "sh/adkbu1cv",
+            "sh/xgbu5gbm",
+            "sh/cf2twbu1",
+            "sh/ripsrmtc",
+            "sh/6hgbihcr",
+            "sh/uponm90b",
+            "sh/vah4fehw",
+            "sh/gbq5ojih",
+            "sh/hczmhoz2",
+            "sh/6loni90f",
+            "sh/7mx4buh0",
+            "sh/8n65kzil",
+            "sh/tofmd4z6",
+            "sh/yh4nep0j",
+            "sh/jix47uho",
+            "sh/1c3qdsj6",
+            "sh/0bupkn21",
+            "sh/fal8bi1g",
+            "sh/e9c7ixkv",
+            "sh/d8jq9sja",
+            "sh/s7apgn2p",
+            "sh/r6187i14",
+            "sh/q5s7edkj"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 14,
+      "narrativeRole": "The current job determines which model is top level",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/idgvmx8r"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/grmxwvqt",
+            "sh/xc7eds76"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 31,
+      "narrativeRole": "Choose a guided lab or a controlled evidence refresh",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ehsr2dgz"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/it4nexsf",
+            "sh/dgja98fe"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/3ud4n290",
+            "sh/sz65k7ah",
+            "sh/d0fmtcr2",
+            "sh/qx4nihsb",
+            "sh/ryd4rm9w",
+            "sh/832l8nad",
+            "sh/t4bmhsry",
+            "sh/9032l43m",
+            "sh/8zu1cj21",
+            "sh/nylkjelg",
+            "sh/mxcja9kv",
+            "sh/xon2po3i"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 6,
+      "narrativeRole": "MATLAB computes; Simulink exposes behavior",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/98rqt4r6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/v2tcn650",
+            "sh/yhg7epsj"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 8,
+      "narrativeRole": "The toolstrip tells you where each action lives",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6h0fypgb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/18byd4zy",
+            "sh/m9sb2x4v"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 55,
+      "narrativeRole": "Build lab: move from shell to interface to logic",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/wr29wrap"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/m10rqxsn",
+            "sh/q18b6l8r"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/gbatsvi1",
+            "sh/hcju10zm",
+            "sh/u9sbql0v",
+            "sh/fa1czqhg",
+            "sh/4zatwvix",
+            "sh/p03u50zi",
+            "sh/2dsbu50r",
+            "sh/3y1c3qhc",
+            "sh/k3qtkbit",
+            "sh/54zutgze",
+            "sh/7apofy58",
+            "sh/m9gnmdon",
+            "sh/9c76h8ny"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 47,
+      "narrativeRole": "Step 1 — create the project shell and shared data dictionary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6lcvitsf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/h8nmhwvu",
+            "sh/503e9ora"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/xof2lsni",
+            "sh/b2xkjips",
+            "sh/a1ojqdo7",
+            "sh/5sf2psnu",
+            "sh/kr6lwn69",
+            "sh/jqxkni5o",
+            "sh/ipo3udo3",
+            "sh/twz2tcnq",
+            "sh/svql0765",
+            "sh/q10zu94n",
+            "sh/r2t0nu58",
+            "sh/c32hwzmt",
+            "im/7mlcvepk"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 24,
+      "narrativeRole": "Step 2 — define the component interface",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/2to76dcr"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/gbmpcz61",
+            "sh/1sfqxsv6"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/fadojepg",
+            "sh/pgf6po7i",
+            "sh/of6pgj6x",
+            "im/pcj6xc7m"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 25,
+      "narrativeRole": "Step 3 — implement the limiter logic",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/29wby1wf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/s761kret",
+            "sh/xg7axgf2"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/r6x0bmx8",
+            "sh/5kfi9cf2",
+            "sh/4j61g7eh",
+            "im/lwz6pk7i"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 10,
+      "narrativeRole": "Log signals for evidence; use test points for required observability",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ydcnatkn"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/exsrmhsf",
+            "sh/xc3mho32"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 11,
+      "narrativeRole": "Saved model settings differ from controlled-run overrides",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/250zy18b"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/eh8fex47",
+            "sh/xcryxg7y"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/z2hw72lc",
+            "sh/14ze9c3i",
+            "sh/ydcfq1kb",
+            "sh/jylwj6lw",
+            "sh/3qhsfypc",
+            "sh/ip8bmtor",
+            "sh/5sjah872",
+            "sh/4rato36h",
+            "sh/v2hsbyp0",
+            "sh/u18bit8f",
+            "sh/h4zado76",
+            "sh/g3qtkj6l",
+            "im/k7a58rul"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 50,
+      "narrativeRole": "Ctrl+D updates the diagram; fix errors before you simulate",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/fqhsrydo"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/1sb6hc7a",
+            "sh/ofq943e5"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/gbq90jet",
+            "sh/1czatove",
+            "sh/6loru9wr",
+            "sh/rmx8nedc",
+            "sh/r2tobip8",
+            "sh/wz21s7y5",
+            "sh/x0bi1czq",
+            "sh/ax0jqxgz",
+            "sh/byt0z2hk",
+            "sh/e5k76xoz"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 29,
+      "narrativeRole": "The delivered and learner harnesses isolate different UUTs",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ulc7a1s3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/98ruxsre",
+            "sh/tk36hwby"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 30,
+      "narrativeRole": "The harness inputs come from one script and three timeseries",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/apg36do7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/h47mlc7y",
+            "sh/po72d8nm"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 41,
+      "narrativeRole": "Choose the driver that matches the UUT you intend to assess",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/u10rap0f"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5ozq9sja",
+            "sh/t0rqhkju"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/4nq90nip",
+            "sh/jmh87i14",
+            "sh/il87yd0j",
+            "sh/lsfqxoj6",
+            "sh/0r6po3il",
+            "sh/qxknypgj",
+            "sh/byt47uho",
+            "sh/czm50zy9",
+            "sh/dkv694zu",
+            "sh/yl4n29gf",
+            "sh/zmdobeh0",
+            "sh/0nm54jyl",
+            "sh/lov6doz6",
+            "sh/ep0nq5gb",
+            "sh/fq94zahw",
+            "sh/va1c7258",
+            "sh/u98behon",
+            "sh/hcju9cne",
+            "sh/wbatg76t",
+            "sh/je1cbm5k",
+            "sh/idsbihoz",
+            "sh/5gjudwna",
+            "sh/4fatkr6p",
+            "sh/r2lcfm5g",
+            "sh/61svm14v",
+            "sh/o7utwr29",
+            "sh/p83a5w3u",
+            "sh/25cbu1k3",
+            "sh/36ls36lo"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 31,
+      "narrativeRole": "Ctrl+D, Run, and Ctrl+B answer different questions",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ehsr2dgz"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/it4nexsf",
+            "sh/dgja98fe"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/3ud4n290",
+            "sh/sz65k7ah",
+            "sh/d0fmtcr2",
+            "sh/qx4nihsb",
+            "sh/ryd4rm9w",
+            "sh/832l8nad",
+            "sh/t4bmhsry",
+            "sh/9032l43m",
+            "sh/8zu1cj21",
+            "sh/nylkjelg",
+            "sh/mxcja9kv",
+            "sh/xon2po3i"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 32,
+      "narrativeRole": "The scripted top-level build retains outputs—and a provenance boundary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7uh0nuxs"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/dsvq5wv2",
+            "sh/kr61sfy1"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/sr29cbuh",
+            "sh/rqt836dw",
+            "sh/qpk7a1cb",
+            "sh/1wvq9gvy",
+            "sh/0vm9gbud",
+            "sh/wrqt8fel",
+            "sh/xszahkf6",
+            "sh/apob65wv",
+            "sh/bqxsfax0",
+            "sh/on6t4vep",
+            "sh/9ofad0fa"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 33,
+      "narrativeRole": "Open the saved Data Inspector view safely",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mlc3y54b"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/i5kjq1w3",
+            "sh/lk3m50nq"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 34,
+      "narrativeRole": "Read the SDI run from command, to error, to control effort",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qx8napc7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mpcjm1gr",
+            "sh/pwzm1kbm"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 42,
+      "narrativeRole": "The timing checks verify configuration and logged spacing—not WCET",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/lkfedov6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/r6tkryxc",
+            "sh/mlovmtcr"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/yh4vi9cv",
+            "sh/zixcbedg",
+            "sh/cfmdgzup",
+            "sh/dgvu94va",
+            "sh/5w3qp0z2",
+            "sh/4vu9wvih",
+            "sh/jul8nahw",
+            "sh/itsru50b",
+            "sh/hsjq10zq",
+            "sh/wra9svi5",
+            "sh/vq18zqhk",
+            "sh/upsrql0f",
+            "sh/94jqxgzu",
+            "sh/83a9obi9",
+            "sh/07u94vq5",
+            "sh/l8nad0rq",
+            "sh/y5cr2l8z",
+            "sh/z6l8bq9k",
+            "sh/cju90bqt",
+            "sh/d43q9gre",
+            "sh/qhcry183",
+            "sh/bil87698",
+            "sh/wfy9cfqd",
+            "sh/x07alk7y"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 28,
+      "sourceSlide": 41,
+      "narrativeRole": "The harness sits inside a controlled producer-to-validator flow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/u10rap0f"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5ozq9sja",
+            "sh/t0rqhkju"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/4nq90nip",
+            "sh/jmh87i14",
+            "sh/il87yd0j",
+            "sh/lsfqxoj6",
+            "sh/0r6po3il",
+            "sh/qxknypgj",
+            "sh/byt47uho",
+            "sh/czm50zy9",
+            "sh/dkv694zu",
+            "sh/yl4n29gf",
+            "sh/zmdobeh0",
+            "sh/0nm54jyl",
+            "sh/lov6doz6",
+            "sh/ep0nq5gb",
+            "sh/fq94zahw",
+            "sh/va1c7258",
+            "sh/u98behon",
+            "sh/hcju9cne",
+            "sh/wbatg76t",
+            "sh/je1cbm5k",
+            "sh/idsbihoz",
+            "sh/5gjudwna",
+            "sh/4fatkr6p",
+            "sh/r2lcfm5g",
+            "sh/61svm14v",
+            "sh/o7utwr29",
+            "sh/p83a5w3u",
+            "sh/25cbu1k3",
+            "sh/36ls36lo"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 29,
+      "sourceSlide": 43,
+      "narrativeRole": "The limiter suite retains 19 passing assessment rows",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ux8f618f"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/bq5gjmdo",
+            "sh/5ojy5gr2"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 30,
+      "sourceSlide": 44,
+      "narrativeRole": "Read the 19-case result plot from top to bottom",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ep8ve1kz"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zipgfq5s",
+            "sh/tozulw3e"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/yxgf6lo7",
+            "sh/8nixcv69",
+            "sh/6h83qd0f",
+            "sh/7ih4jyh0",
+            "sh/8jals3il",
+            "sh/tkjml8z6",
+            "sh/uls3ud0r",
+            "sh/vm14nihc",
+            "sh/gnalwnix",
+            "sh/hojmpsz2",
+            "sh/ips3yx0n",
+            "sh/3ql4r2h8",
+            "im/m9g7ipwv"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 31,
+      "sourceSlide": 40,
+      "narrativeRole": "One executed result can trace to several explicit requirements",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/x8ny10z2"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/wny5cfmt",
+            "sh/y9gzu50n"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/x87m5k3e",
+            "sh/alg3ap4n",
+            "sh/vmp43al8",
+            "sh/8jel8fmx",
+            "sh/9knm1k3i",
+            "sh/mhw3654r",
+            "sh/ni54zalc",
+            "sh/sfi5kzm1",
+            "sh/tgrmd43m",
+            "sh/nmdgz290",
+            "sh/2l4fqxsf",
+            "sh/povy1cr6",
+            "sh/onmhs7al",
+            "sh/baxg329w",
+            "sh/a9ozuhsr",
+            "sh/xcfy5cr2",
+            "sh/cb6hw7ah",
+            "sh/retgri9s",
+            "sh/6dkfids7",
+            "sh/ixozyd03",
+            "sh/jyxg7iho",
+            "sh/kz6h0ni9",
+            "sh/50fy9szu",
+            "sh/61oz2x0f",
+            "sh/72xgb2hk",
+            "sh/s3qh4ni5",
+            "sh/tozydszq",
+            "sh/ep8z6x0b",
+            "sh/fqhgf2hw",
+            "sh/pkj25wjy",
+            "sh/oja1cr2d",
+            "sh/3i10361s",
+            "sh/2xsja1kn",
+            "sh/do329gja",
+            "sh/cnu1gb2p",
+            "sh/bmlk7614",
+            "sh/qlsje1kj",
+            "sh/ls32dgj6",
+            "sh/0ru1kb2l",
+            "sh/k7mdwje9"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 32,
+      "sourceSlide": 46,
+      "narrativeRole": "FCS_Data.sldd controls shared parameters and interfaces",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5g3mtwbi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/nm943m9k",
+            "sh/a9s3uhcv"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/m103uhsz",
+            "sh/psn2tcr6",
+            "sh/orelk7a1",
+            "sh/gbil07ih",
+            "sh/hcrm9cz2",
+            "sh/u903yx0r",
+            "sh/fa9k721c",
+            "sh/4f2l47it",
+            "sh/pgbmdcze",
+            "sh/2d032h0n",
+            "sh/3e94bmh8",
+            "sh/c32l8rip",
+            "sh/d4bmhwza",
+            "sh/naxwna5o",
+            "sh/m9ofupo3",
+            "sh/9czypknu",
+            "sh/8bqxwf69",
+            "sh/zmxwjaps",
+            "sh/ylofq5o7",
+            "sh/l8felkni",
+            "sh/076xsf6d",
+            "sh/j2hgve5w",
+            "sh/ih8f29ob",
+            "sh/qpojqtkv",
+            "sh/rqh0zyl0",
+            "sh/srq1s32l",
+            "sh/dszi1836",
+            "sh/ilojmtkj",
+            "sh/3mx0vyl4",
+            "sh/4n61oj2p",
+            "sh/5ofixo3a",
+            "sh/2hsjydkn",
+            "sh/ni1k7i18",
+            "sh/xc3mxcnq",
+            "sh/cbulo7m5",
+            "sh/bal4v25k",
+            "sh/a9c3mh4z",
+            "sh/pojmtcne",
+            "sh/onalk7mt",
+            "sh/nm14r258",
+            "sh/2ls3ix43",
+            "sh/9knm5w3y",
+            "sh/8je5wrmd",
+            "sh/snm5sfu9"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 33,
+      "sourceSlide": 47,
+      "narrativeRole": "Use the data dictionary API to inspect FlightControlBus",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6lcvitsf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/h8nmhwvu",
+            "sh/503e9ora"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/xof2lsni",
+            "sh/b2xkjips",
+            "sh/a1ojqdo7",
+            "sh/5sf2psnu",
+            "sh/kr6lwn69",
+            "sh/jqxkni5o",
+            "sh/ipo3udo3",
+            "sh/twz2tcnq",
+            "sh/svql0765",
+            "sh/q10zu94n",
+            "sh/r2t0nu58",
+            "sh/c32hwzmt",
+            "im/7mlcvepk"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 34,
+      "sourceSlide": 48,
+      "narrativeRole": "Reviewer checklist: verify the component before deeper analysis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/yxkrmdgf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mh43u9o7",
+            "sh/94va1sf2"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l0vaxsf6",
+            "sh/kzm9onyl",
+            "sh/juxs7mxk",
+            "sh/itoryhgz",
+            "sh/cvyxkbi5",
+            "sh/dw7etgzq",
+            "sh/qtgfy10z",
+            "sh/bupwr6hk",
+            "sh/oryxwbi9",
+            "sh/ps7epgze",
+            "sh/2pwfu103",
+            "sh/3qpwn6ho",
+            "sh/gnedsrix",
+            "sh/1onelwzi",
+            "sh/h8fm9onu",
+            "sh/w7ml0j6p",
+            "sh/v6d47e54",
+            "sh/u543ytoj",
+            "sh/94v25ony",
+            "sh/83mlwj6d",
+            "sh/7idk3e5s"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 35,
+      "sourceSlide": 12,
+      "narrativeRole": "Model Advisor checks the selected component against chosen rules",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q903ad4n"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6t0n6hg7",
+            "sh/1gbm9s3a"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 36,
+      "sourceSlide": 13,
+      "narrativeRole": "Placeholders: Bug Finder screens code; Code Prover deepens proof",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p4r6p8by"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/vaxg7ulo",
+            "sh/q50nydsj"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/lkvy103m",
+            "sh/bmhgfatc"
+          ],
+          "reason": "Retain both Polyspace result areas as explicit future-evidence placeholders and prevent them from being mistaken for completed analysis."
+        }
+      ]
+    },
+    {
+      "outputSlide": 37,
+      "sourceSlide": 35,
+      "narrativeRole": "DO-178C defines objectives; DO-331 addresses model use",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/hcfm5s72"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3mxov2tc",
+            "sh/idonexon"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 38,
+      "sourceSlide": 36,
+      "narrativeRole": "Software levels scale rigor—and independence is planned",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qtcb2psb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/y1s3ytsn",
+            "sh/5s3atkbq"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 39,
+      "sourceSlide": 38,
+      "narrativeRole": "The V-model pairs every definition with verification",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/w76lsv6p"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/b6xkjqp4",
+            "sh/kvy1kbep"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 40,
+      "sourceSlide": 39,
+      "narrativeRole": "Illustrative IDs make the training trace explicit",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/xcjex072"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/gr2pg32p",
+            "sh/50769kvu"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 41,
+      "sourceSlide": 49,
+      "narrativeRole": "CI automates evidence production—not approval",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/rmhkjito"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/pkjehkv2",
+            "sh/0ra1w7al"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 42,
+      "sourceSlide": 50,
+      "narrativeRole": "Classify the first meaningful failure",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/fqhsrydo"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/1sb6hc7a",
+            "sh/ofq943e5"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 43,
+      "sourceSlide": 51,
+      "narrativeRole": "PIL was not performed in this training baseline",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/m90b254v"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/r61c3ads",
+            "sh/l8rat03a"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 44,
+      "sourceSlide": 52,
+      "narrativeRole": "Retained status is scoped—and file presence does not prove freshness",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/2psr6xo7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mlkjylcv",
+            "sh/hozadsnm"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/hcv2d0vi",
+            "sh/wbml4fux",
+            "sh/vadkbadc",
+            "sh/u94325cr",
+            "sh/dgb21gvy",
+            "sh/cfi1sbut",
+            "sh/2lgz2hsb",
+            "sh/3mp0bmtw",
+            "sh/onyh4rah",
+            "sh/poridwb2",
+            "sh/qp0z6hsn",
+            "sh/bq90fmt8",
+            "sh/crih8rad",
+            "sh/dsrihwby",
+            "sh/6twzuxc3",
+            "sh/ru5g32to",
+            "sh/7qxwryls",
+            "sh/6pofyt47"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 45,
+      "sourceSlide": 53,
+      "narrativeRole": "Demonstrated evidence is narrower than certification evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/1obexs7i"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/bm1gba1o",
+            "sh/m9kfqxo3"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 46,
+      "sourceSlide": 54,
+      "narrativeRole": "Use the project-defined review/sign-off record only when required",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q58faps3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mps3uxwf",
+            "sh/lwjyporq"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 47,
+      "sourceSlide": 55,
+      "narrativeRole": "Capstone: reproduce the chain and explain every boundary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/wr29wrap"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/m10rqxsn",
+            "sh/q18b6l8r"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/gbatsvi1",
+            "sh/hcju10zm",
+            "sh/u9sbql0v",
+            "sh/fa1czqhg",
+            "sh/4zatwvix",
+            "sh/p03u50zi",
+            "sh/2dsbu50r",
+            "sh/3y1c3qhc",
+            "sh/k3qtkbit",
+            "sh/54zutgze",
+            "sh/7apofy58",
+            "sh/m9gnmdon",
+            "sh/9c76h8ny"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 48,
+      "sourceSlide": 55,
+      "narrativeRole": "Close: one repeatable chain, then controlled review",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/wr29wrap"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/m10rqxsn",
+            "sh/q18b6l8r"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/gbatsvi1",
+            "sh/hcju10zm",
+            "sh/u9sbql0v",
+            "sh/fa1czqhg",
+            "sh/4zatwvix",
+            "sh/p03u50zi",
+            "sh/2dsbu50r",
+            "sh/3y1c3qhc",
+            "sh/k3qtkbit",
+            "sh/54zutgze",
+            "sh/7apofy58",
+            "sh/m9gnmdon",
+            "sh/9c76h8ny"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 49,
+      "sourceSlide": 46,
+      "narrativeRole": "Glossary: terms used throughout this onboarding",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5g3mtwbi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/nm943m9k",
+            "sh/a9s3uhcv"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/m103uhsz",
+            "sh/psn2tcr6",
+            "sh/orelk7a1",
+            "sh/gbil07ih",
+            "sh/hcrm9cz2",
+            "sh/u903yx0r",
+            "sh/fa9k721c",
+            "sh/4f2l47it",
+            "sh/pgbmdcze",
+            "sh/2d032h0n",
+            "sh/3e94bmh8",
+            "sh/c32l8rip",
+            "sh/d4bmhwza",
+            "sh/naxwna5o",
+            "sh/m9ofupo3",
+            "sh/9czypknu",
+            "sh/8bqxwf69",
+            "sh/zmxwjaps",
+            "sh/ylofq5o7",
+            "sh/l8felkni",
+            "sh/076xsf6d",
+            "sh/j2hgve5w",
+            "sh/ih8f29ob",
+            "sh/qpojqtkv",
+            "sh/rqh0zyl0",
+            "sh/srq1s32l",
+            "sh/dszi1836",
+            "sh/ilojmtkj",
+            "sh/3mx0vyl4",
+            "sh/4n61oj2p",
+            "sh/5ofixo3a",
+            "sh/2hsjydkn",
+            "sh/ni1k7i18",
+            "sh/xc3mxcnq",
+            "sh/cbulo7m5",
+            "sh/bal4v25k",
+            "sh/a9c3mh4z",
+            "sh/pojmtcne",
+            "sh/onalk7mt",
+            "sh/nm14r258",
+            "sh/2ls3ix43",
+            "sh/9knm5w3y",
+            "sh/8je5wrmd",
+            "sh/snm5sfu9"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 50,
+      "sourceSlide": 15,
+      "narrativeRole": "Appendix: aircraft loop and subsystem orientation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/65gnqlk7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/jmxwzu1g",
+            "sh/547mhg3m"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 51,
+      "sourceSlide": 20,
+      "narrativeRole": "Appendix: Stateflow root and chart orientation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/po3itc72"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mdwz2xcj",
+            "sh/qpwjmh8n"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/907ixcva",
+            "sh/32lgjid0",
+            "sh/2hczqdwf",
+            "im/5kbatkbu"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 52,
+      "sourceSlide": 22,
+      "narrativeRole": "Appendix: referenced architecture overview",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/58zqpov6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/0bap8rq5",
+            "sh/6987itcr"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 53,
+      "sourceSlide": 24,
+      "narrativeRole": "Appendix: component contracts gallery",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/2to76dcr"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/gbmpcz61",
+            "sh/1sfqxsv6"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/fadojepg",
+            "sh/pgf6po7i",
+            "sh/of6pgj6x",
+            "im/pcj6xc7m"
+          ],
+          "reason": "Replace the inherited content region with v8 learner instructions, authentic repository evidence, and bounded assurance claims."
+        }
+      ]
+    },
+    {
+      "outputSlide": 54,
+      "sourceSlide": 9,
+      "narrativeRole": "Appendix: model display overlays",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mdonql4z"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/lsn2h4fa",
+            "sh/1cfmhgne"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 55,
+      "sourceSlide": 45,
+      "narrativeRole": "Appendix: callbacks, driver, and oracle roles",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mtsjmtw3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v8 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/z610vehs",
+            "sh/lsz2dofy"
+          ],
+          "reason": "Apply the v8 section label and learner-route title while preserving the inherited frame."
+        }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    16,
+    17,
+    18,
+    19,
+    21,
+    23,
+    26,
+    27,
+    28,
+    37
+  ]
+}

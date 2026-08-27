@@ -1,0 +1,4 @@
+Authentic local evidence: fresh validation_summary.txt; controlled top-level GRT build log/tree/source/report; harness model and test driver; SDI screenshot/session/view; limiter result CSV/MAT/HTML/PNG; FCS_Data.sldd and retained inventories.
+Authentic UI evidence: user-provided Signal and Model Settings screenshots inherited from v6; Model Explorer capture created read-only for v7.
+Official external sources in notes are MathWorks, FAA, and NASA only.
+Model Advisor, Polyspace, SIL/PIL/HIL, production-code approval, and RCF sign-off remain explicitly unexecuted or unsupplied.

@@ -1,0 +1,1506 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fu1gfa1s",
+    "id": "fu1gfa1s",
+    "slide": 8,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F8FB",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light",
+      "Consolas"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m9sb2x4v",
+      "id": "30",
+      "name": "section-39",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "01 • PREPARE & ORIENT",
+      "textPreview": "01 • PREPARE & ORIENT",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01 • PREPARE & ORIENT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01 • PREPARE & ORIENT",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01 • PREPARE & ORIENT",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18byd4zy",
+      "id": "2",
+      "name": "title-39",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Initialize the repository with portable commands and refresh evidence deliberately",
+      "textPreview": "Initialize the repository with portable commands and refresh evidence deliberately",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 34,
+        "typeface": "Aptos",
+        "color": "#0B1F33",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Initialize the repository with portable commands and refresh evidence"
+          },
+          {
+            "index": 2,
+            "text": "deliberately"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Initialize the repository with portable commands and refresh evidence deliberately",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "typeface": "Aptos",
+            "color": "#0B1F33",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Initialize the repository with portable commands and refresh evidence deliberately",
+              "fontSize": 34,
+              "typeface": "Aptos",
+              "color": "#0B1F33",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g72x4zyd",
+      "id": "3",
+      "name": "line-40",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#C9D8E3",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ri9g7uhw",
+      "id": "4",
+      "name": "text-41",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "Aptos",
+        "color": "#7D91A0",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6h0fypgb",
+      "id": "5",
+      "name": "text-42",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/na1sb2lg",
+      "id": "31",
+      "name": "s8-write-warning",
+      "bbox": [
+        72,
+        146,
+        1136,
+        48
+      ],
+      "geometry": "roundRect",
+      "text": "WRITE-PRODUCING REFRESH  •  authorize dictionary and retained-evidence replacement before running this sequence",
+      "textPreview": "WRITE-PRODUCING REFRESH  •  authorize dictionary and retained-evidence replacement before running this sequence",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#071521",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "WRITE-PRODUCING REFRESH  •  authorize dictionary and retained-evidence replacement before running this sequence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WRITE-PRODUCING REFRESH  •  authorize dictionary and retained-evidence replacement before running this sequence",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WRITE-PRODUCING REFRESH  •  authorize dictionary and retained-evidence replacement before running this sequence",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0D7",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8bat47ml",
+      "id": "32",
+      "name": "s8-code-panel",
+      "bbox": [
+        72,
+        210,
+        716,
+        370
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#091A29",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.3
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3uds36",
+      "id": "33",
+      "name": "s8-code",
+      "bbox": [
+        96,
+        224,
+        668,
+        342
+      ],
+      "geometry": "rect",
+      "text": "projectRoot = pwd;\nassert(isfile(fullfile(projectRoot,'README.md')), ...\n    'Start MATLAB in the repository root.');\naddpath(fullfile(projectRoot,'scripts'), ...\n        fullfile(projectRoot,'models'), ...\n        fullfile(projectRoot,'data'));\ninitialize_training_data(projectRoot);\nopen_system(fullfile(projectRoot,'models', ...\n    'AircraftFeedbackControlLoop.slx'));\nset_param('AircraftFeedbackControlLoop', ...\n    'SimulationCommand','update');\nrun_training_simulations(projectRoot);\nrun_pitch_rate_limiter_tests(projectRoot);",
+      "textPreview": "projectRoot = pwd; | assert(isfile(fullfile(projectRoot,'README.md')), ... |     'Start MATLAB in the repository root.'); | addpath(fullf...",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.8,
+        "typeface": "Consolas",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 8,
+          "right": 8,
+          "bottom": 8,
+          "left": 8
+        }
+      },
+      "textLayout": {
+        "lineCount": 13,
+        "lines": [
+          {
+            "index": 1,
+            "text": "projectRoot = pwd;"
+          },
+          {
+            "index": 2,
+            "text": "assert(isfile(fullfile(projectRoot,'README.md')), ..."
+          },
+          {
+            "index": 3,
+            "text": "    'Start MATLAB in the repository root.');"
+          },
+          {
+            "index": 4,
+            "text": "addpath(fullfile(projectRoot,'scripts'), ..."
+          },
+          {
+            "index": 5,
+            "text": "        fullfile(projectRoot,'models'), ..."
+          },
+          {
+            "index": 6,
+            "text": "        fullfile(projectRoot,'data'));"
+          },
+          {
+            "index": 7,
+            "text": "initialize_training_data(projectRoot);"
+          },
+          {
+            "index": 8,
+            "text": "open_system(fullfile(projectRoot,'models', ..."
+          },
+          {
+            "index": 9,
+            "text": "    'AircraftFeedbackControlLoop.slx'));"
+          },
+          {
+            "index": 10,
+            "text": "set_param('AircraftFeedbackControlLoop', ..."
+          },
+          {
+            "index": 11,
+            "text": "    'SimulationCommand','update');"
+          },
+          {
+            "index": 12,
+            "text": "run_training_simulations(projectRoot);"
+          },
+          {
+            "index": 13,
+            "text": "run_pitch_rate_limiter_tests(projectRoot);"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "projectRoot = pwd;",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "projectRoot = pwd;",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "assert(isfile(fullfile(projectRoot,'README.md')), ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "assert(isfile(fullfile(projectRoot,'README.md')), ...",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "    'Start MATLAB in the repository root.');",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    'Start MATLAB in the repository root.');",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "addpath(fullfile(projectRoot,'scripts'), ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "addpath(fullfile(projectRoot,'scripts'), ...",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "        fullfile(projectRoot,'models'), ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "        fullfile(projectRoot,'models'), ...",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "        fullfile(projectRoot,'data'));",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "        fullfile(projectRoot,'data'));",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "initialize_training_data(projectRoot);",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "initialize_training_data(projectRoot);",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "open_system(fullfile(projectRoot,'models', ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "open_system(fullfile(projectRoot,'models', ...",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "    'AircraftFeedbackControlLoop.slx'));",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    'AircraftFeedbackControlLoop.slx'));",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 10,
+          "text": "set_param('AircraftFeedbackControlLoop', ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "set_param('AircraftFeedbackControlLoop', ...",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 11,
+          "text": "    'SimulationCommand','update');",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    'SimulationCommand','update');",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 12,
+          "text": "run_training_simulations(projectRoot);",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "run_training_simulations(projectRoot);",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 13,
+          "text": "run_pitch_rate_limiter_tests(projectRoot);",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "run_pitch_rate_limiter_tests(projectRoot);",
+              "fontSize": 13.8,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y5sbed4j",
+      "id": "34",
+      "name": "s8-right-title",
+      "bbox": [
+        830,
+        216,
+        348,
+        34
+      ],
+      "geometry": "rect",
+      "text": "EXPECTED",
+      "textPreview": "EXPECTED",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EXPECTED"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EXPECTED",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EXPECTED",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z61s7il4",
+      "id": "35",
+      "name": "s8-expected-dot-0",
+      "bbox": [
+        838,
+        269,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/07atgnmp",
+      "id": "36",
+      "name": "s8-expected-text-0",
+      "bbox": [
+        858,
+        260,
+        320,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Managed dictionary entries refresh",
+      "textPreview": "Managed dictionary entries refresh",
+      "resolvedFontSize": 14.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.8,
+        "typeface": "Aptos",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Managed dictionary entries refresh"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Managed dictionary entries refresh",
+          "resolvedTextStyle": {
+            "fontSize": 14.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Managed dictionary entries refresh",
+              "fontSize": 14.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8ja9s3a",
+      "id": "37",
+      "name": "s8-expected-dot-1",
+      "bbox": [
+        838,
+        317,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q18bad4n",
+      "id": "38",
+      "name": "s8-expected-text-1",
+      "bbox": [
+        858,
+        308,
+        320,
+        48
+      ],
+      "geometry": "rect",
+      "text": "AircraftFeedbackControlLoop updates",
+      "textPreview": "AircraftFeedbackControlLoop updates",
+      "resolvedFontSize": 14.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.8,
+        "typeface": "Aptos",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AircraftFeedbackControlLoop updates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AircraftFeedbackControlLoop updates",
+          "resolvedTextStyle": {
+            "fontSize": 14.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AircraftFeedbackControlLoop updates",
+              "fontSize": 14.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2hs3il8",
+      "id": "39",
+      "name": "s8-expected-dot-2",
+      "bbox": [
+        838,
+        365,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3u18fepo",
+      "id": "40",
+      "name": "s8-expected-text-2",
+      "bbox": [
+        858,
+        356,
+        320,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Baseline evidence files are replaced",
+      "textPreview": "Baseline evidence files are replaced",
+      "resolvedFontSize": 14.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.8,
+        "typeface": "Aptos",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Baseline evidence files are replaced"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Baseline evidence files are replaced",
+          "resolvedTextStyle": {
+            "fontSize": 14.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Baseline evidence files are replaced",
+              "fontSize": 14.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2ts769o3",
+      "id": "41",
+      "name": "s8-recovery-title",
+      "bbox": [
+        830,
+        430,
+        348,
+        34
+      ],
+      "geometry": "rect",
+      "text": "RECOVERY",
+      "textPreview": "RECOVERY",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#E9A23B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "RECOVERY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "RECOVERY",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#E9A23B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "RECOVERY",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#E9A23B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwjqho7u",
+      "id": "42",
+      "name": "s8-recovery-dot-0",
+      "bbox": [
+        838,
+        479,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E9A23B",
+      "lineColor": "#E9A23B",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vap8j69",
+      "id": "43",
+      "name": "s8-recovery-text-0",
+      "bbox": [
+        858,
+        470,
+        320,
+        48
+      ],
+      "geometry": "rect",
+      "text": "If the assertion fails, change Current Folder",
+      "textPreview": "If the assertion fails, change Current Folder",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.8,
+        "typeface": "Aptos",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "If the assertion fails, change Current Folder"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "If the assertion fails, change Current Folder",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "If the assertion fails, change Current Folder",
+              "fontSize": 13.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fq1obeps",
+      "id": "44",
+      "name": "s8-recovery-dot-1",
+      "bbox": [
+        838,
+        527,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E9A23B",
+      "lineColor": "#E9A23B",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/up872987",
+      "id": "45",
+      "name": "s8-recovery-text-1",
+      "bbox": [
+        858,
+        518,
+        320,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Use README orientation-only steps when writes are not authorized",
+      "textPreview": "Use README orientation-only steps when writes are not authorized",
+      "resolvedFontSize": 13.8,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13.8,
+        "typeface": "Aptos",
+        "color": "#17324A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use README orientation-only steps when writes are"
+          },
+          {
+            "index": 2,
+            "text": "not authorized"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use README orientation-only steps when writes are not authorized",
+          "resolvedTextStyle": {
+            "fontSize": 13.8,
+            "typeface": "Aptos",
+            "color": "#17324A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use README orientation-only steps when writes are not authorized",
+              "fontSize": 13.8,
+              "typeface": "Aptos",
+              "color": "#17324A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsjqd47y",
+      "id": "46",
+      "name": "s8-scope",
+      "bbox": [
+        72,
+        596,
+        1136,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "The drivers create the retained evidence. A raw Run button press does not recreate the scripted command, disturbance, oracle, or reports.",
+      "textPreview": "The drivers create the retained evidence. A raw Run button press does not recreate the scripted command, disturbance, oracle, or reports.",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#071521",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The drivers create the retained evidence. A raw Run button press does not recreate the scripted command, disturbance, oracle, or reports."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The drivers create the retained evidence. A raw Run button press does not recreate the scripted command, disturbance, oracle, or reports.",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#071521",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The drivers create the retained evidence. A raw Run button press does not recreate the scripted command, disturbance, oracle, or reports.",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#071521",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFF0D7",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.3
+    }
+  ],
+  "composeRuns": []
+}

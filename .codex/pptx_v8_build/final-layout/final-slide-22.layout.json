@@ -1,0 +1,1396 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5onypobq",
+    "id": "5onypobq",
+    "slide": 22,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#071521",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Calibri",
+      "Calibri Light",
+      "Consolas"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wnihgf2h",
+      "id": "24",
+      "name": "section-236",
+      "bbox": [
+        72,
+        30,
+        760,
+        26
+      ],
+      "geometry": "rect",
+      "text": "03 • HARNESS & BUILD",
+      "textPreview": "03 • HARNESS & BUILD",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03 • HARNESS & BUILD"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03 • HARNESS & BUILD",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03 • HARNESS & BUILD",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6987itcr",
+      "id": "2",
+      "name": "title-236",
+      "bbox": [
+        72,
+        66,
+        1136,
+        56
+      ],
+      "geometry": "rect",
+      "text": "Choose the driver that matches the UUT you intend to assess",
+      "textPreview": "Choose the driver that matches the UUT you intend to assess",
+      "resolvedFontSize": 36.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36.51,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Choose the driver that matches the UUT you intend to assess"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Choose the driver that matches the UUT you intend to assess",
+          "lineSpacingPercent": 94000,
+          "resolvedTextStyle": {
+            "fontSize": 36.51,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Choose the driver that matches the UUT you intend to assess",
+              "fontSize": 36.51,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a18rydc",
+      "id": "3",
+      "name": "line-237",
+      "bbox": [
+        72,
+        127,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#143A55",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7qpgjul",
+      "id": "4",
+      "name": "text-238",
+      "bbox": [
+        72,
+        678,
+        550,
+        20
+      ],
+      "geometry": "rect",
+      "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "textPreview": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "resolvedFontSize": 11.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 11.51,
+        "typeface": "Aptos",
+        "color": "#7D91A0",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AVIATION CONTROLS ENGINEERING ONBOARDING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 11.51,
+            "typeface": "Aptos",
+            "color": "#7D91A0",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+              "fontSize": 11.51,
+              "typeface": "Aptos",
+              "color": "#7D91A0",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58zqpov6",
+      "id": "5",
+      "name": "text-239",
+      "bbox": [
+        1156,
+        676,
+        52,
+        22
+      ],
+      "geometry": "rect",
+      "text": "22",
+      "textPreview": "22",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Aptos",
+        "color": "#70DCE5",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "22"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "22",
+          "lineSpacingPercent": 105000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Aptos",
+            "color": "#70DCE5",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "22",
+              "fontSize": 14,
+              "typeface": "Aptos",
+              "color": "#70DCE5",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xoripkj2",
+      "id": "25",
+      "name": "s22-baseline",
+      "bbox": [
+        72,
+        166,
+        548,
+        272
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0C2133",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al0zepkb",
+      "id": "26",
+      "name": "s22-baseline-title",
+      "bbox": [
+        94,
+        184,
+        504,
+        34
+      ],
+      "geometry": "rect",
+      "text": "DELIVERED BASELINE DRIVER",
+      "textPreview": "DELIVERED BASELINE DRIVER",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#20B7C5",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DELIVERED BASELINE DRIVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DELIVERED BASELINE DRIVER",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#20B7C5",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DELIVERED BASELINE DRIVER",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#20B7C5",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm9gnu1w",
+      "id": "27",
+      "name": "s22-baseline-code",
+      "bbox": [
+        94,
+        232,
+        504,
+        48
+      ],
+      "geometry": "rect",
+      "text": "run_pitch_rate_limiter_tests(projectRoot)",
+      "textPreview": "run_pitch_rate_limiter_tests(projectRoot)",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.2,
+        "typeface": "Consolas",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "run_pitch_rate_limiter_tests(projectRoot)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "run_pitch_rate_limiter_tests(projectRoot)",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "run_pitch_rate_limiter_tests(projectRoot)",
+              "fontSize": 14.2,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozyhcf25",
+      "id": "28",
+      "name": "s22-baseline-list-dot-0",
+      "bbox": [
+        102,
+        307,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/907ylkjq",
+      "id": "29",
+      "name": "s22-baseline-list-text-0",
+      "bbox": [
+        122,
+        298,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Targets delivered PitchRateLimiter_Harness",
+      "textPreview": "Targets delivered PitchRateLimiter_Harness",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Targets delivered PitchRateLimiter_Harness"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Targets delivered PitchRateLimiter_Harness",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Targets delivered PitchRateLimiter_Harness",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rup0va5s",
+      "id": "30",
+      "name": "s22-baseline-list-dot-1",
+      "bbox": [
+        102,
+        347,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtwz2547",
+      "id": "31",
+      "name": "s22-baseline-list-text-1",
+      "bbox": [
+        122,
+        338,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Replaces fixed results/ and reports/ files",
+      "textPreview": "Replaces fixed results/ and reports/ files",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Replaces fixed results/ and reports/ files"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Replaces fixed results/ and reports/ files",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Replaces fixed results/ and reports/ files",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dw7ixkni",
+      "id": "32",
+      "name": "s22-baseline-list-dot-2",
+      "bbox": [
+        102,
+        387,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#20B7C5",
+      "lineColor": "#20B7C5",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvy14fmx",
+      "id": "33",
+      "name": "s22-baseline-list-text-2",
+      "bbox": [
+        122,
+        378,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Use to reproduce the retained baseline",
+      "textPreview": "Use to reproduce the retained baseline",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use to reproduce the retained baseline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use to reproduce the retained baseline",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use to reproduce the retained baseline",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zyp0za5o",
+      "id": "34",
+      "name": "s22-practice",
+      "bbox": [
+        660,
+        166,
+        548,
+        272
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0C2133",
+      "lineColor": "#E9A23B",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/exgj6p43",
+      "id": "35",
+      "name": "s22-practice-title",
+      "bbox": [
+        682,
+        184,
+        504,
+        34
+      ],
+      "geometry": "rect",
+      "text": "LEARNER PRACTICE DRIVER",
+      "textPreview": "LEARNER PRACTICE DRIVER",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#E9A23B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LEARNER PRACTICE DRIVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LEARNER PRACTICE DRIVER",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#E9A23B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LEARNER PRACTICE DRIVER",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#E9A23B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k7i1knu",
+      "id": "36",
+      "name": "s22-practice-code",
+      "bbox": [
+        682,
+        226,
+        504,
+        60
+      ],
+      "geometry": "rect",
+      "text": "run_pitch_rate_limiter_practice_tests( ...\n    projectRoot,'TLEE')",
+      "textPreview": "run_pitch_rate_limiter_practice_tests( ... |     projectRoot,'TLEE')",
+      "resolvedFontSize": 13.4,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13.4,
+        "typeface": "Consolas",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 3,
+          "right": 5,
+          "bottom": 3,
+          "left": 5
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "run_pitch_rate_limiter_practice_tests( ..."
+          },
+          {
+            "index": 2,
+            "text": "    projectRoot,'TLEE')"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "run_pitch_rate_limiter_practice_tests( ...",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "run_pitch_rate_limiter_practice_tests( ...",
+              "fontSize": 13.4,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "    projectRoot,'TLEE')",
+          "resolvedTextStyle": {
+            "fontSize": 13.4,
+            "typeface": "Consolas",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "    projectRoot,'TLEE')",
+              "fontSize": 13.4,
+              "typeface": "Consolas",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0jy18fm9",
+      "id": "37",
+      "name": "s22-practice-list-dot-0",
+      "bbox": [
+        690,
+        307,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E9A23B",
+      "lineColor": "#E9A23B",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nm903u5k",
+      "id": "38",
+      "name": "s22-practice-list-text-0",
+      "bbox": [
+        710,
+        298,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Targets matching uniquely named practice harness",
+      "textPreview": "Targets matching uniquely named practice harness",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Targets matching uniquely named practice harness"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Targets matching uniquely named practice harness",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Targets matching uniquely named practice harness",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ml0jap4f",
+      "id": "39",
+      "name": "s22-practice-list-dot-1",
+      "bbox": [
+        690,
+        347,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E9A23B",
+      "lineColor": "#E9A23B",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65836tcb",
+      "id": "40",
+      "name": "s22-practice-list-text-1",
+      "bbox": [
+        710,
+        338,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Writes learner_workspace/TLEE/evidence/",
+      "textPreview": "Writes learner_workspace/TLEE/evidence/",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Writes learner_workspace/TLEE/evidence/"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Writes learner_workspace/TLEE/evidence/",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Writes learner_workspace/TLEE/evidence/",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qhkzytw",
+      "id": "41",
+      "name": "s22-practice-list-dot-2",
+      "bbox": [
+        690,
+        387,
+        9,
+        9
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#E9A23B",
+      "lineColor": "#E9A23B",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8rql83uh",
+      "id": "42",
+      "name": "s22-practice-list-text-2",
+      "bbox": [
+        710,
+        378,
+        464,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Does not replace controlled baseline results",
+      "textPreview": "Does not replace controlled baseline results",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 2,
+          "right": 1,
+          "bottom": 1,
+          "left": 1
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Does not replace controlled baseline results"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Does not replace controlled baseline results",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Does not replace controlled baseline results",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsz218b2",
+      "id": "43",
+      "name": "s22-shared",
+      "bbox": [
+        72,
+        466,
+        1136,
+        94
+      ],
+      "geometry": "roundRect",
+      "text": "SHARED EXECUTABLE ASSESSMENT  •  three injected timeseries  •  one 0.36 s simulation  •  19 assessment rows  •  numeric / active / timestamp checks + suite-level 50 Hz spacing  •  CSV / MAT / HTML / PNG",
+      "textPreview": "SHARED EXECUTABLE ASSESSMENT  •  three injected timeseries  •  one 0.36 s simulation  •  19 assessment rows  •  numeric / active / timest...",
+      "resolvedFontSize": 14.2,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.2,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SHARED EXECUTABLE ASSESSMENT  •  three injected timeseries  •  one 0.36 s simulation  •  19 assessment rows  •  numeric / active / timestamp checks + suite-level 50 Hz"
+          },
+          {
+            "index": 2,
+            "text": "spacing  •  CSV / MAT / HTML / PNG"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SHARED EXECUTABLE ASSESSMENT  •  three injected timeseries  •  one 0.36 s simulation  •  19 assessment rows  •  numeric / active / timestamp checks + suite-level 50 Hz spacing  •  CSV / MAT / HTML / PNG",
+          "resolvedTextStyle": {
+            "fontSize": 14.2,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SHARED EXECUTABLE ASSESSMENT  •  three injected timeseries  •  one 0.36 s simulation  •  19 assessment rows  •  numeric / active / timestamp checks + suite-level 50 Hz spacing  •  CSV / MAT / HTML / PNG",
+              "fontSize": 14.2,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#091A29",
+      "lineColor": "#2CA56F",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ut83adcn",
+      "id": "44",
+      "name": "s22-scope",
+      "bbox": [
+        72,
+        584,
+        1136,
+        54
+      ],
+      "geometry": "roundRect",
+      "text": "SAVED HARNESS RUN = BENIGN PLACEHOLDERS  •  execute the matching driver for assessed evidence  •  no Test Manager suite",
+      "textPreview": "SAVED HARNESS RUN = BENIGN PLACEHOLDERS  •  execute the matching driver for assessed evidence  •  no Test Manager suite",
+      "resolvedFontSize": 14.51,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14.51,
+        "typeface": "Aptos",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 5,
+          "right": 9,
+          "bottom": 5,
+          "left": 9
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SAVED HARNESS RUN = BENIGN PLACEHOLDERS  •  execute the matching driver for assessed evidence  •  no Test Manager suite"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SAVED HARNESS RUN = BENIGN PLACEHOLDERS  •  execute the matching driver for assessed evidence  •  no Test Manager suite",
+          "resolvedTextStyle": {
+            "fontSize": 14.51,
+            "typeface": "Aptos",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SAVED HARNESS RUN = BENIGN PLACEHOLDERS  •  execute the matching driver for assessed evidence  •  no Test Manager suite",
+              "fontSize": 14.51,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#0C2133",
+      "lineColor": "#20B7C5",
+      "lineWidth": 1.3
+    }
+  ],
+  "composeRuns": []
+}

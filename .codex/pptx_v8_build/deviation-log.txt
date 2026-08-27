@@ -1,0 +1,22 @@
+V8 TEMPLATE DEVIATION LOG
+
+1. Sequence changed
+The v7 sequence is intentionally reordered into a 48-slide learner route followed by a 7-slide appendix. This supports self-guided construction before assurance closure.
+
+2. Source slides duplicated
+Mapped source slides reused more than once: 5 (2 uses), 7 (2 uses), 24 (2 uses), 31 (2 uses), 41 (2 uses), 46 (2 uses), 47 (2 uses), 50 (2 uses), 55 (3 uses). Duplication provides additional teaching steps without inventing a new visual system.
+
+3. Source slides omitted
+Omitted v7 source slides: 16, 17, 18, 19, 21, 23, 26, 27, 28, 37. Their detailed component material is either consolidated into the appendix gallery or no longer required in the core path.
+
+4. Body replacement
+Full body replacement is authorized only on output slides 2, 4, 6, 7, 8, 10, 13, 14, 15, 16, 18, 19, 22, 23, 24, 27, 28, 30, 31, 32, 33, 34, 44, 47, 48, 49, 51, 53. These are the new or materially revised learner, build, verification, closure, glossary, and gallery slides.
+
+5. Preserved bodies
+All remaining non-title slides retain their mapped source body. Only section label, title, and page number may be rewritten. Slide 1 retains the title composition and permits only subtitle/page updates. Output slide 36 additionally rewrites the two inherited Polyspace future-result labels so both remain explicit, unambiguous placeholders.
+
+6. Evidence boundaries
+The v8 body may show refreshed local simulation, 19/19 assessment, validation, dictionary, and GRT build evidence. It must not imply Test Manager, Model Advisor report execution, Polyspace completion, SIL/PIL/HIL execution, WCET measurement, certification approval, or evidence freshness from file presence alone.
+
+7. Inspection authority
+The workspace template-inspect.ndjson is compact, truncated, and contains several IDs that differ from the full source-deck inspection pass. Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx.inspect.ndjson beside the source deck is therefore the sole stable-ID authority, including im/* image records.

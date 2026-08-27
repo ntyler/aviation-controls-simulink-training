@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Read-only v6 audit and exact v7 insertion/rewrite map",
+  "sourceDeck": "D:\\GitHub\\aviation-controls-simulink-training\\Aviation_Controls_Engineer_Simulink_DO178C_Training_v6.pptx",
+  "sourceAuthor": "D:\\GitHub\\aviation-controls-simulink-training\\.codex\\pptx_v6_build\\author_v6.mjs",
+  "sourceSlideCount": 48,
+  "targetSlideCount": 55,
+  "allV6SlidesRetained": true,
+  "newSlideCount": 7,
+  "auditFindings": [
+    "The actual v6 PPTX has 48 slides and visible speaker notes on all 48 slides.",
+    "v6 uses Aptos, a 16:9 canvas, light and dark aerospace frames, teal section labels, a fixed footer, and two-digit slide-local page-number text.",
+    "author_v6.mjs rebuilds only inserted slides 8, 9, 10, 11, 28, and 47; the other slides and notes were cloned from v5 and renumbered.",
+    "The v6 content-outline.json is not authoritative for preserved-slide titles because several entries captured the section label instead of the title; use the v6 inspect NDJSON or this plan for exact titles.",
+    "The two v6 user screenshots are referenced from temporary clipboard paths. A v7 build should place durable copies in its build assets before authoring.",
+    "Section label, title, footer, and page number are ordinary slide-local text. All shifted page numbers and all inserted-slide section labels must be rewritten explicitly.",
+    "A controlled 2026-08-27 scripted slbuild with ForceTopModelBuild retained a successful ReferencedFlightControlArchitecture standalone GRT build plus four referenced-model targets, generated C/header/report files, a Windows executable, and a complete diary log. Ctrl+B is the interactive analogue, not the literal provenance of the retained run.",
+    "Harness stimulus is not stored in a standalone input CSV or Test Manager file. scripts/run_pitch_rate_limiter_tests.m defines the 19 rows and creates q_cmd_test, normal_mode_test, and input_valid_test timeseries; data/FCS_Data.sldd supplies Sample_time and q_limit_normal.",
+    "Slide 29 introduces the saved SDI run but does not explain the plotted transients. Slide 38 shows the three verification plots and status metrics but does not explain why the bottom log-scale plot is visually empty when all numeric errors are zero.",
+    "Slide 40 defines representative dictionary entries and all five FlightControlBus elements but does not teach GUI or MATLAB access."
+  ],
+  "retainedBuildEvidenceForSlide32": {
+    "preferredTopLevelModel": "ReferencedFlightControlArchitecture.slx",
+    "reason": "v6 explicitly identifies this model as the referenced integration top level, so it is the least ambiguous interpretation of a top-level build.",
+    "performedAction": "A dedicated MATLAB batch process updated the exact saved top-level model and invoked slbuild('ReferencedFlightControlArchitecture','StandaloneCoderTarget','ForceTopModelBuild',true) with the active GRT configuration.",
+    "retainAtMinimum": [
+      "exact model, baseline, configuration set, system target file, MATLAB release, and time",
+      "actual top-level output directory and filenames",
+      "actual slprj model-reference directory and child outputs",
+      "build status or diagnostics and any compiler or license limitation",
+      "a clear boundary that GRT training output is not production airborne code, Embedded Coder output, code verification, or certification approval"
+    ],
+    "retainedResult": "BUILD_STATUS=PASS; 5 of 5 models built; 0 models already up to date; top executable created; duration 1:56.965.",
+    "doNotClaim": "Do not imply a literal keyboard Ctrl+B interaction produced this retained evidence. Do not claim the executable ran, code-generation validation passed, SIL/PIL occurred, or production/certification approval."
+  },
+  "insertions": [
+    {
+      "v7Slide": 2,
+      "insertAfterV6Slide": 1,
+      "cloneV6Slide": 46,
+      "sectionLabel": "ORIENTATION",
+      "title": "Absolute summary: executable training evidence with bounded claims",
+      "layoutKind": "text",
+      "tone": "light",
+      "takeaway": "This is a MATLAB R2023b desktop-MIL onboarding package with eight models, one controlled dictionary, a five-element bus contract, one standalone harness, nineteen passing assessments, and retained SDI and report artifacts—not a production aircraft baseline or certification approval.",
+      "content": {
+        "leftColumn": [
+          "8 saved Simulink/Stateflow models; standalone, referenced-integration, child-model, subsystem, and harness roles",
+          "FCS_Data.sldd with controlled parameters, signals, and FlightControlBus",
+          "one saved SDI run with five signals in three plots",
+          "PitchRateLimiter_Harness driven by three timeseries and assessed by MATLAB",
+          "19/19 executable limiter assessments passed; 24/24 required exports present"
+        ],
+        "rightColumn": [
+          "illustrative classroom data; no approved aircraft baseline",
+          "desktop MIL only; no SIL, PIL, HIL, bench, or system-integration execution",
+          "no Simulink Test suite or live Simulink Requirements links",
+          "Model Advisor, Polyspace, and RCF remain explicitly unexecuted or unsigned placeholders",
+          "the retained GRT build output is not production or verified embedded code"
+        ]
+      },
+      "notes": "Keep this factual and absolute: cite README.md, validation_summary.txt, environment_inventory.txt, the dictionary/bus inventories, and the retained results. Do not move late-deck evidence-boundary slide 46; this early slide is a concise orientation summary."
+    },
+    {
+      "v7Slide": 3,
+      "insertAfterV6Slide": 1,
+      "cloneV6Slide": 48,
+      "sectionLabel": "ORIENTATION",
+      "title": "Overall completion checklist: verified, explained, or future",
+      "layoutKind": "text",
+      "tone": "dark",
+      "takeaway": "The learner should be able to distinguish what the repository has already verified, what v7 explains how to inspect, and which assurance activities remain future program work.",
+      "content": {
+        "verifiedNow": [
+          "✓ 8/8 models update / compile",
+          "✓ 19/19 limiter assessments pass",
+          "✓ 24/24 required exports are present",
+          "✓ one saved SDI run, view, and session are retained",
+          "✓ 5/5 GRT models built: top standalone target plus four referenced targets"
+        ],
+        "explainedInV7": [
+          "✓ choose the correct top-level model and distinguish Ctrl+D, Run, Ctrl+B, and Test",
+          "✓ read the authentic retained top-level build tree and generated C",
+          "✓ explain the SDI plots, harness inputs, dictionary/bus access, and 19-case result graphs"
+        ],
+        "futureOrOpen": [
+          "○ Model Advisor report not retained",
+          "○ Polyspace Bug Finder / Code Prover not executed",
+          "○ RCF independent review and sign-off not supplied"
+        ]
+      },
+      "notes": "Use status words VERIFIED, EXPLAINED, and FUTURE rather than presenting every row as completed evidence. Keep the 5/5 GRT build count separate from 8/8 update and 24/24 export counts; state that the retained build used scripted slbuild and that Ctrl+B is the interactive analogue."
+    },
+    {
+      "v7Slide": 30,
+      "insertAfterV6Slide": 27,
+      "cloneV6Slide": 36,
+      "sectionLabel": "02 • HARNESS DEMO",
+      "title": "The harness inputs come from one script and three timeseries",
+      "layoutKind": "diagram",
+      "tone": "dark",
+      "takeaway": "run_pitch_rate_limiter_tests.m defines nineteen deterministic rows, creates three 50 Hz timeseries, injects them into the harness workspace, and retains the inputs with the results; there is no separate stimulus CSV or Test Manager file.",
+      "flow": [
+        "data/FCS_Data.sldd → Sample_time = 0.02 s and q_limit_normal = 12 deg/s",
+        "scripts/run_pitch_rate_limiter_tests.m / localTestDefinition → Time_s, q command, normal mode, input valid",
+        "timeseries → q_cmd_test, normal_mode_test, input_valid_test",
+        "Simulink.SimulationInput.setVariable(..., 'Workspace', 'PitchRateLimiter_Harness')",
+        "From Workspace blocks → referenced PitchRateLimiter unit under test",
+        "results/PitchRateLimiter_TestResults.mat retains qCommandInput, normalModeInput, and inputValidInput; the CSV retains the row values"
+      ],
+      "notes": "Show at least three example rows: inclusive +12 at t=0.12 s, just-above +12.1 at t=0.14 s, and invalid-input fallback at t=0.20 s. State explicitly that expected values, tolerances, and the pass/fail oracle also live in the script."
+    },
+    {
+      "v7Slide": 32,
+      "insertAfterV6Slide": 28,
+      "cloneV6Slide": 9,
+      "sectionLabel": "02 • BUILD DEMO",
+      "title": "The retained top-level GRT build creates a traceable file tree",
+      "layoutKind": "image",
+      "tone": "light",
+      "takeaway": "The retained build tree ties the exact ReferencedFlightControlArchitecture GRT configuration to the generated top-level folder, model-reference slprj tree, build status, and limitations without turning training output into a production-code claim.",
+      "asset": "Native selected file-tree text plus an exact excerpt from results/top_level_codegen_v7_evidence/codegen/ReferencedFlightControlArchitecture_grt_rtw/ReferencedFlightControlArchitecture.c, supported by the retained diary log.",
+      "rightCards": [
+        "1  BUILD CONTEXT — exact top-level model, scripted slbuild provenance, Ctrl+B interactive analogue, active GRT target, release, and successful status",
+        "2  FILE TREE — actual top-level output directory and files plus slprj/grt referenced-child outputs",
+        "3  EVIDENCE BOUNDARY — generated training artifacts are inspectable build output, not production airborne code, Embedded Coder output, code verification, or approval"
+      ],
+      "notes": "List only filenames present in the retained tree. State the exact log result: 5 of 5 models built, 0 models already up to date, BUILD_STATUS=PASS. Explain that the executable was built but not run and that code-generation validation was not run."
+    },
+    {
+      "v7Slide": 34,
+      "insertAfterV6Slide": 29,
+      "cloneV6Slide": 29,
+      "sectionLabel": "03 • SIMULATION DATA INSPECTOR",
+      "title": "Read the SDI run from command, to error, to control effort",
+      "layoutKind": "image",
+      "tone": "light",
+      "takeaway": "The three aligned plots tell one causal story: command steps create tracking error, the actuator responds, the aircraft output follows with lag and overshoot, and short disturbances perturb the same controlled response.",
+      "asset": "screenshots/SimulationDataInspector_Onboarding.jpg, annotated or cropped without fabricating data",
+      "plotExplanation": [
+        "TOP — command steps from 0 to +5 deg at 1 s, to -2 deg at 9 s, and to +3 deg at 15 s; the pitch response follows dynamically rather than instantaneously.",
+        "MIDDLE — error = command - response; each command change creates a signed jump, then the error decays and can cross zero when the response overshoots.",
+        "BOTTOM — actuator command reacts strongly to error and then relaxes; the retained disturbances are +1.5 deg/s^2 from 7.0 to 7.5 s and -1.0 deg/s^2 from 13.0 to 13.4 s.",
+        "INTERPRETATION — this run demonstrates inspectable desktop MIL behavior; use cursors and the CSV for exact values rather than judging only the trace shape."
+      ],
+      "notes": "Cite scripts/run_training_simulations.m, results/AircraftFeedback_CommandTracking.csv, the SDI screenshot, and the saved SDI view/session. Keep actuator units as documented by the source; do not invent degrees if the signal is dimensionless or unspecified."
+    },
+    {
+      "v7Slide": 44,
+      "insertAfterV6Slide": 38,
+      "cloneV6Slide": 38,
+      "sectionLabel": "06 • VERIFICATION WORKFLOW",
+      "title": "Read the 19-case result plot from top to bottom",
+      "layoutKind": "image",
+      "tone": "dark",
+      "takeaway": "The top plot proves commanded limiting and fallback behavior, the middle plot proves limiter-active status, and the bottom plot compares numeric error to tolerance; the CSV confirms all numeric, status, timestamp, and timing checks passed.",
+      "asset": "reports/PitchRateLimiter_TestReport.png or screenshots/PitchRateLimiter_ExecutedTestResults.png",
+      "plotExplanation": [
+        "TOP — dotted input is clipped to ±18 deg/s only for display; dashed expected and blue actual overlap. Valid Normal-mode commands clamp at ±12, inclusive ±12 stays unclamped, and invalid or disabled cases fall back to zero.",
+        "MIDDLE — expected and actual limiter_active overlap. It is true only for valid Normal-mode inputs outside ±12, including the just-outside and large-magnitude cases; it is false at the inclusive boundaries.",
+        "BOTTOM — absolute numeric error is plotted on a log axis against the 1e-9 deg/s tolerance. Every retained error is exactly zero, so no positive error trace can appear on the log axis; verify that conclusion in the CSV rather than treating empty space as missing data.",
+        "PASS LOGIC — 19/19 requires NumericPass, LimiterActivePass, TimestampPass, and Timing50HzPass for every row, not merely visual overlap."
+      ],
+      "notes": "Explain that the exact ±1000 deg/s large-magnitude inputs are evaluated even though the display clips them. Cite the test script, result CSV/MAT, and report PNG/HTML. Preserve the timing-tolerance caveat already documented on v6 slide 37."
+    },
+    {
+      "v7Slide": 47,
+      "insertAfterV6Slide": 40,
+      "cloneV6Slide": 7,
+      "sectionLabel": "06 • VERIFICATION WORKFLOW",
+      "title": "Open FCS_Data.sldd, then inspect FlightControlBus",
+      "layoutKind": "image",
+      "tone": "light",
+      "takeaway": "The GUI and MATLAB API both lead to the same controlled Design Data entries, and FlightControlBus exposes five named elements whose types, dimensions, units, and descriptions form an explicit interface contract.",
+      "asset": "screenshots/FCS_DataDictionary_and_FlightControlBus.png or a new authentic Model Explorer capture if available",
+      "accessSteps": [
+        "GUI — from a linked model, open Model Explorer, follow External Data to data/FCS_Data.sldd, and select Design Data.",
+        "MATLAB OPEN — dict = Simulink.data.dictionary.open(fullfile(projectRoot,'data','FCS_Data.sldd')); design = getSection(dict,'Design Data');",
+        "ENTRY — sample = getValue(getEntry(design,'Sample_time')); bus = getValue(getEntry(design,'FlightControlBus'));",
+        "BUS ELEMENTS — inspect bus.Elements for q_rate, pitch_angle, mach, air_data_valid, and mode, including units, dimensions, and descriptions.",
+        "READABLE INVENTORIES — results/FCS_DataDictionary_Inventory.csv and results/FlightControlBus_Inventory.csv provide retained review views."
+      ],
+      "notes": "Treat access as read-only teaching unless the learner is authorized to change controlled data. Close the dictionary without inventing changes. Cite the .sldd file, both inventory CSVs, and official MathWorks dictionary and Simulink.Bus documentation."
+    }
+  ],
+  "revisionsToExistingSlides": [
+    {
+      "v6Slide": 8,
+      "v7Slide": 10,
+      "title": "Log signals for evidence; use test points for required observability",
+      "change": "Shorten the inherited title only so it stays on one line; retain the authentic Signal-toolstrip capture, logging/test-point distinction, and zero-test-point package status."
+    },
+    {
+      "v6Slide": 3,
+      "v7Slide": 5,
+      "title": "Your first session: orient, execute, inspect, trace",
+      "change": "Revise the roadmap body only so it acknowledges the new early completion checklist and adds build-file, harness-input, dictionary/bus, and graph-reading stops; retain the original first-session framing and question."
+    },
+    {
+      "v6Slide": 27,
+      "v7Slide": 29,
+      "title": "PitchRateLimiter_Harness isolates the unit under test",
+      "change": "Retain the authentic harness image. Add one short caption pointing forward: the three From Workspace variables are created by run_pitch_rate_limiter_tests.m, not loaded from a standalone stimulus file."
+    },
+    {
+      "v6Slide": 28,
+      "v7Slide": 31,
+      "title": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+      "change": "After an authentic top-level build exists, replace the current right-card statement that no retained build report ties files to Ctrl+B. Name the actual top-level model, status, configuration, and retained capture; preserve all Ctrl+D versus Ctrl+B distinctions and production-code caveats."
+    },
+    {
+      "v6Slide": 29,
+      "v7Slide": 33,
+      "title": "Data Inspector reveals one saved run",
+      "change": "Keep the clean overview screenshot and current artifact warnings. Revise the bottom caption or one card to cue the next slide: overview here, causal plot reading next."
+    },
+    {
+      "v6Slide": 36,
+      "v7Slide": 41,
+      "title": "The harness sits inside a controlled relative-file flow",
+      "change": "Retain the complete evidence chain. Relabel the test-driver box as stimulus definition + timeseries injection + visible oracle, and note that the MAT file retains the three input timeseries."
+    },
+    {
+      "v6Slide": 38,
+      "v7Slide": 43,
+      "title": "The limiter suite retains 19 passing assessments",
+      "change": "Retain the graph and KPI summary. Add a compact cue to the next slide and state precisely that each row retains three row-specific pass fields plus the suite-level 50 Hz spacing result copied into every row; do not rely on graph overlap alone."
+    },
+    {
+      "v6Slide": 39,
+      "v7Slide": 45,
+      "title": "Callbacks create context; the test driver owns the oracle",
+      "change": "Replace the inherited single callback-to-driver pipeline with two explicit lanes. The callback example optionally simulates standalone PitchRateLimiter and never invokes the harness driver; run_pitch_rate_limiter_tests.m independently initializes, injects three timeseries, simulates PitchRateLimiter_Harness, assesses, and retains evidence."
+    },
+    {
+      "v6Slide": 40,
+      "v7Slide": 46,
+      "title": "FCS_Data.sldd controls shared parameters and interfaces",
+      "change": "Retain the representative definitions and all five bus elements. Add a small 'how to open/query → next slide' cue and keep this slide focused on what is defined, leaving access mechanics to slide 47."
+    },
+    {
+      "v6Slide": 45,
+      "v7Slide": 52,
+      "title": "The retained status counts reconcile when their scopes stay separate",
+      "change": "Re-run validation after any new retained build capture or inventory. Keep 8/8, 19/19, and 24/24 only if the regenerated evidence still supports them; add a separate top-level-build status only when it is explicitly validated rather than silently folding it into 24/24."
+    },
+    {
+      "v6Slide": 46,
+      "v7Slide": 53,
+      "title": "Demonstrated evidence is narrower than certification evidence",
+      "change": "If the authentic top-level GRT build succeeds, add it to the demonstrated column and refine the exclusion to 'no production/embedded-airborne code approval or code verification.' Keep all other nonclaims."
+    },
+    {
+      "v6Slide": 47,
+      "v7Slide": 54,
+      "title": "A project-defined RCF may record required review and sign-off",
+      "change": "Keep the unsigned project placeholder, but avoid assigning a universal acronym expansion, closure function, authority, or independence requirement to an undefined RCF. Use REVIEW / SIGN-OFF, scope the exit condition to the approved process, and apply independence only where that process requires it."
+    },
+    {
+      "v6Slide": 48,
+      "v7Slide": 55,
+      "title": "Your first week should produce one repeatable chain",
+      "change": "Retain the closing message and verified baseline. Update the right-side learner checklist to include inspecting the build tree, explaining one SDI transient, locating the harness inputs, opening the dictionary/bus, and explaining all three 19-case plots."
+    }
+  ],
+  "slides": [
+    {"v7Slide": 1, "operation": "preserve", "v6SourceSlide": 1, "title": "Simulink in the Aerospace Controls Lifecycle"},
+    {"v7Slide": 2, "operation": "insert", "cloneV6Slide": 46, "title": "Absolute summary: executable training evidence with bounded claims"},
+    {"v7Slide": 3, "operation": "insert", "cloneV6Slide": 48, "title": "Overall completion checklist: verified, explained, or future"},
+    {"v7Slide": 4, "operation": "preserve", "v6SourceSlide": 2, "title": "The executable model is the engineering hub"},
+    {"v7Slide": 5, "operation": "revise", "v6SourceSlide": 3, "title": "Your first session: orient, execute, inspect, trace"},
+    {"v7Slide": 6, "operation": "preserve", "v6SourceSlide": 4, "title": "MATLAB computes; Simulink exposes behavior"},
+    {"v7Slide": 7, "operation": "preserve", "v6SourceSlide": 5, "title": "Start in the repository, then distinguish every action"},
+    {"v7Slide": 8, "operation": "preserve", "v6SourceSlide": 6, "title": "The toolstrip tells you where each action lives"},
+    {"v7Slide": 9, "operation": "preserve", "v6SourceSlide": 7, "title": "Turn model displays on—and off—for focus"},
+    {"v7Slide": 10, "operation": "revise", "v6SourceSlide": 8, "title": "Log signals for evidence; use test points for required observability"},
+    {"v7Slide": 11, "operation": "preserve", "v6SourceSlide": 9, "title": "Check the active model settings before update, simulation, or build"},
+    {"v7Slide": 12, "operation": "preserve", "v6SourceSlide": 10, "title": "Model Advisor checks the selected component against chosen rules"},
+    {"v7Slide": 13, "operation": "preserve", "v6SourceSlide": 11, "title": "Placeholders: Bug Finder screens code; Code Prover deepens proof"},
+    {"v7Slide": 14, "operation": "preserve", "v6SourceSlide": 12, "title": "The current job determines which model is top level"},
+    {"v7Slide": 15, "operation": "preserve", "v6SourceSlide": 13, "title": "AircraftFeedbackControlLoop closes the training loop"},
+    {"v7Slide": 16, "operation": "preserve", "v6SourceSlide": 14, "title": "Pitch Controller PI turns tracking error into demand"},
+    {"v7Slide": 17, "operation": "preserve", "v6SourceSlide": 15, "title": "Actuator Dynamics converts demand into position"},
+    {"v7Slide": 18, "operation": "preserve", "v6SourceSlide": 16, "title": "Longitudinal dynamics turn actuator motion into response"},
+    {"v7Slide": 19, "operation": "preserve", "v6SourceSlide": 17, "title": "Sensor Processing Lag exposes measurement dynamics"},
+    {"v7Slide": 20, "operation": "preserve", "v6SourceSlide": 18, "title": "AutopilotModeLogic wraps mode behavior in explicit interfaces"},
+    {"v7Slide": 21, "operation": "preserve", "v6SourceSlide": 19, "title": "Stateflow guards OFF, ARMED, ENGAGED, and DEGRADED"},
+    {"v7Slide": 22, "operation": "preserve", "v6SourceSlide": 20, "title": "ReferencedFlightControlArchitecture is the integration top level"},
+    {"v7Slide": 23, "operation": "preserve", "v6SourceSlide": 21, "title": "SensorProcessingRef owns the referenced sensor contract"},
+    {"v7Slide": 24, "operation": "preserve", "v6SourceSlide": 22, "title": "PitchRateLimiter is a separately managed component"},
+    {"v7Slide": 25, "operation": "preserve", "v6SourceSlide": 23, "title": "Pitch Rate Limiter Logic clamps magnitude and controls fallback"},
+    {"v7Slide": 26, "operation": "preserve", "v6SourceSlide": 24, "title": "PitchControllerRef defines the referenced controller boundary"},
+    {"v7Slide": 27, "operation": "preserve", "v6SourceSlide": 25, "title": "Pitch Rate PI implements the referenced control law"},
+    {"v7Slide": 28, "operation": "preserve", "v6SourceSlide": 26, "title": "ActuatorCommandRef owns command limiting and status"},
+    {"v7Slide": 29, "operation": "revise", "v6SourceSlide": 27, "title": "PitchRateLimiter_Harness isolates the unit under test"},
+    {"v7Slide": 30, "operation": "insert", "cloneV6Slide": 36, "title": "The harness inputs come from one script and three timeseries"},
+    {"v7Slide": 31, "operation": "revise", "v6SourceSlide": 28, "title": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build"},
+    {"v7Slide": 32, "operation": "insert", "cloneV6Slide": 9, "title": "The retained top-level GRT build creates a traceable file tree"},
+    {"v7Slide": 33, "operation": "revise", "v6SourceSlide": 29, "title": "Data Inspector reveals one saved run"},
+    {"v7Slide": 34, "operation": "insert", "cloneV6Slide": 29, "title": "Read the SDI run from command, to error, to control effort"},
+    {"v7Slide": 35, "operation": "preserve", "v6SourceSlide": 30, "title": "DO-178C defines objectives; DO-331 addresses model use"},
+    {"v7Slide": 36, "operation": "preserve", "v6SourceSlide": 31, "title": "Software levels scale rigor—and independence is planned"},
+    {"v7Slide": 37, "operation": "preserve", "v6SourceSlide": 32, "title": "Traceability turns artifacts into evidence"},
+    {"v7Slide": 38, "operation": "preserve", "v6SourceSlide": 33, "title": "The V-model pairs every definition with verification"},
+    {"v7Slide": 39, "operation": "preserve", "v6SourceSlide": 34, "title": "Illustrative requirements make the training chain explicit"},
+    {"v7Slide": 40, "operation": "preserve", "v6SourceSlide": 35, "title": "One limiter requirement traces to one executed result"},
+    {"v7Slide": 41, "operation": "revise", "v6SourceSlide": 36, "title": "The harness sits inside a controlled relative-file flow"},
+    {"v7Slide": 42, "operation": "preserve", "v6SourceSlide": 37, "title": "Strong tests target boundaries, modes, failures, and timing"},
+    {"v7Slide": 43, "operation": "revise", "v6SourceSlide": 38, "title": "The limiter suite retains 19 passing assessments"},
+    {"v7Slide": 44, "operation": "insert", "cloneV6Slide": 38, "title": "Read the 19-case result plot from top to bottom"},
+    {"v7Slide": 45, "operation": "revise", "v6SourceSlide": 39, "title": "Callbacks create context; the test driver owns the oracle"},
+    {"v7Slide": 46, "operation": "revise", "v6SourceSlide": 40, "title": "FCS_Data.sldd controls shared parameters and interfaces"},
+    {"v7Slide": 47, "operation": "insert", "cloneV6Slide": 7, "title": "Open FCS_Data.sldd, then inspect FlightControlBus"},
+    {"v7Slide": 48, "operation": "preserve", "v6SourceSlide": 41, "title": "Reviewable models make intent obvious"},
+    {"v7Slide": 49, "operation": "preserve", "v6SourceSlide": 42, "title": "CI automates evidence production—not approval"},
+    {"v7Slide": 50, "operation": "preserve", "v6SourceSlide": 43, "title": "Classify the first meaningful failure"},
+    {"v7Slide": 51, "operation": "preserve", "v6SourceSlide": 44, "title": "MIL, SIL, PIL, HIL, bench, and system integration are distinct"},
+    {"v7Slide": 52, "operation": "revise-conditional", "v6SourceSlide": 45, "title": "The retained status counts reconcile when their scopes stay separate"},
+    {"v7Slide": 53, "operation": "revise-conditional", "v6SourceSlide": 46, "title": "Demonstrated evidence is narrower than certification evidence"},
+    {"v7Slide": 54, "operation": "revise", "v6SourceSlide": 47, "title": "A project-defined RCF may record required review and sign-off"},
+    {"v7Slide": 55, "operation": "revise", "v6SourceSlide": 48, "title": "Your first week should produce one repeatable chain"}
+  ],
+  "numberingRules": [
+    "v6 slide 1 remains v7 slide 1.",
+    "Two early inserts become v7 slides 2-3; v6 slides 2-27 become v7 slides 4-29.",
+    "The harness-input insert becomes v7 slide 30; v6 slide 28 becomes v7 slide 31.",
+    "The top-level-build insert becomes v7 slide 32; v6 slide 29 becomes v7 slide 33.",
+    "The SDI explanation insert becomes v7 slide 34; v6 slides 30-38 become v7 slides 35-43.",
+    "The verification-graph explanation becomes v7 slide 44; v6 slides 39-40 become v7 slides 45-46.",
+    "The dictionary/bus access insert becomes v7 slide 47; v6 slides 41-48 become v7 slides 48-55."
+  ],
+  "qaPriorities": [
+    "Verify all 55 titles and two-digit page numbers against this map; page numbers are not automatic.",
+    "Verify visible notes on all 55 slides and replace cloned source notes completely on all seven inserts.",
+    "Inspect slides 1-5, 29-34, 41-47, and 52-55 at full resolution because they contain all insertions, revisions, and evidence-boundary changes.",
+    "Do not stretch UI captures or graphs; use contain/crop and readable callouts.",
+    "Confirm the top-level build slide shows only authentic files tied to an actual build and that the late status/evidence-boundary slides agree with it.",
+    "Confirm the harness-input slide says no standalone stimulus file exists and the SDI .mldatx files are not described as Test Manager files.",
+    "Confirm the bottom verification graph is explained as zero error on a log scale, supported by CSV values, rather than as missing data.",
+    "Confirm the SLDD access slide distinguishes controlled definitions from authorization to edit them."
+  ]
+}

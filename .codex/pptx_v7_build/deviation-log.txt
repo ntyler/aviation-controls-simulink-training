@@ -1,0 +1,30 @@
+V7 TEMPLATE DEVIATIONS FROM V6
+
+Authorized insertions (duplicated inherited frames):
+- 02 Absolute summary — requested near the beginning.
+- 03 Overall completion checklist — requested near the beginning.
+- 30 Harness input provenance — requested test-input visibility.
+- 32 Top-level Ctrl+B output — requested real build-file view.
+- 34 SDI plot explanation — requested graph interpretation.
+- 44 19-case result-plot explanation — requested graph interpretation.
+- 47 FCS_Data.sldd / FlightControlBus access — requested location and access workflow.
+
+Authorized revisions to inherited slides:
+- 05 roadmap; 10 logging/test-point title; 29 harness; 31 Ctrl+D/Ctrl+B; 33 SDI overview; 41 evidence flow;
+  43 limiter result overview; 45 callback-versus-driver workflow; 46 dictionary/bus definitions; 52 package status;
+  53 evidence boundary; 54 project-defined RCF wording; 55 first-week checklist.
+
+Evidence-driven factual changes:
+- The v6 statement that no retained top-level build existed is superseded by the controlled 2026-08-27 GRT build.
+- The build is identified as 5/5 GRT models built—one top standalone target plus four referenced targets—separate from 8/8 model update and 24/24 required exports.
+- Ctrl+B is identified as the interactive build action; the retained build provenance is the scripted slbuild invocation with the same active GRT configuration.
+- The inherited callback diagram is corrected into two independent lanes; callback_workflow_example.m does not invoke the retained harness assessment driver.
+- The RCF placeholder no longer assigns a universal expansion, closure function, authority, or independence requirement to the undefined project term.
+- The executable is explicitly described as built but not executed or SIL/PIL-verified.
+- The harness stimulus is identified as script-authored timeseries, not a standalone CSV or Test Manager suite.
+- The SDI bottom plot is framed as temporal correlation across unlike units.
+- The blank log-scale numeric-error panel is explained as exactly zero retained error, not missing data.
+
+No changes:
+- No production-aircraft, certification, Embedded Coder, SIL, PIL, HIL, Model Advisor pass, Polyspace result, or RCF sign-off claim is added.
+- No authentic source image is stretched, cropped into ambiguity, or relabeled as another tool artifact.

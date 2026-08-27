@@ -21,7 +21,7 @@ localConfigureFileGeneration(projectRoot, resultsDir);
 addpath(modelsDir, dataDir, fileparts(mfilename('fullpath')));
 
 if exist('initialize_training_data', 'file') == 2
-    initialize_training_data();
+    initialize_training_data(projectRoot);
 end
 
 sampleTime = localTrainingSampleTime(projectRoot);

@@ -1,0 +1,332 @@
+[
+  {
+    "slide": 1,
+    "sourceSlide": 1,
+    "title": "Simulink in the Aerospace Controls Lifecycle",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 2,
+    "sourceSlide": 46,
+    "title": "Absolute summary: executable training evidence with bounded claims",
+    "disposition": "insert"
+  },
+  {
+    "slide": 3,
+    "sourceSlide": 48,
+    "title": "Overall completion checklist: verified, explained, or future",
+    "disposition": "insert"
+  },
+  {
+    "slide": 4,
+    "sourceSlide": 2,
+    "title": "The executable model is the engineering hub",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 5,
+    "sourceSlide": 3,
+    "title": "Your first session: orient, execute, inspect, trace",
+    "disposition": "revise"
+  },
+  {
+    "slide": 6,
+    "sourceSlide": 4,
+    "title": "MATLAB computes; Simulink exposes behavior",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 7,
+    "sourceSlide": 5,
+    "title": "Start in the repository, then distinguish every action",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 8,
+    "sourceSlide": 6,
+    "title": "The toolstrip tells you where each action lives",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 9,
+    "sourceSlide": 7,
+    "title": "Turn model displays on—and off—for focus",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 10,
+    "sourceSlide": 8,
+    "title": "Log signals for evidence; use test points for required observability",
+    "disposition": "revise"
+  },
+  {
+    "slide": 11,
+    "sourceSlide": 9,
+    "title": "Check the active model settings before update, simulation, or build",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 12,
+    "sourceSlide": 10,
+    "title": "Model Advisor checks the selected component against chosen rules",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 13,
+    "sourceSlide": 11,
+    "title": "Placeholders: Bug Finder screens code; Code Prover deepens proof",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 14,
+    "sourceSlide": 12,
+    "title": "The current job determines which model is top level",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 15,
+    "sourceSlide": 13,
+    "title": "AircraftFeedbackControlLoop closes the training loop",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 16,
+    "sourceSlide": 14,
+    "title": "Pitch Controller PI turns tracking error into demand",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 17,
+    "sourceSlide": 15,
+    "title": "Actuator Dynamics converts demand into position",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 18,
+    "sourceSlide": 16,
+    "title": "Longitudinal dynamics turn actuator motion into response",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 19,
+    "sourceSlide": 17,
+    "title": "Sensor Processing Lag exposes measurement dynamics",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 20,
+    "sourceSlide": 18,
+    "title": "AutopilotModeLogic wraps mode behavior in explicit interfaces",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 21,
+    "sourceSlide": 19,
+    "title": "Stateflow guards OFF, ARMED, ENGAGED, and DEGRADED",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 22,
+    "sourceSlide": 20,
+    "title": "ReferencedFlightControlArchitecture is the integration top level",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 23,
+    "sourceSlide": 21,
+    "title": "SensorProcessingRef owns the referenced sensor contract",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 24,
+    "sourceSlide": 22,
+    "title": "PitchRateLimiter is a separately managed component",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 25,
+    "sourceSlide": 23,
+    "title": "Pitch Rate Limiter Logic clamps magnitude and controls fallback",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 26,
+    "sourceSlide": 24,
+    "title": "PitchControllerRef defines the referenced controller boundary",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 27,
+    "sourceSlide": 25,
+    "title": "Pitch Rate PI implements the referenced control law",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 28,
+    "sourceSlide": 26,
+    "title": "ActuatorCommandRef owns command limiting and status",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 29,
+    "sourceSlide": 27,
+    "title": "PitchRateLimiter_Harness isolates the unit under test",
+    "disposition": "revise"
+  },
+  {
+    "slide": 30,
+    "sourceSlide": 36,
+    "title": "The harness inputs come from one script and three timeseries",
+    "disposition": "insert"
+  },
+  {
+    "slide": 31,
+    "sourceSlide": 28,
+    "title": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+    "disposition": "revise"
+  },
+  {
+    "slide": 32,
+    "sourceSlide": 9,
+    "title": "The retained top-level GRT build creates a traceable file tree",
+    "disposition": "insert"
+  },
+  {
+    "slide": 33,
+    "sourceSlide": 29,
+    "title": "Data Inspector reveals one saved run",
+    "disposition": "revise"
+  },
+  {
+    "slide": 34,
+    "sourceSlide": 29,
+    "title": "Read the SDI run from command, to error, to control effort",
+    "disposition": "insert"
+  },
+  {
+    "slide": 35,
+    "sourceSlide": 30,
+    "title": "DO-178C defines objectives; DO-331 addresses model use",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 36,
+    "sourceSlide": 31,
+    "title": "Software levels scale rigor—and independence is planned",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 37,
+    "sourceSlide": 32,
+    "title": "Traceability turns artifacts into evidence",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 38,
+    "sourceSlide": 33,
+    "title": "The V-model pairs every definition with verification",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 39,
+    "sourceSlide": 34,
+    "title": "Illustrative requirements make the training chain explicit",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 40,
+    "sourceSlide": 35,
+    "title": "One limiter requirement traces to one executed result",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 41,
+    "sourceSlide": 36,
+    "title": "The harness sits inside a controlled relative-file flow",
+    "disposition": "revise"
+  },
+  {
+    "slide": 42,
+    "sourceSlide": 37,
+    "title": "Strong tests target boundaries, modes, failures, and timing",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 43,
+    "sourceSlide": 38,
+    "title": "The limiter suite retains 19 passing assessments",
+    "disposition": "revise"
+  },
+  {
+    "slide": 44,
+    "sourceSlide": 38,
+    "title": "Read the 19-case result plot from top to bottom",
+    "disposition": "insert"
+  },
+  {
+    "slide": 45,
+    "sourceSlide": 39,
+    "title": "Callbacks create context; the test driver owns the oracle",
+    "disposition": "revise"
+  },
+  {
+    "slide": 46,
+    "sourceSlide": 40,
+    "title": "FCS_Data.sldd controls shared parameters and interfaces",
+    "disposition": "revise"
+  },
+  {
+    "slide": 47,
+    "sourceSlide": 7,
+    "title": "Open FCS_Data.sldd, then inspect FlightControlBus",
+    "disposition": "insert"
+  },
+  {
+    "slide": 48,
+    "sourceSlide": 41,
+    "title": "Reviewable models make intent obvious",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 49,
+    "sourceSlide": 42,
+    "title": "CI automates evidence production—not approval",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 50,
+    "sourceSlide": 43,
+    "title": "Classify the first meaningful failure",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 51,
+    "sourceSlide": 44,
+    "title": "MIL, SIL, PIL, HIL, bench, and system integration are distinct",
+    "disposition": "preserve"
+  },
+  {
+    "slide": 52,
+    "sourceSlide": 45,
+    "title": "The retained status counts reconcile when their scopes stay separate",
+    "disposition": "revise-conditional"
+  },
+  {
+    "slide": 53,
+    "sourceSlide": 46,
+    "title": "Demonstrated evidence is narrower than certification evidence",
+    "disposition": "revise-conditional"
+  },
+  {
+    "slide": 54,
+    "sourceSlide": 47,
+    "title": "A project-defined RCF may record required review and sign-off",
+    "disposition": "revise"
+  },
+  {
+    "slide": 55,
+    "sourceSlide": 48,
+    "title": "Your first week should produce one repeatable chain",
+    "disposition": "revise"
+  }
+]

@@ -1,0 +1,15 @@
+ReferencedFlightControlArchitecture GRT build evidence
+Generated: 27-Aug-2026 11:41:09
+Status: PASS
+MATLAB: 23.2.0.2599560 (R2023b) Update 8
+System target: grt.tlc
+Git commit: fc266faf006347a570a3d33c5c76dbdf41e8b62d
+Git dirty at build: 1
+Executable: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture.exe
+Generated source: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw\ReferencedFlightControlArchitecture.c
+HTML report: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\codegen\ReferencedFlightControlArchitecture_grt_rtw\html\index.html
+Build log: D:\GitHub\aviation-controls-simulink-training\results\top_level_codegen_v8_evidence\ReferencedFlightControlArchitecture_slbuild.log
+Executable executed: NO
+Code-generation validation run: NO
+SIL/PIL run: NO
+Boundary: desktop GRT training build only; not production code approval or certification evidence.

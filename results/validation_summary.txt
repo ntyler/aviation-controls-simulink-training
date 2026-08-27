@@ -1,5 +1,5 @@
 Aviation Controls Simulink Training validation
-Generated: 2026-08-26 23:26:01
+Generated: 2026-08-27 12:52:31
 MATLAB: 23.2.0.2599560 (R2023b) Update 8
 Models updated: 8/8
 - PitchRateLimiter: PASS
@@ -8,11 +8,14 @@ Models updated: 8/8
 - SensorProcessingRef: PASS
 - PitchControllerRef: PASS
 - ActuatorCommandRef: PASS
-- ReferencedFlightControlArchitecture: PASS; accepted license fallback warning: The model 'ReferencedFlightControlArchitecture' contains a Model block. Model blocks using Accelerator mode are not supported with this license. The Model block will run in Normal mode.
-- PitchRateLimiter_Harness: PASS; accepted license fallback warning: The model 'PitchRateLimiter_Harness' contains a Model block. Model blocks using Accelerator mode are not supported with this license. The Model block will run in Normal mode.
+- ReferencedFlightControlArchitecture: PASS — accepted R2023b Student-license Model-block fallback message; every saved ModelReference SimulationMode was asserted Normal before update
+- PitchRateLimiter_Harness: PASS — accepted R2023b Student-license Model-block fallback message; every saved ModelReference SimulationMode was asserted Normal before update
+Accepted license messages: 2 (only exact Simulink:modelReference:MdlRefNotAvailForLicense messages)
 PitchRateLimiter assessments: 19/19 PASS
+Assessment scope: retained CSV observed by validator; the validator does not rerun the limiter simulation.
 Dictionary entries resolved: 6/6
 Required exported artifacts: 24/24 present
+Artifact scope: required-file presence observed; freshness and content hashes are not established by this validator.
 HIL executed: NO
 Jenkins executed: NO
 Overall: PASS

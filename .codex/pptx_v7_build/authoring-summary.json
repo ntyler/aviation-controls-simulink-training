@@ -1,0 +1,38 @@
+{
+  "outputPath": "D:\\GitHub\\aviation-controls-simulink-training\\Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx",
+  "slideCount": 55,
+  "sourceSlidesPreserved": 48,
+  "insertedSlides": [
+    2,
+    3,
+    30,
+    32,
+    34,
+    44,
+    47
+  ],
+  "revisedSlides": [
+    5,
+    10,
+    29,
+    31,
+    33,
+    41,
+    43,
+    45,
+    46,
+    52,
+    53,
+    54,
+    55
+  ],
+  "visibleNotes": 55,
+  "authenticAssets": [
+    "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Harness.png",
+    "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\SimulationDataInspector_Onboarding.jpg",
+    "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.png",
+    "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\FCS_Data_ModelExplorer_FlightControlBus.jpg",
+    "D:\\GitHub\\aviation-controls-simulink-training\\results\\top_level_codegen_v7_evidence\\ReferencedFlightControlArchitecture_slbuild.log",
+    "D:\\GitHub\\aviation-controls-simulink-training\\results\\top_level_codegen_v7_evidence\\codegen\\ReferencedFlightControlArchitecture_grt_rtw\\ReferencedFlightControlArchitecture.c"
+  ]
+}

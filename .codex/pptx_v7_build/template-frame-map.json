@@ -1,0 +1,1406 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "Simulink in the Aerospace Controls Lifecycle",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/vmdcj2xw"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 46,
+      "narrativeRole": "Absolute summary: executable training evidence with bounded claims",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5g3mtwbi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/naxwna5o",
+            "sh/a9s3uhcv"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/m9ofupo3",
+            "sh/9czypknu",
+            "sh/8bqxwf69",
+            "sh/zmxwjaps",
+            "sh/ylofq5o7",
+            "sh/l8felkni",
+            "sh/076xsf6d"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 48,
+      "narrativeRole": "Overall completion checklist: verified, explained, or future",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/1onelwzi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3qpwn6ho",
+            "sh/94va1sf2"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l0vaxsf6",
+            "sh/kzm9onyl",
+            "sh/juxs7mxk",
+            "sh/itoryhgz",
+            "sh/cvyxkbi5",
+            "sh/dw7etgzq",
+            "sh/qtgfy10z",
+            "sh/bupwr6hk",
+            "sh/oryxwbi9",
+            "sh/ps7epgze",
+            "sh/2pwfu103"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 2,
+      "narrativeRole": "The executable model is the engineering hub",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/a10jqpsj"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 3,
+      "narrativeRole": "Your first session: orient, execute, inspect, trace",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3ah8rqlg"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/83ulovat",
+            "sh/cza94vmx"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/obq90bml",
+            "sh/pcjqtg36",
+            "sh/m5cra54z",
+            "sh/n6ls3alk",
+            "sh/n2l4fq98",
+            "sh/m1c3mlsn",
+            "sh/943mhgre"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 4,
+      "narrativeRole": "MATLAB computes; Simulink exposes behavior",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ql8jytsj"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 5,
+      "narrativeRole": "Start in the repository, then distinguish every action",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/yhkbe1o7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 6,
+      "narrativeRole": "The toolstrip tells you where each action lives",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/98rqt4r6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 7,
+      "narrativeRole": "Turn model displays on—and off—for focus",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zedcfa9g"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 8,
+      "narrativeRole": "Log signals for evidence; use test points for required observability",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6h0fypgb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/18byd4zy"
+          ],
+          "reason": "Shorten the inherited logging/test-point title for one-line readability without changing the slide body."
+        }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 9,
+      "narrativeRole": "Check the active model settings before update, simulation, or build",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mdonql4z"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 10,
+      "narrativeRole": "Model Advisor checks the selected component against chosen rules",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ydcnatkn"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 11,
+      "narrativeRole": "Placeholders: Bug Finder screens code; Code Prover deepens proof",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/250zy18b"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/cn6t83y1",
+            "sh/65wzelo7"
+          ],
+          "reason": "Keep both future Polyspace evidence placeholders explicit without leaving inherited placeholder wording unhandled."
+        }
+      ]
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 12,
+      "narrativeRole": "The current job determines which model is top level",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q903ad4n"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 13,
+      "narrativeRole": "AircraftFeedbackControlLoop closes the training loop",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p4r6p8by"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 14,
+      "narrativeRole": "Pitch Controller PI turns tracking error into demand",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/idgvmx8r"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 15,
+      "narrativeRole": "Actuator Dynamics converts demand into position",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/65gnqlk7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 16,
+      "narrativeRole": "Longitudinal dynamics turn actuator motion into response",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zutgvm94"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 17,
+      "narrativeRole": "Sensor Processing Lag exposes measurement dynamics",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6lwvql4v"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 18,
+      "narrativeRole": "AutopilotModeLogic wraps mode behavior in explicit interfaces",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/je5knut0"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 19,
+      "narrativeRole": "Stateflow guards OFF, ARMED, ENGAGED, and DEGRADED",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ahk7qls3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 20,
+      "narrativeRole": "ReferencedFlightControlArchitecture is the integration top level",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/po3itc72"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 21,
+      "narrativeRole": "SensorProcessingRef owns the referenced sensor contract",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qp03yt8n"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 22,
+      "narrativeRole": "PitchRateLimiter is a separately managed component",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/58zqpov6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 23,
+      "narrativeRole": "Pitch Rate Limiter Logic clamps magnitude and controls fallback",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/a14rmhgb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 24,
+      "narrativeRole": "PitchControllerRef defines the referenced controller boundary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/2to76dcr"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 25,
+      "narrativeRole": "Pitch Rate PI implements the referenced control law",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/29wby1wf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 28,
+      "sourceSlide": 26,
+      "narrativeRole": "ActuatorCommandRef owns command limiting and status",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/tgr2xg3m"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 29,
+      "sourceSlide": 27,
+      "narrativeRole": "PitchRateLimiter_Harness isolates the unit under test",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7qxsfi5o"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ulgzuh8r",
+            "sh/kn694nmx"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/qhkj2lsz",
+            "sh/sj214va5",
+            "sh/dkb2x0bq",
+            "im/x0na18ra"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 30,
+      "sourceSlide": 36,
+      "narrativeRole": "The harness inputs come from one script and three timeseries",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qtcb2psb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ds76tcbe",
+            "sh/5s3atkbq"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/sry50rut",
+            "sh/rqpormt8",
+            "sh/qpgnyhc3",
+            "sh/twnmhsva",
+            "sh/8ve5onup",
+            "sh/y1s3ytsn",
+            "sh/j2lkry9s",
+            "sh/k3ul03ad",
+            "sh/l432t8ry",
+            "sh/65c32tsj",
+            "sh/76lkvy94",
+            "sh/87ul43ap",
+            "sh/ts32x8ra",
+            "sh/m98jq9sf",
+            "sh/nahkjet0",
+            "sh/3e9s76hc",
+            "sh/itgry1gr",
+            "sh/5gra9gzi",
+            "sh/4fi90byx",
+            "sh/ri9sb6ho",
+            "sh/qh0r2lg3",
+            "sh/dkradgze",
+            "sh/sji94byt",
+            "sh/fmtsfqhk",
+            "sh/elkr6lgz"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 31,
+      "sourceSlide": 28,
+      "narrativeRole": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/10nylwji"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/je1o7ax0",
+            "sh/q9cz6xkv"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ytsne5wf",
+            "sh/tk36dkf2",
+            "sh/8ju5kfeh",
+            "sh/7ilobaxw",
+            "sh/6hcni5wb",
+            "sh/9ojm1gfi",
+            "sh/ona58ved",
+            "sh/0jex4fq5",
+            "sh/1knedkrq",
+            "sh/ehwf2p8z",
+            "sh/zi5wba9k",
+            "sh/o7yx8zqh",
+            "sh/987eh4rm",
+            "sh/m5wf6p8b",
+            "sh/n6pwfu9w",
+            "sh/wbyxczqd",
+            "sh/xc7yl4ry",
+            "sh/76t0byt0"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 32,
+      "sourceSlide": 9,
+      "narrativeRole": "The retained top-level GRT build creates a traceable file tree",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mdonql4z"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/apofe5of",
+            "sh/1cfmhgne"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/xcfy90n6",
+            "sh/qtkf21ob",
+            "sh/rutwv65w",
+            "sh/7y14jyd8",
+            "sh/mdsnatcn",
+            "sh/903ml8be",
+            "sh/8zu5c3ut",
+            "sh/v2l4nitk",
+            "sh/u1cnedcz",
+            "sh/h43mp8ba",
+            "sh/w3u5g3u5",
+            "im/f21s7eh0"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 33,
+      "sourceSlide": 29,
+      "narrativeRole": "Data Inspector reveals one saved run",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ulc7a1s3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/694f21w7",
+            "sh/tk36hwby"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/7adgb6xs",
+            "sh/twvydgfy",
+            "sh/uxof6lw3",
+            "sh/fyxgfqxo",
+            "sh/nutgzqps",
+            "sh/2tkfqlon",
+            "sh/pgby1g7y",
+            "sh/of2xsb6d",
+            "sh/bitg3q54",
+            "sh/ahkfuloj",
+            "sh/xkvy50na",
+            "sh/cjmxwv6p",
+            "sh/rm9wrmpk",
+            "sh/6l0fi1of",
+            "im/v6tgv6pc"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 34,
+      "sourceSlide": 29,
+      "narrativeRole": "Read the SDI run from command, to error, to control effort",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ulc7a1s3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/694f21w7",
+            "sh/tk36hwby"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/7adgb6xs",
+            "sh/twvydgfy",
+            "sh/uxof6lw3",
+            "sh/fyxgfqxo",
+            "sh/nutgzqps",
+            "sh/2tkfqlon",
+            "sh/pgby1g7y",
+            "sh/of2xsb6d",
+            "sh/bitg3q54",
+            "sh/ahkfuloj",
+            "sh/xkvy50na",
+            "sh/cjmxwv6p",
+            "sh/rm9wrmpk",
+            "sh/6l0fi1of",
+            "im/v6tgv6pc"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 35,
+      "sourceSlide": 30,
+      "narrativeRole": "DO-178C defines objectives; DO-331 addresses model use",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/apg36do7"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 36,
+      "sourceSlide": 31,
+      "narrativeRole": "Software levels scale rigor—and independence is planned",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ehsr2dgz"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 37,
+      "sourceSlide": 32,
+      "narrativeRole": "Traceability turns artifacts into evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7uh0nuxs"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 38,
+      "sourceSlide": 33,
+      "narrativeRole": "The V-model pairs every definition with verification",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zehc7u18"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 39,
+      "sourceSlide": 34,
+      "narrativeRole": "Illustrative requirements make the training chain explicit",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/l87mpkzq"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 40,
+      "sourceSlide": 35,
+      "narrativeRole": "One limiter requirement traces to one executed result",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/hcfm5s72"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 41,
+      "sourceSlide": 36,
+      "narrativeRole": "The harness sits inside a controlled relative-file flow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qtcb2psb"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ds76tcbe",
+            "sh/5s3atkbq"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/sry50rut",
+            "sh/rqpormt8",
+            "sh/qpgnyhc3",
+            "sh/twnmhsva",
+            "sh/8ve5onup",
+            "sh/y1s3ytsn",
+            "sh/j2lkry9s",
+            "sh/k3ul03ad",
+            "sh/l432t8ry",
+            "sh/65c32tsj",
+            "sh/76lkvy94",
+            "sh/87ul43ap",
+            "sh/ts32x8ra",
+            "sh/m98jq9sf",
+            "sh/nahkjet0",
+            "sh/3e9s76hc",
+            "sh/itgry1gr",
+            "sh/5gra9gzi",
+            "sh/4fi90byx",
+            "sh/ri9sb6ho",
+            "sh/qh0r2lg3",
+            "sh/dkradgze",
+            "sh/sji94byt",
+            "sh/fmtsfqhk",
+            "sh/elkr6lgz"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 42,
+      "sourceSlide": 37,
+      "narrativeRole": "Strong tests target boundaries, modes, failures, and timing",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/503qt8z6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 43,
+      "sourceSlide": 38,
+      "narrativeRole": "The limiter suite retains 19 passing assessments",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7yp0f6dg"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/kbqlwv61",
+            "sh/kvy1kbep"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/lczmp07m",
+            "sh/fedkb6pw",
+            "sh/h43ed8vq",
+            "sh/g3ux43u5",
+            "sh/f2lwbyd0",
+            "sh/uhcf2tcf",
+            "sh/p8neh8v2",
+            "sh/47ex83uh",
+            "sh/365wfydw",
+            "sh/25wf6dcb",
+            "sh/5cje5ovi",
+            "im/r2xo7m9o"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 44,
+      "sourceSlide": 38,
+      "narrativeRole": "Read the 19-case result plot from top to bottom",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7yp0f6dg"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/kbqlwv61",
+            "sh/kvy1kbep"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/lczmp07m",
+            "sh/fedkb6pw",
+            "sh/h43ed8vq",
+            "sh/g3ux43u5",
+            "sh/f2lwbyd0",
+            "sh/uhcf2tcf",
+            "sh/p8neh8v2",
+            "sh/47ex83uh",
+            "sh/365wfydw",
+            "sh/25wf6dcb",
+            "sh/5cje5ovi",
+            "im/r2xo7m9o"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 45,
+      "sourceSlide": 39,
+      "narrativeRole": "Callbacks create context; the test driver owns the oracle",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q1gn2pcf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ba1wvqpw",
+            "sh/50769kvu"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/a9sf2l8b",
+            "sh/l03e107y",
+            "sh/kfux8fqd",
+            "sh/zelwzaps",
+            "sh/ydcf658n",
+            "sh/t4ne5k7a",
+            "sh/83uxcfqp",
+            "sh/qpobqho7",
+            "sh/raxczm5s",
+            "sh/sb6tsr6x",
+            "sh/dcfu1wni",
+            "sh/edobuho3",
+            "sh/fehc3m5o",
+            "sh/0fqtwr69",
+            "sh/1gzu5wnu",
+            "sh/2h8by1of",
+            "sh/nihc765k",
+            "sh/bydcr6x4",
+            "sh/ax4bi1gj",
+            "sh/x0futwfu",
+            "sh/wzmtkry9",
+            "sh/j2xcv6x0",
+            "sh/y1obm1gf",
+            "sh/l4fuxgf6",
+            "sh/k36tobyl",
+            "sh/z6tsjmxw",
+            "sh/e5kbahgb",
+            "sh/4bi9knet"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 46,
+      "sourceSlide": 40,
+      "narrativeRole": "FCS_Data.sldd controls shared parameters and interfaces",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/x8ny10z2"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/r6l4rudo",
+            "sh/y9gzu50n"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/65c3ypw3",
+            "sh/543mpkvi",
+            "sh/43ulwfex",
+            "sh/wny5cfmt",
+            "sh/x87m5k3e",
+            "sh/alg3ap4n",
+            "sh/vmp43al8",
+            "sh/8jel8fmx",
+            "sh/9knm1k3i",
+            "sh/mhw3654r",
+            "sh/ni54zalc",
+            "sh/sfi5kzm1",
+            "sh/tgrmd43m",
+            "sh/nmdgz290",
+            "sh/2l4fqxsf",
+            "sh/povy1cr6",
+            "sh/onmhs7al",
+            "sh/baxg329w",
+            "sh/a9ozuhsr",
+            "sh/xcfy5cr2",
+            "sh/cb6hw7ah",
+            "sh/retgri9s",
+            "sh/6dkfids7",
+            "sh/ixozyd03",
+            "sh/jyxg7iho",
+            "sh/kz6h0ni9",
+            "sh/50fy9szu",
+            "sh/61oz2x0f",
+            "sh/72xgb2hk",
+            "sh/s3qh4ni5",
+            "sh/tozydszq",
+            "sh/ep8z6x0b",
+            "sh/fqhgf2hw",
+            "sh/pkj25wjy",
+            "sh/oja1cr2d",
+            "sh/3i10361s",
+            "sh/2xsja1kn",
+            "sh/do329gja",
+            "sh/cnu1gb2p",
+            "sh/bmlk7614",
+            "sh/qlsje1kj",
+            "sh/ls32dgj6",
+            "sh/0ru1kb2l",
+            "sh/k7mdwje9",
+            "sh/58vu5ove",
+            "sh/i54vu9w3",
+            "sh/j6dc3edo",
+            "sh/sb6d03u5"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 47,
+      "sourceSlide": 7,
+      "narrativeRole": "Open FCS_Data.sldd, then inspect FlightControlBus",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zedcfa9g"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/eh4jil4r",
+            "sh/cb2tkvap"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/id4ju1oz",
+            "sh/jedkn654",
+            "sh/4fm1wb6p",
+            "sh/50v2pgna",
+            "sh/q143ylov",
+            "sh/r2dkrq5g",
+            "sh/s3ml0v61",
+            "sh/d4f2t0nm",
+            "sh/e5o32lor",
+            "sh/f6xkvq5c",
+            "sh/p0zmlk7u",
+            "sh/ozq5szq9",
+            "sh/nyh4jupo",
+            "sh/2x8nqp83",
+            "sh/x4j6p47q",
+            "sh/c3a5wzq5",
+            "sh/b2h4nupk",
+            "sh/a18nup8z",
+            "sh/lsj6t47m",
+            "sh/kra50jqh",
+            "sh/honq18ru",
+            "im/1gfipcvq"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 48,
+      "sourceSlide": 41,
+      "narrativeRole": "Reviewable models make intent obvious",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/u10rap0f"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 49,
+      "sourceSlide": 42,
+      "narrativeRole": "CI automates evidence production—not approval",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/lkfedov6"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 50,
+      "sourceSlide": 43,
+      "narrativeRole": "Classify the first meaningful failure",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ux8f618f"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 51,
+      "sourceSlide": 44,
+      "narrativeRole": "MIL, SIL, PIL, HIL, bench, and system integration are distinct",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ep8ve1kz"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 52,
+      "sourceSlide": 45,
+      "narrativeRole": "The retained status counts reconcile when their scopes stay separate",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mtsjmtw3"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/e58j2907",
+            "sh/lsz2dofy"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/9wj21ozu",
+            "sh/ova18jip",
+            "sh/nu10zeh4",
+            "sh/mtsj6t0j",
+            "sh/p0zip4zq",
+            "sh/4zq1wzi5",
+            "sh/u54f65g3",
+            "sh/f6xgzaxo",
+            "sh/g76x8vy9",
+            "sh/h8fy10fu",
+            "sh/29oza5gz",
+            "sh/3axg3axk",
+            "sh/4b6hcfy5",
+            "sh/pcfy5kfq",
+            "sh/ydkfylgv",
+            "sh/jetgr6xg",
+            "sh/zalwv294"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 53,
+      "sourceSlide": 46,
+      "narrativeRole": "Demonstrated evidence is narrower than certification evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/5g3mtwbi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/naxwna5o",
+            "sh/a9s3uhcv"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/m9ofupo3",
+            "sh/9czypknu",
+            "sh/8bqxwf69",
+            "sh/zmxwjaps",
+            "sh/ylofq5o7",
+            "sh/l8felkni",
+            "sh/076xsf6d"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    },
+    {
+      "outputSlide": 54,
+      "sourceSlide": 47,
+      "narrativeRole": "A project-defined RCF may record required review and sign-off",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6lcvitsf"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/503e9ora",
+            "sh/e5kzy94z",
+            "sh/072h0jmp",
+            "sh/18bito3a",
+            "sh/mt4z2t4v",
+            "sh/nud0velg"
+          ],
+          "reason": "Keep the RCF placeholder project-defined and avoid assigning unsupported universal closure, authority, or independence requirements."
+        }
+      ]
+    },
+    {
+      "outputSlide": 55,
+      "sourceSlide": 48,
+      "narrativeRole": "Your first week should produce one repeatable chain",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/1onelwzi"
+          ],
+          "reason": "Renumber the duplicated source slide in the 55-slide v7 sequence."
+        },
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3qpwn6ho",
+            "sh/94va1sf2"
+          ],
+          "reason": "Apply the v7 section label and evidence-specific title while preserving the inherited frame."
+        },
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l0vaxsf6",
+            "sh/kzm9onyl",
+            "sh/juxs7mxk",
+            "sh/itoryhgz",
+            "sh/cvyxkbi5",
+            "sh/dw7etgzq",
+            "sh/qtgfy10z",
+            "sh/bupwr6hk",
+            "sh/oryxwbi9",
+            "sh/ps7epgze",
+            "sh/2pwfu103"
+          ],
+          "reason": "Replace the inherited content region with the mapped v7 teaching material and authentic evidence."
+        }
+      ]
+    }
+  ],
+  "omittedSourceSlides": []
+}

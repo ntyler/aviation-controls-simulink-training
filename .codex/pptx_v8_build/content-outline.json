@@ -1,0 +1,442 @@
+[
+  {
+    "slide": 1,
+    "sourceSlide": 1,
+    "section": "COVER",
+    "title": "Simulink in the Aerospace Controls Lifecycle",
+    "disposition": "targeted-rewrite",
+    "bodyPolicy": "Preserve the title-slide composition; rewrite only the subtitle and page number."
+  },
+  {
+    "slide": 2,
+    "sourceSlide": 2,
+    "section": "ORIENTATION",
+    "title": "Absolute summary: executable training evidence with bounded claims",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 3,
+    "sourceSlide": 3,
+    "section": "ORIENTATION",
+    "title": "Overall completion checklist: baseline, learner actions, and open gates",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 4,
+    "sourceSlide": 5,
+    "section": "ORIENTATION",
+    "title": "Three learning routes + reference appendix",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 5,
+    "sourceSlide": 4,
+    "section": "01 • FIRST SESSION",
+    "title": "The executable model is the engineering hub",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 6,
+    "sourceSlide": 5,
+    "section": "01 • FIRST SESSION",
+    "title": "Your mission: build, exercise, and explain one reviewable control component",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 7,
+    "sourceSlide": 7,
+    "section": "01 • FIRST SESSION",
+    "title": "Preflight: start from a known project state",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 8,
+    "sourceSlide": 7,
+    "section": "01 • FIRST SESSION",
+    "title": "Initialize once; generate evidence through controlled entry points",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 9,
+    "sourceSlide": 14,
+    "section": "01 • FIRST SESSION",
+    "title": "The current job determines which model is top level",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 10,
+    "sourceSlide": 31,
+    "section": "01 • FIRST SESSION",
+    "title": "Choose a guided lab or a controlled evidence refresh",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 11,
+    "sourceSlide": 6,
+    "section": "01 • FIRST SESSION",
+    "title": "MATLAB computes; Simulink exposes behavior",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 12,
+    "sourceSlide": 8,
+    "section": "01 • FIRST SESSION",
+    "title": "The toolstrip tells you where each action lives",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 13,
+    "sourceSlide": 55,
+    "section": "02 • BUILD LAB",
+    "title": "Build lab: move from shell to interface to logic",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 14,
+    "sourceSlide": 47,
+    "section": "02 • BUILD LAB",
+    "title": "Step 1 — create the project shell and shared data dictionary",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 15,
+    "sourceSlide": 24,
+    "section": "02 • BUILD LAB",
+    "title": "Step 2 — define the component interface",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 16,
+    "sourceSlide": 25,
+    "section": "02 • BUILD LAB",
+    "title": "Step 3 — implement the limiter logic",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 17,
+    "sourceSlide": 10,
+    "section": "02 • BUILD LAB",
+    "title": "Log signals for evidence; use test points for required observability",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 18,
+    "sourceSlide": 11,
+    "section": "02 • BUILD LAB",
+    "title": "Saved model settings differ from controlled-run overrides",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 19,
+    "sourceSlide": 50,
+    "section": "02 • BUILD LAB",
+    "title": "Ctrl+D updates the diagram; fix errors before you simulate",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 20,
+    "sourceSlide": 29,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The delivered and learner harnesses isolate different UUTs",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 21,
+    "sourceSlide": 30,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The harness inputs come from one script and three timeseries",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 22,
+    "sourceSlide": 41,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Choose the driver that matches the UUT you intend to assess",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 23,
+    "sourceSlide": 31,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Ctrl+D, Run, and Ctrl+B answer different questions",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 24,
+    "sourceSlide": 32,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The scripted top-level build retains outputs—and a provenance boundary",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 25,
+    "sourceSlide": 33,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Open the saved Data Inspector view safely",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 26,
+    "sourceSlide": 34,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Read the SDI run from command, to error, to control effort",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 27,
+    "sourceSlide": 42,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The timing checks verify configuration and logged spacing—not WCET",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 28,
+    "sourceSlide": 41,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The harness sits inside a controlled producer-to-validator flow",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 29,
+    "sourceSlide": 43,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "The limiter suite retains 19 passing assessment rows",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 30,
+    "sourceSlide": 44,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Read the 19-case result plot from top to bottom",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 31,
+    "sourceSlide": 40,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "One executed result can trace to several explicit requirements",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 32,
+    "sourceSlide": 46,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "FCS_Data.sldd controls shared parameters and interfaces",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 33,
+    "sourceSlide": 47,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Use the data dictionary API to inspect FlightControlBus",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 34,
+    "sourceSlide": 48,
+    "section": "03 • TEST HARNESS & EVIDENCE",
+    "title": "Reviewer checklist: verify the component before deeper analysis",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 35,
+    "sourceSlide": 12,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Model Advisor checks the selected component against chosen rules",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 36,
+    "sourceSlide": 13,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Placeholders: Bug Finder screens code; Code Prover deepens proof",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite section, title, page number, and both explicit Polyspace future-result labels."
+  },
+  {
+    "slide": 37,
+    "sourceSlide": 35,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "DO-178C defines objectives; DO-331 addresses model use",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 38,
+    "sourceSlide": 36,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Software levels scale rigor—and independence is planned",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 39,
+    "sourceSlide": 38,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "The V-model pairs every definition with verification",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 40,
+    "sourceSlide": 39,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Illustrative IDs make the training trace explicit",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 41,
+    "sourceSlide": 49,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "CI automates evidence production—not approval",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 42,
+    "sourceSlide": 50,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Classify the first meaningful failure",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 43,
+    "sourceSlide": 51,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "PIL was not performed in this training baseline",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 44,
+    "sourceSlide": 52,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Retained status is scoped—and file presence does not prove freshness",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 45,
+    "sourceSlide": 53,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Demonstrated evidence is narrower than certification evidence",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 46,
+    "sourceSlide": 54,
+    "section": "04 • ASSURANCE & CLOSURE",
+    "title": "Use the project-defined review/sign-off record only when required",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 47,
+    "sourceSlide": 55,
+    "section": "05 • CAPSTONE",
+    "title": "Capstone: reproduce the chain and explain every boundary",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 48,
+    "sourceSlide": 55,
+    "section": "05 • CAPSTONE",
+    "title": "Close: one repeatable chain, then controlled review",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 49,
+    "sourceSlide": 46,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Glossary: terms used throughout this onboarding",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 50,
+    "sourceSlide": 15,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: aircraft loop and subsystem orientation",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 51,
+    "sourceSlide": 20,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: Stateflow root and chart orientation",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 52,
+    "sourceSlide": 22,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: referenced architecture overview",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 53,
+    "sourceSlide": 24,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: component contracts gallery",
+    "disposition": "replace",
+    "bodyPolicy": "Rebuild the body inside the inherited v7 frame."
+  },
+  {
+    "slide": 54,
+    "sourceSlide": 9,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: model display overlays",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  },
+  {
+    "slide": 55,
+    "sourceSlide": 45,
+    "section": "APPENDIX • REFERENCE",
+    "title": "Appendix: callbacks, driver, and oracle roles",
+    "disposition": "preserve",
+    "bodyPolicy": "Preserve the mapped source body; rewrite only section, title, and page number."
+  }
+]

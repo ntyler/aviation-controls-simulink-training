@@ -2,23 +2,29 @@
 
 This folder is the complete, regenerable training package used by the updated aviation controls presentation. Every model, parameter, mode, interface, and result is illustrative and non-production; none of the numerical values are aircraft-program data.
 
+## How to use this package
+
+Open `Aviation_Controls_Engineer_Simulink_DO178C_Training_v8.pptx` in Microsoft PowerPoint with the **Notes** pane visible, and keep this README open beside it. The visible slides provide the route and evidence boundaries; the speaker notes provide the prerequisites, exact learner action, expected result, recovery rule, and source paths for every slide. A slide-only or PDF-only view is not the complete self-guided course.
+
 ## Verified environment and limitations
 
 The package was executed and validated on Microsoft Windows with these relevant MATLAB products:
 
 | Product or capability | Verified status |
 |---|---|
+| Host operating system | Microsoft Windows; the retained GRT helper currently expects a Windows `.exe` output |
 | MATLAB | R2023b Update 8, version 23.2.0.2599560 |
 | Simulink | R2023b, version 23.2 |
-| Stateflow | R2023b, version 23.2; used by `AutopilotModeLogic.slx` |
+| Stateflow | R2023b, version 23.2; required for the full baseline because `run_training_simulations` executes `AutopilotModeLogic.slx` |
 | Simulink Data Dictionary | Available through Simulink; used by `data/FCS_Data.sldd` |
 | Simulink Report Generator | Installed, R2023b, version 23.2 |
 | Simulink Coder | Installed, R2023b, version 23.2; no production or embedded-code claim is made |
+| C/C++ build toolchain | Microsoft Visual C++ 2017 v15.0 with 64-bit `nmake` produced the retained executable; a MathWorks-supported, configured compiler is required to reproduce the compiled GRT build |
 | Simulink Test | **Unavailable / unlicensed** |
 | Simulink Requirements | **Unavailable / unlicensed** |
 | Embedded Coder | **Unavailable / unlicensed** |
 
-The full installed-product inventory is retained in `results/MATLAB_ProductInventory.csv`; the focused license/capability record is `results/environment_inventory.txt`.
+The full installed-product inventory is retained in `results/MATLAB_ProductInventory.csv`; the focused license/capability record is `results/environment_inventory.txt`. A limiter-only inspection/test does not require Stateflow, but the full baseline run does. Before attempting the GRT build, confirm that the host is Windows, Simulink Coder is licensed, and MATLAB reports a selected supported C compiler (for example, inspect `mex.getCompilerConfigurations('C','Selected')`). Configuring or changing a compiler is a workstation change and should follow the local engineering environment process.
 
 Because Simulink Test is unavailable, this project contains **no Simulink Test test-suite `.mldatx` file** and makes no Test Manager execution claim. The standalone `models/PitchRateLimiter_Harness.slx` plus the executable assessments in `scripts/run_pitch_rate_limiter_tests.m` provide the training harness workflow. The two retained `.mldatx` files are Simulation Data Inspector (SDI) view/session artifacts only; they are not test suites. Simulink Requirements links and Embedded Coder output are likewise not claimed. Any cache or referenced-model build intermediates under `results/` are regeneration by-products, not production airborne software or certification evidence.
 
@@ -26,7 +32,7 @@ No HIL hardware was used and no Jenkins pipeline was executed. All reported exec
 
 ## Verified outcome
 
-- All 8 delivered models opened and updated: **8/8 PASS**. On the verified student license, referenced Model blocks fall back from Accelerator mode to Normal mode; the validator accepts and records only that specific license warning.
+- All 8 delivered models opened and updated: **8/8 PASS**. All five delivered Model-reference blocks are saved in Normal simulation mode. R2023b Student use still emits its known `Simulink:modelReference:MdlRefNotAvailForLicense` Accelerator-fallback message for the two parent models during update; the validator accepts only that exact license message after asserting every saved Model block is Normal, and treats any other warning as a failure.
 - Pitch Rate Limiter executable assessments: **19/19 PASS, 0 failed**.
 - The limiter checks include the inclusive ±12 deg/s boundaries, just-outside values, nominal and large values, invalid status, normal-mode false, transitions, initialization, `limiter_active`, a 1e-9 deg/s numeric tolerance, and 0.02 s / 50 Hz timestamp behavior.
 - Aircraft command-tracking simulation: **PASS**, with command, response, error, and actuator signals retained.
@@ -92,25 +98,71 @@ This is a standalone MATLAB/Simulink harness workflow; no Simulink Test Manager 
 
 ## Open the project and models
 
-Start a normal MATLAB R2023b session with Simulink, then set `projectRoot` to this folder:
+> **Write-safety warning:** use an authorized branch or disposable working copy before running any initializer, simulation driver, test driver, refresh, or regeneration command. `initialize_training_data` updates and saves the managed entries in `data/FCS_Data.sldd`. `run_training_simulations` and `run_pitch_rate_limiter_tests` refresh fixed files under `results/` and `reports/`; they do not create a new versioned result set. Preserve any evidence or dictionary changes that must not be replaced.
+
+Start a normal MATLAB R2023b session with Simulink and set MATLAB's Current Folder to the repository root. The following orientation-only sequence verifies the root, adds repository folders to the path, displays possible model-name conflicts, and opens the delivered limiter by its full path. It does not call a repository writer or refresh retained evidence:
 
 ```matlab
-projectRoot = 'D:\GitHub\aviation-controls-simulink-training';
+projectRoot = pwd;
+assert(isfile(fullfile(projectRoot,'README.md')), ...
+    'Start MATLAB in the aviation-controls-simulink-training repository root.');
 addpath(fullfile(projectRoot,'scripts'), ...
         fullfile(projectRoot,'models'), ...
         fullfile(projectRoot,'data'));
-initialize_training_data(projectRoot);
+which -all PitchRateLimiter
 open_system(fullfile(projectRoot,'models','PitchRateLimiter.slx'));
 ```
 
-Replace `PitchRateLimiter.slx` with any model name listed above. Open `Aviation_Controls_Engineer_Simulink_DO178C_Training_v4.pptx` in Microsoft PowerPoint to present the current 33-slide deck. The earlier v2 and v3 decks are retained unchanged as version history.
+Replace `PitchRateLimiter.slx` with any model name listed above. Open the v8 deck in PowerPoint with Notes visible and keep this README beside it. Earlier decks remain unchanged as version history.
+
+When controlled initialization is intended and dictionary refresh is authorized, run it as a separate write-producing action:
+
+```matlab
+dictionaryPath = initialize_training_data(projectRoot);
+```
+
+To deliberately refresh and retain the demonstrated aircraft and delivered-limiter evidence, use the controlled drivers rather than a raw `sim` call:
+
+```matlab
+simulationSummary = run_training_simulations(projectRoot);
+testSummary = run_pitch_rate_limiter_tests(projectRoot);
+```
+
+`run_training_simulations` supplies the 20-second command/disturbance sequence and replaces the corresponding aircraft and Stateflow evidence under `results/` and `reports/`. `run_pitch_rate_limiter_tests` initializes the controlled dictionary, executes the delivered `models/PitchRateLimiter_Harness.slx`, and replaces `results/PitchRateLimiter_TestResults.csv`, `results/PitchRateLimiter_TestResults.mat`, `reports/PitchRateLimiter_TestReport.html`, and `reports/PitchRateLimiter_TestReport.png`. A direct `sim('AircraftFeedbackControlLoop')` is a manual in-memory run and does not recreate the controlled stimulus or those retained files.
+
+## Create and test a learner-owned practice limiter safely
+
+The learner lab uses a unique, repository-local sandbox so a practice file cannot overwrite or shadow `models/PitchRateLimiter.slx`. Choose a tag that starts with a letter and contains at most 28 letters, numbers, or underscores. The supplied helpers create and test the practice UUT under `learner_workspace/<LearnerTag>/`; they do not retarget the delivered harness and do not write the delivered limiter result files. The practice runner reads the existing managed dictionary, fails if required entries are missing, and does not call `initialize_training_data`.
+
+```matlab
+learnerTag = "TLEE";  % replace with a unique learner or session tag
+
+deliveredModel = fullfile(projectRoot,'models','PitchRateLimiter.slx');
+resolvedModel = which('PitchRateLimiter');
+assert(strcmpi(resolvedModel, deliveredModel), ...
+    ['PitchRateLimiter resolves outside the delivered models folder. ' ...
+     'Remove the shadowing path or close the conflicting model first.']);
+if bdIsLoaded('PitchRateLimiter')
+    assert(strcmpi(get_param('PitchRateLimiter','FileName'), deliveredModel), ...
+        'A different PitchRateLimiter model is already loaded.');
+end
+
+practiceSummary = create_pitch_rate_limiter_practice( ...
+    projectRoot, learnerTag);
+practiceTestSummary = run_pitch_rate_limiter_practice_tests( ...
+    projectRoot, learnerTag);
+```
+
+The expected practice model is `learner_workspace/<LearnerTag>/models/PitchRateLimiter_Practice_<LearnerTag>.slx`; its generated matching harness and test evidence remain beneath the same learner workspace. Never save a learner model as `PitchRateLimiter.slx`, never add the learner `models` folder ahead of the delivered `models` folder on the MATLAB path, and do not commit `learner_workspace/` without project authorization. Inspect `practiceSummary` and `practiceTestSummary` for the exact model, harness, result, and report paths created by the helpers.
+
+The distinction is intentional: `run_pitch_rate_limiter_tests(projectRoot)` always assesses the delivered baseline, while `run_pitch_rate_limiter_practice_tests(projectRoot, learnerTag)` assesses the uniquely named learner UUT and writes learner-local evidence. Do not cite learner evidence as the retained delivered-baseline result.
 
 ## Refresh results, screenshots, validation, and Data Inspector
 
 Use this workflow after editing model layouts or logic. It preserves the saved `.slx` files and refreshes the evidence and onboarding assets from the current models:
 
 ```matlab
-projectRoot = 'D:\GitHub\aviation-controls-simulink-training';
+projectRoot = pwd;
 addpath(fullfile(projectRoot,'scripts'));
 summary = refresh_onboarding_artifacts(projectRoot);
 ```
@@ -122,7 +174,7 @@ This runs the desktop simulations, the 19 limiter assessments, architecture vali
 Use a normal MATLAB session with JVM support because plot and PNG export use MATLAB figures. From a clean session:
 
 ```matlab
-projectRoot = 'D:\GitHub\aviation-controls-simulink-training';
+projectRoot = pwd;
 addpath(fullfile(projectRoot,'scripts'));
 summary = regenerate_all(projectRoot);
 ```
@@ -140,6 +192,38 @@ export_training_visuals(projectRoot);
 save_data_inspector_reference(projectRoot);
 validationSummary = validate_training_project(projectRoot);
 ```
+
+`create_training_models` deliberately deletes and recreates the generated `.slx` files after refusing to discard an already-open dirty model. Use an authorized working copy or branch. Do not use the recreation workflow for ordinary layout-safe edits.
+
+## Saved settings versus controlled run-time overrides
+
+The saved model is the reviewable baseline; a controlled driver may override selected settings for one execution without saving those values back to the model:
+
+| Context | Saved stop time | Effective retained run | Fixed step |
+|---|---:|---:|---:|
+| `AircraftFeedbackControlLoop` | 12 s | 20 s in `run_training_simulations` | 0.02 s |
+| `PitchRateLimiter_Harness` | 2 s | 0.36 s in `run_pitch_rate_limiter_tests` | 0.02 s |
+
+Review both the saved Configuration Parameters and the `Simulink.SimulationInput` overrides before attributing a result to a configuration.
+
+## Build the top-level GRT training target
+
+`Ctrl+B` is the interactive Simulink build shortcut: it builds the active model with its active target and current file-generation configuration. Its output location and provenance therefore depend on the current session. The retained v8 tree shown in the deck was **not** produced by an unmanaged Ctrl+B press; it was produced by the controlled helper below, which calls `slbuild` for `ReferencedFlightControlArchitecture`, uses repository-local cache/code-generation folders, and records a manifest and diary log.
+
+Before running the helper, confirm Microsoft Windows, Simulink Coder, and a configured MathWorks-supported C/C++ compiler. The retained v8 build used Microsoft Visual C++ 2017 v15.0 with 64-bit `nmake`. The supported helper creates a unique local evidence folder, updates the integration parent, generates the GRT top model and four referenced targets, and compiles the standalone Windows executable:
+
+```matlab
+buildSummary = build_top_level_grt_evidence(projectRoot);
+```
+
+To request a stable training label when the folder does not already exist:
+
+```matlab
+buildSummary = build_top_level_grt_evidence( ...
+    projectRoot, 'RunLabel', 'v8_evidence');
+```
+
+Generated cache/code folders are intentionally ignored and should be regenerated locally. The run folder retains a build log and manifest. The retained v8 manifest records `Git dirty at build: 1` but does not retain the dirty-file list, diff, or exact dirty-source snapshot, so do not describe that retained run as fully reproducible from the manifest alone. Use Ctrl+B only for an interactive demonstration of the build action; use `build_top_level_grt_evidence` when the output must match the documented repository-relative evidence structure. The executable is built but not executed; this is not SIL/PIL, generated-code verification, production-code approval, or certification evidence.
 
 ## Refresh Simulation Data Inspector from the current model
 
@@ -183,7 +267,7 @@ These are SDI artifacts, not Simulink Test Manager files.
 ## Run only the Pitch Rate Limiter tests
 
 ```matlab
-projectRoot = 'D:\GitHub\aviation-controls-simulink-training';
+projectRoot = pwd;
 addpath(fullfile(projectRoot,'scripts'), ...
         fullfile(projectRoot,'models'), ...
         fullfile(projectRoot,'data'));
@@ -213,21 +297,24 @@ Dirty training models are preserved during cleanup so unsaved work is not discar
 
 ## Updated PowerPoint
 
-The current presentation is `Aviation_Controls_Engineer_Simulink_DO178C_Training_v4.pptx`. It adds first-session operation guidance, an authentic Simulink Editor view, overlay controls, explicit top-level model roles, a Simulation Data Inspector workflow, classroom pseudo requirements, and a visible bidirectional evidence chain. Visible updates are on slides **3, 5–8, 10, 18–19, 27–28, and 33**, with additional lifecycle/certification note clarifications on slides **14, 15, and 32**. The deck remains 16:9 with 33 slides and speaker notes on every slide. It explicitly limits executed evidence to desktop model work and architecture update; it makes no HIL, Jenkins, certification-approval, or generated-code claim.
+The current presentation is `Aviation_Controls_Engineer_Simulink_DO178C_Training_v8.pptx`. It is a 55-slide, 16:9 onboarding deck with speaker notes on every slide. The 48-slide core now follows a new-hire learning sequence: portable preflight, controlled model creation, settings and dictionary use, harness execution, update/run/build distinctions, SDI and result interpretation, traceability, assurance boundaries, and handoff. Seven reference slides retain the broader model gallery, overlays, and callback material.
 
 Presentation update details and official source links are retained in:
 
-- `_presentation_v4_build/template-audit.txt`
-- `_presentation_v4_build/deviation-log.txt`
-- `_presentation_v4_build/authoring-summary.json`
-- `_presentation_v4_build/final-deck-montage.webp`
+- `.codex/pptx_v8_build/template-audit.txt`
+- `.codex/pptx_v8_build/deviation-log.txt`
+- `.codex/pptx_v8_build/authoring-summary.json`
+- `.codex/pptx_v8_build/final-deck-montage.webp`
 
 ## Exact relative deliverable paths
 
 Core package:
 
 - `README.md`
-- `Aviation_Controls_Engineer_Simulink_DO178C_Training_v4.pptx` — current deck
+- `Aviation_Controls_Engineer_Simulink_DO178C_Training_v8.pptx` — current deck
+- `Aviation_Controls_Engineer_Simulink_DO178C_Training_v7.pptx` — preserved prior version
+- `Aviation_Controls_Engineer_Simulink_DO178C_Training_v6.pptx` — preserved prior version
+- `Aviation_Controls_Engineer_Simulink_DO178C_Training_v4.pptx` — preserved prior version
 - `Aviation_Controls_Engineer_Simulink_DO178C_Training_v3.pptx` — preserved prior version
 - `Aviation_Controls_Engineer_Simulink_DO178C_Training_v2.pptx` — preserved prior version
 - `data/FCS_Data.sldd`
@@ -244,6 +331,8 @@ Core package:
 Repeatable scripts and callbacks:
 
 - `scripts/initialize_training_data.m`
+- `scripts/create_pitch_rate_limiter_practice.m`
+- `scripts/run_pitch_rate_limiter_practice_tests.m`
 - `scripts/create_training_models.m`
 - `scripts/run_training_simulations.m`
 - `scripts/update_data_inspector.m`
@@ -252,6 +341,7 @@ Repeatable scripts and callbacks:
 - `scripts/refresh_onboarding_artifacts.m`
 - `scripts/cleanup_referenced_architecture_layout.m`
 - `scripts/run_pitch_rate_limiter_tests.m`
+- `scripts/build_top_level_grt_evidence.m`
 - `scripts/export_training_visuals.m`
 - `scripts/validate_training_project.m`
 - `scripts/regenerate_all.m`
@@ -289,6 +379,13 @@ Executed test, simulation, and validation evidence:
 - `results/MATLAB_ProductInventory.csv`
 - `data/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_View.mldatx`
 - `results/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_Session.mldatx`
+- `results/top_level_codegen_v8_evidence/Build_Evidence_Manifest.txt`
+- `results/top_level_codegen_v8_evidence/ReferencedFlightControlArchitecture_slbuild.log`
+- `results/top_level_codegen_v8_evidence/codegen/ReferencedFlightControlArchitecture.exe`
+- `results/top_level_codegen_v8_evidence/codegen/ReferencedFlightControlArchitecture_grt_rtw/ReferencedFlightControlArchitecture.c`
+- `results/top_level_codegen_v8_evidence/codegen/ReferencedFlightControlArchitecture_grt_rtw/html/index.html`
+
+The `learner_workspace/<LearnerTag>/` model, generated matching harness, and learner-local result files are generated practice artifacts, not part of the delivered retained baseline.
 
 Authentic primary visuals used for instruction:
 
@@ -311,6 +408,7 @@ Authentic primary visuals used for instruction:
 - `screenshots/ActuatorCommandRef_Model.png`
 - `screenshots/PitchRateLimiter_Harness.png`
 - `screenshots/FCS_DataDictionary_and_FlightControlBus.png`
+- `screenshots/FCS_Data_ModelExplorer_FlightControlBus.jpg`
 - `screenshots/PitchRateLimiter_ExecutedTestResults.png`
 - `screenshots/PitchRateLimiter_MATLABTestHierarchy.png`
 - `screenshots/AircraftFeedback_CommandTracking_Results.png`

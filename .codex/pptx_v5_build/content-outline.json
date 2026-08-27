@@ -1,0 +1,341 @@
+{
+  "slideCount": 42,
+  "slides": [
+    {
+      "number": 1,
+      "title": "Simulink in the Aerospace Controls Lifecycle",
+      "sectionLabel": "NEW AVIATION CONTROLS ENGINEER ONBOARDING",
+      "takeaway": "A first-time user can move from an illustrative requirement to controlled desktop evidence without confusing training artifacts with certification approval.",
+      "sourceSlide": 1,
+      "layoutKind": "title"
+    },
+    {
+      "number": 2,
+      "title": "The executable model is the engineering hub",
+      "sectionLabel": "ORIENTATION",
+      "takeaway": "Requirements, control design, simulation, and verification meet around one inspectable model while retaining their separate responsibilities.",
+      "sourceSlide": 2,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 3,
+      "title": "Your first session: orient, execute, inspect, trace",
+      "sectionLabel": "ORIENTATION",
+      "takeaway": "The first session follows a repeatable sequence: start correctly, navigate the hierarchy, expose semantics, inspect data, and trace one result.",
+      "sourceSlide": 3,
+      "layoutKind": "text"
+    },
+    {
+      "number": 4,
+      "title": "MATLAB computes; Simulink exposes behavior",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "MATLAB configures, automates, and analyzes while Simulink makes dynamic data flow, state, timing, and interfaces visible.",
+      "sourceSlide": 4,
+      "layoutKind": "text"
+    },
+    {
+      "number": 5,
+      "title": "Start in the repository, then distinguish every action",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Starting MATLAB R2023b in the repository and separating open, update, run, stop, build, and test actions makes every result reproducible and attributable.",
+      "sourceSlide": 5,
+      "layoutKind": "text"
+    },
+    {
+      "number": 6,
+      "title": "The toolstrip tells you where each action lives",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Simulation, Debug, Modeling, Format, and Apps organize distinct actions and should not be treated as interchangeable paths to the same result.",
+      "sourceSlide": 6,
+      "layoutKind": "image"
+    },
+    {
+      "number": 7,
+      "title": "Turn model displays on—and off—for focus",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Units, data types, dimensions, signal names, and logging or test-point badges expose model semantics without changing model behavior.",
+      "sourceSlide": 7,
+      "layoutKind": "image"
+    },
+    {
+      "number": 8,
+      "title": "The current job determines which model is top level",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "AircraftFeedbackControlLoop is the standalone closed-loop simulation, while the referenced architecture, child models, internal subsystems, and independent harness serve different jobs.",
+      "sourceSlide": 8,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 9,
+      "title": "AircraftFeedbackControlLoop closes the training loop",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The standalone model connects pitch command, PI control, actuator dynamics, aircraft response, sensor lag, and feedback in one runnable desktop simulation.",
+      "sourceSlide": 8,
+      "layoutKind": "image"
+    },
+    {
+      "number": 10,
+      "title": "The Pitch Controller PI turns tracking error into demand",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "Proportional and discrete integral paths use controlled gains and a deterministic initial condition before their outputs are summed.",
+      "sourceSlide": 9,
+      "layoutKind": "image"
+    },
+    {
+      "number": 11,
+      "title": "Actuator Dynamics converts demand into position",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The actuator subsystem makes command shaping and dynamic response explicit between controller demand and plant input.",
+      "sourceSlide": 9,
+      "layoutKind": "image"
+    },
+    {
+      "number": 12,
+      "title": "The longitudinal plant turns actuator motion into aircraft response",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The simplified plant exposes the training relationship between actuator position, pitch-rate response, and pitch angle without claiming production-aircraft fidelity.",
+      "sourceSlide": 9,
+      "layoutKind": "image"
+    },
+    {
+      "number": 13,
+      "title": "Sensor Processing Lag makes measurement dynamics visible",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The sensor subsystem separates true aircraft response from the filtered measurement returned to the controller.",
+      "sourceSlide": 9,
+      "layoutKind": "image"
+    },
+    {
+      "number": 14,
+      "title": "AutopilotModeLogic separates interfaces from mode behavior",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The root model presents explicit pilot, validity, success, fault, disengage, and reset interfaces around its Stateflow chart.",
+      "sourceSlide": 11,
+      "layoutKind": "image"
+    },
+    {
+      "number": 15,
+      "title": "Stateflow guards OFF, ARMED, ENGAGED, and DEGRADED",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "Guarded transitions make discrete mode intent reviewable and provide direct boundary cases for verification.",
+      "sourceSlide": 11,
+      "layoutKind": "image"
+    },
+    {
+      "number": 16,
+      "title": "ReferencedFlightControlArchitecture is the integration top level",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The integration model connects controlled interfaces across sensor processing, limiting, pitch control, and actuator-command references.",
+      "sourceSlide": 27,
+      "layoutKind": "image"
+    },
+    {
+      "number": 17,
+      "title": "SensorProcessingRef owns the referenced sensor contract",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The referenced sensor component converts its defined input bus into reviewed processed-air-data outputs for downstream models.",
+      "sourceSlide": 27,
+      "layoutKind": "image"
+    },
+    {
+      "number": 18,
+      "title": "PitchRateLimiter is a separately managed component",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The root component exposes a narrow command, mode, validity, limited-output, and active-status interface suitable for isolated verification.",
+      "sourceSlide": 20,
+      "layoutKind": "image"
+    },
+    {
+      "number": 19,
+      "title": "Pitch Rate Limiter Logic clamps magnitude and controls fallback",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The implementation applies an inclusive magnitude clamp, zero fallback for invalid or non-normal operation, and explicit active-status logic—not slew-rate dynamics.",
+      "sourceSlide": 20,
+      "layoutKind": "image"
+    },
+    {
+      "number": 20,
+      "title": "PitchControllerRef defines the referenced controller boundary",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The referenced controller packages its data contract and PI behavior independently from the standalone feedback-loop model.",
+      "sourceSlide": 27,
+      "layoutKind": "image"
+    },
+    {
+      "number": 21,
+      "title": "Pitch Rate PI implements the referenced control law",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The internal subsystem preserves the proportional-plus-integral structure behind the referenced controller interface.",
+      "sourceSlide": 9,
+      "layoutKind": "image"
+    },
+    {
+      "number": 22,
+      "title": "ActuatorCommandRef owns final command limiting and status",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The referenced actuator-command model makes command saturation, status, and downstream interface ownership visible at integration level.",
+      "sourceSlide": 27,
+      "layoutKind": "image"
+    },
+    {
+      "number": 23,
+      "title": "PitchRateLimiter_Harness isolates the unit under test",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "The independent harness supplies deterministic workspace stimuli to the referenced limiter and captures outputs without hiding pass/fail logic inside the model.",
+      "sourceSlide": 23,
+      "layoutKind": "image"
+    },
+    {
+      "number": 24,
+      "title": "Data Inspector makes one run inspectable without changing the model",
+      "sectionLabel": "03 • SIMULATION DATA INSPECTOR",
+      "takeaway": "The saved onboarding session shows command, response, error, actuator, and disturbance across three aligned plots for marker, cursor, timing, comparison, and export work.",
+      "sourceSlide": 10,
+      "layoutKind": "image"
+    },
+    {
+      "number": 25,
+      "title": "DO-178C defines objectives; DO-331 addresses model use",
+      "sectionLabel": "04 • DO-178C / DO-331",
+      "takeaway": "DO-178C is an accepted means of compliance, DO-331 supplements it for model-based work, and neither makes a Simulink model automatically compliant.",
+      "sourceSlide": 12,
+      "layoutKind": "text"
+    },
+    {
+      "number": 26,
+      "title": "Software levels scale rigor with consequence",
+      "sectionLabel": "04 • DO-178C / DO-331",
+      "takeaway": "System safety assessment assigns the software level, with Software Level A carrying the highest applicable rigor and independence objectives.",
+      "sourceSlide": 13,
+      "layoutKind": "text"
+    },
+    {
+      "number": 27,
+      "title": "Traceability turns artifacts into evidence",
+      "sectionLabel": "04 • DO-178C / DO-331",
+      "takeaway": "Bidirectional links explain both where every requirement is implemented and verified and why every model, test, result, and review artifact exists.",
+      "sourceSlide": 14,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 28,
+      "title": "The V-model pairs every definition with verification",
+      "sectionLabel": "04 • DO-178C / DO-331",
+      "takeaway": "Controlled baselines, ordered reviews, traceability, and designated independence remain necessary whether the lifecycle is agile, waterfall, or hybrid.",
+      "sourceSlide": 15,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 29,
+      "title": "Part 1 — plan, specify, develop, and test",
+      "sectionLabel": "05 • PROJECT DEVELOPMENT FLOW",
+      "takeaway": "Planning establishes lifecycle and tool roles before requirements, component development, harness design, deterministic setup, and focused verification begin.",
+      "sourceSlide": 16,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 30,
+      "title": "Part 2 — integrate, automate, investigate, prove",
+      "sectionLabel": "05 • PROJECT DEVELOPMENT FLOW",
+      "takeaway": "Integration, model update, automated execution, disciplined failure investigation, reruns, and retained evidence form a controlled verification loop.",
+      "sourceSlide": 17,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 31,
+      "title": "Illustrative requirements make the training chain explicit",
+      "sectionLabel": "06 • REQUIREMENTS & TRACEABILITY",
+      "takeaway": "System, software HLR, and software LLR or design statements define the limiter behavior under an explicit classroom-only scope.",
+      "sourceSlide": 18,
+      "layoutKind": "text"
+    },
+    {
+      "number": 32,
+      "title": "One limiter requirement traces to one executed result",
+      "sectionLabel": "06 • REQUIREMENTS & TRACEABILITY",
+      "takeaway": "PSYS-001 traces through SWHLR-001/PRL-001, SWLLR-001, Magnitude Clamp, the harness, and “Boundary above upper limit” to Iteration 8: 12.1 to 12.0 deg/s, zero error, PASS.",
+      "sourceSlide": 19,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 33,
+      "title": "The harness is one link in a controlled relative-file flow",
+      "sectionLabel": "07 • TEST HARNESS & VERIFICATION",
+      "takeaway": "FCS_Data.sldd feeds the harness and referenced limiter, while the MATLAB driver, traceability CSV, retained CSV/MAT results, and HTML/PNG report complete the chain.",
+      "sourceSlide": 16,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 34,
+      "title": "Reviewable models make intent obvious",
+      "sectionLabel": "07 • TEST HARNESS & VERIFICATION",
+      "takeaway": "Meaningful names, explicit contracts, consistent flow, focused hierarchy, and controlled reuse make model review a verification activity rather than a decoding exercise.",
+      "sourceSlide": 22,
+      "layoutKind": "text"
+    },
+    {
+      "number": 35,
+      "title": "Strong tests target boundaries, modes, failures, and timing",
+      "sectionLabel": "07 • TEST HARNESS & VERIFICATION",
+      "takeaway": "Nominal, exact-boundary, just-outside, invalid-mode, and 50 Hz timing cases expose the limiter behaviors most likely to fail.",
+      "sourceSlide": 24,
+      "layoutKind": "text"
+    },
+    {
+      "number": 36,
+      "title": "MATLAB tests preserve intent without a Test Manager file",
+      "sectionLabel": "07 • TEST HARNESS & VERIFICATION",
+      "takeaway": "Because Simulink Test is unavailable, the reviewable MATLAB suite executes 19 assessments and retains CSV, MAT, HTML, and PNG evidence without manufacturing a test-file .mldatx.",
+      "sourceSlide": 25,
+      "layoutKind": "image"
+    },
+    {
+      "number": 37,
+      "title": "Callbacks make execution deterministic",
+      "sectionLabel": "07 • TEST HARNESS & VERIFICATION",
+      "takeaway": "External setup, preload, post-load, execution, and cleanup functions establish reproducible context while leaving the verification oracle in the test driver.",
+      "sourceSlide": 26,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 38,
+      "title": "Jenkins makes verification repeatable",
+      "sectionLabel": "08 • CONTINUOUS INTEGRATION",
+      "takeaway": "A pipeline orchestrates controlled MATLAB and Simulink operations and retains evidence, but a green stage is not certification approval.",
+      "sourceSlide": 28,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 39,
+      "title": "Classify the first meaningful failure",
+      "sectionLabel": "09 • FAILURE INVESTIGATION",
+      "takeaway": "Reproduce first, distinguish environment, compile or interface, and functional failures, fix the root cause, add regression protection, and rerun controlled scope.",
+      "sourceSlide": 29,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 40,
+      "title": "HIL requires real controller hardware, real-time plant, and physical I/O",
+      "sectionLabel": "10 • HARDWARE-IN-THE-LOOP",
+      "takeaway": "MIL, SIL, PIL, HIL, bench, and system-integration environments are distinct, and this training package performed desktop model execution rather than HIL.",
+      "sourceSlide": 30,
+      "layoutKind": "diagram"
+    },
+    {
+      "number": 41,
+      "title": "Pass criteria must be quantitative in every environment",
+      "sectionLabel": "10 • HARDWARE-IN-THE-LOOP",
+      "takeaway": "Functional, timing, interface, fault-response, configuration, and retained-evidence criteria matter more than whether a plotted trace merely looks plausible.",
+      "sourceSlide": 31,
+      "layoutKind": "text"
+    },
+    {
+      "number": 42,
+      "title": "Your first week should produce one repeatable evidence chain",
+      "sectionLabel": "11 • VERIFIED STATUS & NEXT STEPS",
+      "takeaway": "The current baseline records 8 of 8 models updated, 19 of 19 limiter assessments passed, and 24 of 24 required exported artifacts present, giving the learner a verified starting point for the next controlled change.",
+      "sourceSlide": 33,
+      "layoutKind": "text"
+    }
+  ]
+}

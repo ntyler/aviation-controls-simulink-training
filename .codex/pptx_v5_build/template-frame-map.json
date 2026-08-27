@@ -1,0 +1,1556 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "title and scope",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/4r6dg7et",
+            "sh/547294r6",
+            "sh/k3yl0zql",
+            "sh/7qp4be9c",
+            "sh/65g3298r",
+            "sh/ts7md4r2",
+            "sh/sryl4zqx",
+            "sh/cby5k3yt",
+            "sh/ra54bix8",
+            "sh/q9wnidgn",
+            "sh/hofulsf2",
+            "sh/ul4vaxgb",
+            "sh/vmdcj2xw"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "executable model hub",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/bip8jmho",
+            "sh/9072xkry",
+            "sh/ozy1ofad",
+            "sh/b29kza94",
+            "sh/a10jqpsj",
+            "sh/x4r21kru",
+            "sh/w3i1sfa9",
+            "sh/r65knqtk",
+            "sh/q5wjelsz",
+            "sh/ove9o7yd",
+            "sh/sf2p07up",
+            "sh/jqt8nid8",
+            "sh/ipk7udcn",
+            "sh/5sbqpsve",
+            "sh/xk7qlczu",
+            "sh/ahwrqhgj"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "first-session learning path",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/83ulovat",
+            "sh/cza94vmx",
+            "sh/d0jax03i",
+            "sh/298ryl4v",
+            "sh/3ah8rqlg",
+            "sh/obq90bml",
+            "sh/pcjqtg36",
+            "sh/m5cra54z",
+            "sh/n6ls3alk",
+            "sh/n2l4fq98",
+            "sh/m1c3mlsn",
+            "sh/943mhgre"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "MATLAB and Simulink orientation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/i94r6xgz",
+            "sh/1cj2d8b6",
+            "sh/0ba143al",
+            "sh/rm1k7yt4",
+            "sh/ql8jytsj",
+            "sh/doj29oba",
+            "sh/sna103ap",
+            "sh/3ihk3et8",
+            "sh/ih8ju9sn",
+            "sh/kbm987y5",
+            "sh/5cva1cfq"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "first-session workflow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/atcjidg7",
+            "sh/dgbulwnm",
+            "sh/cf2tcr61",
+            "sh/z2tcnm5s",
+            "sh/yhkbe1o7",
+            "sh/l4bupwny",
+            "sh/032tgr6d",
+            "sh/n6dcr65o",
+            "sh/m5kbi1oj",
+            "sh/w32dkbuh",
+            "sh/x4vedgvm",
+            "sh/ahkvi1cb",
+            "sh/v2twb6dw",
+            "sh/k7mxovud",
+            "sh/58vehgvy",
+            "sh/i54fmlc7",
+            "sh/j6dwfqds",
+            "sh/sb6xsvu9",
+            "sh/tcfel0vu",
+            "sh/hgrmpwj2",
+            "sh/gfi5grih",
+            "sh/fe94nm1w",
+            "sh/ud0ne10b",
+            "sh/pkr6tgjy",
+            "sh/4ji5kbid",
+            "sh/3i94r61s",
+            "sh/2h0ni107",
+            "sh/5o7mhcju",
+            "sh/kny587i9"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "toolstrip orientation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/yhg7epsj",
+            "sh/zi98nu94",
+            "sh/98rqt4r6",
+            "im/9o72p8na",
+            "sh/h4bupgn6",
+            "sh/jet8nm1c",
+            "sh/idk7ehkr",
+            "sh/50bqpcj2",
+            "sh/4f2pgr2h",
+            "sh/va98j210",
+            "sh/u907axkf",
+            "sh/hcrqlcj6",
+            "sh/wbipc72l",
+            "sh/7698f214",
+            "sh/m5076xkj",
+            "sh/2dkbalg3",
+            "sh/netcjqxo",
+            "sh/of2tcvy9",
+            "sh/pgbul0fu"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "model overlays and signal displays",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/eh4jil4r",
+            "sh/cb2tkvap",
+            "sh/dcbud0ra",
+            "sh/ydkbm5sv",
+            "sh/zedcfa9g",
+            "sh/id4ju1oz",
+            "sh/jedkn654",
+            "sh/4fm1wb6p",
+            "sh/50v2pgna",
+            "sh/q143ylov",
+            "sh/r2dkrq5g",
+            "sh/s3ml0v61",
+            "im/a9gji54j",
+            "im/bapkral4",
+            "sh/f6xkvq5c"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "complete model hierarchy",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/svydgb65",
+            "sh/18byd4zy",
+            "sh/g72x4zyd",
+            "sh/ri9g7uhw",
+            "sh/6h0fypgb",
+            "im/0jedovmp",
+            "sh/o7ydoret",
+            "sh/6twve1oz",
+            "sh/5sne5wne",
+            "sh/kredcr6t",
+            "sh/jq5w365o",
+            "sh/i5wva1o3",
+            "sh/x4ne1wni",
+            "sh/w3ed8r6x",
+            "sh/m9sb2x4v",
+            "sh/na1sb2lg",
+            "sh/8bat47ml",
+            "sh/9w3uds36",
+            "sh/y5sbed4j",
+            "sh/z61s7il4",
+            "sh/07atgnmp",
+            "sh/l8ja9s3a",
+            "sh/q18bad4n"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "AircraftFeedbackControlLoop root model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 9,
+      "narrativeRole": "Pitch Controller PI internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 9,
+      "narrativeRole": "Actuator Dynamics internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 9,
+      "narrativeRole": "Longitudinal plant internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 9,
+      "narrativeRole": "Sensor Processing Lag internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 9,
+      "narrativeRole": "AutopilotModeLogic root model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 11,
+      "narrativeRole": "Stateflow Autopilot Mode Logic view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/m58fih43",
+            "sh/xcryxg7y",
+            "sh/wbih4b6d",
+            "sh/n69grmpw",
+            "sh/250zy18b",
+            "im/orqlgnad",
+            "sh/ofqtgnyt"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 27,
+      "narrativeRole": "referenced integration architecture",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ulgzuh8r",
+            "sh/kn694nmx",
+            "sh/lofadsni",
+            "sh/mpor6x43",
+            "sh/7qxsfi5o",
+            "im/pwnqx8ry",
+            "sh/ju5gv294"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 27,
+      "narrativeRole": "SensorProcessingRef child model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ulgzuh8r",
+            "sh/kn694nmx",
+            "sh/lofadsni",
+            "sh/mpor6x43",
+            "sh/7qxsfi5o",
+            "im/pwnqx8ry",
+            "sh/ju5gv294"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 20,
+      "narrativeRole": "PitchRateLimiter child model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l8fm907a",
+            "sh/qpwjmh8n",
+            "sh/rq50vmp8",
+            "sh/4nu1krqh",
+            "sh/po3itc72",
+            "im/tg7mhsv2",
+            "sh/dkfmp4zy"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 20,
+      "narrativeRole": "Pitch Rate Limiter Logic internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l8fm907a",
+            "sh/qpwjmh8n",
+            "sh/rq50vmp8",
+            "sh/4nu1krqh",
+            "sh/po3itc72",
+            "im/tg7mhsv2",
+            "sh/dkfmp4zy"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 27,
+      "narrativeRole": "PitchControllerRef child model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ulgzuh8r",
+            "sh/kn694nmx",
+            "sh/lofadsni",
+            "sh/mpor6x43",
+            "sh/7qxsfi5o",
+            "im/pwnqx8ry",
+            "sh/ju5gv294"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 9,
+      "narrativeRole": "Pitch Rate PI internal view",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/bqxg7q50",
+            "sh/1cfmhgne",
+            "sh/0b65obm9",
+            "sh/nex4jq5k",
+            "sh/mdonql4z",
+            "im/f21s7eh0",
+            "sh/oza1gfyh"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 27,
+      "narrativeRole": "ActuatorCommandRef child model",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ulgzuh8r",
+            "sh/kn694nmx",
+            "sh/lofadsni",
+            "sh/mpor6x43",
+            "sh/7qxsfi5o",
+            "im/pwnqx8ry",
+            "sh/ju5gv294"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 23,
+      "narrativeRole": "independent unit-test harness",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/p4ra1o3e",
+            "sh/90vqdczq",
+            "sh/8zm9k7y5",
+            "sh/v2d8fmhw",
+            "sh/a14rmhgb",
+            "im/mxczetc3",
+            "sh/sby90zm1"
+          ],
+          "reason": "Retain the inherited full-image frame while replacing it with the mapped current repository view."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 10,
+      "narrativeRole": "Simulation Data Inspector onboarding",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/exsrmhsf",
+            "sh/xc3mho32",
+            "sh/cbu58j2h",
+            "sh/zelojyl8",
+            "sh/ydcnatkn",
+            "im/sva14jet",
+            "sh/s7yt4b21",
+            "sh/0zu9ora5",
+            "sh/103qxcbq",
+            "sh/u187adsv",
+            "sh/f2h8jitg",
+            "sh/bmpgrah8",
+            "sh/algfy50n",
+            "sh/xo7ytkzy",
+            "sh/wnyx0fit",
+            "sh/jq9gvuh4",
+            "sh/ip0f2p0j",
+            "sh/5cryx4za",
+            "sh/kbix4zyp",
+            "sh/7e9gzuhg",
+            "sh/6d0f6pgv",
+            "sh/4j2xwzet",
+            "sh/pkbep4fe",
+            "sh/2hkfu9w3"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 12,
+      "narrativeRole": "DO-178C and DO-331 context",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/atc7epon",
+            "sh/1gbm9s3a",
+            "sh/0f2lgnmp",
+            "sh/ra943il8",
+            "sh/q903ad4n",
+            "sh/dcbm583y",
+            "sh/sb2lcnmd",
+            "sh/b6d4f2lc",
+            "sh/a543mx4r",
+            "sh/wvupgz6t",
+            "sh/xw3q94ne"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 13,
+      "narrativeRole": "software levels and independence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/jqlkfyds",
+            "sh/q50nydsj",
+            "sh/bq9orito",
+            "sh/o3i5w3ad",
+            "sh/p4r6p8by",
+            "sh/21gnuts7",
+            "sh/32ponyts",
+            "sh/gzy5s3a1",
+            "sh/1076lobm",
+            "sh/hcfy9k3u",
+            "sh/gb6x0zm9",
+            "sh/vaxg7ulo",
+            "sh/u9ofyp43",
+            "sh/t8fy5k3i",
+            "sh/876xwfmx",
+            "sh/7mdg3als",
+            "sh/6l4fu547",
+            "sh/lkvy103m",
+            "sh/kjmxsfm1",
+            "sh/cnqh8fux",
+            "sh/xozyhkbi",
+            "sh/q18f65cr",
+            "sh/bmhgfatc",
+            "sh/oz6x4vul",
+            "sh/p0zyd0b6",
+            "sh/2xof2lcv",
+            "sh/3yxgbqdg",
+            "sh/8vahgzu5",
+            "sh/9wjyp4bq"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 14,
+      "narrativeRole": "traceability and evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/xc7eds76",
+            "sh/wbydknq1",
+            "sh/idgvmx8r",
+            "sh/5grehs7i",
+            "sh/kfidonqx",
+            "sh/zi5c3y98",
+            "sh/ehwvat8n",
+            "sh/e10761w3",
+            "sh/z29oz6do",
+            "sh/03ip8be9",
+            "sh/b2507exs",
+            "sh/kre1k3y9",
+            "sh/ls7idofu",
+            "sh/y5wjitgj",
+            "sh/z650byxo",
+            "sh/0buh8zy5",
+            "sh/1w3i14fq",
+            "sh/hsvy50re",
+            "sh/25w3excv",
+            "sh/p87m9cb6"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 28,
+      "sourceSlide": 15,
+      "narrativeRole": "lifecycle, V-model, agile, and waterfall",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/gjax03m9",
+            "sh/547mhg3m",
+            "sh/k3y5ov21",
+            "sh/76p4jqls",
+            "sh/fi1grylo",
+            "sh/ehsfyt43",
+            "sh/p8jyx83q",
+            "sh/o7ah4nm5",
+            "sh/361gvilk",
+            "sh/25sf2d4z",
+            "sh/dc3y1s3m",
+            "sh/cbuh8nmh",
+            "sh/uh4v2pkj",
+            "sh/vixcvu14",
+            "sh/wj6d4z2p",
+            "sh/hkfexkja",
+            "sh/ilov6pkv",
+            "sh/jmxwzu1g",
+            "sh/4n6d8z21",
+            "sh/5ofe14j6",
+            "sh/6p8va9kr",
+            "sh/rqhw3e1c",
+            "sh/f6dcnetg",
+            "sh/e54ve9cv",
+            "sh/18vup4bm",
+            "sh/07mdgzu1",
+            "sh/onulcv6d",
+            "sh/po3ml07y",
+            "sh/exs361ob",
+            "sh/fy14f6pw",
+            "sh/hcrqlore",
+            "sh/idkv6pc3",
+            "sh/87e10r6p",
+            "sh/987itwnu",
+            "sh/m5wjyhoj",
+            "sh/n650rm54",
+            "sh/03e1w76d",
+            "sh/l4nipcny",
+            "sh/y1wjuho7",
+            "sh/z250nm5s"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 29,
+      "sourceSlide": 18,
+      "narrativeRole": "illustrative classroom requirements",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/bi94zqp4",
+            "sh/wrelszu9",
+            "sh/hsn2l4bu",
+            "sh/4felwzu5",
+            "sh/5gnmp4bq",
+            "sh/6hw3y9sb",
+            "sh/rip4retw",
+            "sh/fapkr6pw",
+            "sh/upg3i18r",
+            "sh/1cr2tg72",
+            "sh/gbylkbqh",
+            "sh/7mpknmp0",
+            "sh/6lg3e18f",
+            "sh/to72pw76",
+            "sh/snylgrql",
+            "sh/qh03ql8j",
+            "sh/md4nipsr"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 30,
+      "sourceSlide": 19,
+      "narrativeRole": "bidirectional requirement-to-result chain",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/x07i1cji",
+            "sh/9gb6xgbi",
+            "sh/8v2pobax",
+            "sh/vitozqt8",
+            "sh/ahk7qls3",
+            "im/p43m187i",
+            "sh/cri1gnql",
+            "sh/vep0z21c",
+            "sh/adgjqx0r",
+            "sh/54ri5wje",
+            "sh/k3y1wri9",
+            "sh/j2p03m1o",
+            "sh/7yt4bq5k",
+            "sh/6xknil4z",
+            "sh/432l8v2d",
+            "sh/p4vm103y",
+            "sh/belg3yh8",
+            "sh/cfuxw3yt",
+            "sh/dg3y58zy",
+            "sh/yhcfydgj",
+            "sh/zilg7yh4"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 31,
+      "sourceSlide": 16,
+      "narrativeRole": "harness companion-file flow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ylwj2987",
+            "sh/8z2h8bq1",
+            "sh/9kby1g7m",
+            "sh/ytkf2h8j",
+            "sh/zutgvm94",
+            "sh/kv2h4rqp",
+            "sh/lwbyxwra",
+            "sh/ip4zel83",
+            "sh/3qdg7qpo",
+            "sh/fm1gzq5o",
+            "sh/e1sf65o3",
+            "sh/1ojy10ne",
+            "sh/gnax8v6t",
+            "sh/nqlg3a5k",
+            "sh/nmto7m1w",
+            "sh/2lk7eh0r",
+            "sh/5sr6xsjy",
+            "sh/4ri54nid",
+            "sh/uxg3etgb",
+            "sh/vyp47yhw",
+            "sh/wzylgjy1",
+            "sh/h07m9ozm",
+            "sh/9c7i1o7u"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 32,
+      "sourceSlide": 24,
+      "narrativeRole": "boundary and failure test matrix",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mlg3al4f",
+            "sh/1sfqxsv6",
+            "sh/0r6p4nul",
+            "sh/nux8zidc",
+            "sh/2to76dcr",
+            "sh/9wzq1svi",
+            "sh/ov6p8nux",
+            "sh/3ydonyd8",
+            "sh/ix47utcn",
+            "sh/8veh8ril",
+            "sh/9wni1wjq",
+            "sh/mtwz6h0f",
+            "sh/nu50zm10",
+            "sh/wzyhcrih",
+            "sh/x07i5wj2",
+            "sh/axgza10b",
+            "sh/vyp03m1w",
+            "sh/c3uh07id",
+            "sh/d43itcjy",
+            "sh/t8v6h47a",
+            "sh/s72p8z6p",
+            "sh/rmtofup4",
+            "sh/6lk76poz",
+            "sh/1cv6l47m",
+            "sh/gbmpcz61",
+            "sh/fadojepg",
+            "sh/e947a9ov",
+            "sh/pgf6po7i",
+            "sh/of6pgj6x"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 33,
+      "sourceSlide": 25,
+      "narrativeRole": "executed limiter test report",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/r6x0bmx8",
+            "sh/xg7axgf2",
+            "sh/cfyt4beh",
+            "sh/napsr6x0",
+            "sh/29wby1wf",
+            "im/tsbmpwn2",
+            "sh/wza9cbqp"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 34,
+      "sourceSlide": 26,
+      "narrativeRole": "callbacks, test driver, and repeatability",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/etwju9wr",
+            "sh/uhk36lk7",
+            "sh/vitkzqlc",
+            "sh/8fil4b21",
+            "sh/tgr2xg3m",
+            "im/872tgnq9",
+            "sh/lsja143i"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 35,
+      "sourceSlide": 21,
+      "narrativeRole": "data dictionary and interfaces",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/utsfyt8v",
+            "sh/1gbmxs7a",
+            "sh/0f2lon6p",
+            "sh/ra9kryp8",
+            "sh/qp03yt8n",
+            "im/sbid0zud",
+            "sh/4jax4nqd"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 36,
+      "sourceSlide": 22,
+      "narrativeRole": "model reviewability",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/bm9gnu1w",
+            "sh/6987itcr",
+            "sh/7a18rydc",
+            "sh/k7qpgjul",
+            "sh/58zqpov6",
+            "sh/il87etcv",
+            "sh/jmh8nyd0",
+            "sh/43u9snu5",
+            "sh/p43q1sva",
+            "sh/p4z6tcri",
+            "sh/436507qx",
+            "sh/3ixor29c",
+            "sh/2honyx8r",
+            "sh/hgf6pcr6",
+            "sh/gf65w7ql",
+            "sh/fexon290",
+            "sh/udonux8v",
+            "sh/1cj61w7q",
+            "sh/0bap8rq5",
+            "sh/krihkz2d",
+            "sh/lsrit4jy",
+            "sh/yp0zipk7",
+            "sh/jq90ru1s",
+            "sh/wnihgf2h",
+            "sh/xoripkj2",
+            "sh/al0zepkb"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 37,
+      "sourceSlide": 28,
+      "narrativeRole": "continuous integration evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/n6pwfu9w",
+            "sh/q9cz6xkv",
+            "sh/ralgf21g",
+            "sh/0zehcr2x",
+            "sh/10nylwji",
+            "sh/exwzahkr",
+            "sh/zy5gjm1c",
+            "sh/o3ehgr29",
+            "sh/947ipwje",
+            "sh/lg3690fq",
+            "sh/kfu5gfe5",
+            "sh/ral03ehs",
+            "sh/q9cza9g7",
+            "sh/1gni9ozu",
+            "sh/0fe1gjyp",
+            "sh/zel07eh4",
+            "sh/6hcni5wb",
+            "sh/9ojm1gfi",
+            "sh/ona58ved",
+            "sh/0jex4fq5",
+            "sh/1knedkrq",
+            "sh/ehwf2p8z",
+            "sh/zi5wba9k",
+            "sh/o7yx8zqh",
+            "sh/987eh4rm",
+            "sh/m5wf6p8b"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 38,
+      "sourceSlide": 29,
+      "narrativeRole": "failure investigation",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6hkbyhs7",
+            "sh/tk36hwby",
+            "sh/8jup8rad",
+            "sh/vmlojmto",
+            "sh/ulc7a1s3",
+            "sh/h8n6lwbu",
+            "sh/g7upcra9",
+            "sh/bq1o72tk",
+            "sh/apsnyxcz",
+            "sh/kf2tw7a1",
+            "sh/9cj2xwra",
+            "sh/obal4rap",
+            "sh/zmhkr298",
+            "sh/el8jyhsn",
+            "sh/t4butcri"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    },
+    {
+      "outputSlide": 39,
+      "sourceSlide": 30,
+      "narrativeRole": "distinct execution environments",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ba1w3uh8",
+            "sh/po72d8nm",
+            "sh/o3yl4361",
+            "sh/bqpkfy5s",
+            "sh/apg36do7",
+            "sh/xsr2h8ni",
+            "sh/cril836d",
+            "sh/ru5k3ep8",
+            "sh/6twju9o3",
+            "sh/t87edkvu",
+            "sh/87ydkfe9",
+            "sh/ji5wnads",
+            "sh/3mhwzu1c",
+            "sh/lknepkvy",
+            "sh/dcje54ze",
+            "sh/q9sfap03"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 40,
+      "sourceSlide": 32,
+      "narrativeRole": "current package status",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/l4765sbm",
+            "sh/kr61sfy1",
+            "sh/lszilkfm",
+            "sh/6t8jupg7",
+            "sh/7uh0nuxs",
+            "im/h0zqtoje",
+            "sh/ry94z29w"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 41,
+      "sourceSlide": 31,
+      "narrativeRole": "demonstrated evidence and excluded claims",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ilory1wf",
+            "sh/dgja98fe",
+            "sh/cfa903yt",
+            "sh/zilsbyx4",
+            "sh/ehsr2dgz",
+            "sh/1k3ad8fa",
+            "sh/0jut43yp",
+            "sh/fmhszex0",
+            "sh/ul8rq9gf",
+            "sh/4vm5g7al",
+            "sh/5wvmpcr6",
+            "sh/it4nexsf",
+            "sh/3ud4n290",
+            "sh/sz65k7ah",
+            "sh/d0fmtcr2",
+            "sh/qx4nihsb",
+            "sh/ryd4rm9w",
+            "sh/832l8nad",
+            "sh/t4bmhsry",
+            "sh/9032l43m",
+            "sh/8zu1cj21",
+            "sh/nylkjelg",
+            "sh/mxcja9kv",
+            "sh/xon2po3i",
+            "sh/wnulgj2d",
+            "sh/vmlknels",
+            "sh/a1c3e9k7",
+            "sh/5sn2to3u",
+            "sh/krelk329"
+          ],
+          "reason": "Retain the inherited slide frame while rebuilding the content area for the requested onboarding material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint labels, diagrams, callouts, or current repository imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 42,
+      "sourceSlide": 33,
+      "narrativeRole": "first-week repeatable chain",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3u1cjut8",
+            "sh/lk3m50nq",
+            "sh/0jalwfm5",
+            "sh/9o3m9knm",
+            "sh/8nul0fmh",
+            "sh/vql4bu5s",
+            "sh/apc32p47",
+            "sh/grad8zah",
+            "sh/hsjuhkb2",
+            "sh/upsv6psb",
+            "sh/vq1cfutw",
+            "sh/4vadczad",
+            "sh/5w3ul4by",
+            "sh/itsvapsn",
+            "sh/czudgjap",
+            "sh/dk3ep4ba"
+          ],
+          "reason": "Update wording, numbering, and notes while preserving the inherited composition."
+        }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    17
+  ]
+}

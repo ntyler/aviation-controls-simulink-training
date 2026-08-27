@@ -943,51 +943,52 @@ configureDiscreteModel(mdl, 4.0);
 set_param(mdl, 'Description', [ ...
     'Referenced-model flight-control architecture training example with ' ...
     'a typed FlightControlBus and explicit interface routing.']);
-addTrainingBanner(mdl, [ ...
+architectureBanner = addTrainingBanner(mdl, [ ...
     'ILLUSTRATIVE REFERENCED FLIGHT-CONTROL ARCHITECTURE - NOT PRODUCTION\n' ...
     'Typed bus -> Sensor Processing -> Pitch Rate Limiter -> Pitch Controller -> Actuator Command']);
+architectureBanner.Position = [280 35 1220 80];
 
 % Representative sensor and mode interface.
-addInport(mdl, 'q_rate', 1, [25 90 55 110], 'double', 'deg/s');
-addInport(mdl, 'pitch_angle', 2, [25 140 55 160], 'double', 'deg');
-addInport(mdl, 'mach', 3, [25 190 55 210], 'double', '1');
-addInport(mdl, 'air_data_valid', 4, [25 240 55 260], 'boolean', '1');
-addInport(mdl, 'mode', 5, [25 290 55 310], 'uint8', '1');
-addInport(mdl, 'q_cmd_in', 6, [25 420 55 440], 'double', 'deg/s');
+addInport(mdl, 'q_rate', 1, [30 105 60 125], 'double', 'deg/s');
+addInport(mdl, 'pitch_angle', 2, [30 150 60 170], 'double', 'deg');
+addInport(mdl, 'mach', 3, [30 195 60 215], 'double', '1');
+addInport(mdl, 'air_data_valid', 4, [30 240 60 260], 'boolean', '1');
+addInport(mdl, 'mode', 5, [30 285 60 305], 'uint8', '1');
+addInport(mdl, 'q_cmd_in', 6, [690 475 720 495], 'double', 'deg/s');
 
 busCreator = [mdl '/Create FlightControlBus'];
 add_block('simulink/Signal Routing/Bus Creator', busCreator, ...
     'Inputs', '5', ...
     'OutDataTypeStr', 'Bus: FlightControlBus', ...
-    'Position', [125 80 175 320], ...
+    'Position', [140 95 190 315], ...
     'BackgroundColor', 'lightBlue');
 
 sensorRef = [mdl '/Sensor Processing'];
-addModelReference(sensorRef, 'SensorProcessingRef', [235 145 385 255]);
+addModelReference(sensorRef, 'SensorProcessingRef', [280 135 480 250]);
 selector = [mdl '/Controller Bus Inputs'];
 add_block('simulink/Signal Routing/Bus Selector', selector, ...
     'OutputSignals', 'q_rate,air_data_valid,mode', ...
-    'Position', [445 130 495 275], ...
+    'Position', [580 300 640 450], ...
     'BackgroundColor', 'lightBlue');
 normalPath = [mdl '/Mode Is NORMAL'];
 add_block('simulink/Logic and Bit Operations/Compare To Constant', normalPath, ...
     'relop', '==', ...
     'const', 'normal_mode_code', ...
-    'Position', [545 260 650 295], ...
+    'Position', [680 400 810 440], ...
     'BackgroundColor', 'yellow');
 
 limiterRef = [mdl '/Pitch Rate Limiter'];
-addModelReference(limiterRef, 'PitchRateLimiter', [560 370 710 480]);
+addModelReference(limiterRef, 'PitchRateLimiter', [850 450 1050 585]);
 controllerRef = [mdl '/Pitch Controller'];
-addModelReference(controllerRef, 'PitchControllerRef', [780 350 920 465]);
+addModelReference(controllerRef, 'PitchControllerRef', [1150 450 1340 585]);
 actuatorRef = [mdl '/Actuator Command'];
-addModelReference(actuatorRef, 'ActuatorCommandRef', [995 350 1140 465]);
+addModelReference(actuatorRef, 'ActuatorCommandRef', [1450 450 1640 585]);
 
-addBusOutport(mdl, 'processed_flight_data', 1, [1235 175 1265 195]);
-addOutport(mdl, 'actuator_cmd_deg', 2, [1235 355 1265 375], 'double', 'deg');
-addOutport(mdl, 'limiter_active', 3, [1235 425 1265 445], 'boolean', '1');
-addOutport(mdl, 'actuator_limit_active', 4, [1235 495 1265 515], 'boolean', '1');
-addOutport(mdl, 'q_tracking_error', 5, [1235 565 1265 585], 'double', 'deg/s');
+addBusOutport(mdl, 'processed_flight_data', 1, [1450 175 1480 195]);
+addOutport(mdl, 'actuator_cmd_deg', 2, [1730 475 1760 495], 'double', 'deg');
+addOutport(mdl, 'limiter_active', 3, [1100 620 1130 640], 'boolean', '1');
+addOutport(mdl, 'actuator_limit_active', 4, [1680 620 1710 640], 'boolean', '1');
+addOutport(mdl, 'q_tracking_error', 5, [1390 620 1420 640], 'double', 'deg/s');
 
 inputNames = {'q_rate','pitch_angle','mach','air_data_valid','mode'};
 for idx = 1:numel(inputNames)
@@ -1020,7 +1021,42 @@ addNamedLine(mdl, 'Actuator Command/2', 'actuator_limit_active/1', ...
 addNamedLine(mdl, 'Pitch Controller/2', 'q_tracking_error/1', ...
     'q_tracking_error', true);
 
-addTrainingNote(mdl, [300 610 1060 670], [ ...
+set_param(mdl, ...
+    'ShowPortDataTypes', 'off', ...
+    'ShowLineDimensions', 'off', ...
+    'ShowPortUnits', 'off');
+lineHandles = find_system(mdl, 'FindAll', 'on', ...
+    'SearchDepth', 1, 'Type', 'line');
+Simulink.BlockDiagram.routeLine(lineHandles);
+
+% Preserve the three-lane reading order after autorouting: processed bus
+% at the top, the command path through the middle, and status outputs
+% beneath their producers.  The custom logging names remain on source
+% ports even where redundant visible line labels are suppressed.
+setOutputLineRoute([mdl '/Controller Bus Inputs'], 1, ...
+    [645 325; 1100 325; 1100 550; 1135 550], false);
+setOutputLineRoute([mdl '/Controller Bus Inputs'], 2, ...
+    [645 375; 665 375; 665 565; 835 565], false);
+setOutputLineRoute([mdl '/Controller Bus Inputs'], 3, ...
+    [645 425; 655 425; 655 420; 665 420], false);
+setOutputLineRoute([mdl '/Mode Is NORMAL'], 1, ...
+    [815 420; 825 420; 825 520; 835 520], true);
+setOutputLineRoute([mdl '/q_cmd_in'], 1, ...
+    [725 485; 805 485; 805 475; 835 475], true);
+setOutputLineRoute([mdl '/Pitch Rate Limiter'], 1, ...
+    [1055 485; 1135 485], true);
+setOutputLineRoute([mdl '/Pitch Rate Limiter'], 2, ...
+    [1055 555; 1085 555; 1085 630], true);
+setOutputLineRoute([mdl '/Pitch Controller'], 1, ...
+    [1345 485; 1380 485; 1380 520; 1435 520], true);
+setOutputLineRoute([mdl '/Pitch Controller'], 2, ...
+    [1345 550; 1375 550; 1375 630], true);
+setOutputLineRoute([mdl '/Actuator Command'], 1, ...
+    [1645 485; 1715 485], true);
+setOutputLineRoute([mdl '/Actuator Command'], 2, ...
+    [1645 550; 1665 550; 1665 630], true);
+
+addTrainingNote(mdl, [280 675 1500 715], [ ...
     'Interface review focus: named model-reference boundaries, a single ' ...
     'FlightControlBus definition, explicit scalar extraction, controlled ' ...
     'parameters, units, data types, and 50 Hz execution.']);
@@ -1230,7 +1266,19 @@ end
 end
 
 
-function addTrainingBanner(sys, text)
+function setOutputLineRoute(blockPath, outputIndex, points, hideName)
+ports = get_param(blockPath, 'PortHandles');
+lineHandle = get_param(ports.Outport(outputIndex), 'Line');
+assert(lineHandle > 0, 'Training:MissingLine', ...
+    'Missing expected output line: %s/%d', blockPath, outputIndex);
+set_param(lineHandle, 'Points', points);
+if hideName
+    set_param(lineHandle, 'Name', '');
+end
+end
+
+
+function note = addTrainingBanner(sys, text)
 text = strrep(text, '\n', newline);
 note = Simulink.Annotation(sys, text);
 note.Position = [25 15 950 60];

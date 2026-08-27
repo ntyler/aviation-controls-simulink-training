@@ -1,0 +1,494 @@
+{
+  "schemaVersion": "1.0",
+  "deck": "Aviation_Controls_Engineer_Simulink_DO178C_Training_v5.pptx",
+  "repositoryRoot": "D:\\GitHub\\aviation-controls-simulink-training",
+  "defaultFit": "contain",
+  "notes": [
+    "Every mapped visual or evidence file is an authentic repository artifact.",
+    "Always preserve aspect ratio and use contain placement; do not crop away model ports, labels, legends, axes, or application chrome needed for instruction.",
+    "Direct Simulink exports can place long port labels close to the bitmap edge. Add slide margins rather than cropping the bitmap.",
+    "The two .mldatx files in this repository are Simulation Data Inspector artifacts, not Simulink Test files."
+  ],
+  "slides": [
+    {
+      "slide": 6,
+      "role": "toolstrip",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedbackControlLoop_Editor.jpg",
+          "fit": "contain",
+          "caption": "Simulink Editor orientation: Simulation, Debug, Modeling, Format, and Apps tabs on the standalone closed-loop training model.",
+          "provenance": "Manual capture of the current saved models/AircraftFeedbackControlLoop.slx in MATLAB/Simulink R2023b; 1920x1032; captured 2026-08-26 23:08:57.",
+          "warning": "The active Simulation tab visibly supports Open, Run, Stop, stepping, and Data Inspector callouts; Update Model/compile and Build may require native slide callouts because they are not all simultaneously visible in this capture."
+        }
+      ]
+    },
+    {
+      "slide": 7,
+      "role": "overlays",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Model.png",
+          "fit": "contain",
+          "caption": "Pitch-rate limiter root view with signal names, data types, and logging/test-point badges visible.",
+          "provenance": "Current canonical direct Simulink export of models/PitchRateLimiter.slx; 2620x1581; exported 2026-08-26 23:15:08.",
+          "warning": "This authentic image does not demonstrate every on/off state for port units, signal dimensions, or logged values. Use native annotations and speaker-note click paths; do not substitute the stale pitch_rate_limiter.png alias."
+        }
+      ]
+    },
+    {
+      "slide": 9,
+      "role": "afcl_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedbackControlLoop_Model.png",
+          "fit": "contain",
+          "caption": "Standalone closed-loop training model: command, PI controller, actuator, simplified aircraft, sensor lag, disturbance, and feedback.",
+          "provenance": "Direct Simulink export of models/AircraftFeedbackControlLoop.slx; 2849x1581; exported 2026-08-26 22:26:35.",
+          "warning": "Use the full bitmap at large scale; do not place this dense model in a screenshot grid."
+        }
+      ]
+    },
+    {
+      "slide": 10,
+      "role": "pitch_controller_pi_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedback_PitchController.png",
+          "fit": "contain",
+          "caption": "AircraftFeedbackControlLoop/Pitch Controller PI.",
+          "provenance": "Direct Simulink subsystem export from the current AircraftFeedbackControlLoop model; 2845x1581; exported 2026-08-26 22:26:37.",
+          "warning": "Keep the complete image visible so the input/output labels and dictionary-controlled PI note remain readable."
+        }
+      ]
+    },
+    {
+      "slide": 11,
+      "role": "actuator_dynamics_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedback_ActuatorDynamics.png",
+          "fit": "contain",
+          "caption": "AircraftFeedbackControlLoop/Actuator Dynamics.",
+          "provenance": "Direct Simulink subsystem export from the current AircraftFeedbackControlLoop model; 2823x1581; exported 2026-08-26 22:26:39.",
+          "warning": "Long port labels sit near the source-image edges; do not crop."
+        }
+      ]
+    },
+    {
+      "slide": 12,
+      "role": "longitudinal_plant_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedback_LongitudinalPlant.png",
+          "fit": "contain",
+          "caption": "AircraftFeedbackControlLoop/Simplified Longitudinal Aircraft Dynamics.",
+          "provenance": "Direct Simulink subsystem export from the current AircraftFeedbackControlLoop model; 2852x1581; exported 2026-08-26 22:26:41.",
+          "warning": "This is an illustrative longitudinal training plant, not identified or production aircraft data."
+        }
+      ]
+    },
+    {
+      "slide": 13,
+      "role": "sensor_processing_lag_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AircraftFeedback_SensorProcessingLag.png",
+          "fit": "contain",
+          "caption": "AircraftFeedbackControlLoop/Sensor Processing Lag.",
+          "provenance": "Direct Simulink subsystem export from the current AircraftFeedbackControlLoop model; 2822x1581; exported 2026-08-26 22:26:42.",
+          "warning": "Port labels are close to the source-image bounds; use contain placement with visible margins."
+        }
+      ]
+    },
+    {
+      "slide": 14,
+      "role": "autopilot_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AutopilotModeLogic_Model.png",
+          "fit": "contain",
+          "caption": "AutopilotModeLogic root wrapper and its Stateflow chart boundary.",
+          "provenance": "Direct Simulink export of models/AutopilotModeLogic.slx; 2125x1581; exported 2026-08-26 22:26:45.",
+          "warning": "This root wrapper is distinct from the Stateflow chart internals shown on slide 15."
+        }
+      ]
+    },
+    {
+      "slide": 15,
+      "role": "stateflow_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\AutopilotModeLogic_Stateflow_Editor.jpg",
+          "fit": "contain",
+          "caption": "Stateflow chart with OFF, ARMED, ENGAGED, and DEGRADED states and transition guards.",
+          "provenance": "Manual R2023b Stateflow Editor capture of the current chart at AutopilotModeLogic/Autopilot Mode Logic; 1920x1032; captured 2026-08-26 23:10:19.",
+          "warning": "The exact saved chart block path is AutopilotModeLogic/Autopilot Mode Logic; use 'Stateflow: Autopilot Mode Logic' only as a descriptive slide label. Prefer this landscape Editor capture over the portrait 1276x1581 direct export."
+        }
+      ]
+    },
+    {
+      "slide": 16,
+      "role": "referenced_architecture_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\ReferencedFlightControlArchitecture_Editor.jpg",
+          "fit": "contain",
+          "caption": "Referenced integration architecture connecting SensorProcessingRef, PitchRateLimiter, PitchControllerRef, and ActuatorCommandRef.",
+          "provenance": "Manual Simulink Editor capture made after the final saved models/ReferencedFlightControlArchitecture.slx layout; 1920x1032; captured 2026-08-26 23:07:00.",
+          "warning": "Do not use screenshots/ReferencedFlightControlArchitecture_Model.png or screenshots/referenced_architecture.png: both were exported at 22:26:50 and predate the final model save at 22:59:58."
+        }
+      ]
+    },
+    {
+      "slide": 17,
+      "role": "sensor_processing_ref_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\SensorProcessingRef_Model.png",
+          "fit": "contain",
+          "caption": "SensorProcessingRef referenced child model with typed FlightControlBus input/output and q-rate filtering.",
+          "provenance": "Direct Simulink export of models/SensorProcessingRef.slx; 2836x1581; exported 2026-08-26 22:26:53.",
+          "warning": "Keep the entire bus selector/creator view visible; do not crop the right-side output label."
+        }
+      ]
+    },
+    {
+      "slide": 18,
+      "role": "pitch_rate_limiter_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Model.png",
+          "fit": "contain",
+          "caption": "PitchRateLimiter component root: three inputs, two outputs, and the Pitch Rate Limiter Logic subsystem.",
+          "provenance": "Current canonical direct Simulink export of models/PitchRateLimiter.slx; 2620x1581; exported 2026-08-26 23:15:08.",
+          "warning": "Do not use screenshots/pitch_rate_limiter.png; its content hash differs from this newer canonical export despite the stale VisualManifest alias claim."
+        }
+      ]
+    },
+    {
+      "slide": 19,
+      "role": "pitch_rate_limiter_logic_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Implementation.png",
+          "fit": "contain",
+          "caption": "PitchRateLimiter/Pitch Rate Limiter Logic: mode/validity fallback, Magnitude Clamp, and limiter-active logic.",
+          "provenance": "Current canonical direct Simulink subsystem export; 2027x1581; exported 2026-08-26 23:15:11.",
+          "warning": "Do not use screenshots/pitch_rate_limiter_logic.png; its content hash differs from this newer canonical export. This dense, near-portrait diagram requires its own slide."
+        }
+      ]
+    },
+    {
+      "slide": 20,
+      "role": "pitch_controller_ref_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchControllerRef_Model.png",
+          "fit": "contain",
+          "caption": "PitchControllerRef referenced child model and its Pitch Rate PI boundary.",
+          "provenance": "Direct Simulink export of models/PitchControllerRef.slx; 2831x1581; exported 2026-08-26 22:26:55.",
+          "warning": "Use at near-full-slide size so the two root inputs and two outputs remain readable."
+        }
+      ]
+    },
+    {
+      "slide": 21,
+      "role": "pitch_rate_pi_internal",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchControllerRef_PitchRatePI.png",
+          "fit": "contain",
+          "caption": "PitchControllerRef/Pitch Rate PI with proportional and discrete integral paths.",
+          "provenance": "Direct Simulink subsystem export from the current PitchControllerRef model; 2832x1581; exported 2026-08-26 22:26:57.",
+          "warning": "Retain the full dictionary-control annotation and both PI branches."
+        }
+      ]
+    },
+    {
+      "slide": 22,
+      "role": "actuator_command_ref_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\ActuatorCommandRef_Model.png",
+          "fit": "contain",
+          "caption": "ActuatorCommandRef referenced child model with command magnitude protection and active-status output.",
+          "provenance": "Direct Simulink export of models/ActuatorCommandRef.slx; 2730x1581; exported 2026-08-26 22:26:59.",
+          "warning": "Do not crop the right-side output ports or bottom actuator-limit parameter block."
+        }
+      ]
+    },
+    {
+      "slide": 23,
+      "role": "harness_root",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Harness.png",
+          "fit": "contain",
+          "caption": "Independent executable harness with From Workspace stimuli, Unit Under Test - PitchRateLimiter, and captured outputs.",
+          "provenance": "Direct Simulink export of models/PitchRateLimiter_Harness.slx; 2698x1581; exported 2026-08-26 22:27:02.",
+          "warning": "This is a standalone MATLAB/Simulink harness. Do not imply that a Simulink Test Manager .mldatx suite exists."
+        }
+      ]
+    },
+    {
+      "slide": 24,
+      "role": "simulation_data_inspector",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\SimulationDataInspector_Onboarding.jpg",
+          "fit": "contain",
+          "caption": "Saved one-run Simulation Data Inspector onboarding view: five signals across three vertically arranged plots.",
+          "provenance": "Manual R2023b Simulation Data Inspector capture of the retained onboarding session; 1920x1032; captured 2026-08-26 23:20:37.",
+          "warning": "Opening the saved session can replace the current SDI repository; speaker notes must reference the recovery-safe helper."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\data\\SimulationDataInspector\\AircraftFeedbackControlLoop_Onboarding_View.mldatx",
+          "fit": "contain",
+          "caption": "Reusable three-plot SDI view template.",
+          "provenance": "Saved by scripts/save_data_inspector_reference.m on 2026-08-26 23:24:20; view metadata records a 3x1 layout, inside-right legends, grid, and markers.",
+          "warning": "SDI view artifact only; not a Simulink Test file."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\SimulationDataInspector\\AircraftFeedbackControlLoop_Onboarding_Session.mldatx",
+          "fit": "contain",
+          "caption": "One-run SDI session containing command, response, error, actuator, and disturbance data.",
+          "provenance": "Saved and reload-validated by scripts/save_data_inspector_reference.m on 2026-08-26 23:24:20; run description identifies desktop MIL execution.",
+          "warning": "SDI session artifact only; not SIL, PIL, HIL, certification approval, or a Simulink Test file."
+        }
+      ]
+    },
+    {
+      "slide": 31,
+      "role": "companion_file_flow",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Harness.png",
+          "fit": "contain",
+          "caption": "Harness stage of the companion-file flow.",
+          "provenance": "Authentic direct export of models/PitchRateLimiter_Harness.slx; the UUT block references models/PitchRateLimiter.slx.",
+          "warning": "Use as a supporting image beside a native relative-file flow, not as a substitute for the flow."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\data\\FCS_Data.sldd",
+          "fit": "contain",
+          "caption": "Controlled illustrative parameters, types, sample time, and FlightControlBus.",
+          "provenance": "Current repository Simulink data dictionary; saved 2026-08-26 23:24:12.",
+          "warning": "Classroom data only; not production aircraft data or an approved certification baseline."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\models\\PitchRateLimiter_Harness.slx",
+          "fit": "contain",
+          "caption": "Independent harness model.",
+          "provenance": "Current saved Simulink harness; its exact UUT block name is Unit Under Test - PitchRateLimiter.",
+          "warning": "The harness does not contain hidden pass/fail assessment logic."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\models\\PitchRateLimiter.slx",
+          "fit": "contain",
+          "caption": "Component model referenced by the harness.",
+          "provenance": "Current saved PitchRateLimiter model.",
+          "warning": "Keep the component role distinct from the harness and test driver."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\scripts\\run_pitch_rate_limiter_tests.m",
+          "fit": "contain",
+          "caption": "Executable MATLAB test driver and visible pass/fail assessments.",
+          "provenance": "Current repository script; executes deterministic desktop Simulink MIL and writes CSV, MAT, HTML, and PNG evidence.",
+          "warning": "The script explicitly states that Simulink Test is not used and no test-suite .mldatx is created."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\docs\\PitchRateLimiter_Requirements_Traceability.csv",
+          "fit": "contain",
+          "caption": "Illustrative requirements-to-model-to-verification traceability associations.",
+          "provenance": "Current repository traceability CSV using exact model block names.",
+          "warning": "CSV/script/result associations demonstrate traceability; they are not live Simulink Requirements links."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\PitchRateLimiter_TestResults.csv",
+          "fit": "contain",
+          "caption": "Machine-readable 19-assessment result table.",
+          "provenance": "Current executed harness result CSV; generated 2026-08-26 23:24:14.",
+          "warning": "Desktop MIL evidence input only; a PASS is not certification approval."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\PitchRateLimiter_TestResults.mat",
+          "fit": "contain",
+          "caption": "Retained MATLAB result structures and simulation signals.",
+          "provenance": "Current executed harness MAT evidence; generated 2026-08-26 23:24:14.",
+          "warning": "Desktop MIL evidence input only."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.html",
+          "fit": "contain",
+          "caption": "Human-readable executable test report.",
+          "provenance": "Current HTML report generated by scripts/run_pitch_rate_limiter_tests.m on 2026-08-26 23:24:14.",
+          "warning": "The report identifies illustrative desktop simulation and no Simulink Test usage."
+        },
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.png",
+          "fit": "contain",
+          "caption": "Human-readable plotted harness result report.",
+          "provenance": "Current raw PNG report generated by scripts/run_pitch_rate_limiter_tests.m; 3255x1846; generated 2026-08-26 23:24:17.",
+          "warning": "Prefer this latest raw report over the older framed screenshots/pitch_rate_limiter_test_results.png alias."
+        }
+      ]
+    },
+    {
+      "slide": 33,
+      "role": "nineteen_of_nineteen_report",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.png",
+          "fit": "contain",
+          "caption": "Pitch Rate Limiter Harness Results — PASS; 19/19 assessments passed at 50 Hz with 1e-9 deg/s numeric tolerance.",
+          "provenance": "Latest raw executed-result PNG generated from the current harness run; 3255x1846; generated 2026-08-26 23:24:17.",
+          "warning": "Use a readable contain-fit or a non-destructive crop of the top two plots only; do not stretch. Label the execution Desktop Simulink model execution (MIL), not SIL, PIL, or HIL."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\PitchRateLimiter_TestResults.csv",
+          "fit": "contain",
+          "caption": "Authoritative row-level evidence for all 19 assessments, including iteration 8.",
+          "provenance": "Current result CSV generated 2026-08-26 23:24:14; iteration 8 records input 12.1, expected 12, actual 12, zero error, tolerance 1e-9, PASS, and PRL-001/PRL-003/PRL-004 associations.",
+          "warning": "Summarize exact fields natively rather than rendering the entire CSV at unreadable size."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.html",
+          "fit": "contain",
+          "caption": "Human-readable tabular companion to the plotted report.",
+          "provenance": "Current generated HTML report; generated 2026-08-26 23:24:14.",
+          "warning": "Evidence input only; not certification approval."
+        }
+      ]
+    },
+    {
+      "slide": 35,
+      "role": "data_dictionary_interfaces",
+      "assets": [
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\FCS_DataDictionary_and_FlightControlBus.png",
+          "fit": "contain",
+          "caption": "FCS data dictionary entries and FlightControlBus element definitions.",
+          "provenance": "Rendered from the actual data/FCS_Data.sldd entries and FlightControlBus elements; 1960x1536; exported 2026-08-26 22:27:04.",
+          "warning": "Some long dictionary names/descriptions are intentionally truncated in the authentic render; use native callouts for the six required controlled entries."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\data\\FCS_Data.sldd",
+          "fit": "contain",
+          "caption": "Current controlled data dictionary.",
+          "provenance": "Saved Simulink data dictionary used by all eight models; saved 2026-08-26 23:24:12.",
+          "warning": "Illustrative classroom data only."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\FCS_DataDictionary_Inventory.csv",
+          "fit": "contain",
+          "caption": "Exported inventory of actual dictionary entries.",
+          "provenance": "Repository-generated data dictionary inventory CSV.",
+          "warning": "Use as source evidence for native slide text, not as a full-slide screenshot."
+        },
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\FlightControlBus_Inventory.csv",
+          "fit": "contain",
+          "caption": "Exported FlightControlBus interface inventory.",
+          "provenance": "Repository-generated bus element inventory CSV.",
+          "warning": "Use as source evidence for native interface labels."
+        }
+      ]
+    },
+    {
+      "slide": 40,
+      "role": "native_status_slide",
+      "assets": [
+        {
+          "kind": "evidence",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\results\\validation_summary.txt",
+          "fit": "contain",
+          "caption": "Authoritative current status: 8/8 models updated, 19/19 limiter assessments passed, and 24/24 required exported artifacts present.",
+          "provenance": "Validator-written compact status record generated 2026-08-26 23:26:01.",
+          "warning": "Build the status slide with native shapes/text; this file is source evidence, not a screenshot. It also records HIL executed: NO and Jenkins executed: NO."
+        },
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\TrainingEvidenceSummary.png",
+          "fit": "contain",
+          "optional": true,
+          "caption": "Optional evidence-summary thumbnail.",
+          "provenance": "Repository-rendered evidence summary derived from executed CSV files; 2498x1440; exported 2026-08-26 22:27:14.",
+          "warning": "Optional thumbnail only. It predates the final 23:26 validation summary; native status text must be sourced from results/validation_summary.txt."
+        },
+        {
+          "kind": "image",
+          "path": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.png",
+          "fit": "contain",
+          "optional": true,
+          "caption": "Optional 19/19 executed-test thumbnail.",
+          "provenance": "Latest raw current harness report PNG, generated 2026-08-26 23:24:17.",
+          "warning": "Use only if the status slide remains uncluttered; the native 19/19 metric is primary."
+        }
+      ]
+    }
+  ],
+  "staleAliases": [
+    {
+      "aliasPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\pitch_rate_limiter.png",
+      "canonicalPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Model.png",
+      "reason": "The alias was exported at 22:26:31 and its SHA-256 begins 0E0547577742; the newer canonical export was written at 23:15:08 and its SHA-256 begins 497EBA181426. The VisualManifest byte-for-byte alias claim is stale.",
+      "doNotUse": true
+    },
+    {
+      "aliasPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\pitch_rate_limiter_logic.png",
+      "canonicalPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\PitchRateLimiter_Implementation.png",
+      "reason": "The alias was exported at 22:26:33 and its SHA-256 begins 6A3D83E32B3A; the newer canonical export was written at 23:15:11 and its SHA-256 begins 44C1EE374426. The VisualManifest byte-for-byte alias claim is stale.",
+      "doNotUse": true
+    },
+    {
+      "aliasPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\referenced_architecture.png",
+      "canonicalPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\ReferencedFlightControlArchitecture_Editor.jpg",
+      "reason": "The alias and its ReferencedFlightControlArchitecture_Model.png source were exported at 22:26:50, before the manually cleaned model was saved at 22:59:58. The 23:07:00 Editor capture represents the current saved layout.",
+      "doNotUse": true
+    },
+    {
+      "aliasPath": "D:\\GitHub\\aviation-controls-simulink-training\\screenshots\\pitch_rate_limiter_test_results.png",
+      "canonicalPath": "D:\\GitHub\\aviation-controls-simulink-training\\reports\\PitchRateLimiter_TestReport.png",
+      "reason": "The framed screenshot dates 22:27:05. The raw report was regenerated from the current 19/19 execution at 23:24:17.",
+      "doNotUse": true
+    }
+  ]
+}

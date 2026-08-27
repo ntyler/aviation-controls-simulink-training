@@ -1,0 +1,890 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "preserved v5 slide 1 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/vmdcj2xw"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "preserved v5 slide 2 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/a10jqpsj"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "preserved v5 slide 3 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/3ah8rqlg"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "preserved v5 slide 4 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ql8jytsj"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "preserved v5 slide 5 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/yhkbe1o7"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "preserved v5 slide 6 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/98rqt4r6"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "preserved v5 slide 7 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zedcfa9g"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 24,
+      "narrativeRole": "signal logging and test point comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ap03el4r",
+            "sh/1sfqxsv6",
+            "sh/0r6p4nul",
+            "sh/nux8zidc",
+            "sh/2to76dcr",
+            "sh/vq94nq5w",
+            "sh/xsrmp0n2",
+            "sh/it03i54n",
+            "sh/je94ra58",
+            "sh/ra54bqxc",
+            "sh/q9w325wr",
+            "sh/dc7md0fi",
+            "sh/sbyl4vex",
+            "sh/fyp4fax8",
+            "sh/edg365w3",
+            "sh/107mhkfe",
+            "sh/0zyl8fet",
+            "sh/v2lk36x4",
+            "sh/uhc3ulwj",
+            "im/fmhor2p4"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 24,
+      "narrativeRole": "model settings configuration workflow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/ap03el4r",
+            "sh/1sfqxsv6",
+            "sh/0r6p4nul",
+            "sh/nux8zidc",
+            "sh/2to76dcr",
+            "sh/vq94nq5w",
+            "sh/xsrmp0n2",
+            "sh/it03i54n",
+            "sh/je94ra58",
+            "sh/ra54bqxc",
+            "sh/q9w325wr",
+            "sh/dc7md0fi",
+            "sh/sbyl4vex",
+            "sh/fyp4fax8",
+            "sh/edg365w3",
+            "sh/107mhkfe",
+            "sh/0zyl8fet",
+            "sh/v2lk36x4",
+            "sh/uhc3ulwj",
+            "im/fmhor2p4"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 37,
+      "narrativeRole": "Model Advisor component check workflow",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/fi5c7ux0",
+            "sh/61c7md0r",
+            "sh/7m58vyhw",
+            "sh/kzupk3il",
+            "sh/503qt8z6",
+            "sh/ixc7it0f",
+            "sh/jyl8ryh0",
+            "sh/4vy9wnyp",
+            "sh/pw7q5sza",
+            "sh/9cfa9gry",
+            "sh/8b69gbqd",
+            "sh/03q9g3ml",
+            "sh/l4za9836",
+            "sh/y18ret4v",
+            "sh/z2hs7ylg",
+            "sh/czq9cjmp",
+            "sh/y54ra18b",
+            "sh/54zah0r6",
+            "sh/43qtofql",
+            "sh/47ydkjyh",
+            "sh/p87udof2",
+            "sh/2lgvi9gr",
+            "sh/36pcbexc",
+            "sh/gjetgzyl",
+            "sh/hknu94f6",
+            "sh/uhwbe9gf"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 4,
+      "narrativeRole": "Polyspace Bug Finder and Code Prover placeholders",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/i94r6xgz",
+            "sh/1cj2d8b6",
+            "sh/0ba143al",
+            "sh/rm1k7yt4",
+            "sh/ql8jytsj",
+            "sh/doj29oba",
+            "sh/sna103ap",
+            "sh/3ihk3et8",
+            "sh/ih8ju9sn",
+            "sh/kbm987y5",
+            "sh/5cva1cfq"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 8,
+      "narrativeRole": "preserved v5 slide 8 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6h0fypgb"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 9,
+      "narrativeRole": "preserved v5 slide 9 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mdonql4z"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 10,
+      "narrativeRole": "preserved v5 slide 10 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ydcnatkn"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 11,
+      "narrativeRole": "preserved v5 slide 11 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/250zy18b"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 12,
+      "narrativeRole": "preserved v5 slide 12 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q903ad4n"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 13,
+      "narrativeRole": "preserved v5 slide 13 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p4r6p8by"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 14,
+      "narrativeRole": "preserved v5 slide 14 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/idgvmx8r"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 15,
+      "narrativeRole": "preserved v5 slide 15 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/65gnqlk7"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 16,
+      "narrativeRole": "preserved v5 slide 16 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/zutgvm94"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 17,
+      "narrativeRole": "preserved v5 slide 17 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/6lwvql4v"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 18,
+      "narrativeRole": "preserved v5 slide 18 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/je5knut0"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 19,
+      "narrativeRole": "preserved v5 slide 19 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ahk7qls3"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 20,
+      "narrativeRole": "preserved v5 slide 20 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/po3itc72"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 21,
+      "narrativeRole": "preserved v5 slide 21 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qp03yt8n"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 22,
+      "narrativeRole": "preserved v5 slide 22 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/58zqpov6"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 23,
+      "narrativeRole": "preserved v5 slide 23 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/a14rmhgb"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 28,
+      "sourceSlide": 25,
+      "narrativeRole": "update diagram and build comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/uxsra18j",
+            "sh/xg7axgf2",
+            "sh/cfyt4beh",
+            "sh/napsr6x0",
+            "sh/29wby1wf",
+            "sh/pc7atgf6",
+            "sh/obyt0bel",
+            "sh/fm5snmx4",
+            "sh/elwbu1wj",
+            "sh/wza9cbqp",
+            "sh/h0jalgra"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 29,
+      "sourceSlide": 24,
+      "narrativeRole": "preserved v5 slide 24 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/2to76dcr"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 30,
+      "sourceSlide": 25,
+      "narrativeRole": "preserved v5 slide 25 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/29wby1wf"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 31,
+      "sourceSlide": 26,
+      "narrativeRole": "preserved v5 slide 26 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/tgr2xg3m"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 32,
+      "sourceSlide": 27,
+      "narrativeRole": "preserved v5 slide 27 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7qxsfi5o"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 33,
+      "sourceSlide": 28,
+      "narrativeRole": "preserved v5 slide 28 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ehwf2p8z"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 34,
+      "sourceSlide": 29,
+      "narrativeRole": "preserved v5 slide 29 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/p4jal432"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 35,
+      "sourceSlide": 30,
+      "narrativeRole": "preserved v5 slide 30 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/apg36do7"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 36,
+      "sourceSlide": 31,
+      "narrativeRole": "preserved v5 slide 31 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/ehsr2dgz"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 37,
+      "sourceSlide": 32,
+      "narrativeRole": "preserved v5 slide 32 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7uh0nuxs"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 38,
+      "sourceSlide": 33,
+      "narrativeRole": "preserved v5 slide 33 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/mlc3y54b"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 39,
+      "sourceSlide": 34,
+      "narrativeRole": "preserved v5 slide 34 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qx8napc7"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 40,
+      "sourceSlide": 35,
+      "narrativeRole": "preserved v5 slide 35 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/hcfm5s72"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 41,
+      "sourceSlide": 36,
+      "narrativeRole": "preserved v5 slide 36 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/qtcb2psb"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 42,
+      "sourceSlide": 37,
+      "narrativeRole": "preserved v5 slide 37 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/503qt8z6"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 43,
+      "sourceSlide": 38,
+      "narrativeRole": "preserved v5 slide 38 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/7yp0f6dg"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 44,
+      "sourceSlide": 39,
+      "narrativeRole": "preserved v5 slide 39 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/q1gn2pcf"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 45,
+      "sourceSlide": 40,
+      "narrativeRole": "preserved v5 slide 40 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/x8ny10z2"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 46,
+      "sourceSlide": 41,
+      "narrativeRole": "preserved v5 slide 41 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/u10rap0f"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    },
+    {
+      "outputSlide": 47,
+      "sourceSlide": 41,
+      "narrativeRole": "RCF independent verification and sign-off placeholder",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "replace",
+          "sourceElementIds": [
+            "sh/qxknypgj",
+            "sh/t0rqhkju",
+            "sh/szi98fi9",
+            "sh/f298ju10",
+            "sh/u10rap0f",
+            "sh/byt47uho",
+            "sh/czm50zy9",
+            "sh/dkv694zu",
+            "sh/yl4n29gf",
+            "sh/zmdobeh0",
+            "sh/0nm54jyl",
+            "sh/lov6doz6"
+          ],
+          "reason": "Preserve the inherited slide frame while rebuilding the content area for the requested teaching material."
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "mustNotOverlapInherited": true,
+          "zone": {
+            "left": 72,
+            "top": 130,
+            "width": 1136,
+            "height": 525
+          },
+          "reason": "Add bounded native PowerPoint teaching content and authentic user-supplied imagery inside the inherited content frame."
+        }
+      ]
+    },
+    {
+      "outputSlide": 48,
+      "sourceSlide": 42,
+      "narrativeRole": "preserved v5 slide 42 with renumbered footer",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "action": "rewrite",
+          "sourceElementIds": [
+            "sh/83a9obi9"
+          ],
+          "reason": "Renumber the copied slide after the requested insertions."
+        }
+      ]
+    }
+  ]
+}

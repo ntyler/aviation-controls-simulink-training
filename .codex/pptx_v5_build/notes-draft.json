@@ -1,0 +1,601 @@
+[
+  {
+    "slide": 1,
+    "timing": "1 minute",
+    "talkTrack": "Frame this as first-time-user onboarding for aviation controls engineers: operate the saved Simulink models, understand their roles, inspect results, and trace one classroom requirement to retained evidence. The examples are executable and reviewable, but deliberately small and non-production.",
+    "caveats": [
+      "Illustrative classroom requirements — not production aircraft data or an approved certification baseline.",
+      "The package demonstrates desktop model work; it is not a completed certification package."
+    ],
+    "sources": [
+      "README.md",
+      "results/validation_summary.txt"
+    ]
+  },
+  {
+    "slide": 2,
+    "timing": "2 minutes",
+    "talkTrack": "Use this hub to establish the model roles before opening files. AircraftFeedbackControlLoop is the standalone closed-loop learning model; ReferencedFlightControlArchitecture is the integration parent; four models are referenced children; AutopilotModeLogic is a separate Stateflow example; and PitchRateLimiter_Harness is the independent component-test harness.",
+    "caveats": [
+      "A top-level model is selected for the engineering task; there is no single model that serves every role.",
+      "AutopilotModeLogic is not a child of the referenced integration architecture."
+    ],
+    "sources": [
+      "README.md",
+      "models/AircraftFeedbackControlLoop.slx",
+      "models/ReferencedFlightControlArchitecture.slx"
+    ]
+  },
+  {
+    "slide": 3,
+    "timing": "1 minute",
+    "talkTrack": "Preview the learning sequence: initialize and operate a model, navigate the editor, read hierarchy and overlays, inspect logged data, then follow requirement intent into implementation and evidence. Ask throughout: which model am I in, what is visible, and what objective result supports the claim?",
+    "caveats": [
+      "The sequence is a learning path, not a substitute for approved project procedures."
+    ],
+    "sources": [
+      "README.md"
+    ]
+  },
+  {
+    "slide": 4,
+    "timing": "2 minutes",
+    "talkTrack": "MATLAB and Simulink are complementary. MATLAB prepares controlled data, automates operations, evaluates results, and writes evidence; Simulink exposes executable time behavior, hierarchy, state, interfaces, and sample times. In this repository, MATLAB scripts drive and assess the saved Simulink models.",
+    "caveats": [
+      "The distinction is about representation and workflow, not competing tools.",
+      "A script that runs a model is not itself proof that every lifecycle objective is satisfied."
+    ],
+    "sources": [
+      "scripts/run_training_simulations.m",
+      "scripts/run_pitch_rate_limiter_tests.m",
+      "https://www.mathworks.com/help/simulink/gs/model-based-design.html"
+    ]
+  },
+  {
+    "slide": 5,
+    "timing": "3 minutes",
+    "talkTrack": "Start MATLAB R2023b in the repository, add the scripts, models, and data folders to the path, run initialize_training_data(projectRoot), and open models/AircraftFeedbackControlLoop.slx for the first closed-loop exercise. Update the diagram, run, stop if needed, and inspect outputs under results; use the helper scripts for repeatable simulations and evidence refresh.",
+    "caveats": [
+      "There is no MATLAB Project .prj file in this repository; say initialize the training package, not open a project file.",
+      "Use refresh_onboarding_artifacts after layout-safe changes; regenerate_all recreates models and can overwrite manually cleaned layouts."
+    ],
+    "sources": [
+      "README.md",
+      "scripts/initialize_training_data.m",
+      "scripts/refresh_onboarding_artifacts.m",
+      "https://www.mathworks.com/help/simulink/slref/simulinkeditor.html"
+    ]
+  },
+  {
+    "slide": 6,
+    "timing": "3 minutes",
+    "talkTrack": "Orient learners to the Simulation, Debug, Modeling, Format, and Apps tabs. Open chooses the artifact; Update Diagram or Ctrl+D compiles and propagates model semantics; Run executes a simulation; Stop interrupts it; Build or Ctrl+B is a separate configured code-generation action; and test execution invokes the harness driver and assessments.",
+    "caveats": [
+      "Update/compile is not simulation, and Run is not Build.",
+      "The package makes no production-code, generated-code verification, SIL, PIL, or HIL claim; Embedded Coder is unavailable."
+    ],
+    "sources": [
+      "results/environment_inventory.txt",
+      "https://www.mathworks.com/help/simulink/slref/simulinkeditor.html",
+      "https://www.mathworks.com/help/simulink/ug/summary-of-mouse-and-keyboard-actions.html",
+      "https://www.mathworks.com/help/rtw/ug/generating-code-using-simulink-coder.html"
+    ]
+  },
+  {
+    "slide": 7,
+    "timing": "3 minutes",
+    "talkTrack": "Use Debug > Information Overlays to reveal port units, data types, signal dimensions, names, and logging or test-point badges; turn each display off again when it obscures structure. These overlays describe model semantics and instrumentation. Simulation Data Inspector markers and cursors instead annotate plotted samples after data has been logged.",
+    "caveats": [
+      "A marker does not create or delete a logged data point.",
+      "Some overlays require a successful model update before propagated attributes are available, and exact toolstrip grouping can vary by release or selection."
+    ],
+    "sources": [
+      "https://www.mathworks.com/help/simulink/ug/displaying-units.html",
+      "https://www.mathworks.com/help/simulink/ug/working-with-test-points.html",
+      "https://www.mathworks.com/help/simulink/ug/view-the-signal-logging-configuration.html",
+      "https://www.mathworks.com/help/simulink/gui/signallogging.html"
+    ]
+  },
+  {
+    "slide": 8,
+    "timing": "2 minutes",
+    "talkTrack": "Read the hierarchy by role. The standalone feedback loop contains four internal subsystems; the Stateflow model contains Autopilot Mode Logic; the referenced architecture owns four child models; PitchRateLimiter and PitchControllerRef each expose one meaningful internal subsystem; and the harness references the same limiter component used by integration.",
+    "caveats": [
+      "Use the exact saved path AutopilotModeLogic/Autopilot Mode Logic; Stateflow describes the technology, not the block name.",
+      "Referenced child models, internal subsystems, and an independent harness are different hierarchy relationships."
+    ],
+    "sources": [
+      "README.md",
+      "screenshots/VisualManifest.csv",
+      "https://www.mathworks.com/help/simulink/ug/overview-of-model-referencing-1.html"
+    ]
+  },
+  {
+    "slide": 9,
+    "timing": "2 minutes",
+    "talkTrack": "Trace AircraftFeedbackControlLoop from pitch command through controller, actuator, simplified longitudinal plant, and sensor lag back to the error calculation. The model logs command, response, error, actuator, and disturbance signals for the retained desktop run.",
+    "caveats": [
+      "This is a simplified standalone training loop, not production aircraft dynamics.",
+      "Its simulation result is MIL evidence only."
+    ],
+    "sources": [
+      "models/AircraftFeedbackControlLoop.slx",
+      "screenshots/AircraftFeedbackControlLoop_Editor.jpg",
+      "results/AircraftFeedback_CommandTracking.csv"
+    ]
+  },
+  {
+    "slide": 10,
+    "timing": "2 minutes",
+    "talkTrack": "Inside AircraftFeedbackControlLoop/Pitch Controller PI, identify proportional and integral paths and the discrete state. The separate subsystem boundary lets reviewers distinguish controller behavior from actuator saturation, plant dynamics, and sensing.",
+    "caveats": [
+      "The gains and initial condition come from controlled training data and are not aircraft-program values."
+    ],
+    "sources": [
+      "models/AircraftFeedbackControlLoop.slx",
+      "screenshots/AircraftFeedback_PitchController.png",
+      "data/FCS_Data.sldd"
+    ]
+  },
+  {
+    "slide": 11,
+    "timing": "2 minutes",
+    "talkTrack": "AircraftFeedbackControlLoop/Actuator Dynamics turns controller demand into a bounded, lagged actuator response. Point out where amplitude limiting and discrete dynamics enter, then connect those choices to explicit units, parameters, and initial state.",
+    "caveats": [
+      "This actuator is an illustrative dynamic element, not a qualified actuator model or hardware measurement."
+    ],
+    "sources": [
+      "models/AircraftFeedbackControlLoop.slx",
+      "screenshots/AircraftFeedback_ActuatorDynamics.png",
+      "data/FCS_Data.sldd"
+    ]
+  },
+  {
+    "slide": 12,
+    "timing": "2 minutes",
+    "talkTrack": "AircraftFeedbackControlLoop/Simplified Longitudinal Aircraft Dynamics converts actuator command and disturbance into pitch-rate and pitch-angle response. Use the view to discuss state, feedback, and disturbance entry without treating the coefficients as validated aerodynamics.",
+    "caveats": [
+      "The plant is intentionally simplified and unsuitable for aircraft-performance claims."
+    ],
+    "sources": [
+      "models/AircraftFeedbackControlLoop.slx",
+      "screenshots/AircraftFeedback_LongitudinalPlant.png",
+      "data/FCS_Data.sldd"
+    ]
+  },
+  {
+    "slide": 13,
+    "timing": "2 minutes",
+    "talkTrack": "AircraftFeedbackControlLoop/Sensor Processing Lag closes the loop with a discrete filtered measurement. Ask learners to identify the filter state, controlled coefficient, initial condition, output unit, and relationship between model rate and apparent response delay.",
+    "caveats": [
+      "A desktop sensor-lag model is not sensor qualification or bench evidence."
+    ],
+    "sources": [
+      "models/AircraftFeedbackControlLoop.slx",
+      "screenshots/AircraftFeedback_SensorProcessingLag.png",
+      "data/FCS_Data.sldd"
+    ]
+  },
+  {
+    "slide": 14,
+    "timing": "2 minutes",
+    "talkTrack": "At the AutopilotModeLogic root, identify external mode requests, validity and fault inputs, the Stateflow subsystem, and the documented mode output. The root view is the interface contract; the transition behavior is one level down.",
+    "caveats": [
+      "The mode codes and transitions are illustrative classroom behavior, not an approved autopilot specification."
+    ],
+    "sources": [
+      "models/AutopilotModeLogic.slx",
+      "screenshots/AutopilotModeLogic_Model.png",
+      "data/FCSMode.m"
+    ]
+  },
+  {
+    "slide": 15,
+    "timing": "2 minutes",
+    "talkTrack": "Open AutopilotModeLogic/Autopilot Mode Logic and read OFF, ARMED, ENGAGED, and DEGRADED as executable state logic. Follow guards and reset paths, then relate them to the retained mode-sequence result rather than relying only on visual inspection.",
+    "caveats": [
+      "The exact current block and chart name is Autopilot Mode Logic; do not prefix the saved path with Stateflow.",
+      "A visited-state plot is evidence for this scenario, not exhaustive state or transition coverage."
+    ],
+    "sources": [
+      "models/AutopilotModeLogic.slx",
+      "screenshots/AutopilotModeLogic_Stateflow_Editor.jpg",
+      "results/AutopilotModeSequence.csv",
+      "https://www.mathworks.com/help/stateflow/state-transition-charts.html"
+    ]
+  },
+  {
+    "slide": 16,
+    "timing": "3 minutes",
+    "talkTrack": "ReferencedFlightControlArchitecture is the integration parent. It creates FlightControlBus, invokes Sensor Processing, Pitch Rate Limiter, Pitch Controller, and Actuator Command Model blocks, and exposes integrated outputs. Model-reference boundaries make ownership and interface compatibility reviewable.",
+    "caveats": [
+      "The architecture update proves resolvable interfaces and configuration, not compliance with behavioral requirements.",
+      "On the verified student license, Accelerator Model blocks fall back to Normal mode."
+    ],
+    "sources": [
+      "models/ReferencedFlightControlArchitecture.slx",
+      "screenshots/ReferencedFlightControlArchitecture_Editor.jpg",
+      "results/ReferencedArchitecture_Validation.csv",
+      "https://www.mathworks.com/help/simulink/ug/overview-of-model-referencing-1.html"
+    ]
+  },
+  {
+    "slide": 17,
+    "timing": "2 minutes",
+    "talkTrack": "SensorProcessingRef is the referenced sensor-processing child. Review its FlightControlBus input and output, validity handling, filtering, and explicit interface rather than reading it as an isolated top-level simulation.",
+    "caveats": [
+      "Its primary role here is a referenced integration component, not the standalone closed-loop entry point."
+    ],
+    "sources": [
+      "models/SensorProcessingRef.slx",
+      "screenshots/SensorProcessingRef_Model.png",
+      "results/FlightControlBus_Inventory.csv"
+    ]
+  },
+  {
+    "slide": 18,
+    "timing": "2 minutes",
+    "talkTrack": "PitchRateLimiter is both a reviewable component model and a referenced child. Its root exposes q_cmd_in, normal_mode, input_valid, q_cmd_out, and limiter_active at the controlled 50 Hz sample time, while implementation detail remains inside Pitch Rate Limiter Logic.",
+    "caveats": [
+      "This is a magnitude limiter, not a slew-rate limiter.",
+      "The values and requirements are illustrative training data."
+    ],
+    "sources": [
+      "models/PitchRateLimiter.slx",
+      "screenshots/PitchRateLimiter_Model.png",
+      "docs/PitchRateLimiter_Requirements_Traceability.csv"
+    ]
+  },
+  {
+    "slide": 19,
+    "timing": "3 minutes",
+    "talkTrack": "Inside PitchRateLimiter/Pitch Rate Limiter Logic, Magnitude Clamp applies the inclusive ±q_limit_normal bound; Normal AND Valid controls Select Valid Command; Training Fallback Command supplies zero; and the comparison and logic blocks form limiter_active. Use the exact block names because they anchor traceability.",
+    "caveats": [
+      "Exactly ±12 deg/s is not clamped active; strictly outside the limits is active only during valid Normal operation.",
+      "Do not describe Magnitude Clamp as rate-of-change limiting."
+    ],
+    "sources": [
+      "models/PitchRateLimiter.slx",
+      "screenshots/PitchRateLimiter_Implementation.png",
+      "docs/PitchRateLimiter_Requirements_Traceability.csv"
+    ]
+  },
+  {
+    "slide": 20,
+    "timing": "2 minutes",
+    "talkTrack": "PitchControllerRef is the referenced controller child used by the integration parent. Its root contract accepts limited command and feedback and produces actuator demand and tracking error, separating interface review from the internal PI implementation.",
+    "caveats": [
+      "Do not confuse this referenced child with AircraftFeedbackControlLoop/Pitch Controller PI; they are distinct saved artifacts."
+    ],
+    "sources": [
+      "models/PitchControllerRef.slx",
+      "screenshots/PitchControllerRef_Model.png"
+    ]
+  },
+  {
+    "slide": 21,
+    "timing": "2 minutes",
+    "talkTrack": "PitchControllerRef/Pitch Rate PI exposes the referenced controller's proportional and integral behavior. Review its error formation, gains, integrator state, and output contract, then return to the parent model to see how the component is connected.",
+    "caveats": [
+      "The exact internal path is PitchControllerRef/Pitch Rate PI."
+    ],
+    "sources": [
+      "models/PitchControllerRef.slx",
+      "screenshots/PitchControllerRef_PitchRatePI.png",
+      "data/FCS_Data.sldd"
+    ]
+  },
+  {
+    "slide": 22,
+    "timing": "2 minutes",
+    "talkTrack": "ActuatorCommandRef is the referenced actuator-command child. It receives actuator demand and returns the bounded command plus an active-status output, making command limiting and status propagation explicit at the integration boundary.",
+    "caveats": [
+      "This component demonstrates interface and command-processing patterns; it is not actual actuator hardware or HIL evidence."
+    ],
+    "sources": [
+      "models/ActuatorCommandRef.slx",
+      "screenshots/ActuatorCommandRef_Model.png"
+    ]
+  },
+  {
+    "slide": 23,
+    "timing": "3 minutes",
+    "talkTrack": "PitchRateLimiter_Harness is an independent executable Simulink model. From Workspace blocks provide the three deterministic inputs; the exact Model block PitchRateLimiter_Harness/Unit Under Test - PitchRateLimiter references the component; and To Workspace blocks retain q_cmd_out and limiter_active for external MATLAB assessments.",
+    "caveats": [
+      "This is a standalone Simulink harness, not a Simulink Test harness or Test Manager suite.",
+      "Expected values, tolerances, and pass/fail logic live in run_pitch_rate_limiter_tests.m, not inside the harness."
+    ],
+    "sources": [
+      "models/PitchRateLimiter_Harness.slx",
+      "screenshots/PitchRateLimiter_Harness.png",
+      "scripts/run_pitch_rate_limiter_tests.m"
+    ]
+  },
+  {
+    "slide": 24,
+    "timing": "4 minutes",
+    "talkTrack": "The saved onboarding Data Inspector setup contains one run and five signals arranged in three vertical plots: command versus response, tracking error, and actuator versus disturbance. Use legends, units, zoom, cursors, and markers to inspect timing and transients, compare future executions, and retain reviewable evidence without modifying the model.",
+    "caveats": [
+      "Desktop Simulink model execution (MIL); not SIL, PIL, or HIL.",
+      "Opening a saved SDI session can replace the current repository. The provided open helper refuses by default when runs exist; explicit replacement creates recoverable backups.",
+      "The two .mldatx files are SDI view/session artifacts, not Simulink Test files."
+    ],
+    "sources": [
+      "screenshots/SimulationDataInspector_Onboarding.jpg",
+      "data/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_View.mldatx",
+      "results/SimulationDataInspector/AircraftFeedbackControlLoop_Onboarding_Session.mldatx",
+      "scripts/open_data_inspector_reference.m",
+      "scripts/update_data_inspector.m",
+      "scripts/save_data_inspector_reference.m",
+      "https://www.mathworks.com/help/simulink/slref/simulationdatainspector.html",
+      "https://www.mathworks.com/help/simulink/ug/compare-simulation-data.html",
+      "https://www.mathworks.com/help/simulink/slref/simulink.sdi.setmarkerson.html"
+    ]
+  },
+  {
+    "slide": 25,
+    "timing": "3 minutes",
+    "talkTrack": "FAA AC 20-115D recognizes DO-178C as an accepted means of compliance with applicable airworthiness regulations and recognizes DO-331 as its model-based development and verification supplement. Project plans determine how a model is used and which objectives and lifecycle data apply.",
+    "caveats": [
+      "DO-178C is not a standalone software certificate.",
+      "DO-331 supplements DO-178C; a Simulink model is not automatically compliant."
+    ],
+    "sources": [
+      "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf"
+    ]
+  },
+  {
+    "slide": 26,
+    "timing": "3 minutes",
+    "talkTrack": "Software level originates in the system safety process and drives the applicable objective and independence framework. Say DO-178C Software Level A when discussing software; reserve DAL terminology for the broader system allocation context. Independence is planned for designated verification objectives and must be demonstrated through roles and evidence.",
+    "caveats": [
+      "An author should not be the sole independent verifier of their own work where independence is required.",
+      "A summary slide cannot replace the approved plans, certification basis, or objective tables."
+    ],
+    "sources": [
+      "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf"
+    ]
+  },
+  {
+    "slide": 27,
+    "timing": "3 minutes",
+    "talkTrack": "Traceability is bidirectional: requirement to implementing artifact and objective verification, then result and model element back to justified intent. This package demonstrates that chain through a traceability CSV, an executable script, retained CSV/MAT results, and a human-readable report.",
+    "caveats": [
+      "The package has no live Simulink Requirements links because Simulink Requirements is unavailable.",
+      "A passing pipeline or test result is evidence input, not certification approval."
+    ],
+    "sources": [
+      "docs/PitchRateLimiter_Requirements_Traceability.csv",
+      "results/environment_inventory.txt",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf",
+      "https://www.mathworks.com/help/slrequirements/ug/create-and-store-links.html"
+    ]
+  },
+  {
+    "slide": 28,
+    "timing": "3 minutes",
+    "talkTrack": "Use the V-model as a relationship map between definition, realization, and verification rather than as a mandate for one schedule. Agile and waterfall can both organize compliant work, but cadence never removes lifecycle data, traceability, reviews, configuration control, baselines, problem reporting, or required independence.",
+    "caveats": [
+      "Process labels do not establish compliance; approved plans and objective evidence do."
+    ],
+    "sources": [
+      "https://www.nasa.gov/reference/systems-engineering-handbook/",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf"
+    ]
+  },
+  {
+    "slide": 29,
+    "timing": "3 minutes",
+    "talkTrack": "Walk from the classroom system intent through a software HLR and an implementation-oriented LLR or design statement. Connect the inclusive ±12 deg/s behavior, zero fallback, limiter status, and 50 Hz execution to PRL-001 through PRL-005 and the exact saved blocks.",
+    "caveats": [
+      "Illustrative classroom requirements — not production aircraft data or an approved certification baseline.",
+      "PSYS-001, SWHLR-001, and SWLLR-001 are presentation-level classroom mappings; the repository traceability CSV contains PRL-001 through PRL-005."
+    ],
+    "sources": [
+      "docs/PitchRateLimiter_Requirements_Traceability.csv",
+      "models/PitchRateLimiter.slx",
+      "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046"
+    ]
+  },
+  {
+    "slide": 30,
+    "timing": "4 minutes",
+    "talkTrack": "Read the chain in both directions: PSYS-001 to SWHLR-001 / PRL-001 to SWLLR-001 to PitchRateLimiter/Pitch Rate Limiter Logic/Magnitude Clamp to PitchRateLimiter_Harness/Unit Under Test - PitchRateLimiter to run_pitch_rate_limiter_tests.m, case Boundary above upper limit, to retained Iteration 8. The row records input 12.1 deg/s, expected 12, actual 12, zero numeric error, tolerance 1e-9, and PASS.",
+    "caveats": [
+      "Desktop Simulink model execution (MIL); not SIL, PIL, or HIL.",
+      "The literal AssociatedRequirement value is: PRL-001 magnitude limiting; PRL-003 status; PRL-004 50 Hz execution.",
+      "The PSYS/SWHLR/SWLLR identifiers are illustrative mappings layered over the retained PRL association."
+    ],
+    "sources": [
+      "docs/PitchRateLimiter_Requirements_Traceability.csv",
+      "scripts/run_pitch_rate_limiter_tests.m",
+      "results/PitchRateLimiter_TestResults.csv",
+      "results/PitchRateLimiter_TestResults.mat"
+    ]
+  },
+  {
+    "slide": 31,
+    "timing": "3 minutes",
+    "talkTrack": "Follow the companion-file flow: FCS_Data.sldd supplies controlled parameters and types; PitchRateLimiter_Harness references PitchRateLimiter; run_pitch_rate_limiter_tests drives and assesses it; the traceability CSV associates requirements; CSV and MAT retain machine-readable results; and HTML and PNG provide a reviewable report.",
+    "caveats": [
+      "Do not claim a Simulink Test .mldatx test file exists.",
+      "The two repository .mldatx files belong only to Simulation Data Inspector."
+    ],
+    "sources": [
+      "data/FCS_Data.sldd",
+      "models/PitchRateLimiter_Harness.slx",
+      "models/PitchRateLimiter.slx",
+      "scripts/run_pitch_rate_limiter_tests.m",
+      "docs/PitchRateLimiter_Requirements_Traceability.csv",
+      "results/PitchRateLimiter_TestResults.csv",
+      "results/PitchRateLimiter_TestResults.mat",
+      "reports/PitchRateLimiter_TestReport.html",
+      "reports/PitchRateLimiter_TestReport.png"
+    ]
+  },
+  {
+    "slide": 32,
+    "timing": "3 minutes",
+    "talkTrack": "The 19-case matrix covers initialization, nominal values, inclusive boundaries, just-outside and large magnitudes, invalid or non-Normal fallback, transitions, limiter_active, timestamps, and 50 Hz spacing. Each case records actual and expected outputs rather than relying on a visual waveform judgment.",
+    "caveats": [
+      "The PRL-004 traceability CSV says timing within 1e-12 s, while the executable uses max(1e-12, Sample_time × 1e-9), which is 2e-11 s at 0.02 s. The retained observed step is exactly 0.02 s and passes, but do not claim the script used a 1e-12 timing tolerance without reconciling the sources.",
+      "The numeric output tolerance is consistently 1e-9 deg/s."
+    ],
+    "sources": [
+      "scripts/run_pitch_rate_limiter_tests.m",
+      "results/PitchRateLimiter_TestResults.csv",
+      "docs/PitchRateLimiter_Requirements_Traceability.csv"
+    ]
+  },
+  {
+    "slide": 33,
+    "timing": "3 minutes",
+    "talkTrack": "The retained CSV has 19 iterations and every Passed value is true; the MAT summary records Total 19, Passed 19, Failed 0; and the HTML report states PASS — 19 passed, 0 failed. The saved run used PitchRateLimiter_Harness at 50 Hz with a 0.02 s observed output step and 1e-9 deg/s numeric tolerance.",
+    "caveats": [
+      "These are executable MATLAB assessments of a standalone Simulink harness, not Simulink Test or Test Manager results.",
+      "A pass supports the configured classroom expectations; it is not certification approval."
+    ],
+    "sources": [
+      "results/PitchRateLimiter_TestResults.csv",
+      "results/PitchRateLimiter_TestResults.mat",
+      "reports/PitchRateLimiter_TestReport.html",
+      "reports/PitchRateLimiter_TestReport.png"
+    ]
+  },
+  {
+    "slide": 34,
+    "timing": "3 minutes",
+    "talkTrack": "Keep lifecycle callbacks narrow and reviewable: setup establishes paths and controlled data, preload prepares deterministic inputs, post-load applies solver and logging configuration, and cleanup releases only owned resources. The test driver—not a callback—contains the case definitions, expected values, tolerances, and pass/fail assessments.",
+    "caveats": [
+      "Callbacks must not manufacture a green result or silently discard a learner's dirty model.",
+      "The delivered workflow uses external MATLAB functions rather than hidden model callback code."
+    ],
+    "sources": [
+      "scripts/callback_workflow_example.m",
+      "scripts/training_callback_setup.m",
+      "scripts/training_callback_preload.m",
+      "scripts/training_callback_postload.m",
+      "scripts/training_callback_cleanup.m",
+      "scripts/run_pitch_rate_limiter_tests.m",
+      "https://www.mathworks.com/help/simulink/callback-functions.html"
+    ]
+  },
+  {
+    "slide": 35,
+    "timing": "3 minutes",
+    "talkTrack": "FCS_Data.sldd is the controlled source for Sample_time, limiter bounds, controller gains, filter coefficients, initial conditions, signal definitions, and FlightControlBus. The bus exposes q_rate, pitch_angle, mach, air_data_valid, and mode with documented types, dimensions, and units so referenced-model interfaces can update consistently.",
+    "caveats": [
+      "A dictionary and bus establish controlled data and structure; they do not by themselves prove semantic correctness.",
+      "The values are illustrative and not production aircraft data."
+    ],
+    "sources": [
+      "data/FCS_Data.sldd",
+      "results/FCS_DataDictionary_Inventory.csv",
+      "results/FlightControlBus_Inventory.csv",
+      "https://www.mathworks.com/help/simulink/ug/what-is-a-data-dictionary.html",
+      "https://www.mathworks.com/help/simulink/slref/simulink.bus.html"
+    ]
+  },
+  {
+    "slide": 36,
+    "timing": "2 minutes",
+    "talkTrack": "Reviewability comes from explicit intent at each level: meaningful names, compact interfaces, visible units and types, controlled sample times, separated responsibilities, and hierarchy that a reviewer can summarize before opening detail. Apply the checklist to one model and ask where each claim is defined and verified.",
+    "caveats": [
+      "Good diagram appearance supports review but does not replace requirements, objective checks, configuration control, or independent verification."
+    ],
+    "sources": [
+      "screenshots/VisualManifest.csv",
+      "https://www.mathworks.com/help/simulink/ug/interface-design.html",
+      "https://www.nasa.gov/reference/systems-engineering-handbook/"
+    ]
+  },
+  {
+    "slide": 37,
+    "timing": "3 minutes",
+    "talkTrack": "Treat CI as an orchestrator around controlled engineering commands: initialize, update models, run simulations and assessments, validate outputs, and retain reports. A green stage says the configured steps passed on that agent and baseline; reviewers still examine warnings, scope, traceability, failures, and configuration.",
+    "caveats": [
+      "No Jenkins pipeline was executed for this package.",
+      "A passing pipeline is evidence input, not certification approval."
+    ],
+    "sources": [
+      "results/validation_summary.txt",
+      "scripts/validate_training_project.m",
+      "https://www.mathworks.com/help/sltest/ug/output-results-for-continuous-integration-systems.html",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf"
+    ]
+  },
+  {
+    "slide": 38,
+    "timing": "3 minutes",
+    "talkTrack": "Investigate failures from the first reproducible difference: confirm release, license, paths, dictionary, model baseline, and command; then separate update/compile diagnostics from simulation or assessment failures. Correct the root cause, add focused regression protection, rerun the affected scope, and finally rerun the controlled full set.",
+    "caveats": [
+      "Do not suppress warnings or loosen tolerances merely to create a green status.",
+      "The validator accepts only the documented Model-block license fallback warning."
+    ],
+    "sources": [
+      "scripts/validate_training_project.m",
+      "results/validation_summary.txt",
+      "results/environment_inventory.txt"
+    ]
+  },
+  {
+    "slide": 39,
+    "timing": "4 minutes",
+    "talkTrack": "Keep execution environments distinct: MIL executes the model; SIL executes generated source code; PIL executes generated object code on a target processor; HIL uses actual controller or target hardware, physical I/O, and a real-time plant environment; bench and system-integration tests add their own controlled contexts. Name the actual environment in every retained result.",
+    "caveats": [
+      "Desktop Simulink model execution (MIL); not SIL, PIL, or HIL.",
+      "PIL is an execution environment and is not automatically synonymous with unit testing.",
+      "Only call testing HIL when actual controller or target hardware, a real-time plant environment, and physical I/O are used. This package performed no HIL."
+    ],
+    "sources": [
+      "results/environment_inventory.txt",
+      "https://www.mathworks.com/help/sltest/sil-pil-and-hil-tests.html",
+      "https://www.mathworks.com/discovery/hardware-in-the-loop-hil.html"
+    ]
+  },
+  {
+    "slide": 40,
+    "timing": "3 minutes",
+    "talkTrack": "State the verified snapshot precisely: all eight delivered models completed Simulink update/compile; all 19 retained limiter assessments passed; and all 24 files in the validator's required exported-artifact list are present. The validation ran in MATLAB R2023b Update 8 on desktop Windows.",
+    "caveats": [
+      "8/8 models updated means SimulationCommand='update' succeeded; it does not mean eight files were edited.",
+      "ReferencedFlightControlArchitecture and PitchRateLimiter_Harness passed with the accepted student-license fallback from Accelerator to Normal mode.",
+      "24/24 means one HTML report, 21 visual exports, and two SDI artifacts passed existence checks; it is not a count of every repository artifact."
+    ],
+    "sources": [
+      "results/validation_summary.txt",
+      "scripts/validate_training_project.m",
+      "results/PitchRateLimiter_TestResults.csv"
+    ]
+  },
+  {
+    "slide": 41,
+    "timing": "3 minutes",
+    "talkTrack": "The package demonstrates saved models, controlled data, model update, desktop simulations, a standalone limiter harness, executable MATLAB assessments, CSV/script/result traceability, retained reports, and a recoverable SDI view and session. It teaches how evidence connects without overstating what was performed.",
+    "caveats": [
+      "It does not claim production aircraft data, an approved certification baseline, live Simulink Requirements links, a Simulink Test test-suite .mldatx, Embedded Coder output, generated-code verification, SIL, PIL, HIL, Jenkins execution, or certification approval.",
+      "The two retained .mldatx files are SDI artifacts only."
+    ],
+    "sources": [
+      "README.md",
+      "results/environment_inventory.txt",
+      "results/validation_summary.txt",
+      "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1032046"
+    ]
+  },
+  {
+    "slide": 42,
+    "timing": "1 minute",
+    "talkTrack": "Close with the working habit the learner should carry forward: choose the correct model role, make interfaces and assumptions visible, update before execution, retain objective results, and trace each claim through a controlled baseline. The next practical exercise is to reproduce one run, inspect one transient, and walk one requirement chain in both directions.",
+    "caveats": [
+      "End on reproducible engineering practice, not on a claim of certification or HIL completion."
+    ],
+    "sources": [
+      "README.md",
+      "https://www.faa.gov/documentLibrary/media/Order/FAA_Order_8110.49A.pdf",
+      "https://www.nasa.gov/reference/systems-engineering-handbook/"
+    ]
+  }
+]

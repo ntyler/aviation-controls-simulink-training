@@ -1,0 +1,11 @@
+Template audit
+
+Source: Aviation_Controls_Engineer_Simulink_DO178C_Training_v4.pptx
+Slide size: 16:9 (1280 x 720 inspection frame)
+Source slides: 33
+Output slides planned: 42
+Typography: preserve slide-level Aptos; do not rely on the Calibri theme defaults.
+Palette: #F4F8FB, #071521, #0B1F33, #20B7C5, #2D6CDF, #2CA56F, #E9A23B.
+Recurring frame: teal section rail, large title, divider, footer, two-digit page number.
+Media: authentic repository model/screenshots only; contain-fit dense diagrams; one dense model per slide.
+Notes: replace all legacy notes and remove duplicated V2/V3/V4 update paragraphs.

@@ -1,0 +1,7 @@
+Source and evidence notes
+
+Primary local sources: README.md; models/*.slx; screenshots/*; data/FCS_Data.sldd; docs/PitchRateLimiter_Requirements_Traceability.csv; scripts/*.m; results/*; reports/*.
+Official sources used in relevant speaker notes: FAA AC 20-115D; FAA Order 8110.49A; NASA Systems Engineering Handbook; official MathWorks Simulink Editor, update/shortcuts, units, signal logging, test points, dimensions, Data Inspector, and Simulink Coder documentation.
+Evidence labels: 8/8 delivered models updated/compiled; 19/19 limiter assessments passed; required exported artifacts 24/24 present.
+Execution label: Desktop Simulink model execution (MIL); not SIL, PIL, or HIL.
+Classroom requirement disclaimer: Illustrative classroom requirements — not production aircraft data or an approved certification baseline.

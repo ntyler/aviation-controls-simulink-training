@@ -1,0 +1,338 @@
+[
+  {
+    "slide": 1,
+    "sourceSlide": 1,
+    "title": "NEW AVIATION CONTROLS ENGINEER ONBOARDING",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 2,
+    "sourceSlide": 2,
+    "title": "ORIENTATION",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 3,
+    "sourceSlide": 3,
+    "title": "ORIENTATION",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 4,
+    "sourceSlide": 4,
+    "title": "01 • FIRST SESSION",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 5,
+    "sourceSlide": 5,
+    "title": "01 • FIRST SESSION",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 6,
+    "sourceSlide": 6,
+    "title": "The toolstrip tells you where each action lives",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 7,
+    "sourceSlide": 7,
+    "title": "01 • FIRST SESSION",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 8,
+    "sourceSlide": 24,
+    "title": "Log signals for evidence; reserve test points for required observability",
+    "section": "01 • HANDS-ON DEMO",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 9,
+    "sourceSlide": 24,
+    "title": "Check the active model settings before update, simulation, or build",
+    "section": "01 • HANDS-ON DEMO",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 10,
+    "sourceSlide": 37,
+    "title": "Model Advisor checks the selected component against chosen rules",
+    "section": "01 • HANDS-ON DEMO",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 11,
+    "sourceSlide": 4,
+    "title": "Placeholders: Bug Finder screens code; Code Prover deepens proof",
+    "section": "01 • HANDS-ON DEMO",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 12,
+    "sourceSlide": 8,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 13,
+    "sourceSlide": 9,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 14,
+    "sourceSlide": 10,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 15,
+    "sourceSlide": 11,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 16,
+    "sourceSlide": 12,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 17,
+    "sourceSlide": 13,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 18,
+    "sourceSlide": 14,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 19,
+    "sourceSlide": 15,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 20,
+    "sourceSlide": 16,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 21,
+    "sourceSlide": 17,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 22,
+    "sourceSlide": 18,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 23,
+    "sourceSlide": 19,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 24,
+    "sourceSlide": 20,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 25,
+    "sourceSlide": 21,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 26,
+    "sourceSlide": 22,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 27,
+    "sourceSlide": 23,
+    "title": "02 • MODEL HIERARCHY & GALLERY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 28,
+    "sourceSlide": 25,
+    "title": "In the harness, Ctrl+D validates the diagram; Ctrl+B crosses into build",
+    "section": "02 • HARNESS DEMO",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 29,
+    "sourceSlide": 24,
+    "title": "03 • SIMULATION DATA INSPECTOR",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 30,
+    "sourceSlide": 25,
+    "title": "04 • ASSURANCE CONTEXT",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 31,
+    "sourceSlide": 26,
+    "title": "04 • ASSURANCE CONTEXT",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 32,
+    "sourceSlide": 27,
+    "title": "Traceability turns artifacts into evidence",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 33,
+    "sourceSlide": 28,
+    "title": "04 • ASSURANCE CONTEXT",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 34,
+    "sourceSlide": 29,
+    "title": "05 • REQUIREMENTS & TRACEABILITY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 35,
+    "sourceSlide": 30,
+    "title": "05 • REQUIREMENTS & TRACEABILITY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 36,
+    "sourceSlide": 31,
+    "title": "05 • REQUIREMENTS & TRACEABILITY",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 37,
+    "sourceSlide": 32,
+    "title": "06 • VERIFICATION WORKFLOW",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 38,
+    "sourceSlide": 33,
+    "title": "06 • VERIFICATION WORKFLOW",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 39,
+    "sourceSlide": 34,
+    "title": "06 • VERIFICATION WORKFLOW",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 40,
+    "sourceSlide": 35,
+    "title": "06 • VERIFICATION WORKFLOW",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 41,
+    "sourceSlide": 36,
+    "title": "06 • VERIFICATION WORKFLOW",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 42,
+    "sourceSlide": 37,
+    "title": "07 • AUTOMATION & ENVIRONMENTS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 43,
+    "sourceSlide": 38,
+    "title": "07 • AUTOMATION & ENVIRONMENTS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 44,
+    "sourceSlide": 39,
+    "title": "07 • AUTOMATION & ENVIRONMENTS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 45,
+    "sourceSlide": 40,
+    "title": "07 • AUTOMATION & ENVIRONMENTS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 46,
+    "sourceSlide": 41,
+    "title": "07 • AUTOMATION & ENVIRONMENTS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  },
+  {
+    "slide": 47,
+    "sourceSlide": 41,
+    "title": "RCF closes the model with independent verification and sign-off",
+    "section": "08 • COMPLETION & SIGN-OFF",
+    "disposition": "new requested slide"
+  },
+  {
+    "slide": 48,
+    "sourceSlide": 42,
+    "title": "08 • FIRST-WEEK TAKEAWAYS",
+    "section": null,
+    "disposition": "preserve v5 content and notes; renumber only"
+  }
+]

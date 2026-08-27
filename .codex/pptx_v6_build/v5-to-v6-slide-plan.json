@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Exact v5-to-v6 slide-order, clone-source, notes, and slide-chrome plan",
+  "sourceDeck": "D:\\GitHub\\aviation-controls-simulink-training\\Aviation_Controls_Engineer_Simulink_DO178C_Training_v5.pptx",
+  "targetDeck": "D:\\GitHub\\aviation-controls-simulink-training\\Aviation_Controls_Engineer_Simulink_DO178C_Training_v6.pptx",
+  "sourceSlideCount": 42,
+  "targetSlideCount": 48,
+  "allSourceSlidesPreserved": true,
+  "deckStyle": {
+    "aspectRatio": "16:9",
+    "coordinateSpace": "1280 x 720",
+    "typeface": "Aptos",
+    "backgrounds": {
+      "light": "#F4F8FB",
+      "dark": "#071521"
+    },
+    "coreColors": {
+      "ink": "#0B1F33",
+      "navy": "#0B2438",
+      "teal": "#20B7C5",
+      "blue": "#2D6CDF",
+      "amber": "#E9A23B",
+      "green": "#2CA56F",
+      "red": "#D75A64"
+    },
+    "slideLocalChrome": {
+      "ordinaryTextWarning": "The section label, title, footer, and page number are slide-local text rather than automatic fields and must be rewritten after cloning or reordering.",
+      "standardSectionLabelPosition": [72, 30],
+      "standardTitlePosition": [72, 66],
+      "footerPosition": [72, 678],
+      "pageNumberPosition": [1156, 676],
+      "footerText": "AVIATION CONTROLS ENGINEERING ONBOARDING",
+      "pageNumberFormat": "two digits"
+    }
+  },
+  "numberingAndSectionImpact": {
+    "mappingRules": [
+      "v5 slides 1-7 remain v6 slides 1-7.",
+      "Four inserts become v6 slides 8-11.",
+      "v5 slides 8-23 become v6 slides 12-27.",
+      "The Update Diagram versus Build insert becomes v6 slide 28.",
+      "v5 slides 24-41 become v6 slides 29-46.",
+      "The RCF insert becomes v6 slide 47.",
+      "v5 slide 42 becomes v6 slide 48."
+    ],
+    "sectionBoundsInV6": [
+      {"sectionLabel": "NEW AVIATION CONTROLS ENGINEER ONBOARDING", "slides": "1"},
+      {"sectionLabel": "ORIENTATION", "slides": "2-3"},
+      {"sectionLabel": "01 • FIRST SESSION", "slides": "4-11"},
+      {"sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "slides": "12-28"},
+      {"sectionLabel": "03 • SIMULATION DATA INSPECTOR", "slides": "29"},
+      {"sectionLabel": "04 • ASSURANCE CONTEXT", "slides": "30-33"},
+      {"sectionLabel": "05 • REQUIREMENTS & TRACEABILITY", "slides": "34-36"},
+      {"sectionLabel": "06 • VERIFICATION WORKFLOW", "slides": "37-41"},
+      {"sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "slides": "42-47"},
+      {"sectionLabel": "08 • FIRST-WEEK TAKEAWAYS", "slides": "48"}
+    ],
+    "renumberingRanges": [
+      {"v5Slides": "1-7", "v6Slides": "1-7", "offset": 0},
+      {"v5Slides": "8-23", "v6Slides": "12-27", "offset": 4},
+      {"v5Slides": "24-41", "v6Slides": "29-46", "offset": 5},
+      {"v5Slides": "42", "v6Slides": "48", "offset": 6}
+    ]
+  },
+  "notesHandling": {
+    "preservedSlides": "Keep each existing v5 speaker-note body attached to its preserved slide; the notes do not contain slide-number references that require bulk rewriting.",
+    "insertedSlides": "A cloned slide also clones its old notes. Replace those notes completely with a new timing paragraph, teaching guidance, caveats, and a [Sources] block; do not append to the clone's source notes.",
+    "qualityRule": "New notes must distinguish demonstrated repository evidence from future tools or program-controlled activities and must not imply certification approval, production-code generation, or execution that did not occur."
+  },
+  "insertions": [
+    {
+      "v6Slide": 8,
+      "insertAfterV5Slide": 7,
+      "title": "Signal logging records data; test points preserve observability",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Signal logging selects data for recording and inspection, while a test point deliberately preserves a signal for observability in supported workflows; neither is an SDI marker and neither alone proves a requirement.",
+      "cloneV5Slide": 6,
+      "layoutKind": "image",
+      "tone": "light",
+      "cloneRationale": "Slide 6 provides the strongest large-image-plus-stacked-callouts frame in the same section and varies the composition from the immediately preceding slide 7.",
+      "asset": {
+        "role": "primary screenshot",
+        "source": "user image 1 supplied with the v6 request",
+        "placement": "Replace the slide-6 screenshot in its existing image well; preserve aspect ratio and crop rather than stretch."
+      },
+      "contentPlan": [
+        "SIGNAL LOGGING — records selected signal data for Simulation Data Inspector or programmatic access.",
+        "TEST POINT — preserves a signal as an observable point in supported simulation, testing, and code workflows.",
+        "RELATIONSHIP — a test point can be logged, but test-point status and logging status are separate properties.",
+        "VISIBLE BADGES — model overlays show instrumentation metadata; SDI markers and sample points annotate already logged traces.",
+        "USE WITH INTENT — log what an analysis needs and designate test points only when the verification or integration strategy requires them."
+      ],
+      "notesRequirements": [
+        "Give the GUI path for enabling logging and for designating or displaying test points in MATLAB R2023b, noting that exact toolstrip grouping can vary by selection.",
+        "Explain that logging produces recorded data only when the model runs; a test-point designation by itself does not create an SDI run.",
+        "State that the training package currently demonstrates signal logging and SDI artifacts, not a generated-code test-point workflow.",
+        "Use official MathWorks signal-logging and test-point documentation in [Sources]."
+      ],
+      "adjacentNotesContext": {
+        "precedingV5Slide7": "Already distinguishes overlays from SDI markers and cites logging/test-point documentation; avoid repeating the whole overlays list.",
+        "followingV5Slide8": "Begins the hierarchy gallery, so close by saying instrumentation choices should be understood before navigating component boundaries."
+      }
+    },
+    {
+      "v6Slide": 9,
+      "insertAfterV5Slide": 7,
+      "title": "Model Settings control how the model compiles, simulates, and builds",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Inspect Model Settings before changing them because solver, timing, data, diagnostics, and code-generation configuration can change behavior and evidence; save only intentional, reviewed edits.",
+      "cloneV5Slide": 24,
+      "layoutKind": "image",
+      "tone": "light",
+      "cloneRationale": "Slide 24 has a wide authentic UI image with four concise explanatory cards, ideal for a Model Settings dialog plus check/change/verify/save guidance.",
+      "asset": {
+        "role": "primary screenshot",
+        "source": "user image 2 supplied with the v6 request",
+        "placement": "Replace the Data Inspector screenshot; keep the screenshot readable and replace all four right-side cards and the bottom caption."
+      },
+      "contentPlan": [
+        "OPEN — Modeling tab > Model Settings, or use the model configuration entry point available in the current editor.",
+        "CHECK — solver type, fixed-step size or sample timing, data import/export, diagnostics, and active configuration reference.",
+        "CHANGE — edit only the parameter required by the controlled task; note model-reference implications.",
+        "VERIFY + SAVE — update the diagram, rerun affected evidence, review diagnostics, and save only under the approved baseline process."
+      ],
+      "notesRequirements": [
+        "Include concise MATLAB equivalents such as getActiveConfigSet, get_param, and set_param, but keep commands subordinate to the controlled GUI workflow.",
+        "Tie the example to the repository's fixed-step Sample_time = 0.02 s configuration without implying every parameter is safe to change.",
+        "Warn that an unsaved Model Settings change can alter results and that changes inherited by referenced models require deliberate review.",
+        "Use official MathWorks Model Settings or Configuration Parameters documentation in [Sources]."
+      ],
+      "adjacentNotesContext": {
+        "precedingInsert": "Moves from observability configuration to execution configuration.",
+        "followingInsert": "Model Advisor evaluates the selected model and configuration, so the component scope and active settings must be understood first."
+      }
+    },
+    {
+      "v6Slide": 10,
+      "insertAfterV5Slide": 7,
+      "title": "Model Advisor turns component checks into a reviewable workflow",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Choose the intended component and check set, run Model Advisor, review each finding, disposition exceptions, and retain the report; a green dashboard is evidence input rather than automatic compliance.",
+      "cloneV5Slide": 37,
+      "layoutKind": "diagram",
+      "tone": "dark",
+      "cloneRationale": "Slide 37 supplies a six-stage horizontal workflow and room for scope, review, and evidence guidance; its dark frame creates visual pacing between the two screenshot slides and the light Polyspace comparison.",
+      "contentPlan": [
+        "SCOPE — open the component or subsystem to be checked.",
+        "LAUNCH — open Model Advisor from the Modeling or Apps workflow available in the installed release.",
+        "SELECT — choose the project-approved check configuration; do not run an unexplained all-checks set.",
+        "RUN — execute checks against the controlled model state and active configuration.",
+        "REVIEW — inspect failures, warnings, justifications, and applicability rather than counting only pass icons.",
+        "REPORT + DISPOSITION — correct, justify, assign, rerun, and retain the dated report with configuration context."
+      ],
+      "notesRequirements": [
+        "Present this as the recommended component-check workflow, not as evidence that Model Advisor was executed for the current package.",
+        "State that no retained Model Advisor report was identified in v5 or the current repository evidence set.",
+        "Explain that check applicability and acceptable justifications are governed by project plans and model standards.",
+        "Use official MathWorks Model Advisor documentation in [Sources]."
+      ],
+      "adjacentNotesContext": {
+        "precedingInsert": "The active configuration and selected component define the check context.",
+        "followingInsert": "Polyspace is a future code-analysis workflow, distinct from model checks."
+      }
+    },
+    {
+      "v6Slide": 11,
+      "insertAfterV5Slide": 7,
+      "title": "Polyspace separates defect finding from formal proof",
+      "sectionLabel": "01 • FIRST SESSION",
+      "takeaway": "Bug Finder targets likely coding defects and security weaknesses, while Code Prover uses formal methods to prove the absence of specified runtime errors; both are future placeholders here and produced no evidence for this package.",
+      "cloneV5Slide": 4,
+      "layoutKind": "text",
+      "tone": "light",
+      "cloneRationale": "Slide 4 is the clearest balanced two-column comparison frame and keeps the future-tool distinction readable without fabricating a product screenshot.",
+      "contentPlan": [
+        "POLYSPACE BUG FINDER — static analysis that reports probable defects, coding-rule issues, and selected security weaknesses for review and disposition.",
+        "POLYSPACE CODE PROVER — formal analysis that can prove the absence of specified runtime errors under the analyzed assumptions and configuration.",
+        "FUTURE PLACEHOLDER — neither product was installed, configured, or executed for the current training baseline.",
+        "DEPENDENCY — meaningful code analysis requires appropriate source or generated code, configuration, assumptions, and a controlled review process."
+      ],
+      "notesRequirements": [
+        "Keep Bug Finder and Code Prover claims distinct and bounded by the actual analyzed configuration and assumptions.",
+        "State explicitly that this repository makes no production-code generation or generated-code verification claim and that Embedded Coder is unavailable in the captured environment.",
+        "Do not imply that a clean Polyspace result equals certification approval.",
+        "Use official MathWorks Polyspace Bug Finder and Code Prover documentation in [Sources]."
+      ],
+      "adjacentNotesContext": {
+        "precedingInsert": "Model Advisor checks models; Polyspace analyzes code. The slides must not blend those scopes.",
+        "followingV5Slide8": "The hierarchy gallery begins next; the future placeholder closes the first-session tool orientation."
+      }
+    },
+    {
+      "v6Slide": 28,
+      "insertAfterV5Slide": 23,
+      "title": "Ctrl+D validates model semantics; Ctrl+B invokes a configured build",
+      "sectionLabel": "02 • MODEL HIERARCHY & GALLERY",
+      "takeaway": "For PitchRateLimiter_Harness, use Ctrl+D to validate the harness and referenced-component interface before running the MATLAB assessment driver; Ctrl+B is a separate configured code build and is not the harness test command.",
+      "cloneV5Slide": 25,
+      "layoutKind": "text",
+      "tone": "dark",
+      "cloneRationale": "Slide 25 is a high-contrast two-column comparison that clearly separates two often-confused commands and forms a visual bridge from the light harness slide to the light Data Inspector slide.",
+      "contentPlan": [
+        "CTRL+D — Update Diagram: resolves model references, propagates types, dimensions, sample times, and parameters, and surfaces compile or interface diagnostics.",
+        "CTRL+D RESULT — updated compiled semantics and diagnostics; it does not execute the test cases, create an SDI run, or generate production code.",
+        "CTRL+B — Build: invokes the model's configured code-generation or build process and depends on products, configuration, toolchain, and target.",
+        "CTRL+B RESULT — generated or compiled build artifacts only when a supported build is configured; it is not proof that the harness assessments passed.",
+        "HARNESS PATH — update PitchRateLimiter_Harness, then run run_pitch_rate_limiter_tests.m to execute stimuli and evaluate expected results."
+      ],
+      "notesRequirements": [
+        "Include MATLAB equivalents: set_param(model,'SimulationCommand','update') for update and slbuild(model) for a configured build, with release and licensing caveats.",
+        "Reinforce the v5 slide-23 note: the harness is a standalone Simulink model and its expected values, tolerances, and oracle live in run_pitch_rate_limiter_tests.m.",
+        "State that Embedded Coder was unavailable and no production code was generated or verified for this package.",
+        "Use official MathWorks model-update and Simulink Coder build documentation in [Sources]."
+      ],
+      "adjacentNotesContext": {
+        "precedingV5Slide23": "Defines the harness, referenced unit under test, deterministic inputs, output capture, and external MATLAB oracle.",
+        "followingV5Slide24": "Moves from model preparation and execution distinctions to inspecting a saved run in Data Inspector."
+      }
+    },
+    {
+      "v6Slide": 47,
+      "insertBeforeV5Slide": 42,
+      "title": "RCF verifies and signs off system requirements independently",
+      "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS",
+      "takeaway": "The training package can hand off controlled requirements, configuration, traceability, test evidence, and open limitations, but independent RCF system-requirements verification and sign-off remain a future program-controlled activity.",
+      "cloneV5Slide": 41,
+      "layoutKind": "text",
+      "tone": "light",
+      "cloneRationale": "Slide 41 already uses an evidence-versus-boundary two-column frame, making it the most direct template for package handoff versus independent RCF responsibility; differentiate the clone with an amber FUTURE gate.",
+      "contentPlan": [
+        "PACKAGE HANDOFF — controlled system and allocated software requirements, model and data baseline identifiers, bidirectional traceability, executed results, limitations, anomalies, and review records.",
+        "INDEPENDENT RCF — verify system-requirement correctness and completeness, assess traceability and verification adequacy, resolve or accept open items under approved authority, and record sign-off.",
+        "FUTURE PROGRAM PLACEHOLDER — no RCF review, approval, or sign-off artifact is present in the training package.",
+        "BOUNDARY — RCF sign-off does not convert classroom examples into an approved aircraft baseline or certification approval."
+      ],
+      "notesRequirements": [
+        "Use the acronym RCF exactly as supplied; do not invent or expand its name without a program-controlled definition.",
+        "Present responsibilities as a handoff placeholder and defer exact entrance criteria, independence assignments, approvals, and records to the approved program plans.",
+        "State that the current repository contains no RCF sign-off evidence and that the slide records a future responsibility, not completed work.",
+        "Reference the user-directed RCF role plus applicable approved program plans; FAA or NASA lifecycle sources may provide general assurance context but must not be cited as defining this program-specific acronym."
+      ],
+      "adjacentNotesContext": {
+        "precedingV5Slide41": "Defines what the package demonstrates and explicitly excludes certification approval, live requirements links, code verification, and non-MIL environments.",
+        "followingV5Slide42": "The existing first-week close remains intact and becomes slide 48."
+      }
+    }
+  ],
+  "slides": [
+    {"v6Slide": 1, "operation": "preserve", "v5SourceSlide": 1, "pageNumber": "01", "sectionLabel": "NEW AVIATION CONTROLS ENGINEER ONBOARDING", "title": "Simulink in the Aerospace Controls Lifecycle"},
+    {"v6Slide": 2, "operation": "preserve", "v5SourceSlide": 2, "pageNumber": "02", "sectionLabel": "ORIENTATION", "title": "The executable model is the engineering hub"},
+    {"v6Slide": 3, "operation": "preserve", "v5SourceSlide": 3, "pageNumber": "03", "sectionLabel": "ORIENTATION", "title": "Your first session: orient, execute, inspect, trace"},
+    {"v6Slide": 4, "operation": "preserve", "v5SourceSlide": 4, "pageNumber": "04", "sectionLabel": "01 • FIRST SESSION", "title": "MATLAB computes; Simulink exposes behavior"},
+    {"v6Slide": 5, "operation": "preserve", "v5SourceSlide": 5, "pageNumber": "05", "sectionLabel": "01 • FIRST SESSION", "title": "Start in the repository, then distinguish every action"},
+    {"v6Slide": 6, "operation": "preserve", "v5SourceSlide": 6, "pageNumber": "06", "sectionLabel": "01 • FIRST SESSION", "title": "The toolstrip tells you where each action lives"},
+    {"v6Slide": 7, "operation": "preserve", "v5SourceSlide": 7, "pageNumber": "07", "sectionLabel": "01 • FIRST SESSION", "title": "Turn model displays on—and off—for focus"},
+    {"v6Slide": 8, "operation": "insert", "cloneV5Slide": 6, "pageNumber": "08", "sectionLabel": "01 • FIRST SESSION", "title": "Signal logging records data; test points preserve observability"},
+    {"v6Slide": 9, "operation": "insert", "cloneV5Slide": 24, "pageNumber": "09", "sectionLabel": "01 • FIRST SESSION", "title": "Model Settings control how the model compiles, simulates, and builds"},
+    {"v6Slide": 10, "operation": "insert", "cloneV5Slide": 37, "pageNumber": "10", "sectionLabel": "01 • FIRST SESSION", "title": "Model Advisor turns component checks into a reviewable workflow"},
+    {"v6Slide": 11, "operation": "insert", "cloneV5Slide": 4, "pageNumber": "11", "sectionLabel": "01 • FIRST SESSION", "title": "Polyspace separates defect finding from formal proof"},
+    {"v6Slide": 12, "operation": "preserve", "v5SourceSlide": 8, "pageNumber": "12", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "The current job determines which model is top level"},
+    {"v6Slide": 13, "operation": "preserve", "v5SourceSlide": 9, "pageNumber": "13", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "AircraftFeedbackControlLoop closes the training loop"},
+    {"v6Slide": 14, "operation": "preserve", "v5SourceSlide": 10, "pageNumber": "14", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Pitch Controller PI turns tracking error into demand"},
+    {"v6Slide": 15, "operation": "preserve", "v5SourceSlide": 11, "pageNumber": "15", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Actuator Dynamics converts demand into position"},
+    {"v6Slide": 16, "operation": "preserve", "v5SourceSlide": 12, "pageNumber": "16", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Longitudinal dynamics turn actuator motion into response"},
+    {"v6Slide": 17, "operation": "preserve", "v5SourceSlide": 13, "pageNumber": "17", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Sensor Processing Lag exposes measurement dynamics"},
+    {"v6Slide": 18, "operation": "preserve", "v5SourceSlide": 14, "pageNumber": "18", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "AutopilotModeLogic wraps mode behavior in explicit interfaces"},
+    {"v6Slide": 19, "operation": "preserve", "v5SourceSlide": 15, "pageNumber": "19", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Stateflow guards OFF, ARMED, ENGAGED, and DEGRADED"},
+    {"v6Slide": 20, "operation": "preserve", "v5SourceSlide": 16, "pageNumber": "20", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "ReferencedFlightControlArchitecture is the integration top level"},
+    {"v6Slide": 21, "operation": "preserve", "v5SourceSlide": 17, "pageNumber": "21", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "SensorProcessingRef owns the referenced sensor contract"},
+    {"v6Slide": 22, "operation": "preserve", "v5SourceSlide": 18, "pageNumber": "22", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "PitchRateLimiter is a separately managed component"},
+    {"v6Slide": 23, "operation": "preserve", "v5SourceSlide": 19, "pageNumber": "23", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Pitch Rate Limiter Logic clamps magnitude and controls fallback"},
+    {"v6Slide": 24, "operation": "preserve", "v5SourceSlide": 20, "pageNumber": "24", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "PitchControllerRef defines the referenced controller boundary"},
+    {"v6Slide": 25, "operation": "preserve", "v5SourceSlide": 21, "pageNumber": "25", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Pitch Rate PI implements the referenced control law"},
+    {"v6Slide": 26, "operation": "preserve", "v5SourceSlide": 22, "pageNumber": "26", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "ActuatorCommandRef owns command limiting and status"},
+    {"v6Slide": 27, "operation": "preserve", "v5SourceSlide": 23, "pageNumber": "27", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "PitchRateLimiter_Harness isolates the unit under test"},
+    {"v6Slide": 28, "operation": "insert", "cloneV5Slide": 25, "pageNumber": "28", "sectionLabel": "02 • MODEL HIERARCHY & GALLERY", "title": "Ctrl+D validates model semantics; Ctrl+B invokes a configured build"},
+    {"v6Slide": 29, "operation": "preserve", "v5SourceSlide": 24, "pageNumber": "29", "sectionLabel": "03 • SIMULATION DATA INSPECTOR", "title": "Data Inspector reveals one saved run"},
+    {"v6Slide": 30, "operation": "preserve", "v5SourceSlide": 25, "pageNumber": "30", "sectionLabel": "04 • ASSURANCE CONTEXT", "title": "DO-178C defines objectives; DO-331 addresses model use"},
+    {"v6Slide": 31, "operation": "preserve", "v5SourceSlide": 26, "pageNumber": "31", "sectionLabel": "04 • ASSURANCE CONTEXT", "title": "Software levels scale rigor—and independence is planned"},
+    {"v6Slide": 32, "operation": "preserve", "v5SourceSlide": 27, "pageNumber": "32", "sectionLabel": "04 • ASSURANCE CONTEXT", "title": "Traceability turns artifacts into evidence"},
+    {"v6Slide": 33, "operation": "preserve", "v5SourceSlide": 28, "pageNumber": "33", "sectionLabel": "04 • ASSURANCE CONTEXT", "title": "The V-model pairs every definition with verification"},
+    {"v6Slide": 34, "operation": "preserve", "v5SourceSlide": 29, "pageNumber": "34", "sectionLabel": "05 • REQUIREMENTS & TRACEABILITY", "title": "Illustrative requirements make the training chain explicit"},
+    {"v6Slide": 35, "operation": "preserve", "v5SourceSlide": 30, "pageNumber": "35", "sectionLabel": "05 • REQUIREMENTS & TRACEABILITY", "title": "One limiter requirement traces to one executed result"},
+    {"v6Slide": 36, "operation": "preserve", "v5SourceSlide": 31, "pageNumber": "36", "sectionLabel": "05 • REQUIREMENTS & TRACEABILITY", "title": "The harness sits inside a controlled relative-file flow"},
+    {"v6Slide": 37, "operation": "preserve", "v5SourceSlide": 32, "pageNumber": "37", "sectionLabel": "06 • VERIFICATION WORKFLOW", "title": "Strong tests target boundaries, modes, failures, and timing"},
+    {"v6Slide": 38, "operation": "preserve", "v5SourceSlide": 33, "pageNumber": "38", "sectionLabel": "06 • VERIFICATION WORKFLOW", "title": "The limiter suite retains 19 passing assessments"},
+    {"v6Slide": 39, "operation": "preserve", "v5SourceSlide": 34, "pageNumber": "39", "sectionLabel": "06 • VERIFICATION WORKFLOW", "title": "Callbacks create context; the test driver owns the oracle"},
+    {"v6Slide": 40, "operation": "preserve", "v5SourceSlide": 35, "pageNumber": "40", "sectionLabel": "06 • VERIFICATION WORKFLOW", "title": "FCS_Data.sldd controls shared parameters and interfaces"},
+    {"v6Slide": 41, "operation": "preserve", "v5SourceSlide": 36, "pageNumber": "41", "sectionLabel": "06 • VERIFICATION WORKFLOW", "title": "Reviewable models make intent obvious"},
+    {"v6Slide": 42, "operation": "preserve", "v5SourceSlide": 37, "pageNumber": "42", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "CI automates evidence production—not approval"},
+    {"v6Slide": 43, "operation": "preserve", "v5SourceSlide": 38, "pageNumber": "43", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "Classify the first meaningful failure"},
+    {"v6Slide": 44, "operation": "preserve", "v5SourceSlide": 39, "pageNumber": "44", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "MIL, SIL, PIL, HIL, bench, and system integration are distinct"},
+    {"v6Slide": 45, "operation": "preserve", "v5SourceSlide": 40, "pageNumber": "45", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "The current training package is internally consistent"},
+    {"v6Slide": 46, "operation": "preserve", "v5SourceSlide": 41, "pageNumber": "46", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "Demonstrated evidence is narrower than certification evidence"},
+    {"v6Slide": 47, "operation": "insert", "cloneV5Slide": 41, "pageNumber": "47", "sectionLabel": "07 • AUTOMATION & ENVIRONMENTS", "title": "RCF verifies and signs off system requirements independently"},
+    {"v6Slide": 48, "operation": "preserve", "v5SourceSlide": 42, "pageNumber": "48", "sectionLabel": "08 • FIRST-WEEK TAKEAWAYS", "title": "Your first week should produce one repeatable chain"}
+  ],
+  "implementationAndQaChecks": [
+    "Preserve all 42 source slides and their original order relative to one another.",
+    "Use the six clone sources specified above, then replace clone-specific body text, images, notes, alt text, and page/section chrome.",
+    "Update every visible page number after each insertion; do not rely on PowerPoint slide index fields because v5 uses ordinary text.",
+    "Keep the four first-session inserts labeled 01, the harness insert labeled 02, and the RCF insert labeled 07; leave the existing closing slide labeled 08.",
+    "Preserve the Aptos typography, 16:9 canvas, light/dark rhythm, footer, teal section labels, and two-digit page convention.",
+    "For user images 1 and 2, preserve aspect ratio, crop only when necessary, and verify UI labels remain readable at presentation size.",
+    "Confirm notes exist on all 48 slides; search for source-slide notes accidentally retained on the six clones.",
+    "Confirm slides 10, 11, and 47 visibly state workflow or future-placeholder status so the deck does not imply unperformed Model Advisor, Polyspace, or RCF evidence.",
+    "Render and inspect slides 7-12, 27-30, and 45-48 individually because those ranges contain all insertion boundaries and section transitions.",
+    "Run a full-deck slide-number/title inventory after authoring and verify it matches this 48-entry map exactly."
+  ]
+}

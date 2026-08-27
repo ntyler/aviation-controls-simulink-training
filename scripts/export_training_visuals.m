@@ -36,12 +36,36 @@ diagramRequests = { ...
     'AircraftFeedbackControlLoop/Pitch Controller PI', ...
         'AircraftFeedback_PitchController.png', ...
         'Pitch-control subsystem';
+    'AircraftFeedbackControlLoop/Actuator Dynamics', ...
+        'AircraftFeedback_ActuatorDynamics.png', ...
+        'Actuator dynamics subsystem';
+    'AircraftFeedbackControlLoop/Simplified Longitudinal Aircraft Dynamics', ...
+        'AircraftFeedback_LongitudinalPlant.png', ...
+        'Illustrative longitudinal plant subsystem';
+    'AircraftFeedbackControlLoop/Sensor Processing Lag', ...
+        'AircraftFeedback_SensorProcessingLag.png', ...
+        'Sensor lag subsystem';
+    'AutopilotModeLogic', ...
+        'AutopilotModeLogic_Model.png', ...
+        'Autopilot mode-logic wrapper';
     'AutopilotModeLogic/Autopilot Mode Logic', ...
         'AutopilotModeLogic_Stateflow.png', ...
         'OFF, ARMED, ENGAGED, and DEGRADED mode logic';
     'ReferencedFlightControlArchitecture', ...
         'ReferencedFlightControlArchitecture_Model.png', ...
         'Referenced flight-control architecture';
+    'SensorProcessingRef', ...
+        'SensorProcessingRef_Model.png', ...
+        'Sensor-processing referenced model';
+    'PitchControllerRef', ...
+        'PitchControllerRef_Model.png', ...
+        'Pitch-controller referenced model';
+    'PitchControllerRef/Pitch Rate PI', ...
+        'PitchControllerRef_PitchRatePI.png', ...
+        'Pitch-rate PI subsystem in the referenced controller';
+    'ActuatorCommandRef', ...
+        'ActuatorCommandRef_Model.png', ...
+        'Actuator-command referenced model';
     'PitchRateLimiter_Harness', ...
         'PitchRateLimiter_Harness.png', ...
         'Standalone executable MATLAB/Simulink harness'};
@@ -50,11 +74,24 @@ for index = 1:size(diagramRequests, 1)
     system = diagramRequests{index, 1};
     fileName = fullfile(screenshotsDir, diagramRequests{index, 2});
     caption = diagramRequests{index, 3};
-    actualSystem = localResolveSystem(system, modelsDir);
+    modelName = char(extractBefore(string(system) + "/", "/"));
+    modelFile = fullfile(modelsDir, [modelName '.slx']);
+    openedHere = localOpenExpectedModel(modelName, modelFile);
+    modelGuard = onCleanup(@() localCloseOpenedModel( ...
+        modelName, openedHere)); %#ok<NASGU>
+    actualSystem = localResolveSystem(system);
     localExportSystem(actualSystem, fileName, caption, screenshotsDir);
+    if ~openedHere
+        assert(strcmpi(get_param(modelName,'Dirty'),'off'), ...
+            'Training:ExportChangedOpenModel', ...
+            ['Diagram export changed the already-open model %s. It has ' ...
+             'been left open and unsaved for learner inspection.'], ...
+            modelName);
+    end
     records(end+1) = localRecord(diagramRequests{index, 2}, ...
         'Simulink diagram', actualSystem, ...
         'Direct export from generated Simulink model'); %#ok<AGROW>
+    clear modelGuard;
 end
 
 dictionaryFile = fullfile(dataDir, 'FCS_Data.sldd');
@@ -181,14 +218,9 @@ fprintf('Exported %d authentic training visuals to %s\n', ...
     height(manifest), screenshotsDir);
 end
 
-function actualSystem = localResolveSystem(requestedSystem, modelsDir)
+function actualSystem = localResolveSystem(requestedSystem)
 parts = split(string(requestedSystem), '/');
 model = char(parts(1));
-modelFile = fullfile(modelsDir, [model '.slx']);
-if ~isfile(modelFile)
-    error('Training:MissingModel', 'Required model not found: %s', modelFile);
-end
-load_system(model);
 
 if numel(parts) == 1
     actualSystem = model;
@@ -219,19 +251,6 @@ actualSystem = allSystems{match};
 end
 
 function localExportSystem(system, outputFile, caption, screenshotsDir)
-model = strtok(system, '/');
-load_system(model);
-try
-    open_system(system);
-catch openError
-    warning('Training:OpenSystemForExport', ...
-        'open_system reported: %s', openError.message);
-end
-try
-    set_param(system, 'ZoomFactor', 'FitSystem');
-catch
-end
-
 rawFile = [tempname(screenshotsDir) '.png'];
 cleanupRaw = onCleanup(@() localDeleteIfPresent(rawFile)); %#ok<NASGU>
 try
@@ -243,6 +262,61 @@ end
 
 localFrameExistingImage(rawFile, outputFile, caption, ...
     sprintf('Direct Simulink export: %s — illustrative training model', system));
+end
+
+function openedHere = localOpenExpectedModel(modelName, modelFile)
+if ~isfile(modelFile)
+    error('Training:MissingModel', 'Required model not found: %s', modelFile);
+end
+
+openedHere = false;
+if bdIsLoaded(modelName)
+    localAssertExpectedModelFile(modelName, modelFile);
+    assert(strcmpi(get_param(modelName,'Dirty'),'off'), ...
+        'Training:DirtyOpenModel', ...
+        ['Refusing to export from dirty model %s. Save or discard the ' ...
+         'learner changes explicitly, then export again.'], modelName);
+    return;
+end
+
+load_system(modelFile);
+openedHere = true;
+try
+    localAssertExpectedModelFile(modelName, modelFile);
+catch openError
+    try
+        close_system(modelName,0);
+    catch closeError
+        openError = addCause(openError, closeError);
+    end
+    rethrow(openError);
+end
+end
+
+function localCloseOpenedModel(modelName, openedHere)
+if openedHere && bdIsLoaded(modelName)
+    close_system(modelName,0);
+end
+end
+
+function localAssertExpectedModelFile(modelName, expectedFile)
+actualFile = get_param(modelName,'FileName');
+assert(~isempty(actualFile), 'Training:UnresolvedModelFile', ...
+    'Loaded model %s does not report a source file.', modelName);
+expectedPath = localCanonicalPath(expectedFile);
+actualPath = localCanonicalPath(actualFile);
+assert(strcmpi(actualPath, expectedPath), ...
+    'Training:UnexpectedModelFile', ...
+    ['Model name %s is already bound to a different file.\n' ...
+     'Expected: %s\nLoaded: %s'], ...
+    modelName, expectedPath, actualPath);
+end
+
+function canonicalPath = localCanonicalPath(filePath)
+[resolved, attributes] = fileattrib(filePath);
+assert(resolved, 'Training:UnresolvedPath', ...
+    'Could not resolve file path: %s', filePath);
+canonicalPath = strrep(attributes.Name, '/', filesep);
 end
 
 function [entryTable, busTable] = localExportDictionary( ...

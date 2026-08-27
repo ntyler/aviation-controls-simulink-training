@@ -1,0 +1,4 @@
+Authentic user captures: Signal-tab logging/test-point screenshot; active Configuration Parameters screenshot.
+Authentic local evidence: scripts/validate_training_project.m; results/validation_summary.txt; results/SimulationConfiguration.csv; results/model_reference_build/slprj/grt/.
+Model Advisor, Polyspace, and RCF slides are explicitly marked as workflow/placeholders because no retained execution or approval artifacts exist.
+Official sources in speaker notes are limited to MathWorks, FAA, and NASA.

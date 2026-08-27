@@ -1,0 +1,8 @@
+Deviation log
+
+1. Output expands from 33 to 42 slides so every requested root model and internal view is audience-readable.
+2. Source slide 17 is omitted because its generic integration sequence is superseded by the model gallery, explicit companion-file flow, CI slide, and status slide.
+3. Dense legacy screenshots are replaced by current canonical repository captures or native PowerPoint diagrams.
+4. The deck remains folder-based; it does not claim that a MATLAB Project (.prj/.mlproj) exists.
+5. No slide claims Simulink Test, production code, PIL, SIL, HIL, bench, or certification approval as executed evidence.
+6. Slides explicitly mapped for replacement use a frame-only derivative of the duplicated starter: inherited section, title, divider, footer, page marker, masters, and layouts are preserved; the mapped content objects are deleted before bounded replacement content is authored.

@@ -87,6 +87,17 @@ export_training_visuals(projectRoot);
 validationSummary = validate_training_project(projectRoot);
 ```
 
+## Refresh Simulation Data Inspector from the current model
+
+Run the current 50 Hz desktop simulation first, then load its retained command-tracking result into Simulation Data Inspector:
+
+```matlab
+run_training_simulations(projectRoot);
+runID = update_data_inspector(projectRoot);
+```
+
+The helper preserves existing Data Inspector runs and opens three linked views: command versus response, tracking error, and actuator command versus disturbance. This is desktop model-in-the-loop (MIL) evidence; it is not SIL, PIL, HIL, or certification approval.
+
 ## Run only the Pitch Rate Limiter tests
 
 ```matlab
@@ -153,6 +164,7 @@ Repeatable scripts and callbacks:
 - `scripts/initialize_training_data.m`
 - `scripts/create_training_models.m`
 - `scripts/run_training_simulations.m`
+- `scripts/update_data_inspector.m`
 - `scripts/run_pitch_rate_limiter_tests.m`
 - `scripts/export_training_visuals.m`
 - `scripts/validate_training_project.m`

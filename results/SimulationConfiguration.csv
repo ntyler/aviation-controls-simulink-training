@@ -1,8 +1,8 @@
 Model,ModelFile,Solver,SolverType,FixedStep,StopTime
-AircraftFeedbackControlLoop,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\AircraftFeedbackControlLoop.slx,FixedStepDiscrete,Fixed-step,Sample_time,12
-AutopilotModeLogic,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\AutopilotModeLogic.slx,FixedStepDiscrete,Fixed-step,Sample_time,8
-ReferencedFlightControlArchitecture,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\ReferencedFlightControlArchitecture.slx,FixedStepDiscrete,Fixed-step,Sample_time,4
-ActuatorCommandRef,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\ActuatorCommandRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
-PitchControllerRef,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\PitchControllerRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
-PitchRateLimiter,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\PitchRateLimiter.slx,FixedStepDiscrete,Fixed-step,Sample_time,4
-SensorProcessingRef,C:\Users\Tyler\Documents\Codex\2026-08-26\you-are-working-directly-on-my\Aviation_Controls_Simulink_Training\models\SensorProcessingRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
+AircraftFeedbackControlLoop,D:\GitHub\aviation-controls-simulink-training\models\AircraftFeedbackControlLoop.slx,FixedStepDiscrete,Fixed-step,Sample_time,12
+AutopilotModeLogic,D:\GitHub\aviation-controls-simulink-training\models\AutopilotModeLogic.slx,FixedStepDiscrete,Fixed-step,Sample_time,8
+ReferencedFlightControlArchitecture,D:\GitHub\aviation-controls-simulink-training\models\ReferencedFlightControlArchitecture.slx,FixedStepDiscrete,Fixed-step,Sample_time,4
+ActuatorCommandRef,D:\GitHub\aviation-controls-simulink-training\models\ActuatorCommandRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
+PitchControllerRef,D:\GitHub\aviation-controls-simulink-training\models\PitchControllerRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
+PitchRateLimiter,D:\GitHub\aviation-controls-simulink-training\models\PitchRateLimiter.slx,FixedStepDiscrete,Fixed-step,Sample_time,4
+SensorProcessingRef,D:\GitHub\aviation-controls-simulink-training\models\SensorProcessingRef.slx,FixedStepDiscrete,Fixed-step,Sample_time,2
